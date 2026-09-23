@@ -41,4 +41,4 @@ Open a pull request to `main`, review the changes, and check the **Actions** res
 
 Keep the manuscript sources, research inputs, recorded results, models, diagrams and attribution notices. The outer delivery ZIP is a transport package; it is not repository source. Local environments, caches, temporary outputs and `.env` files are excluded by `.gitignore`.
 
-The repository preserves the original licensing status. See [LICENSE_STATUS.md](../LICENSE_STATUS.md) and [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md) before reusing material. Future releases can provide downloadable bundles without duplicating those transport archives in the source tree.
+Original source code is licensed under the [MIT License](../LICENSE), copyright (c) 2026 Sabik Bin Sultan. Research and other non-code materials retain their existing rights. See [LICENSE_STATUS.md](../LICENSE_STATUS.md) and [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md) before reusing material. Future releases can provide downloadable bundles without duplicating those transport archives in the source tree.

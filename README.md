@@ -9,6 +9,7 @@
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](docs/reproduce.md)
 [![Blender](https://img.shields.io/badge/Blender-4.3.2-E87D0D?logo=blender&logoColor=white)](manuscript/blender/)
 [![Cite this work](https://img.shields.io/badge/Cite-this_work-55CFC8)](CITATION.cff)
+[![Code license: MIT](https://img.shields.io/badge/Code_license-MIT-3DA639)](LICENSE_STATUS.md)
 
 [Read the paper](https://arxiv.org/abs/2609.18245) · [Explore the calculations](docs/engineering-calculations.md) · [Reproduce the results](docs/reproduce.md) · [Cite this work](#citation)
 
@@ -160,6 +161,6 @@ The manuscript acknowledges US$3,000 from Prime Now and US$2,000 from Mercedes-B
 
 ## Reuse and contributions
 
-Original project materials retain their existing rights; this repository does not introduce a blanket open-source license. See [LICENSE_STATUS.md](LICENSE_STATUS.md), [DATA_SOURCES.md](DATA_SOURCES.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for source-specific terms.
+Original source code is available under the [MIT License](LICENSE), copyright (c) 2026 **Sabik Bin Sultan**. The license applies to original code only; the coauthored paper, documentation, data, photographs, models, figures and other non-code research materials retain their existing rights. See [LICENSE_STATUS.md](LICENSE_STATUS.md) for the full scope and [DATA_SOURCES.md](DATA_SOURCES.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for source-specific terms.
 
 Corrections and reproducibility reports are welcome. Please include the relevant equation or file, your environment and a minimal example; see [CONTRIBUTING.md](CONTRIBUTING.md).

@@ -1,6 +1,6 @@
 # Third-party notices
 
-Original project material has the status described in [LICENSE_STATUS.md](LICENSE_STATUS.md). The following third-party material retains its own license and attribution; it does not inherit that original-material notice.
+Original source code is covered by the [MIT License](LICENSE), copyright (c) 2026 Sabik Bin Sultan, within the code-only scope described in [LICENSE_STATUS.md](LICENSE_STATUS.md). The following third-party material retains its own license and attribution; the MIT grant does not apply to it. Project research and other non-code assets also retain their existing rights.
 
 ## UCI Air Quality dataset
 

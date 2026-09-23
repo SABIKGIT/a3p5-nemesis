@@ -15,7 +15,7 @@ For other suggestions, open a regular issue. Discuss substantial changes to the 
 3. Retain data provenance and attribution. Keep the chronological train/validation/test split and validation-only selection intact when correcting the existing benchmark. Describe a changed protocol as a new experiment and preserve the original results for comparison.
 4. Update the explanation alongside any changed equation, assumption or generated result. Inspect regenerated figures and rendered manuscript pages when those assets change.
 
-Read [LICENSE_STATUS.md](LICENSE_STATUS.md), [DATA_SOURCES.md](DATA_SOURCES.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before adding or reusing material. The repository has no blanket license for original project materials; source-specific rights and credits still apply. Do not add a license, change attribution or redistribute external material without the relevant authorization.
+Read [LICENSE_STATUS.md](LICENSE_STATUS.md), [DATA_SOURCES.md](DATA_SOURCES.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before adding or reusing material. Original source code is covered by the [MIT License](LICENSE), copyright (c) 2026 Sabik Bin Sultan. The grant does not extend to the coauthored research or other non-code materials; source-specific rights and credits still apply. Preserve existing notices and do not change attribution, relicense excluded materials or redistribute external material without the relevant authorization.
 
 ## Check the change
 

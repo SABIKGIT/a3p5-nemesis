@@ -64,8 +64,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "b4bd30f37e1dae14dd201ef4367e55956308c026c7a79981aa242c3e940c7081",
-      "hashed_bytes": 4328,
+      "sha256": "c85a1fdf97e78a3544365de2c5834cc422b82d4311d8629aff564935eb8673f3",
+      "hashed_bytes": 4485,
       "normalization": "utf8-crlf-to-lf"
     },
     {
@@ -75,15 +75,21 @@
       "normalization": "utf8-crlf-to-lf"
     },
     {
+      "path": "LICENSE",
+      "sha256": "39b00af7174968d86fda03b40110c9a14d430d5b0e925cf9005d5ddcc88ec096",
+      "hashed_bytes": 1073,
+      "normalization": "utf8-crlf-to-lf"
+    },
+    {
       "path": "LICENSE_STATUS.md",
-      "sha256": "16dbbdd7f1a29cc38930d5019a13113dcc10bfaee3fc90d60c974641991b2b48",
-      "hashed_bytes": 717,
+      "sha256": "870bf42ee0e234932468d189bad8f7a550bc3c0a484b60bcbea7a90595fc1837",
+      "hashed_bytes": 2089,
       "normalization": "utf8-crlf-to-lf"
     },
     {
       "path": "README.md",
-      "sha256": "169e53609fc7fe93d00b6346120165c32408f82920bab6b2e11017bbbdb80cd5",
-      "hashed_bytes": 10851,
+      "sha256": "d9f1bdf9bc5160ba4df3b1f70f3622b2697f9641b9fb916f2eb261c984114375",
+      "hashed_bytes": 11138,
       "normalization": "utf8-crlf-to-lf"
     },
     {
@@ -94,8 +100,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "87837b36f6bc32333a39ed2c4e37e321e75bf4ecfc4bd1aa2b5650fcdfdf0aab",
-      "hashed_bytes": 3732,
+      "sha256": "24d213109b951ebc6e076e3c24ebebbdef5b9deb897fe5d911d4a8c0e2f5c702",
+      "hashed_bytes": 3881,
       "normalization": "utf8-crlf-to-lf"
     },
     {
@@ -124,8 +130,8 @@
     },
     {
       "path": "docs/publish-to-github.md",
-      "sha256": "df60f25f77116dd85f8df33360d3236fbc9f55508d84efee6e9bae7bdd7eb347",
-      "hashed_bytes": 2199,
+      "sha256": "9734631534e81fc37e20b0c8a7b9994543e283ae1c60a602d1da9a930ec57884",
+      "hashed_bytes": 2318,
       "normalization": "utf8-crlf-to-lf"
     },
     {
@@ -2050,8 +2056,8 @@
     },
     {
       "path": "scripts/manifest.py",
-      "sha256": "3875b79c8e4a2b61f73d9c7a2fe4d7a98d31aac227f85cc03b27999d3ae48a58",
-      "hashed_bytes": 3578,
+      "sha256": "1c892cb19aa265af4a786021e763f3faf17a889b55720bc4ce31ca20a0142d8a",
+      "hashed_bytes": 3589,
       "normalization": "utf8-crlf-to-lf"
     },
     {
