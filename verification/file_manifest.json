@@ -4,8 +4,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "sha256": "d59f886f909f47d52aecaf737f764926db751079edcdab81e1c635b299692436",
-      "hashed_bytes": 273,
+      "sha256": "a396045cb40662f561d36a2d7547bc502160e08fd7381499b058aaee4e6edf6d",
+      "hashed_bytes": 293,
       "normalization": "utf8-crlf-to-lf"
     },
     {
@@ -1534,9 +1534,9 @@
     },
     {
       "path": "manuscript/research/related_work_source.md.in",
-      "sha256": "3f43974249de8d82bc2bcd123b5466c683ba69b12ee91777236f2c6fc0f629c8",
-      "hashed_bytes": 13680,
-      "normalization": "none"
+      "sha256": "449bb12ba9b79081268fe26214108108be02a07cc5bf7d7ab5eb7954d105f151",
+      "hashed_bytes": 13625,
+      "normalization": "utf8-crlf-to-lf"
     },
     {
       "path": "manuscript/research/retrieve_crossref.py",
@@ -2050,8 +2050,8 @@
     },
     {
       "path": "scripts/manifest.py",
-      "sha256": "6d0a25e25e6a7edf03ed1b03c63b985922d2899cda0acc4315cbf438fa17cbd6",
-      "hashed_bytes": 3571,
+      "sha256": "3875b79c8e4a2b61f73d9c7a2fe4d7a98d31aac227f85cc03b27999d3ae48a58",
+      "hashed_bytes": 3578,
       "normalization": "utf8-crlf-to-lf"
     },
     {

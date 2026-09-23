@@ -9,7 +9,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "verification/file_manifest.json"
-TEXT_SUFFIXES = {".py", ".md", ".json", ".csv", ".svg", ".tex", ".yml", ".yaml", ".cff", ".txt", ".bib", ".cjs", ".html", ".css", ".js", ".toml"}
+TEXT_SUFFIXES = {".py", ".md", ".json", ".csv", ".svg", ".tex", ".yml", ".yaml", ".cff", ".txt", ".bib", ".cjs", ".html", ".css", ".js", ".toml", ".in"}
 TEXT_NAMES = {".gitignore", ".gitattributes", ".latexmkrc"}
 SKIP_PARTS = {".git", ".venv", "venv", "__pycache__", ".pytest_cache", ".mypy_cache"}
 SKIP_PREFIXES = ("manuscript/qa/", "manuscript/python_packages/", "manuscript/tools/", "manuscript/package_staging/")
