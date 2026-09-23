@@ -1,0 +1,18 @@
+{
+  "A3P5_NEMESIS_Research_Manuscript.docx": {
+    "sha256": "393e76468af4a004b9f278fc27ca622ff0bd3bdd60cd717cb690dcb4f5fbf889",
+    "bytes": 35969696
+  },
+  "A3P5_NEMESIS_Research_Manuscript.md": {
+    "sha256": "2452ac12c0417ef35348284516b5cf5e65d1bea90537baad57ed72f1a20ff900",
+    "bytes": 111316
+  },
+  "A3P5_NEMESIS_Research_Manuscript.tex": {
+    "sha256": "3d10ac83cfddeda5e73a6781e63759fbdd4997d6172f8ce41672f7c35e4b74ae",
+    "bytes": 137407
+  },
+  "A3P5_NEMESIS_LaTeX_Source.zip": {
+    "sha256": "997be4ef82a4d3afca5a4c0305c9e03e665756cc40d3ad242c8c302f425bcbcc",
+    "bytes": 34197486
+  }
+}

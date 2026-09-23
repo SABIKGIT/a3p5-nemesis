@@ -1,0 +1,98 @@
+[
+  {
+    "file": "A3P5_Nemesis_Industrial.blend",
+    "objects": 1848,
+    "scenes": 2,
+    "images": [
+      {
+        "name": "REFERENCE 01 | Original rover",
+        "packed": true,
+        "filepath": "//manuscript\\research\\prototype_photos\\prototype_01.jpg"
+      },
+      {
+        "name": "REFERENCE 02 | Original rover",
+        "packed": true,
+        "filepath": "//manuscript\\research\\prototype_photos\\prototype_02.jpg"
+      },
+      {
+        "name": "REFERENCE 03 | Original rover",
+        "packed": true,
+        "filepath": "//manuscript\\research\\prototype_photos\\prototype_03.jpg"
+      },
+      {
+        "name": "REFERENCE 04 | Original rover",
+        "packed": true,
+        "filepath": "//manuscript\\research\\prototype_photos\\prototype_04.jpg"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "filepath": ""
+      },
+      {
+        "name": "Woven carbon | embedded 512",
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "texts": [
+      {
+        "name": "READ ME | Model and controls",
+        "characters": 2655
+      },
+      {
+        "name": "SOURCE | Public rover design brief",
+        "characters": 1574
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "manuscript/blender/A3P5_Nemesis_Mission_Studies.blend",
+    "objects": 1995,
+    "scenes": 8,
+    "images": [
+      {
+        "name": "REFERENCE 01 | Original rover",
+        "packed": true,
+        "filepath": "//..\\research\\prototype_photos\\prototype_01.jpg"
+      },
+      {
+        "name": "REFERENCE 02 | Original rover",
+        "packed": true,
+        "filepath": "//..\\research\\prototype_photos\\prototype_02.jpg"
+      },
+      {
+        "name": "REFERENCE 03 | Original rover",
+        "packed": true,
+        "filepath": "//..\\research\\prototype_photos\\prototype_03.jpg"
+      },
+      {
+        "name": "REFERENCE 04 | Original rover",
+        "packed": true,
+        "filepath": "//..\\research\\prototype_photos\\prototype_04.jpg"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "filepath": ""
+      },
+      {
+        "name": "Woven carbon | embedded 512",
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "texts": [
+      {
+        "name": "READ ME | Model and controls",
+        "characters": 2655
+      },
+      {
+        "name": "SOURCE | Public rover design brief",
+        "characters": 1574
+      }
+    ],
+    "libraries": []
+  }
+]

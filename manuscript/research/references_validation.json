@@ -1,0 +1,41 @@
+{
+  "unique_references": 60,
+  "unique_doi_references": 50,
+  "independently_confirmed_doi_title_pairs": 50,
+  "no_doi_primary_source_audits": 10,
+  "source_aliases": 65,
+  "duplicate_dois": 0,
+  "unresolved_aliases": 0,
+  "missing_authors_or_title_or_url": 0,
+  "corrected_mismatches": [
+    {
+      "source_ids": [
+        "M03"
+      ],
+      "title": "A general update rule for Lyapunov‐based adaptive control of mobile robots with wheel slip",
+      "doi": "10.1002/acs.3747",
+      "corrections": [
+        "The original audit paired a 2021 arXiv title with a different journal title. The journal DOI/title/abstract were independently verified; no equivalence to arXiv:2105.06501 is asserted."
+      ]
+    }
+  ],
+  "date_conventions": [
+    {
+      "source_ids": [
+        "M12"
+      ],
+      "notes": [
+        "Source audit citation year 2019 retained; deposited publication year 2018."
+      ]
+    },
+    {
+      "source_ids": [
+        "SEN23"
+      ],
+      "notes": [
+        "Source audit citation year 2006 retained; deposited publication year 2005."
+      ]
+    }
+  ],
+  "scope": "Metadata confirmation does not imply that every source was read in full. Each source retains its specific read depth, supported claims and limitations."
+}

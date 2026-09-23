@@ -1,0 +1,160 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T09:48:30Z",
+    "timestamp": 1789465710679,
+    "version": "build-2803163510"
+  },
+  "reference-count": 84,
+  "publisher": "Copernicus GmbH",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            22
+          ]
+        ],
+        "date-time": "2021-06-22T00:00:00Z",
+        "timestamp": 1624320000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Atmos. Meas. Tech."
+  ],
+  "DOI": "10.5194/amt-14-4617-2021",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        6,
+        22
+      ]
+    ],
+    "date-time": "2021-06-22T02:58:12Z",
+    "timestamp": 1624330692000
+  },
+  "page": "4617-4637",
+  "is-referenced-by-count": 324,
+  "title": [
+    "Development and application of a United States-wide correction for PM\n                    <sub>2.5</sub>\n                    data collected with the PurpleAir sensor"
+  ],
+  "volume": "14",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-6197-4499",
+      "authenticated-orcid": false,
+      "given": "Karoline K.",
+      "family": "Barkjohn",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "corresponding-author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Brett",
+      "family": "Gantt",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0764-5584",
+      "authenticated-orcid": false,
+      "given": "Andrea L.",
+      "family": "Clements",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        6,
+        22
+      ]
+    ]
+  },
+  "container-title": [
+    "Atmospheric Measurement Techniques"
+  ],
+  "link": [
+    {
+      "URL": "https://amt.copernicus.org/articles/14/4617/2021/amt-14-4617-2021.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T21:49:45Z",
+    "timestamp": 1789422585000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        6,
+        22
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.5194/amt-14-4617-2021",
+  "ISSN": [
+    "1867-8548"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        6,
+        22
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "8c1530f08d9e89ac130d50dab48abb010251428f01c621a4b1440e21f85278b2"
+}

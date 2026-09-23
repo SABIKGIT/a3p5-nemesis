@@ -1,0 +1,12 @@
+{
+  "all_source_rows_disjoint": true,
+  "split_counts_match": true,
+  "positive_time_order": true,
+  "winner_validation_only": true,
+  "exact_predictor_allowlist": true,
+  "training_only_imputer": true,
+  "training_only_scaler": true,
+  "training_only_dummy": true,
+  "metrics_match_saved_predictions": true,
+  "five_png_and_svg_figures": true
+}

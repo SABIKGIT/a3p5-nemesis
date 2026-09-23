@@ -1,0 +1,204 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ],
+    "date-time": "2026-09-02T15:29:52Z",
+    "timestamp": 1788362992854,
+    "version": "build-2803163510"
+  },
+  "reference-count": 45,
+  "publisher": "MDPI AG",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            23
+          ]
+        ],
+        "date-time": "2017-06-23T00:00:00Z",
+        "timestamp": 1498176000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Sensors"
+  ],
+  "DOI": "10.3390/s17071479",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2017,
+        6,
+        23
+      ]
+    ],
+    "date-time": "2017-06-23T08:16:18Z",
+    "timestamp": 1498205778000
+  },
+  "page": "1479",
+  "is-referenced-by-count": 112,
+  "title": [
+    "GADEN: A 3D Gas Dispersion Simulator for Mobile Robot Olfaction in Realistic Environments"
+  ],
+  "volume": "17",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-7869-7811",
+      "authenticated-orcid": false,
+      "given": "Javier",
+      "family": "Monroy",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Machine Perception and Intelligent Robotics group (MAPIR), Instituto de Investigación Biomedica de Malaga (IBIMA), Universidad de Malaga, 29071 Malaga, Spain"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-5061-5474",
+      "authenticated-orcid": false,
+      "given": "Victor",
+      "family": "Hernandez-Bennetts",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Applied Autonomous Sensor Systems, Örebro University, Fakultetsgatan 1, 70182 Örebro, Sweden"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Han",
+      "family": "Fan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Applied Autonomous Sensor Systems, Örebro University, Fakultetsgatan 1, 70182 Örebro, Sweden"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0217-9326",
+      "authenticated-orcid": false,
+      "given": "Achim",
+      "family": "Lilienthal",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Applied Autonomous Sensor Systems, Örebro University, Fakultetsgatan 1, 70182 Örebro, Sweden"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3845-3497",
+      "authenticated-orcid": false,
+      "given": "Javier",
+      "family": "Gonzalez-Jimenez",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Machine Perception and Intelligent Robotics group (MAPIR), Instituto de Investigación Biomedica de Malaga (IBIMA), Universidad de Malaga, 29071 Malaga, Spain"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2017,
+        6,
+        23
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/1424-8220/17/7/1479/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        11
+      ]
+    ],
+    "date-time": "2025-10-11T18:40:05Z",
+    "timestamp": 1760208005000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        6,
+        23
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.3390/s17071479",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2017,
+        6,
+        23
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "90eee27244091456bf941d03ada86ed3bb8ec744e8433f6c854ee6084647c831"
+}

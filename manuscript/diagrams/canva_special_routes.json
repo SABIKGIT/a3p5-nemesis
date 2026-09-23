@@ -1,0 +1,547 @@
+{
+  "12": {
+    "canvas": [
+      1860,
+      1200
+    ],
+    "node_geometry": {
+      "x": [
+        55,
+        670,
+        1285
+      ],
+      "y": [
+        180,
+        590
+      ],
+      "width": 520,
+      "height": 300
+    },
+    "routes": [
+      {
+        "id": "A_disarmed_manual",
+        "points": [
+          [
+            575,
+            320
+          ],
+          [
+            670,
+            320
+          ]
+        ],
+        "type": "control",
+        "tag": "A",
+        "tag_position": [
+          622,
+          320
+        ]
+      },
+      {
+        "id": "B_manual_autonomous",
+        "points": [
+          [
+            1190,
+            320
+          ],
+          [
+            1285,
+            320
+          ]
+        ],
+        "type": "control",
+        "tag": "B",
+        "tag_position": [
+          1237,
+          320
+        ]
+      },
+      {
+        "id": "C_manual_safe",
+        "points": [
+          [
+            930,
+            480
+          ],
+          [
+            930,
+            590
+          ]
+        ],
+        "type": "control",
+        "tag": "C",
+        "tag_position": [
+          930,
+          535
+        ]
+      },
+      {
+        "id": "D_autonomous_degraded",
+        "points": [
+          [
+            1580,
+            480
+          ],
+          [
+            1580,
+            590
+          ]
+        ],
+        "type": "control",
+        "tag": "D",
+        "tag_position": [
+          1580,
+          535
+        ]
+      },
+      {
+        "id": "E_autonomous_safe",
+        "points": [
+          [
+            1440,
+            480
+          ],
+          [
+            1440,
+            520
+          ],
+          [
+            1100,
+            520
+          ],
+          [
+            1100,
+            590
+          ]
+        ],
+        "type": "control",
+        "tag": "E",
+        "tag_position": [
+          1240,
+          520
+        ]
+      },
+      {
+        "id": "F_degraded_safe",
+        "points": [
+          [
+            1285,
+            740
+          ],
+          [
+            1190,
+            740
+          ]
+        ],
+        "type": "control",
+        "tag": "F",
+        "tag_position": [
+          1237,
+          740
+        ]
+      },
+      {
+        "id": "G_safe_disarmed",
+        "points": [
+          [
+            750,
+            590
+          ],
+          [
+            750,
+            555
+          ],
+          [
+            460,
+            555
+          ],
+          [
+            460,
+            480
+          ]
+        ],
+        "type": "control",
+        "tag": "G",
+        "tag_position": [
+          520,
+          555
+        ]
+      },
+      {
+        "id": "I_emergency_disarmed",
+        "points": [
+          [
+            240,
+            590
+          ],
+          [
+            240,
+            480
+          ]
+        ],
+        "type": "control",
+        "tag": "I",
+        "tag_position": [
+          240,
+          535
+        ]
+      },
+      {
+        "id": "H_manual_branch",
+        "points": [
+          [
+            760,
+            180
+          ],
+          [
+            760,
+            160
+          ],
+          [
+            30,
+            160
+          ],
+          [
+            30,
+            815
+          ]
+        ],
+        "type": "control",
+        "tag": "H",
+        "tag_position": [
+          30,
+          520
+        ],
+        "head": false,
+        "bus": "H",
+        "source_node": "manual"
+      },
+      {
+        "id": "H_autonomous_branch",
+        "points": [
+          [
+            1805,
+            420
+          ],
+          [
+            1830,
+            420
+          ],
+          [
+            1830,
+            910
+          ]
+        ],
+        "type": "control",
+        "head": false,
+        "bus": "H",
+        "source_node": "autonomous"
+      },
+      {
+        "id": "H_degraded_branch",
+        "points": [
+          [
+            1710,
+            890
+          ],
+          [
+            1710,
+            910
+          ]
+        ],
+        "type": "control",
+        "head": false,
+        "bus": "H",
+        "source_node": "degraded"
+      },
+      {
+        "id": "H_safe_branch",
+        "points": [
+          [
+            960,
+            890
+          ],
+          [
+            960,
+            910
+          ]
+        ],
+        "type": "control",
+        "head": false,
+        "bus": "H",
+        "source_node": "safe_stop"
+      },
+      {
+        "id": "H_bus_to_emergency",
+        "points": [
+          [
+            1830,
+            910
+          ],
+          [
+            30,
+            910
+          ],
+          [
+            30,
+            815
+          ],
+          [
+            55,
+            815
+          ]
+        ],
+        "type": "control",
+        "tag": "H",
+        "tag_position": [
+          30,
+          850
+        ],
+        "head": true,
+        "bus": "H",
+        "target_node": "emergency"
+      }
+    ],
+    "dots": [
+      {
+        "point": [
+          960,
+          910
+        ],
+        "type": "control",
+        "radius": 7
+      },
+      {
+        "point": [
+          1710,
+          910
+        ],
+        "type": "control",
+        "radius": 7
+      },
+      {
+        "point": [
+          30,
+          815
+        ],
+        "type": "control",
+        "radius": 7
+      }
+    ],
+    "notes": [
+      "All eight non-H guards are separate paths. Four H source branches join the emergency-input bus; only its final segment has an arrowhead.",
+      "H branches are guard-conditioned transitions, not electrical wires. The common H bus does not connect any other state transition.",
+      "Manual H uses the clear upper and left perimeter; other H sources use the lower perimeter. This avoids crossing the G reset route.",
+      "Dots indicate the three genuine H junctions. Tags are centred at tag_position, including two H markers on the shared emergency path."
+    ],
+    "guard_coverage": {
+      "A": "disarmed -> manual",
+      "B": "manual -> autonomous",
+      "C": "manual -> safe_stop",
+      "D": "autonomous -> degraded",
+      "E": "autonomous -> safe_stop",
+      "F": "degraded -> safe_stop",
+      "G": "safe_stop -> disarmed",
+      "H": [
+        "manual -> emergency",
+        "autonomous -> emergency",
+        "degraded -> emergency",
+        "safe_stop -> emergency"
+      ],
+      "I": "emergency -> disarmed"
+    },
+    "geometry_audit": {
+      "orthogonal_routes": true,
+      "node_crossings": [],
+      "tag_overlaps": [],
+      "collinear_overlaps": [],
+      "nonjunction_crossings": [],
+      "status": "PASS"
+    }
+  },
+  "14": {
+    "canvas": [
+      1860,
+      1200
+    ],
+    "node_geometry": {
+      "x": [
+        55,
+        670,
+        1285
+      ],
+      "y": [
+        185,
+        620
+      ],
+      "width": 520,
+      "height": 340
+    },
+    "routes": [
+      {
+        "id": "archive_partition",
+        "points": [
+          [
+            575,
+            350
+          ],
+          [
+            670,
+            350
+          ]
+        ],
+        "type": "data",
+        "source_node": "archive",
+        "target_node": "partition"
+      },
+      {
+        "id": "partition_training",
+        "points": [
+          [
+            1190,
+            350
+          ],
+          [
+            1285,
+            350
+          ]
+        ],
+        "type": "data",
+        "source_node": "partition",
+        "target_node": "training"
+      },
+      {
+        "id": "training_validation",
+        "points": [
+          [
+            1580,
+            525
+          ],
+          [
+            1580,
+            620
+          ]
+        ],
+        "type": "data",
+        "source_node": "training",
+        "target_node": "validation"
+      },
+      {
+        "id": "partition_validation",
+        "points": [
+          [
+            1050,
+            185
+          ],
+          [
+            1050,
+            165
+          ],
+          [
+            1830,
+            165
+          ],
+          [
+            1830,
+            740
+          ],
+          [
+            1805,
+            740
+          ]
+        ],
+        "type": "data",
+        "source_node": "partition",
+        "target_node": "validation"
+      },
+      {
+        "id": "validation_test_lock",
+        "points": [
+          [
+            1285,
+            800
+          ],
+          [
+            1190,
+            800
+          ]
+        ],
+        "type": "control",
+        "source_node": "validation",
+        "target_node": "test"
+      },
+      {
+        "id": "partition_test",
+        "points": [
+          [
+            930,
+            525
+          ],
+          [
+            930,
+            620
+          ]
+        ],
+        "type": "data",
+        "source_node": "partition",
+        "target_node": "test"
+      },
+      {
+        "id": "training_test_pipelines",
+        "points": [
+          [
+            1430,
+            525
+          ],
+          [
+            1430,
+            565
+          ],
+          [
+            1100,
+            565
+          ],
+          [
+            1100,
+            620
+          ]
+        ],
+        "type": "data",
+        "source_node": "training",
+        "target_node": "test"
+      },
+      {
+        "id": "test_future_validation",
+        "points": [
+          [
+            670,
+            800
+          ],
+          [
+            575,
+            800
+          ]
+        ],
+        "type": "data",
+        "source_node": "test",
+        "target_node": "transfer"
+      }
+    ],
+    "dots": [],
+    "notes": [
+      "All eight paths are geometrically independent, with no crossing, merged segment or junction.",
+      "The training-row route is direct to Training only. Validation rows bypass Training only along the top and right perimeter.",
+      "Test rows enter Frozen test evaluation directly at x930; unrefitted pipelines enter separately at x1100.",
+      "Selection control enters the test block from the right. No test output returns to training or validation selection.",
+      "Upper routes at y165 stay below the subtitle ending at y148 and above nodes starting at y185."
+    ],
+    "geometry_audit": {
+      "orthogonal_routes": true,
+      "node_crossings": [],
+      "tag_overlaps": [],
+      "collinear_overlaps": [],
+      "nonjunction_crossings": [],
+      "status": "PASS"
+    }
+  }
+}

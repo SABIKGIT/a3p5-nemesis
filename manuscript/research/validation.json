@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-09-15T14:14:41.986267+00:00",
+  "raw_response_hashes_verified": 10,
+  "plot_tables_total_checked": 9,
+  "all_unique_dois": 4897,
+  "candidate_count": 1212,
+  "shortlist_count": 150,
+  "shortlist_peer_review_reports": 0,
+  "shortlist_exact_normalized_title_duplicates": 0,
+  "source_checked_leads": 11,
+  "source_checked_leads_in_census": 2,
+  "raw_download_bytes": 35404184,
+  "retrieval_started_utc": "2026-09-15T14:05:44.217427+00:00",
+  "retrieval_finished_utc": "2026-09-15T14:10:40.136673+00:00"
+}

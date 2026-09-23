@@ -1,0 +1,161 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        7
+      ]
+    ],
+    "date-time": "2026-07-07T09:50:08Z",
+    "timestamp": 1783417808973,
+    "version": "3.54.6"
+  },
+  "reference-count": 32,
+  "publisher": "SAGE Publications",
+  "issue": "10-11",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2004,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2004-10-01T00:00:00Z",
+        "timestamp": 1096588800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+    }
+  ],
+  "short-container-title": [
+    "The International Journal of Robotics Research"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2004,
+        10
+      ]
+    ]
+  },
+  "DOI": "10.1177/0278364904047392",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2004,
+        9,
+        27
+      ]
+    ],
+    "date-time": "2004-09-27T01:22:25Z",
+    "timestamp": 1096248145000
+  },
+  "page": "1029-1040",
+  "is-referenced-by-count": 144,
+  "title": [
+    "Traction Control of Wheeled Robotic Vehicles in Rough Terrain with                 Application to Planetary Rovers"
+  ],
+  "volume": "23",
+  "author": [
+    {
+      "given": "Karl",
+      "family": "Iagnemma",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Massachusetts Institute of Technology, Department of Mechanical                         Engineering, Cambridge, MA 02139, USA,"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Steven",
+      "family": "Dubowsky",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Massachusetts Institute of Technology, Department of Mechanical                         Engineering, Cambridge, MA 02139, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2004,
+        10,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "The International Journal of Robotics Research"
+  ],
+  "link": [
+    {
+      "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364904047392",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364904047392",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        29
+      ]
+    ],
+    "date-time": "2026-04-29T10:17:02Z",
+    "timestamp": 1777457822000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2004,
+        10
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1177/0278364904047392",
+  "ISSN": [
+    "0278-3649",
+    "1741-3176"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2004,
+        10
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "778b4e1c428b02df66f9ce3975fac94cc2d693a4802edc5f62c29ad7be7f5433"
+}

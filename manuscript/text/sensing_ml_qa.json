@@ -1,0 +1,21 @@
+{
+  "word_counts": [
+    {
+      "section": "Environmental sensing and measurement assurance",
+      "prose_words": 1157
+    },
+    {
+      "section": "External-data machine-learning calibration benchmark",
+      "prose_words": 1266
+    }
+  ],
+  "equation_blocks": 7,
+  "figure_markers": 9,
+  "all_figure_files_exist": true,
+  "captions_file": "text/figurelicenseattributions.md",
+  "notes": [
+    "Equations are separate LaTeX display blocks.",
+    "Author-date references must be merged with the central reference audit.",
+    "Model choices and numerical results are frozen external-data results."
+  ]
+}

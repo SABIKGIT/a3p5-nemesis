@@ -1,0 +1,44 @@
+{
+  "query_id": "Q01",
+  "topic": "mobile_robot_environment",
+  "query": "mobile robot environmental monitoring",
+  "url": "https://api.crossref.org/v1/works?query.bibliographic=mobile+robot+environmental+monitoring&rows=500&offset=0&sort=relevance&order=desc&filter=from-pub-date%3A1990-01-01%2Cuntil-pub-date%3A2026-09-15",
+  "params": {
+    "query.bibliographic": "mobile robot environmental monitoring",
+    "rows": 500,
+    "offset": 0,
+    "sort": "relevance",
+    "order": "desc",
+    "filter": "from-pub-date:1990-01-01,until-pub-date:2026-09-15"
+  },
+  "started_utc": "2026-09-15T14:05:44.217427+00:00",
+  "attempts": [
+    {
+      "attempt": 1,
+      "seconds": 52.25,
+      "status": 200
+    }
+  ],
+  "finished_utc": "2026-09-15T14:06:36.465880+00:00",
+  "http_status": 200,
+  "response_headers": {
+    "Date": "Tue, 15 Sep 2026 14:05:54 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "access-control-expose-headers": "Link",
+    "access-control-allow-headers": "X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language, Accept-Ranges, Cache-Control",
+    "access-control-allow-origin": "*",
+    "server": "Jetty(9.4.40.v20210413)",
+    "x-rate-limit-limit": "1",
+    "x-rate-limit-interval": "1s",
+    "x-concurrency-limit": "1",
+    "x-api-pool": "public-array",
+    "permissions-policy": "interest-cohort=()"
+  },
+  "returned_count": 500,
+  "api_total_results": 3347064,
+  "sha256": "d70ab7e01b6035f6df6480a6d86577f0a5a546fbbd5f8f6ab4423e06bdc758de",
+  "byte_count": 2806393,
+  "raw_file": "raw_crossref\\Q01_mobile_robot_environment.json"
+}

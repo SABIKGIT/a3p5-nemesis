@@ -1,0 +1,124 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T10:13:53Z",
+    "timestamp": 1789467233843,
+    "version": "build-2803163510"
+  },
+  "reference-count": 0,
+  "publisher": "The MIT Press",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2005,
+            11,
+            23
+          ]
+        ],
+        "date-time": "2005-11-23T00:00:00Z",
+        "timestamp": 1132704000000
+      },
+      "content-version": "unspecified",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2005,
+        11,
+        23
+      ]
+    ]
+  },
+  "DOI": "10.7551/mitpress/3206.001.0001",
+  "type": "monograph",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        12,
+        13
+      ]
+    ],
+    "date-time": "2018-12-13T20:47:50Z",
+    "timestamp": 1544734070000
+  },
+  "is-referenced-by-count": 7071,
+  "title": [
+    "Gaussian Processes for Machine Learning"
+  ],
+  "author": [
+    {
+      "given": "Carl Edward",
+      "family": "Rasmussen",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Christopher K. I.",
+      "family": "Williams",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        4,
+        23
+      ]
+    ],
+    "date-time": "2025-04-23T00:10:54Z",
+    "timestamp": 1745367054000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2005,
+        11,
+        23
+      ]
+    ]
+  },
+  "ISBN": [
+    "9780262256834"
+  ],
+  "URL": "https://doi.org/10.7551/mitpress/3206.001.0001",
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2005,
+        11,
+        23
+      ]
+    ]
+  },
+  "original_response_sha256": "8662ab84af91d812c3fcf7b18a71ca4cf437f9e9784970ad0c3e5001ec90d8b8"
+}

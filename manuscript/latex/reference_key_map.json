@@ -1,0 +1,1062 @@
+{
+  "schema_version": "1.0",
+  "count": 45,
+  "selected_keys_source": "../qa/build_manifest.json",
+  "registry_source": "../research/references_verified.json",
+  "printed_text_source": "../final/A3P5_NEMESIS_Research_Manuscript.md",
+  "printed_entries_match_registry_exactly": true,
+  "style": "natbib manual author-year bibliography; wording and order preserved",
+  "tex_engine_note": "XeLaTeX or LuaLaTeX preserves the original U+2010 hyphen; accents and TeX-special text characters are escaped. URL strings remain literal inside \\url.",
+  "records": [
+    {
+      "position": 1,
+      "key": "alexander1989_c3c6fd",
+      "author_label": "Alexander and Maddocks",
+      "year": "1989",
+      "citation_label": "Alexander and Maddocks, 1989",
+      "narrative_citation": "Alexander and Maddocks (1989)",
+      "citation_text": "Alexander, J. C., & Maddocks, J. H. (1989). On the Kinematics of Wheeled Mobile Robots. The International Journal of Robotics Research, 8(5), 15–27. https://doi.org/10.1177/027836498900800502",
+      "natbib_optional_label": "Alexander and Maddocks(1989)",
+      "citation_text_latex": "Alexander, J. C., \\& Maddocks, J. H. (1989). On the Kinematics of Wheeled Mobile Robots. The International Journal of Robotics Research, 8(5), 15\\textendash{}27. \\url{https://doi.org/10.1177/027836498900800502}",
+      "doi": "10.1177/027836498900800502",
+      "printed_urls": [
+        "https://doi.org/10.1177/027836498900800502"
+      ],
+      "registry_source_ids": [
+        "M01"
+      ],
+      "citation_forms": [
+        "Alexander and Maddocks, 1989",
+        "Alexander and Maddocks (1989)"
+      ]
+    },
+    {
+      "position": 2,
+      "key": "analogdevices2013_f3acfa",
+      "author_label": "Analog Devices",
+      "year": "2013",
+      "citation_label": "Analog Devices, 2013",
+      "narrative_citation": "Analog Devices (2013)",
+      "citation_text": "Analog Devices (2013). CN0326: Isolated Low Power pH Monitor with Temperature Compensation. Circuits from the Lab, CN0326. https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/CN0326.html",
+      "natbib_optional_label": "Analog Devices(2013)",
+      "citation_text_latex": "Analog Devices (2013). CN0326: Isolated Low Power pH Monitor with Temperature Compensation. Circuits from the Lab, CN0326. \\url{https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/CN0326.html}",
+      "doi": "",
+      "printed_urls": [
+        "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/CN0326.html"
+      ],
+      "registry_source_ids": [
+        "ADD03",
+        "SEN26"
+      ],
+      "citation_forms": [
+        "Analog Devices, 2013",
+        "Analog Devices (2013)"
+      ]
+    },
+    {
+      "position": 3,
+      "key": "barkjohn2021_7ba5aa",
+      "author_label": "Barkjohn et al.",
+      "year": "2021",
+      "citation_label": "Barkjohn et al., 2021",
+      "narrative_citation": "Barkjohn et al. (2021)",
+      "citation_text": "Barkjohn, K. K., Gantt, B., & Clements, A. L. (2021). Development and application of a United States-wide correction for PM 2.5 data collected with the PurpleAir sensor. Atmospheric Measurement Techniques, 14(6), 4617–4637. https://doi.org/10.5194/amt-14-4617-2021",
+      "natbib_optional_label": "Barkjohn et al.(2021)",
+      "citation_text_latex": "Barkjohn, K. K., Gantt, B., \\& Clements, A. L. (2021). Development and application of a United States-wide correction for PM 2.5 data collected with the PurpleAir sensor. Atmospheric Measurement Techniques, 14(6), 4617\\textendash{}4637. \\url{https://doi.org/10.5194/amt-14-4617-2021}",
+      "doi": "10.5194/amt-14-4617-2021",
+      "printed_urls": [
+        "https://doi.org/10.5194/amt-14-4617-2021"
+      ],
+      "registry_source_ids": [
+        "SEN12"
+      ],
+      "citation_forms": [
+        "Barkjohn et al., 2021",
+        "Barkjohn et al. (2021)"
+      ]
+    },
+    {
+      "position": 4,
+      "key": "bthory2022_c26801",
+      "author_label": "Báthory et al.",
+      "year": "2022",
+      "citation_label": "Báthory et al., 2022",
+      "narrative_citation": "Báthory et al. (2022)",
+      "citation_text": "Báthory, C., Dobó, Z., Garami, A., Palotás, Á., & Tóth, P. (2022). Low-cost monitoring of atmospheric PM—development and testing. Journal of Environmental Management, 304, 114158. https://doi.org/10.1016/j.jenvman.2021.114158",
+      "natbib_optional_label": "B\\'{a}thory et al.(2022)",
+      "citation_text_latex": "B\\'{a}thory, C., Dob\\'{o}, Z., Garami, A., Palot\\'{a}s, \\'{A}., \\& T\\'{o}th, P. (2022). Low-cost monitoring of atmospheric PM\\textemdash{}development and testing. Journal of Environmental Management, 304, 114158. \\url{https://doi.org/10.1016/j.jenvman.2021.114158}",
+      "doi": "10.1016/j.jenvman.2021.114158",
+      "printed_urls": [
+        "https://doi.org/10.1016/j.jenvman.2021.114158"
+      ],
+      "registry_source_ids": [
+        "R04"
+      ],
+      "citation_forms": [
+        "Báthory et al., 2022",
+        "Báthory et al. (2022)"
+      ]
+    },
+    {
+      "position": 5,
+      "key": "boschsensortec2013_0d84c1",
+      "author_label": "Bosch Sensortec",
+      "year": "2013",
+      "citation_label": "Bosch Sensortec, 2013",
+      "narrative_citation": "Bosch Sensortec (2013)",
+      "citation_text": "Bosch Sensortec (2013). BMP180 Digital Pressure Sensor Data Sheet, revision 2.5, BST-BMP180-DS000-09. manufacturer documentation. https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf",
+      "natbib_optional_label": "Bosch Sensortec(2013)",
+      "citation_text_latex": "Bosch Sensortec (2013). BMP180 Digital Pressure Sensor Data Sheet, revision 2.5, BST-BMP180-DS000-09. manufacturer documentation. \\url{https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf}",
+      "doi": "",
+      "printed_urls": [
+        "https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf"
+      ],
+      "registry_source_ids": [
+        "SEN04"
+      ],
+      "citation_forms": [
+        "Bosch Sensortec, 2013",
+        "Bosch Sensortec (2013)"
+      ]
+    },
+    {
+      "position": 6,
+      "key": "breiman2001_75dc04",
+      "author_label": "Breiman",
+      "year": "2001",
+      "citation_label": "Breiman, 2001",
+      "narrative_citation": "Breiman (2001)",
+      "citation_text": "Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5–32. https://doi.org/10.1023/a:1010933404324",
+      "natbib_optional_label": "Breiman(2001)",
+      "citation_text_latex": "Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5\\textendash{}32. \\url{https://doi.org/10.1023/a:1010933404324}",
+      "doi": "10.1023/a:1010933404324",
+      "printed_urls": [
+        "https://doi.org/10.1023/a:1010933404324"
+      ],
+      "registry_source_ids": [
+        "SEN21"
+      ],
+      "citation_forms": [
+        "Breiman, 2001",
+        "Breiman (2001)"
+      ]
+    },
+    {
+      "position": 7,
+      "key": "burghi2024_cccce5",
+      "author_label": "Burghi et al.",
+      "year": "2024",
+      "citation_label": "Burghi et al., 2024",
+      "narrative_citation": "Burghi et al. (2024)",
+      "citation_text": "Burghi, T. B., Iossaqui, J. G., & Camino, J. F. (2024). A general update rule for Lyapunov‐based adaptive control of mobile robots with wheel slip. International Journal of Adaptive Control and Signal Processing, 38(4), 1172–1198. https://doi.org/10.1002/acs.3747",
+      "natbib_optional_label": "Burghi et al.(2024)",
+      "citation_text_latex": "Burghi, T. B., Iossaqui, J. G., \\& Camino, J. F. (2024). A general update rule for Lyapunov‐based adaptive control of mobile robots with wheel slip. International Journal of Adaptive Control and Signal Processing, 38(4), 1172\\textendash{}1198. \\url{https://doi.org/10.1002/acs.3747}",
+      "doi": "10.1002/acs.3747",
+      "printed_urls": [
+        "https://doi.org/10.1002/acs.3747"
+      ],
+      "registry_source_ids": [
+        "M03"
+      ],
+      "citation_forms": [
+        "Burghi et al., 2024",
+        "Burghi et al. (2024)"
+      ]
+    },
+    {
+      "position": 8,
+      "key": "campos2021_973bd6",
+      "author_label": "Campos et al.",
+      "year": "2021",
+      "citation_label": "Campos et al., 2021",
+      "narrative_citation": "Campos et al. (2021)",
+      "citation_text": "Campos, C., Elvira, R., Gómez Rodríguez, J. J., Montiel, J. M. M., & Tardós, J. D. (2021). ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM. IEEE Transactions on Robotics, 37(6), 1874–1890. https://doi.org/10.1109/tro.2021.3075644",
+      "natbib_optional_label": "Campos et al.(2021)",
+      "citation_text_latex": "Campos, C., Elvira, R., G\\'{o}mez Rodr\\'{i}guez, J. J., Montiel, J. M. M., \\& Tard\\'{o}s, J. D. (2021). ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual\\textendash{}Inertial, and Multimap SLAM. IEEE Transactions on Robotics, 37(6), 1874\\textendash{}1890. \\url{https://doi.org/10.1109/tro.2021.3075644}",
+      "doi": "10.1109/tro.2021.3075644",
+      "printed_urls": [
+        "https://doi.org/10.1109/tro.2021.3075644"
+      ],
+      "registry_source_ids": [
+        "M11"
+      ],
+      "citation_forms": [
+        "Campos et al., 2021",
+        "Campos et al. (2021)"
+      ]
+    },
+    {
+      "position": 9,
+      "key": "concas2021_57ba0a",
+      "author_label": "Concas et al.",
+      "year": "2021",
+      "citation_label": "Concas et al., 2021",
+      "narrative_citation": "Concas et al. (2021)",
+      "citation_text": "Concas, F., Mineraud, J., Lagerspetz, E., Varjonen, S., Liu, X., Puolamäki, K., Nurmi, P., & Tarkoma, S. (2021). Low-Cost Outdoor Air Quality Monitoring and Sensor Calibration. ACM Transactions on Sensor Networks, 17(2), 1–44. https://doi.org/10.1145/3446005",
+      "natbib_optional_label": "Concas et al.(2021)",
+      "citation_text_latex": "Concas, F., Mineraud, J., Lagerspetz, E., Varjonen, S., Liu, X., Puolam\\\"{a}ki, K., Nurmi, P., \\& Tarkoma, S. (2021). Low-Cost Outdoor Air Quality Monitoring and Sensor Calibration. ACM Transactions on Sensor Networks, 17(2), 1\\textendash{}44. \\url{https://doi.org/10.1145/3446005}",
+      "doi": "10.1145/3446005",
+      "printed_urls": [
+        "https://doi.org/10.1145/3446005"
+      ],
+      "registry_source_ids": [
+        "R02"
+      ],
+      "citation_forms": [
+        "Concas et al., 2021",
+        "Concas et al. (2021)"
+      ]
+    },
+    {
+      "position": 10,
+      "key": "devito2008_1548b8",
+      "author_label": "De Vito et al.",
+      "year": "2008",
+      "citation_label": "De Vito et al., 2008",
+      "narrative_citation": "De Vito et al. (2008)",
+      "citation_text": "De Vito, S., Massera, E., Piga, M., Martinotto, L., & Di Francia, G. (2008). On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario. Sensors and Actuators B: Chemical, 129(2), 750–757. https://doi.org/10.1016/j.snb.2007.09.060",
+      "natbib_optional_label": "De Vito et al.(2008)",
+      "citation_text_latex": "De Vito, S., Massera, E., Piga, M., Martinotto, L., \\& Di Francia, G. (2008). On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario. Sensors and Actuators B: Chemical, 129(2), 750\\textendash{}757. \\url{https://doi.org/10.1016/j.snb.2007.09.060}",
+      "doi": "10.1016/j.snb.2007.09.060",
+      "printed_urls": [
+        "https://doi.org/10.1016/j.snb.2007.09.060"
+      ],
+      "registry_source_ids": [
+        "ADD01",
+        "SEN29"
+      ],
+      "citation_forms": [
+        "De Vito et al., 2008",
+        "De Vito et al. (2008)"
+      ]
+    },
+    {
+      "position": 11,
+      "key": "dfrobotnd_97cee5",
+      "author_label": "DFRobot",
+      "year": "n.d.-a",
+      "citation_label": "DFRobot, n.d.-a",
+      "narrative_citation": "DFRobot (n.d.-a)",
+      "citation_text": "DFRobot (n.d.-a). GUVA-S12SD UV Detection Sensor (TOY0044). manufacturer documentation. https://wiki.dfrobot.com/toy0044/",
+      "natbib_optional_label": "DFRobot(n.d.-a)",
+      "citation_text_latex": "DFRobot (n.d.-a). GUVA-S12SD UV Detection Sensor (TOY0044). manufacturer documentation. \\url{https://wiki.dfrobot.com/toy0044/}",
+      "doi": "",
+      "printed_urls": [
+        "https://wiki.dfrobot.com/toy0044/"
+      ],
+      "registry_source_ids": [
+        "SEN05"
+      ],
+      "citation_forms": [
+        "DFRobot, n.d.-a",
+        "DFRobot (n.d.-a)"
+      ]
+    },
+    {
+      "position": 12,
+      "key": "fox1997_7c8b94",
+      "author_label": "Fox et al.",
+      "year": "1997",
+      "citation_label": "Fox et al., 1997",
+      "narrative_citation": "Fox et al. (1997)",
+      "citation_text": "Fox, D., Burgard, W., & Thrun, S. (1997). The dynamic window approach to collision avoidance. IEEE Robotics & Automation Magazine, 4(1), 23–33. https://doi.org/10.1109/100.580977",
+      "natbib_optional_label": "Fox et al.(1997)",
+      "citation_text_latex": "Fox, D., Burgard, W., \\& Thrun, S. (1997). The dynamic window approach to collision avoidance. IEEE Robotics \\& Automation Magazine, 4(1), 23\\textendash{}33. \\url{https://doi.org/10.1109/100.580977}",
+      "doi": "10.1109/100.580977",
+      "printed_urls": [
+        "https://doi.org/10.1109/100.580977"
+      ],
+      "registry_source_ids": [
+        "M09"
+      ],
+      "citation_forms": [
+        "Fox et al., 1997",
+        "Fox et al. (1997)"
+      ]
+    },
+    {
+      "position": 13,
+      "key": "francis2022_99d7b7",
+      "author_label": "Francis et al.",
+      "year": "2022",
+      "citation_label": "Francis et al., 2022",
+      "narrative_citation": "Francis et al. (2022)",
+      "citation_text": "Francis, A., Li, S., Griffiths, C., & Sienz, J. (2022). Gas source localization and mapping with mobile robots: A review. Journal of Field Robotics, 39(8), 1341–1373. https://doi.org/10.1002/rob.22109",
+      "natbib_optional_label": "Francis et al.(2022)",
+      "citation_text_latex": "Francis, A., Li, S., Griffiths, C., \\& Sienz, J. (2022). Gas source localization and mapping with mobile robots: A review. Journal of Field Robotics, 39(8), 1341\\textendash{}1373. \\url{https://doi.org/10.1002/rob.22109}",
+      "doi": "10.1002/rob.22109",
+      "printed_urls": [
+        "https://doi.org/10.1002/rob.22109"
+      ],
+      "registry_source_ids": [
+        "R01"
+      ],
+      "citation_forms": [
+        "Francis et al., 2022",
+        "Francis et al. (2022)"
+      ]
+    },
+    {
+      "position": 14,
+      "key": "gongora2023_ca6a1d",
+      "author_label": "Gongora et al.",
+      "year": "2023",
+      "citation_label": "Gongora et al., 2023",
+      "narrative_citation": "Gongora et al. (2023)",
+      "citation_text": "Gongora, A., Monroy, J., Rahbar, F., Ercolani, C., Gonzalez-Jimenez, J., & Martinoli, A. (2023). Information-Driven Gas Distribution Mapping for Autonomous Mobile Robots. Sensors, 23(12), 5387. https://doi.org/10.3390/s23125387",
+      "natbib_optional_label": "Gongora et al.(2023)",
+      "citation_text_latex": "Gongora, A., Monroy, J., Rahbar, F., Ercolani, C., Gonzalez-Jimenez, J., \\& Martinoli, A. (2023). Information-Driven Gas Distribution Mapping for Autonomous Mobile Robots. Sensors, 23(12), 5387. \\url{https://doi.org/10.3390/s23125387}",
+      "doi": "10.3390/s23125387",
+      "printed_urls": [
+        "https://doi.org/10.3390/s23125387"
+      ],
+      "registry_source_ids": [
+        "SEN14"
+      ],
+      "citation_forms": [
+        "Gongora et al., 2023",
+        "Gongora et al. (2023)"
+      ]
+    },
+    {
+      "position": 15,
+      "key": "habibian2021_bdac2f",
+      "author_label": "Habibian et al.",
+      "year": "2021",
+      "citation_label": "Habibian et al., 2021",
+      "narrative_citation": "Habibian et al. (2021)",
+      "citation_text": "Habibian, S., Dadvar, M., Peykari, B., Hosseini, A., Salehzadeh, M. H., Hosseini, A. H. M., & Najafi, F. (2021). Design and implementation of a maxi-sized mobile robot (Karo) for rescue missions. ROBOMECH Journal, 8(1), 1. https://doi.org/10.1186/s40648-020-00188-9",
+      "natbib_optional_label": "Habibian et al.(2021)",
+      "citation_text_latex": "Habibian, S., Dadvar, M., Peykari, B., Hosseini, A., Salehzadeh, M. H., Hosseini, A. H. M., \\& Najafi, F. (2021). Design and implementation of a maxi-sized mobile robot (Karo) for rescue missions. ROBOMECH Journal, 8(1), 1. \\url{https://doi.org/10.1186/s40648-020-00188-9}",
+      "doi": "10.1186/s40648-020-00188-9",
+      "printed_urls": [
+        "https://doi.org/10.1186/s40648-020-00188-9"
+      ],
+      "registry_source_ids": [
+        "M17"
+      ],
+      "citation_forms": [
+        "Habibian et al., 2021",
+        "Habibian et al. (2021)"
+      ]
+    },
+    {
+      "position": 16,
+      "key": "hoerl1970_31b919",
+      "author_label": "Hoerl and Kennard",
+      "year": "1970",
+      "citation_label": "Hoerl and Kennard, 1970",
+      "narrative_citation": "Hoerl and Kennard (1970)",
+      "citation_text": "Hoerl, A. E., & Kennard, R. W. (1970). Ridge Regression: Biased Estimation for Nonorthogonal Problems. Technometrics, 12(1), 55–67. https://doi.org/10.1080/00401706.1970.10488634",
+      "natbib_optional_label": "Hoerl and Kennard(1970)",
+      "citation_text_latex": "Hoerl, A. E., \\& Kennard, R. W. (1970). Ridge Regression: Biased Estimation for Nonorthogonal Problems. Technometrics, 12(1), 55\\textendash{}67. \\url{https://doi.org/10.1080/00401706.1970.10488634}",
+      "doi": "10.1080/00401706.1970.10488634",
+      "printed_urls": [
+        "https://doi.org/10.1080/00401706.1970.10488634"
+      ],
+      "registry_source_ids": [
+        "ADD02"
+      ],
+      "citation_forms": [
+        "Hoerl and Kennard, 1970",
+        "Hoerl and Kennard (1970)"
+      ]
+    },
+    {
+      "position": 17,
+      "key": "iagnemma2004_9f7418",
+      "author_label": "Iagnemma and Dubowsky",
+      "year": "2004",
+      "citation_label": "Iagnemma and Dubowsky, 2004",
+      "narrative_citation": "Iagnemma and Dubowsky (2004)",
+      "citation_text": "Iagnemma, K., & Dubowsky, S. (2004). Traction Control of Wheeled Robotic Vehicles in Rough Terrain with Application to Planetary Rovers. The International Journal of Robotics Research, 23(10-11), 1029–1040. https://doi.org/10.1177/0278364904047392",
+      "natbib_optional_label": "Iagnemma and Dubowsky(2004)",
+      "citation_text_latex": "Iagnemma, K., \\& Dubowsky, S. (2004). Traction Control of Wheeled Robotic Vehicles in Rough Terrain with Application to Planetary Rovers. The International Journal of Robotics Research, 23(10-11), 1029\\textendash{}1040. \\url{https://doi.org/10.1177/0278364904047392}",
+      "doi": "10.1177/0278364904047392",
+      "printed_urls": [
+        "https://doi.org/10.1177/0278364904047392"
+      ],
+      "registry_source_ids": [
+        "M06"
+      ],
+      "citation_forms": [
+        "Iagnemma and Dubowsky, 2004",
+        "Iagnemma and Dubowsky (2004)"
+      ]
+    },
+    {
+      "position": 18,
+      "key": "jayaratne2018_d2f9d3",
+      "author_label": "Jayaratne et al.",
+      "year": "2018",
+      "citation_label": "Jayaratne et al., 2018",
+      "narrative_citation": "Jayaratne et al. (2018)",
+      "citation_text": "Jayaratne, R., Liu, X., Thai, P., Dunbabin, M., & Morawska, L. (2018). The influence of humidity on the performance of a low-cost air particle mass sensor and the effect of atmospheric fog. Atmospheric Measurement Techniques, 11(8), 4883–4890. https://doi.org/10.5194/amt-11-4883-2018",
+      "natbib_optional_label": "Jayaratne et al.(2018)",
+      "citation_text_latex": "Jayaratne, R., Liu, X., Thai, P., Dunbabin, M., \\& Morawska, L. (2018). The influence of humidity on the performance of a low-cost air particle mass sensor and the effect of atmospheric fog. Atmospheric Measurement Techniques, 11(8), 4883\\textendash{}4890. \\url{https://doi.org/10.5194/amt-11-4883-2018}",
+      "doi": "10.5194/amt-11-4883-2018",
+      "printed_urls": [
+        "https://doi.org/10.5194/amt-11-4883-2018"
+      ],
+      "registry_source_ids": [
+        "SEN08"
+      ],
+      "citation_forms": [
+        "Jayaratne et al., 2018",
+        "Jayaratne et al. (2018)"
+      ]
+    },
+    {
+      "position": 19,
+      "key": "jcgm2008_0d3206",
+      "author_label": "JCGM",
+      "year": "2008",
+      "citation_label": "JCGM, 2008",
+      "narrative_citation": "JCGM (2008)",
+      "citation_text": "Joint Committee for Guides in Metrology (2008). Evaluation of measurement data — Guide to the expression of uncertainty in measurement. JCGM 100:2008(E). https://doi.org/10.59161/jcgm100-2008e",
+      "natbib_optional_label": "JCGM(2008)",
+      "citation_text_latex": "Joint Committee for Guides in Metrology (2008). Evaluation of measurement data \\textemdash{} Guide to the expression of uncertainty in measurement. JCGM 100:2008(E). \\url{https://doi.org/10.59161/jcgm100-2008e}",
+      "doi": "10.59161/jcgm100-2008e",
+      "printed_urls": [
+        "https://doi.org/10.59161/jcgm100-2008e"
+      ],
+      "registry_source_ids": [
+        "ADD04",
+        "SEN27"
+      ],
+      "citation_forms": [
+        "JCGM, 2008",
+        "JCGM (2008)",
+        "Joint Committee for Guides in Metrology, 2008",
+        "Joint Committee for Guides in Metrology (2008)"
+      ]
+    },
+    {
+      "position": 20,
+      "key": "kapoor2023_8dd715",
+      "author_label": "Kapoor and Narayanan",
+      "year": "2023",
+      "citation_label": "Kapoor and Narayanan, 2023",
+      "narrative_citation": "Kapoor and Narayanan (2023)",
+      "citation_text": "Kapoor, S., & Narayanan, A. (2023). Leakage and the reproducibility crisis in machine-learning-based science. Patterns, 4(9), 100804. https://doi.org/10.1016/j.patter.2023.100804",
+      "natbib_optional_label": "Kapoor and Narayanan(2023)",
+      "citation_text_latex": "Kapoor, S., \\& Narayanan, A. (2023). Leakage and the reproducibility crisis in machine-learning-based science. Patterns, 4(9), 100804. \\url{https://doi.org/10.1016/j.patter.2023.100804}",
+      "doi": "10.1016/j.patter.2023.100804",
+      "printed_urls": [
+        "https://doi.org/10.1016/j.patter.2023.100804"
+      ],
+      "registry_source_ids": [
+        "SEN19"
+      ],
+      "citation_forms": [
+        "Kapoor and Narayanan, 2023",
+        "Kapoor and Narayanan (2023)"
+      ]
+    },
+    {
+      "position": 21,
+      "key": "labb2019_d34c3f",
+      "author_label": "Labbé and Michaud",
+      "year": "2019",
+      "citation_label": "Labbé and Michaud, 2019",
+      "narrative_citation": "Labbé and Michaud (2019)",
+      "citation_text": "Labbé, M., & Michaud, F. (2019). RTAB‐Map as an open‐source lidar and visual simultaneous localization and mapping library for large‐scale and long‐term online operation. Journal of Field Robotics, 36(2), 416–446. https://doi.org/10.1002/rob.21831",
+      "natbib_optional_label": "Labb\\'{e} and Michaud(2019)",
+      "citation_text_latex": "Labb\\'{e}, M., \\& Michaud, F. (2019). RTAB‐Map as an open‐source lidar and visual simultaneous localization and mapping library for large‐scale and long‐term online operation. Journal of Field Robotics, 36(2), 416\\textendash{}446. \\url{https://doi.org/10.1002/rob.21831}",
+      "doi": "10.1002/rob.21831",
+      "printed_urls": [
+        "https://doi.org/10.1002/rob.21831"
+      ],
+      "registry_source_ids": [
+        "M12"
+      ],
+      "citation_forms": [
+        "Labbé and Michaud, 2019",
+        "Labbé and Michaud (2019)"
+      ]
+    },
+    {
+      "position": 22,
+      "key": "lee2015_5bfa55",
+      "author_label": "Lee and Li",
+      "year": "2015",
+      "citation_label": "Lee and Li, 2015",
+      "narrative_citation": "Lee and Li (2015)",
+      "citation_text": "Lee, M. H., & Li, T. H. S. (2015). Kinematics, dynamics and control design of 4WIS4WID mobile robots. The Journal of Engineering, 2015(1), 6–16. https://doi.org/10.1049/joe.2014.0241",
+      "natbib_optional_label": "Lee and Li(2015)",
+      "citation_text_latex": "Lee, M. H., \\& Li, T. H. S. (2015). Kinematics, dynamics and control design of 4WIS4WID mobile robots. The Journal of Engineering, 2015(1), 6\\textendash{}16. \\url{https://doi.org/10.1049/joe.2014.0241}",
+      "doi": "10.1049/joe.2014.0241",
+      "printed_urls": [
+        "https://doi.org/10.1049/joe.2014.0241"
+      ],
+      "registry_source_ids": [
+        "M02"
+      ],
+      "citation_forms": [
+        "Lee and Li, 2015",
+        "Lee and Li (2015)"
+      ]
+    },
+    {
+      "position": 23,
+      "key": "lin2023_f90829",
+      "author_label": "Lin et al.",
+      "year": "2023",
+      "citation_label": "Lin et al., 2023",
+      "narrative_citation": "Lin et al. (2023)",
+      "citation_text": "Lin, J. J. Y., Buehler, C., Datta, A., Gentner, D. R., Koehler, K., & Zamora, M. L. (2023). Laboratory and field evaluation of a low-cost methane sensor and key environmental factors for sensor calibration. Environmental Science: Atmospheres, 3(4), 683–694. https://doi.org/10.1039/d2ea00100d",
+      "natbib_optional_label": "Lin et al.(2023)",
+      "citation_text_latex": "Lin, J. J. Y., Buehler, C., Datta, A., Gentner, D. R., Koehler, K., \\& Zamora, M. L. (2023). Laboratory and field evaluation of a low-cost methane sensor and key environmental factors for sensor calibration. Environmental Science: Atmospheres, 3(4), 683\\textendash{}694. \\url{https://doi.org/10.1039/d2ea00100d}",
+      "doi": "10.1039/d2ea00100d",
+      "printed_urls": [
+        "https://doi.org/10.1039/d2ea00100d"
+      ],
+      "registry_source_ids": [
+        "SEN24"
+      ],
+      "citation_forms": [
+        "Lin et al., 2023",
+        "Lin et al. (2023)"
+      ]
+    },
+    {
+      "position": 24,
+      "key": "liu2012_0ef0af",
+      "author_label": "Liu et al.",
+      "year": "2012",
+      "citation_label": "Liu et al., 2012",
+      "narrative_citation": "Liu et al. (2012)",
+      "citation_text": "Liu, F. T., Ting, K. M., & Zhou, Z. H. (2012). Isolation-Based Anomaly Detection. ACM Transactions on Knowledge Discovery from Data, 6(1), 1–39. https://doi.org/10.1145/2133360.2133363",
+      "natbib_optional_label": "Liu et al.(2012)",
+      "citation_text_latex": "Liu, F. T., Ting, K. M., \\& Zhou, Z. H. (2012). Isolation-Based Anomaly Detection. ACM Transactions on Knowledge Discovery from Data, 6(1), 1\\textendash{}39. \\url{https://doi.org/10.1145/2133360.2133363}",
+      "doi": "10.1145/2133360.2133363",
+      "printed_urls": [
+        "https://doi.org/10.1145/2133360.2133363"
+      ],
+      "registry_source_ids": [
+        "SEN22"
+      ],
+      "citation_forms": [
+        "Liu et al., 2012",
+        "Liu et al. (2012)"
+      ]
+    },
+    {
+      "position": 25,
+      "key": "melo2019_023727",
+      "author_label": "Melo et al.",
+      "year": "2019",
+      "citation_label": "Melo et al., 2019",
+      "narrative_citation": "Melo et al. (2019)",
+      "citation_text": "Melo, M., Mota, F., Albuquerque, V., & Alexandria, A. (2019). Development of a Robotic Airboat for Online Water Quality Monitoring in Lakes. Robotics, 8(1), 19. https://doi.org/10.3390/robotics8010019",
+      "natbib_optional_label": "Melo et al.(2019)",
+      "citation_text_latex": "Melo, M., Mota, F., Albuquerque, V., \\& Alexandria, A. (2019). Development of a Robotic Airboat for Online Water Quality Monitoring in Lakes. Robotics, 8(1), 19. \\url{https://doi.org/10.3390/robotics8010019}",
+      "doi": "10.3390/robotics8010019",
+      "printed_urls": [
+        "https://doi.org/10.3390/robotics8010019"
+      ],
+      "registry_source_ids": [
+        "SEN18"
+      ],
+      "citation_forms": [
+        "Melo et al., 2019",
+        "Melo et al. (2019)"
+      ]
+    },
+    {
+      "position": 26,
+      "key": "microchip_adc_an2537",
+      "author_label": "Microchip Technology",
+      "year": "n.d.",
+      "citation_label": "Microchip Technology, n.d.",
+      "narrative_citation": "Microchip Technology (n.d.)",
+      "citation_text": "Microchip Technology. (n.d.). AN2537: Section 1.7 Conversion Result. https://onlinedocs.microchip.com/oxy/GUID-6178B82B-1DE0-484B-ACA5-153F78A78E41-en-US-1/GUID-0BF4C5AD-4ECB-479B-A0A9-E33CD8200A60.html",
+      "natbib_optional_label": "Microchip Technology(n.d.)",
+      "citation_text_latex": "Microchip Technology. (n.d.). AN2537: Section 1.7 Conversion Result. \\url{https://onlinedocs.microchip.com/oxy/GUID-6178B82B-1DE0-484B-ACA5-153F78A78E41-en-US-1/GUID-0BF4C5AD-4ECB-479B-A0A9-E33CD8200A60.html}",
+      "doi": null,
+      "printed_urls": [
+        "https://onlinedocs.microchip.com/oxy/GUID-6178B82B-1DE0-484B-ACA5-153F78A78E41-en-US-1/GUID-0BF4C5AD-4ECB-479B-A0A9-E33CD8200A60.html"
+      ],
+      "registry_source_ids": [
+        "ADC01"
+      ],
+      "citation_forms": [
+        "Microchip Technology, n.d.",
+        "Microchip Technology (n.d.)"
+      ]
+    },
+    {
+      "position": 27,
+      "key": "mohamed2025_7d0710",
+      "author_label": "Mohamed et al.",
+      "year": "2025",
+      "citation_label": "Mohamed et al., 2025",
+      "narrative_citation": "Mohamed et al. (2025)",
+      "citation_text": "Mohamed, S., Vellaiyan, V., Kim, K., Kim, Y., & Shin, B. (2025). Development of a Four Omni-Wheeled Mobile Robot Using Telescopic Legs. Machines, 13(4), 292. https://doi.org/10.3390/machines13040292",
+      "natbib_optional_label": "Mohamed et al.(2025)",
+      "citation_text_latex": "Mohamed, S., Vellaiyan, V., Kim, K., Kim, Y., \\& Shin, B. (2025). Development of a Four Omni-Wheeled Mobile Robot Using Telescopic Legs. Machines, 13(4), 292. \\url{https://doi.org/10.3390/machines13040292}",
+      "doi": "10.3390/machines13040292",
+      "printed_urls": [
+        "https://doi.org/10.3390/machines13040292"
+      ],
+      "registry_source_ids": [
+        "M19"
+      ],
+      "citation_forms": [
+        "Mohamed et al., 2025",
+        "Mohamed et al. (2025)"
+      ]
+    },
+    {
+      "position": 28,
+      "key": "monroy2017_e93884",
+      "author_label": "Monroy et al.",
+      "year": "2017",
+      "citation_label": "Monroy et al., 2017",
+      "narrative_citation": "Monroy et al. (2017)",
+      "citation_text": "Monroy, J., Hernandez-Bennetts, V., Fan, H., Lilienthal, A., & Gonzalez-Jimenez, J. (2017). GADEN: A 3D Gas Dispersion Simulator for Mobile Robot Olfaction in Realistic Environments. Sensors, 17(7), 1479. https://doi.org/10.3390/s17071479",
+      "natbib_optional_label": "Monroy et al.(2017)",
+      "citation_text_latex": "Monroy, J., Hernandez-Bennetts, V., Fan, H., Lilienthal, A., \\& Gonzalez-Jimenez, J. (2017). GADEN: A 3D Gas Dispersion Simulator for Mobile Robot Olfaction in Realistic Environments. Sensors, 17(7), 1479. \\url{https://doi.org/10.3390/s17071479}",
+      "doi": "10.3390/s17071479",
+      "printed_urls": [
+        "https://doi.org/10.3390/s17071479"
+      ],
+      "registry_source_ids": [
+        "SEN13",
+        "R06"
+      ],
+      "citation_forms": [
+        "Monroy et al., 2017",
+        "Monroy et al. (2017)"
+      ]
+    },
+    {
+      "position": 29,
+      "key": "nist2026_a8b13c",
+      "author_label": "NIST",
+      "year": "2026",
+      "citation_label": "NIST, 2026",
+      "narrative_citation": "NIST (2026)",
+      "citation_text": "National Institute of Standards and Technology (2026). Performance of Emergency Response Robots. NIST program page; updated 24 April 2026; accessed 15 September 2026. https://www.nist.gov/programs-projects/performance-emergency-response-robots",
+      "natbib_optional_label": "NIST(2026)",
+      "citation_text_latex": "National Institute of Standards and Technology (2026). Performance of Emergency Response Robots. NIST program page; updated 24 April 2026; accessed 15 September 2026. \\url{https://www.nist.gov/programs-projects/performance-emergency-response-robots}",
+      "doi": "",
+      "printed_urls": [
+        "https://www.nist.gov/programs-projects/performance-emergency-response-robots"
+      ],
+      "registry_source_ids": [
+        "M16"
+      ],
+      "citation_forms": [
+        "NIST, 2026",
+        "NIST (2026)",
+        "National Institute of Standards and Technology, 2026",
+        "National Institute of Standards and Technology (2026)"
+      ]
+    },
+    {
+      "position": 30,
+      "key": "ojeda2023_b7b9b6",
+      "author_label": "Ojeda et al.",
+      "year": "2023",
+      "citation_label": "Ojeda et al., 2023",
+      "narrative_citation": "Ojeda et al. (2023)",
+      "citation_text": "Ojeda, P., Monroy, J., & Gonzalez-Jimenez, J. (2023). VGR Dataset: A CFD-based Gas Dispersion Dataset for Mobile Robotic Olfaction. Journal of Intelligent & Robotic Systems, 109(4), 75. https://doi.org/10.1007/s10846-023-02012-z",
+      "natbib_optional_label": "Ojeda et al.(2023)",
+      "citation_text_latex": "Ojeda, P., Monroy, J., \\& Gonzalez-Jimenez, J. (2023). VGR Dataset: A CFD-based Gas Dispersion Dataset for Mobile Robotic Olfaction. Journal of Intelligent \\& Robotic Systems, 109(4), 75. \\url{https://doi.org/10.1007/s10846-023-02012-z}",
+      "doi": "10.1007/s10846-023-02012-z",
+      "printed_urls": [
+        "https://doi.org/10.1007/s10846-023-02012-z"
+      ],
+      "registry_source_ids": [
+        "R07"
+      ],
+      "citation_forms": [
+        "Ojeda et al., 2023",
+        "Ojeda et al. (2023)"
+      ]
+    },
+    {
+      "position": 31,
+      "key": "papadopoulos1996_3a8aa9",
+      "author_label": "Papadopoulos and Rey",
+      "year": "1996",
+      "citation_label": "Papadopoulos and Rey, 1996",
+      "narrative_citation": "Papadopoulos and Rey (1996)",
+      "citation_text": "Papadopoulos, E. G., & Rey, D. A. (1996). A new measure of tipover stability margin for mobile manipulators. Proceedings of IEEE International Conference on Robotics and Automation, 4, 3111–3116. https://doi.org/10.1109/robot.1996.509185",
+      "natbib_optional_label": "Papadopoulos and Rey(1996)",
+      "citation_text_latex": "Papadopoulos, E. G., \\& Rey, D. A. (1996). A new measure of tipover stability margin for mobile manipulators. Proceedings of IEEE International Conference on Robotics and Automation, 4, 3111\\textendash{}3116. \\url{https://doi.org/10.1109/robot.1996.509185}",
+      "doi": "10.1109/robot.1996.509185",
+      "printed_urls": [
+        "https://doi.org/10.1109/robot.1996.509185"
+      ],
+      "registry_source_ids": [
+        "M04"
+      ],
+      "citation_forms": [
+        "Papadopoulos and Rey, 1996",
+        "Papadopoulos and Rey (1996)"
+      ]
+    },
+    {
+      "position": 32,
+      "key": "patel2024_4264a8",
+      "author_label": "Patel et al.",
+      "year": "2024",
+      "citation_label": "Patel et al., 2024",
+      "narrative_citation": "Patel et al. (2024)",
+      "citation_text": "Patel, M. Y., Vannucci, P. F., Kim, J., Berelson, W. M., & Cohen, R. C. (2024). Towards a hygroscopic growth calibration for low-cost PM 2.5 sensors. Atmospheric Measurement Techniques, 17(3), 1051–1060. https://doi.org/10.5194/amt-17-1051-2024",
+      "natbib_optional_label": "Patel et al.(2024)",
+      "citation_text_latex": "Patel, M. Y., Vannucci, P. F., Kim, J., Berelson, W. M., \\& Cohen, R. C. (2024). Towards a hygroscopic growth calibration for low-cost PM 2.5 sensors. Atmospheric Measurement Techniques, 17(3), 1051\\textendash{}1060. \\url{https://doi.org/10.5194/amt-17-1051-2024}",
+      "doi": "10.5194/amt-17-1051-2024",
+      "printed_urls": [
+        "https://doi.org/10.5194/amt-17-1051-2024"
+      ],
+      "registry_source_ids": [
+        "SEN11"
+      ],
+      "citation_forms": [
+        "Patel et al., 2024",
+        "Patel et al. (2024)"
+      ]
+    },
+    {
+      "position": 33,
+      "key": "rasmussen2006_5c445c",
+      "author_label": "Rasmussen and Williams",
+      "year": "2006",
+      "citation_label": "Rasmussen and Williams, 2006",
+      "narrative_citation": "Rasmussen and Williams (2006)",
+      "citation_text": "Rasmussen, C. E., & Williams, C. K. I. (2006). Gaussian Processes for Machine Learning. The MIT Press. https://doi.org/10.7551/mitpress/3206.001.0001",
+      "natbib_optional_label": "Rasmussen and Williams(2006)",
+      "citation_text_latex": "Rasmussen, C. E., \\& Williams, C. K. I. (2006). Gaussian Processes for Machine Learning. The MIT Press. \\url{https://doi.org/10.7551/mitpress/3206.001.0001}",
+      "doi": "10.7551/mitpress/3206.001.0001",
+      "printed_urls": [
+        "https://doi.org/10.7551/mitpress/3206.001.0001"
+      ],
+      "registry_source_ids": [
+        "SEN23"
+      ],
+      "citation_forms": [
+        "Rasmussen and Williams, 2006",
+        "Rasmussen and Williams (2006)"
+      ]
+    },
+    {
+      "position": 34,
+      "key": "reina2010_3d6119",
+      "author_label": "Reina and Foglia",
+      "year": "2010",
+      "citation_label": "Reina and Foglia, 2010",
+      "narrative_citation": "Reina and Foglia (2010)",
+      "citation_text": "Reina, G., & Foglia, M. (2010). An Adaptive Suspension System for Planetary Rovers. IFAC Proceedings Volumes, 43(16), 199–204. https://doi.org/10.3182/20100906-3-it-2019.00036",
+      "natbib_optional_label": "Reina and Foglia(2010)",
+      "citation_text_latex": "Reina, G., \\& Foglia, M. (2010). An Adaptive Suspension System for Planetary Rovers. IFAC Proceedings Volumes, 43(16), 199\\textendash{}204. \\url{https://doi.org/10.3182/20100906-3-it-2019.00036}",
+      "doi": "10.3182/20100906-3-it-2019.00036",
+      "printed_urls": [
+        "https://doi.org/10.3182/20100906-3-it-2019.00036"
+      ],
+      "registry_source_ids": [
+        "T01"
+      ],
+      "citation_forms": [
+        "Reina and Foglia, 2010",
+        "Reina and Foglia (2010)"
+      ]
+    },
+    {
+      "position": 35,
+      "key": "roberts2017_8ac43f",
+      "author_label": "Roberts et al.",
+      "year": "2017",
+      "citation_label": "Roberts et al., 2017",
+      "narrative_citation": "Roberts et al. (2017)",
+      "citation_text": "Roberts, D. R., Bahn, V., Ciuti, S., Boyce, M. S., Elith, J., Guillera‐Arroita, G., Hauenstein, S., Lahoz‐Monfort, J. J., Schröder, B., Thuiller, W., Warton, D. I., Wintle, B. A., Hartig, F., & Dormann, C. F. (2017). Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913–929. https://doi.org/10.1111/ecog.02881",
+      "natbib_optional_label": "Roberts et al.(2017)",
+      "citation_text_latex": "Roberts, D. R., Bahn, V., Ciuti, S., Boyce, M. S., Elith, J., Guillera‐Arroita, G., Hauenstein, S., Lahoz‐Monfort, J. J., Schr\\\"{o}der, B., Thuiller, W., Warton, D. I., Wintle, B. A., Hartig, F., \\& Dormann, C. F. (2017). Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913\\textendash{}929. \\url{https://doi.org/10.1111/ecog.02881}",
+      "doi": "10.1111/ecog.02881",
+      "printed_urls": [
+        "https://doi.org/10.1111/ecog.02881"
+      ],
+      "registry_source_ids": [
+        "SEN20"
+      ],
+      "citation_forms": [
+        "Roberts et al., 2017",
+        "Roberts et al. (2017)"
+      ]
+    },
+    {
+      "position": 36,
+      "key": "saputra2021_e81c43",
+      "author_label": "Saputra et al.",
+      "year": "2021",
+      "citation_label": "Saputra et al., 2021",
+      "narrative_citation": "Saputra et al. (2021)",
+      "citation_text": "Saputra, R. P., Rakicevic, N., Kuder, I., Bilsdorfer, J., Gough, A., Dakin, A., de Cocker, E., Rock, S., Harpin, R., & Kormushev, P. (2021). ResQbot 2.0: An Improved Design of a Mobile Rescue Robot with an Inflatable Neck Securing Device for Safe Casualty Extraction. Applied Sciences, 11(12), 5414. https://doi.org/10.3390/app11125414",
+      "natbib_optional_label": "Saputra et al.(2021)",
+      "citation_text_latex": "Saputra, R. P., Rakicevic, N., Kuder, I., Bilsdorfer, J., Gough, A., Dakin, A., de Cocker, E., Rock, S., Harpin, R., \\& Kormushev, P. (2021). ResQbot 2.0: An Improved Design of a Mobile Rescue Robot with an Inflatable Neck Securing Device for Safe Casualty Extraction. Applied Sciences, 11(12), 5414. \\url{https://doi.org/10.3390/app11125414}",
+      "doi": "10.3390/app11125414",
+      "printed_urls": [
+        "https://doi.org/10.3390/app11125414"
+      ],
+      "registry_source_ids": [
+        "M18"
+      ],
+      "citation_forms": [
+        "Saputra et al., 2021",
+        "Saputra et al. (2021)"
+      ]
+    },
+    {
+      "position": 37,
+      "key": "shan2020_c48065",
+      "author_label": "Shan et al.",
+      "year": "2020",
+      "citation_label": "Shan et al., 2020",
+      "narrative_citation": "Shan et al. (2020)",
+      "citation_text": "Shan, T., Englot, B., Meyers, D., Wang, W., Ratti, C., & Rus, D. (2020). LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping. 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). https://doi.org/10.1109/iros45743.2020.9341176",
+      "natbib_optional_label": "Shan et al.(2020)",
+      "citation_text_latex": "Shan, T., Englot, B., Meyers, D., Wang, W., Ratti, C., \\& Rus, D. (2020). LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping. 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). \\url{https://doi.org/10.1109/iros45743.2020.9341176}",
+      "doi": "10.1109/iros45743.2020.9341176",
+      "printed_urls": [
+        "https://doi.org/10.1109/iros45743.2020.9341176"
+      ],
+      "registry_source_ids": [
+        "M20"
+      ],
+      "citation_forms": [
+        "Shan et al., 2020",
+        "Shan et al. (2020)"
+      ]
+    },
+    {
+      "position": 38,
+      "key": "trevathan2020_3d3a03",
+      "author_label": "Trevathan et al.",
+      "year": "2020",
+      "citation_label": "Trevathan et al., 2020",
+      "narrative_citation": "Trevathan et al. (2020)",
+      "citation_text": "Trevathan, J., Read, W., & Schmidtke, S. (2020). Towards the Development of an Affordable and Practical Light Attenuation Turbidity Sensor for Remote Near Real-Time Aquatic Monitoring. Sensors, 20(7), 1993. https://doi.org/10.3390/s20071993",
+      "natbib_optional_label": "Trevathan et al.(2020)",
+      "citation_text_latex": "Trevathan, J., Read, W., \\& Schmidtke, S. (2020). Towards the Development of an Affordable and Practical Light Attenuation Turbidity Sensor for Remote Near Real-Time Aquatic Monitoring. Sensors, 20(7), 1993. \\url{https://doi.org/10.3390/s20071993}",
+      "doi": "10.3390/s20071993",
+      "printed_urls": [
+        "https://doi.org/10.3390/s20071993"
+      ],
+      "registry_source_ids": [
+        "SEN16"
+      ],
+      "citation_forms": [
+        "Trevathan et al., 2020",
+        "Trevathan et al. (2020)"
+      ]
+    },
+    {
+      "position": 39,
+      "key": "usgs2021_e859f3",
+      "author_label": "U. S. Geological Survey",
+      "year": "2021",
+      "citation_label": "U. S. Geological Survey, 2021",
+      "narrative_citation": "U. S. Geological Survey (2021)",
+      "citation_text": "U. S. Geological Survey (2021). Chapter A6.4. Measurement of pH. Techniques and Methods. https://doi.org/10.3133/tm9a6.4",
+      "natbib_optional_label": "U. S. Geological Survey(2021)",
+      "citation_text_latex": "U. S. Geological Survey (2021). Chapter A6.4. Measurement of pH. Techniques and Methods. \\url{https://doi.org/10.3133/tm9a6.4}",
+      "doi": "10.3133/tm9a6.4",
+      "printed_urls": [
+        "https://doi.org/10.3133/tm9a6.4"
+      ],
+      "registry_source_ids": [
+        "SEN25"
+      ],
+      "citation_forms": [
+        "U. S. Geological Survey, 2021",
+        "U. S. Geological Survey (2021)",
+        "U.S. Geological Survey, 2021",
+        "U.S. Geological Survey (2021)"
+      ]
+    },
+    {
+      "position": 40,
+      "key": "vito2008_026a72",
+      "author_label": "Vito",
+      "year": "2008",
+      "citation_label": "Vito, 2008",
+      "narrative_citation": "Vito (2008)",
+      "citation_text": "Vito, S. (2008). Air Quality. UCI Machine Learning Repository. https://doi.org/10.24432/c59k5f",
+      "natbib_optional_label": "Vito(2008)",
+      "citation_text_latex": "Vito, S. (2008). Air Quality. UCI Machine Learning Repository. \\url{https://doi.org/10.24432/c59k5f}",
+      "doi": "10.24432/c59k5f",
+      "printed_urls": [
+        "https://doi.org/10.24432/c59k5f"
+      ],
+      "registry_source_ids": [
+        "R09",
+        "SEN28"
+      ],
+      "citation_forms": [
+        "Vito, 2008",
+        "Vito (2008)"
+      ]
+    },
+    {
+      "position": 41,
+      "key": "wang2024_112661",
+      "author_label": "Wang et al.",
+      "year": "2024",
+      "citation_label": "Wang et al., 2024",
+      "narrative_citation": "Wang et al. (2024)",
+      "citation_text": "Wang, M., Shi, B., Catsamas, S., Kolotelo, P., & McCarthy, D. (2024). A Compact, Low-Cost, and Low-Power Turbidity Sensor for Continuous In Situ Stormwater Monitoring. Sensors, 24(12), 3926. https://doi.org/10.3390/s24123926",
+      "natbib_optional_label": "Wang et al.(2024)",
+      "citation_text_latex": "Wang, M., Shi, B., Catsamas, S., Kolotelo, P., \\& McCarthy, D. (2024). A Compact, Low-Cost, and Low-Power Turbidity Sensor for Continuous In Situ Stormwater Monitoring. Sensors, 24(12), 3926. \\url{https://doi.org/10.3390/s24123926}",
+      "doi": "10.3390/s24123926",
+      "printed_urls": [
+        "https://doi.org/10.3390/s24123926"
+      ],
+      "registry_source_ids": [
+        "SEN17"
+      ],
+      "citation_forms": [
+        "Wang et al., 2024",
+        "Wang et al. (2024)"
+      ]
+    },
+    {
+      "position": 42,
+      "key": "zheng2019_9520c4",
+      "author_label": "Zheng et al.",
+      "year": "2019",
+      "citation_label": "Zheng et al., 2019",
+      "narrative_citation": "Zheng et al. (2019)",
+      "citation_text": "Zheng, T., Bergin, M. H., Sutaria, R., Tripathi, S. N., Caldow, R., & Carlson, D. E. (2019). Gaussian process regression model for dynamically calibrating and surveilling a wireless low-cost particulate matter sensor network in Delhi. Atmospheric Measurement Techniques, 12(9), 5161–5181. https://doi.org/10.5194/amt-12-5161-2019",
+      "natbib_optional_label": "Zheng et al.(2019)",
+      "citation_text_latex": "Zheng, T., Bergin, M. H., Sutaria, R., Tripathi, S. N., Caldow, R., \\& Carlson, D. E. (2019). Gaussian process regression model for dynamically calibrating and surveilling a wireless low-cost particulate matter sensor network in Delhi. Atmospheric Measurement Techniques, 12(9), 5161\\textendash{}5181. \\url{https://doi.org/10.5194/amt-12-5161-2019}",
+      "doi": "10.5194/amt-12-5161-2019",
+      "printed_urls": [
+        "https://doi.org/10.5194/amt-12-5161-2019"
+      ],
+      "registry_source_ids": [
+        "SEN10"
+      ],
+      "citation_forms": [
+        "Zheng et al., 2019",
+        "Zheng et al. (2019)"
+      ]
+    },
+    {
+      "position": 43,
+      "key": "winsen2021_36e9d6",
+      "author_label": "Winsen",
+      "year": "2021a",
+      "citation_label": "Winsen, 2021a",
+      "narrative_citation": "Winsen (2021a)",
+      "citation_text": "Zhengzhou Winsen Electronics Technology Co., Ltd. (2021a). Air Quality Gas Sensor (Model: MQ135) Manual, version 1.6. manufacturer documentation. https://www.winsen-sensor.com/d/files/manual/mq135.pdf",
+      "natbib_optional_label": "Winsen(2021a)",
+      "citation_text_latex": "Zhengzhou Winsen Electronics Technology Co., Ltd. (2021a). Air Quality Gas Sensor (Model: MQ135) Manual, version 1.6. manufacturer documentation. \\url{https://www.winsen-sensor.com/d/files/manual/mq135.pdf}",
+      "doi": "",
+      "printed_urls": [
+        "https://www.winsen-sensor.com/d/files/manual/mq135.pdf"
+      ],
+      "registry_source_ids": [
+        "SEN01"
+      ],
+      "citation_forms": [
+        "Winsen, 2021a",
+        "Winsen (2021a)"
+      ]
+    },
+    {
+      "position": 44,
+      "key": "winsen2021_174511",
+      "author_label": "Winsen",
+      "year": "2021b",
+      "citation_label": "Winsen, 2021b",
+      "narrative_citation": "Winsen (2021b)",
+      "citation_text": "Zhengzhou Winsen Electronics Technology Co., Ltd. (2021b). Carbon Monoxide Gas Sensor (Model: MQ-7B) Manual, version 1.6. manufacturer documentation. https://www.winsen-sensor.com/d/files/manual/mq-7b.pdf",
+      "natbib_optional_label": "Winsen(2021b)",
+      "citation_text_latex": "Zhengzhou Winsen Electronics Technology Co., Ltd. (2021b). Carbon Monoxide Gas Sensor (Model: MQ-7B) Manual, version 1.6. manufacturer documentation. \\url{https://www.winsen-sensor.com/d/files/manual/mq-7b.pdf}",
+      "doi": "",
+      "printed_urls": [
+        "https://www.winsen-sensor.com/d/files/manual/mq-7b.pdf"
+      ],
+      "registry_source_ids": [
+        "SEN02"
+      ],
+      "citation_forms": [
+        "Winsen, 2021b",
+        "Winsen (2021b)"
+      ]
+    },
+    {
+      "position": 45,
+      "key": "winsen2021_dd85bc",
+      "author_label": "Winsen",
+      "year": "2021c",
+      "citation_label": "Winsen, 2021c",
+      "narrative_citation": "Winsen (2021c)",
+      "citation_text": "Zhengzhou Winsen Electronics Technology Co., Ltd. (2021c). Flammable Gas Sensor (Model: MQ-4) Manual, version 1.6. manufacturer documentation. https://www.winsen-sensor.com/d/files/mq-4-(ver1_6)---manual.pdf",
+      "natbib_optional_label": "Winsen(2021c)",
+      "citation_text_latex": "Zhengzhou Winsen Electronics Technology Co., Ltd. (2021c). Flammable Gas Sensor (Model: MQ-4) Manual, version 1.6. manufacturer documentation. \\url{https://www.winsen-sensor.com/d/files/mq-4-(ver1_6)---manual.pdf}",
+      "doi": "",
+      "printed_urls": [
+        "https://www.winsen-sensor.com/d/files/mq-4-(ver1_6)---manual.pdf"
+      ],
+      "registry_source_ids": [
+        "SEN03"
+      ],
+      "citation_forms": [
+        "Winsen, 2021c",
+        "Winsen (2021c)"
+      ]
+    }
+  ],
+  "by_citation_label": {
+    "Alexander and Maddocks, 1989": "alexander1989_c3c6fd",
+    "Analog Devices, 2013": "analogdevices2013_f3acfa",
+    "Barkjohn et al., 2021": "barkjohn2021_7ba5aa",
+    "Báthory et al., 2022": "bthory2022_c26801",
+    "Bosch Sensortec, 2013": "boschsensortec2013_0d84c1",
+    "Breiman, 2001": "breiman2001_75dc04",
+    "Burghi et al., 2024": "burghi2024_cccce5",
+    "Campos et al., 2021": "campos2021_973bd6",
+    "Concas et al., 2021": "concas2021_57ba0a",
+    "De Vito et al., 2008": "devito2008_1548b8",
+    "DFRobot, n.d.-a": "dfrobotnd_97cee5",
+    "Fox et al., 1997": "fox1997_7c8b94",
+    "Francis et al., 2022": "francis2022_99d7b7",
+    "Gongora et al., 2023": "gongora2023_ca6a1d",
+    "Habibian et al., 2021": "habibian2021_bdac2f",
+    "Hoerl and Kennard, 1970": "hoerl1970_31b919",
+    "Iagnemma and Dubowsky, 2004": "iagnemma2004_9f7418",
+    "Jayaratne et al., 2018": "jayaratne2018_d2f9d3",
+    "JCGM, 2008": "jcgm2008_0d3206",
+    "Kapoor and Narayanan, 2023": "kapoor2023_8dd715",
+    "Labbé and Michaud, 2019": "labb2019_d34c3f",
+    "Lee and Li, 2015": "lee2015_5bfa55",
+    "Lin et al., 2023": "lin2023_f90829",
+    "Liu et al., 2012": "liu2012_0ef0af",
+    "Melo et al., 2019": "melo2019_023727",
+    "Microchip Technology, n.d.": "microchip_adc_an2537",
+    "Mohamed et al., 2025": "mohamed2025_7d0710",
+    "Monroy et al., 2017": "monroy2017_e93884",
+    "NIST, 2026": "nist2026_a8b13c",
+    "Ojeda et al., 2023": "ojeda2023_b7b9b6",
+    "Papadopoulos and Rey, 1996": "papadopoulos1996_3a8aa9",
+    "Patel et al., 2024": "patel2024_4264a8",
+    "Rasmussen and Williams, 2006": "rasmussen2006_5c445c",
+    "Reina and Foglia, 2010": "reina2010_3d6119",
+    "Roberts et al., 2017": "roberts2017_8ac43f",
+    "Saputra et al., 2021": "saputra2021_e81c43",
+    "Shan et al., 2020": "shan2020_c48065",
+    "Trevathan et al., 2020": "trevathan2020_3d3a03",
+    "U. S. Geological Survey, 2021": "usgs2021_e859f3",
+    "Vito, 2008": "vito2008_026a72",
+    "Wang et al., 2024": "wang2024_112661",
+    "Zheng et al., 2019": "zheng2019_9520c4",
+    "Winsen, 2021a": "winsen2021_36e9d6",
+    "Winsen, 2021b": "winsen2021_174511",
+    "Winsen, 2021c": "winsen2021_dd85bc"
+  },
+  "exceptions": [],
+  "references_tex_sha256": "55168ff17cbaf27d4bd4efd7539df64b0b6530293b3d21d133e7f1b577375e11"
+}

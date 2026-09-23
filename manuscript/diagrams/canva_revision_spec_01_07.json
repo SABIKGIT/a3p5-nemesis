@@ -1,0 +1,866 @@
+{
+  "schema_version": "1.0",
+  "scope": "Canva-native revision specification for diagram IDs01-07 only",
+  "source_figure_mapping": "qa/build_manifest.json",
+  "source_manifest_sha256": "e7eb2df902fb3fd216ca7c8b9c76f44fedc39f06376b38c97698a96e24aeba93",
+  "layout_contract": {
+    "grid": "2 rows x3 columns",
+    "node_body": "At most20 words and90 characters, wrapped to at most4 lines; supplied body lines fit40px Arial within465px. Titles at most38 characters, allow2 lines.",
+    "header": "Render page_header inside Canva as the figure number and name.",
+    "legend": "Render only the listed types inside the Canva page below the diagram. The legend must show the actual line and arrowhead style used for that type.",
+    "connections": "All edges are directed. Separate lines for opposing or differently typed edges; a crossing without a junction dot is not a connection.",
+    "status_footer": "Proposed functional architecture; hardware and calibration require verification.",
+    "canvas": "1860 x1200 pixels; node and legend body text40px-equivalent."
+  },
+  "diagrams": [
+    {
+      "diagram_id": "01",
+      "manuscript_figure_number": 8,
+      "figure_title": "System control architecture",
+      "page_header": "Figure 8. System control architecture",
+      "subtitle": "Proposed functional architecture",
+      "nodes": [
+        {
+          "id": "sensors",
+          "title": "Environmental sensors",
+          "body": "Gas, particles, UV, water\nRaw signals + validity",
+          "row": 1,
+          "column": 1,
+          "status": "reported_inventory_interfaces_unverified"
+        },
+        {
+          "id": "mega",
+          "title": "Arduino Mega",
+          "body": "Acquisition + bounded\ncontrol\nWatchdog + hardware\nstate",
+          "row": 1,
+          "column": 2,
+          "status": "reported_controller_proposed_software"
+        },
+        {
+          "id": "actuators",
+          "title": "Actuation and protection",
+          "body": "4 drive + 4 steering + arm\nHardware inhibit priority",
+          "row": 1,
+          "column": 3,
+          "status": "reported_mechanics_proposed_protection"
+        },
+        {
+          "id": "companion",
+          "title": "Computer [proposed]",
+          "body": "Localization + planning\nCalibration + bounded\nrequests",
+          "row": 2,
+          "column": 1,
+          "status": "proposed_function"
+        },
+        {
+          "id": "comms",
+          "title": "ESP32 / NodeMCU",
+          "body": "Local network + telemetry\nVoltage-compatible\ninterface",
+          "row": 2,
+          "column": 2,
+          "status": "reported_communication_role"
+        },
+        {
+          "id": "operator",
+          "title": "Operator dashboard",
+          "body": "Mode requests + mission\nchoice\nHealth, map and sensor\ntrends",
+          "row": 2,
+          "column": 3,
+          "status": "proposed_function"
+        }
+      ],
+      "edges": [
+        {
+          "from": "sensors",
+          "to": "mega",
+          "type": "data",
+          "label": "Raw measurements"
+        },
+        {
+          "from": "mega",
+          "to": "actuators",
+          "type": "control",
+          "label": "Actuator targets"
+        },
+        {
+          "from": "actuators",
+          "to": "mega",
+          "type": "feedback",
+          "label": "State sensing [proposed]",
+          "status": "proposed_feedback_hardware"
+        },
+        {
+          "from": "mega",
+          "to": "companion",
+          "type": "data",
+          "label": "Measurements + state"
+        },
+        {
+          "from": "companion",
+          "to": "mega",
+          "type": "control",
+          "label": "Bounded motion requests"
+        },
+        {
+          "from": "mega",
+          "to": "comms",
+          "type": "data",
+          "label": "State + telemetry"
+        },
+        {
+          "from": "comms",
+          "to": "mega",
+          "type": "control",
+          "label": "Operator requests"
+        },
+        {
+          "from": "comms",
+          "to": "operator",
+          "type": "data",
+          "label": "Telemetry + status"
+        },
+        {
+          "from": "operator",
+          "to": "comms",
+          "type": "control",
+          "label": "Mode + mission requests"
+        }
+      ],
+      "legend": [
+        {
+          "type": "data",
+          "meaning": "Measurement or data record"
+        },
+        {
+          "type": "control",
+          "meaning": "Command or inhibit request"
+        },
+        {
+          "type": "feedback",
+          "meaning": "Measured state returned to control"
+        }
+      ],
+      "caption_semantics": "Proposed partition of sensing, low-level control, communications, operator supervision and optional high-level computation. Every actuator request terminates at the low-level controller; sensing feedback and autonomous computation require implementation and verification.",
+      "limitations": [
+        "Reported devices do not establish validated interfaces, feedback or autonomy.",
+        "Actuator feedback denotes proposed angle, speed, joint/current measurements.",
+        "Hardware interruption is represented within the actuation/protection block; its circuit is specified separately.",
+        "The page shows selected functional interfaces, not an exhaustive network topology or wiring schematic."
+      ],
+      "routing_notes": [
+        "Use a two-row three-column grid in the specified positions.",
+        "Draw each opposing data/control or control/feedback pair as two offset directed lines, not one ambiguous bidirectional arrow.",
+        "Route Mega-to-companion diagonal connections through separate left-side/row-gap lanes.",
+        "Operator commands return through communications and Mega; do not draw a dashboard-to-actuator bypass."
+      ]
+    },
+    {
+      "diagram_id": "02",
+      "manuscript_figure_number": 28,
+      "figure_title": "Protected power distribution",
+      "page_header": "Figure 28. Protected power distribution",
+      "subtitle": "Proposed functional architecture",
+      "nodes": [
+        {
+          "id": "battery",
+          "title": "3S LiPo battery",
+          "body": "11.1 V nominal\nCapacity unverified",
+          "row": 1,
+          "column": 1,
+          "status": "reported_supply_unmeasured_capacity"
+        },
+        {
+          "id": "protection",
+          "title": "Input protection",
+          "body": "Fuse + polarity protection\nService disconnect",
+          "row": 1,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "motors",
+          "title": "Drive-motor branch",
+          "body": "Emergency energy\ninterruption\nDrivers + four geared\nmotors",
+          "row": 1,
+          "column": 3,
+          "status": "proposed_function"
+        },
+        {
+          "id": "sensors",
+          "title": "Sensor power branch",
+          "body": "Filtered rails + analog\nreturns\nVariant-specific heater\ndrive",
+          "row": 2,
+          "column": 1,
+          "status": "proposed_function"
+        },
+        {
+          "id": "logic",
+          "title": "Logic power branch",
+          "body": "Controller +\ncommunications\nRegulated device supply\nrails",
+          "row": 2,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "steering_arm",
+          "title": "Steering and arm supply",
+          "body": "Dedicated regulated\nsupply\nRate for transient loads",
+          "row": 2,
+          "column": 3,
+          "status": "proposed_function"
+        }
+      ],
+      "edges": [
+        {
+          "from": "battery",
+          "to": "protection",
+          "type": "power",
+          "label": "Battery supply"
+        },
+        {
+          "from": "protection",
+          "to": "motors",
+          "type": "power",
+          "label": "Protected drive feed"
+        },
+        {
+          "from": "protection",
+          "to": "sensors",
+          "type": "power",
+          "label": "Protected sensor feed"
+        },
+        {
+          "from": "protection",
+          "to": "logic",
+          "type": "power",
+          "label": "Protected logic feed"
+        },
+        {
+          "from": "protection",
+          "to": "steering_arm",
+          "type": "power",
+          "label": "Protected actuator feed"
+        }
+      ],
+      "legend": [
+        {
+          "type": "power",
+          "meaning": "Electrical power supply"
+        }
+      ],
+      "caption_semantics": "Proposed protected distribution with four parallel load branches. Branch regulation, conductor ratings and protective-device selection require identified hardware and measured loads.",
+      "limitations": [
+        "Motor, sensor, logic and steering/arm branches are parallel loads, not a series chain.",
+        "Supply returns and connector pinouts are omitted from this functional diagram.",
+        "A proposed companion computer requires its own correctly rated supply within the logic branch.",
+        "Motor energy interruption does not imply that removing arm power is safe; holding/parking is addressed by the protective-state design."
+      ],
+      "routing_notes": [
+        "Place a common protected-distribution spine in the gap between rows and connect each lower branch to it.",
+        "Use filled junction dots only where branches join that supply spine.",
+        "Draw no motor-to-arm, arm-to-logic or logic-to-sensor power arrow.",
+        "The single legend entry is electrical power supply."
+      ]
+    },
+    {
+      "diagram_id": "03",
+      "manuscript_figure_number": 9,
+      "figure_title": "Four-wheel command allocation",
+      "page_header": "Figure 9. Four-wheel command allocation",
+      "subtitle": "Proposed functional architecture",
+      "nodes": [
+        {
+          "id": "request",
+          "title": "Requested body motion",
+          "body": "Forward + lateral velocity\nYaw rate + permitted\nmode",
+          "row": 1,
+          "column": 1,
+          "status": "proposed_function"
+        },
+        {
+          "id": "arbiter",
+          "title": "Command arbiter",
+          "body": "One active command\nsource\nSpeed + acceleration\nlimits",
+          "row": 1,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "kinematics",
+          "title": "Wheel kinematics",
+          "body": "Body twist to wheel\nvelocity\nAngle + rolling-speed\ntargets",
+          "row": 1,
+          "column": 3,
+          "status": "proposed_function"
+        },
+        {
+          "id": "feedback",
+          "title": "Feedback [proposed]",
+          "body": "Angle + encoder + current\nMeasured state and\nhealth",
+          "row": 2,
+          "column": 1,
+          "status": "proposed_function"
+        },
+        {
+          "id": "channels",
+          "title": "Four actuator channels",
+          "body": "Steering and drive loops\nSynchronized target\nupdates",
+          "row": 2,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "limits",
+          "title": "Steering constraints",
+          "body": "Angle + rate + cable limits\nReverse rolling if feasible",
+          "row": 2,
+          "column": 3,
+          "status": "proposed_function"
+        }
+      ],
+      "edges": [
+        {
+          "from": "request",
+          "to": "arbiter",
+          "type": "control",
+          "label": "Body-motion request"
+        },
+        {
+          "from": "arbiter",
+          "to": "kinematics",
+          "type": "control",
+          "label": "Accepted body twist"
+        },
+        {
+          "from": "kinematics",
+          "to": "limits",
+          "type": "control",
+          "label": "Wheel targets"
+        },
+        {
+          "from": "limits",
+          "to": "channels",
+          "type": "control",
+          "label": "Feasible setpoints"
+        },
+        {
+          "from": "feedback",
+          "to": "channels",
+          "type": "feedback",
+          "label": "Angle + wheel speed"
+        },
+        {
+          "from": "feedback",
+          "to": "limits",
+          "type": "feedback",
+          "label": "Measured steering state"
+        },
+        {
+          "from": "feedback",
+          "to": "arbiter",
+          "type": "feedback",
+          "label": "Health + tracking status"
+        }
+      ],
+      "legend": [
+        {
+          "type": "control",
+          "meaning": "Command or inhibit request"
+        },
+        {
+          "type": "feedback",
+          "meaning": "Measured state returned to control"
+        }
+      ],
+      "caption_semantics": "Proposed allocation of a permitted body-motion request to four steering and wheel-speed channels. Measured-state returns close the channel loops and inform feasibility and command restrictions.",
+      "limitations": [
+        "Feedback hardware and closed-loop tracking have not been verified on the photographed rover.",
+        "The kinematic relation assumes locally planar, rigid-body rolling.",
+        "Equivalent reversed wheel rotation is allowed only within identified steering and cable limits.",
+        "No unrestricted steering, point-turn capability or measured path accuracy is claimed."
+      ],
+      "routing_notes": [
+        "Keep the top-row command path left-to-right and continue from kinematics down to limits and left to actuator channels.",
+        "Feedback is a measurement source; its directed return arrows must terminate at channels, limits and arbiter.",
+        "Route the feedback-to-limits connection below the lower row so it does not pass through the actuator block.",
+        "Use distinct control and feedback line styles."
+      ]
+    },
+    {
+      "diagram_id": "04",
+      "manuscript_figure_number": 11,
+      "figure_title": "Drive control and traction monitoring",
+      "page_header": "Figure 11. Drive control and traction monitoring",
+      "subtitle": "Proposed functional architecture",
+      "nodes": [
+        {
+          "id": "target",
+          "title": "Wheel-speed target",
+          "body": "Kinematic allocator output\nRamp-limited reference",
+          "row": 1,
+          "column": 1,
+          "status": "proposed_function"
+        },
+        {
+          "id": "controller",
+          "title": "PI speed control",
+          "body": "Encoder-speed tracking\nSaturation + anti-windup",
+          "row": 1,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "drive",
+          "title": "Driver and gearbox",
+          "body": "PWM + direction\nCurrent-limited drive",
+          "row": 1,
+          "column": 3,
+          "status": "proposed_function"
+        },
+        {
+          "id": "protection",
+          "title": "Protective response",
+          "body": "Derate or request stop\nLog suspected stall or slip",
+          "row": 2,
+          "column": 1,
+          "status": "proposed_function"
+        },
+        {
+          "id": "checks",
+          "title": "State checks [proposed]",
+          "body": "Encoder + current\nIndependent body velocity\nCheck motion consistency",
+          "row": 2,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "contact",
+          "title": "Wheel-ground contact",
+          "body": "Normal load, slope,\nsurface\nSlip changes realized\nmotion",
+          "row": 2,
+          "column": 3,
+          "status": "physical_interaction_unmeasured"
+        }
+      ],
+      "edges": [
+        {
+          "from": "target",
+          "to": "controller",
+          "type": "control",
+          "label": "Speed reference"
+        },
+        {
+          "from": "controller",
+          "to": "drive",
+          "type": "control",
+          "label": "PWM + direction"
+        },
+        {
+          "from": "drive",
+          "to": "contact",
+          "type": "physical",
+          "label": "Wheel torque and motion"
+        },
+        {
+          "from": "contact",
+          "to": "checks",
+          "type": "feedback",
+          "label": "Wheel/body motion sensing"
+        },
+        {
+          "from": "drive",
+          "to": "checks",
+          "type": "feedback",
+          "label": "Current + drive state"
+        },
+        {
+          "from": "checks",
+          "to": "controller",
+          "type": "feedback",
+          "label": "Encoder speed"
+        },
+        {
+          "from": "checks",
+          "to": "protection",
+          "type": "data",
+          "label": "Health + inconsistency"
+        },
+        {
+          "from": "protection",
+          "to": "controller",
+          "type": "control",
+          "label": "Derate or stop request"
+        }
+      ],
+      "legend": [
+        {
+          "type": "control",
+          "meaning": "Command or inhibit request"
+        },
+        {
+          "type": "physical",
+          "meaning": "Physical transfer or interaction"
+        },
+        {
+          "type": "feedback",
+          "meaning": "Measured state returned to control"
+        },
+        {
+          "type": "data",
+          "meaning": "Measurement or data record"
+        }
+      ],
+      "caption_semantics": "Proposed wheel-speed feedback and supervisory traction monitoring. Encoder speed returns to the PI loop; independent motion and electrical checks can request derating or stopping.",
+      "limitations": [
+        "The diagram represents proposed control and sensing, not validated installed feedback.",
+        "A tracking residual alone is not a direct slip measurement.",
+        "Independent body velocity must not be inferred solely from the same wheel encoders used in the comparison.",
+        "Protective response here is supervisory control; the independently defined emergency energy-interruption circuit is separate."
+      ],
+      "routing_notes": [
+        "Place a visible checks-to-PI feedback return up the middle column.",
+        "Route the protective-response-to-PI command through an outer left lane.",
+        "Mechanical torque/motion from drive to contact uses physical-transfer styling, not electrical-supply styling.",
+        "Do not leave the PI block as an open chain without its encoder-speed return."
+      ]
+    },
+    {
+      "diagram_id": "05",
+      "manuscript_figure_number": 19,
+      "figure_title": "Gas acquisition and calibration",
+      "page_header": "Figure 19. Gas acquisition and calibration",
+      "subtitle": "Proposed functional architecture",
+      "nodes": [
+        {
+          "id": "mq",
+          "title": "MQ gas channels",
+          "body": "MQ-4 / MQ-7 / MQ-135\nVerify exact sensor\nvariants",
+          "row": 1,
+          "column": 1,
+          "status": "reported_inventory_variant_unverified"
+        },
+        {
+          "id": "conditioning",
+          "title": "Conditioning and heaters",
+          "body": "Divider + stable ADC\nreference\nVariant-specific heater\ndrive",
+          "row": 1,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "acquisition",
+          "title": "Raw acquisition",
+          "body": "ADC + phase +\ntimestamp\nWarm-up and range flags",
+          "row": 1,
+          "column": 3,
+          "status": "proposed_function"
+        },
+        {
+          "id": "context",
+          "title": "Environmental context",
+          "body": "Temperature + RH\n[proposed]\nAirflow, age and motion",
+          "row": 2,
+          "column": 1,
+          "status": "proposed_function"
+        },
+        {
+          "id": "calibration",
+          "title": "Calibration [proposed]",
+          "body": "Reference co-location\nDrift + domain checks\nRetain raw observations",
+          "row": 2,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "output",
+          "title": "Operator output",
+          "body": "Raw indicator or valid\nestimate\nStatus + persistent alerts",
+          "row": 2,
+          "column": 3,
+          "status": "proposed_function"
+        }
+      ],
+      "edges": [
+        {
+          "from": "mq",
+          "to": "conditioning",
+          "type": "data",
+          "label": "Resistive sensor response"
+        },
+        {
+          "from": "conditioning",
+          "to": "mq",
+          "type": "power",
+          "label": "Variant-rated heater drive"
+        },
+        {
+          "from": "conditioning",
+          "to": "acquisition",
+          "type": "data",
+          "label": "Voltage + heater phase"
+        },
+        {
+          "from": "acquisition",
+          "to": "calibration",
+          "type": "data",
+          "label": "Raw values + validity"
+        },
+        {
+          "from": "context",
+          "to": "calibration",
+          "type": "data",
+          "label": "Environmental covariates"
+        },
+        {
+          "from": "calibration",
+          "to": "output",
+          "type": "data",
+          "label": "Indicator or checked estimate"
+        }
+      ],
+      "legend": [
+        {
+          "type": "data",
+          "meaning": "Measurement or data record"
+        },
+        {
+          "type": "power",
+          "meaning": "Electrical power supply"
+        }
+      ],
+      "caption_semantics": "Proposed gas-measurement architecture linking identified MQ variants, heater-aware acquisition, environmental covariates and reference-based calibration. Outputs retain calibration and validity status.",
+      "limitations": [
+        "An exact MQ variant must be identified before selecting heater voltage and timing.",
+        "MQ channels are not assumed chemically selective or calibrated on the rover.",
+        "Environmental context is an independent calibration input, not the output of the ADC stage.",
+        "Invalid or out-of-domain conditions require status flags; no supported concentration is inferred from an uncalibrated response."
+      ],
+      "routing_notes": [
+        "Use separate opposing lines between MQ channels and conditioning: measurement data forward, heater power backward.",
+        "Acquisition and environmental context independently feed calibration.",
+        "Route acquisition-to-calibration through the inter-row gap; do not imply that acquisition creates temperature or humidity measurements.",
+        "The data legend includes analog measurements and their associated digital records."
+      ]
+    },
+    {
+      "diagram_id": "06",
+      "manuscript_figure_number": 20,
+      "figure_title": "Particulate acquisition and calibration",
+      "page_header": "Figure 20. Particulate acquisition and calibration",
+      "subtitle": "Proposed functional architecture",
+      "nodes": [
+        {
+          "id": "inlet",
+          "title": "Representative air inlet",
+          "body": "Clear intake and exhaust\npaths\nSeparate wheel dust and\nheat",
+          "row": 1,
+          "column": 1,
+          "status": "proposed_function"
+        },
+        {
+          "id": "pms",
+          "title": "PMS7003 channel",
+          "body": "Optical particle response\nPM1, PM2.5 and PM10\nchannels",
+          "row": 1,
+          "column": 2,
+          "status": "reported_sensor_identity_unverified_interface"
+        },
+        {
+          "id": "validation",
+          "title": "Serial-data validation",
+          "body": "Frame length + checksum\nWarm-up and range\nchecks",
+          "row": 1,
+          "column": 3,
+          "status": "proposed_function"
+        },
+        {
+          "id": "map",
+          "title": "Map and log [proposed]",
+          "body": "Pose + time + uncertainty\nKeep raw measurements\nStationary comparison",
+          "row": 2,
+          "column": 1,
+          "status": "proposed_function"
+        },
+        {
+          "id": "calibration",
+          "title": "Calibration [proposed]",
+          "body": "Reference co-location\nTime-blocked validation\nVersioned correction",
+          "row": 2,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "context",
+          "title": "Environmental context",
+          "body": "Temperature + RH\n[proposed]\nMotion and condensation\nflags",
+          "row": 2,
+          "column": 3,
+          "status": "proposed_function"
+        }
+      ],
+      "edges": [
+        {
+          "from": "inlet",
+          "to": "pms",
+          "type": "physical",
+          "label": "Sampled airflow"
+        },
+        {
+          "from": "pms",
+          "to": "validation",
+          "type": "data",
+          "label": "Reported particle channels"
+        },
+        {
+          "from": "validation",
+          "to": "calibration",
+          "type": "data",
+          "label": "Values + validity + time"
+        },
+        {
+          "from": "context",
+          "to": "calibration",
+          "type": "data",
+          "label": "Environmental covariates"
+        },
+        {
+          "from": "calibration",
+          "to": "map",
+          "type": "data",
+          "label": "Raw + adjusted records"
+        }
+      ],
+      "legend": [
+        {
+          "type": "physical",
+          "meaning": "Physical transfer or interaction"
+        },
+        {
+          "type": "data",
+          "meaning": "Measurement or data record"
+        }
+      ],
+      "caption_semantics": "Proposed particulate-measurement chain combining representative airflow, device-level checks and independently acquired environmental covariates. Correction and mapping require reference validation, time alignment and pose information.",
+      "limitations": [
+        "PMS7003 channel names are reported outputs, not proof of calibrated mass concentration.",
+        "Humidity sensing and mapping are proposed additions.",
+        "Reference co-location and temporal validation are required before assigning a correction.",
+        "Raw measurements and quality flags remain available beside adjusted values."
+      ],
+      "routing_notes": [
+        "The inlet-to-sensor arrow is a physical airflow path; all later arrows carry data.",
+        "Validation and environmental context converge independently on calibration.",
+        "Draw no serial-validation-to-context arrow.",
+        "Use separate inter-row lanes for validation-to-calibration and context-to-calibration so every arrowhead is visible."
+      ]
+    },
+    {
+      "diagram_id": "07",
+      "manuscript_figure_number": 27,
+      "figure_title": "UV and atmospheric measurements",
+      "page_header": "Figure 27. UV and atmospheric measurements",
+      "subtitle": "Proposed functional architecture",
+      "nodes": [
+        {
+          "id": "guva",
+          "title": "GUVA UV channel",
+          "body": "Identify board and\norientation\nPhotodiode + amplifier",
+          "row": 1,
+          "column": 1,
+          "status": "reported_sensor_identifier_board_unverified"
+        },
+        {
+          "id": "uv",
+          "title": "UV conditioning",
+          "body": "Measured ADC reference\nOptical/spectral\ncalibration",
+          "row": 1,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "quality",
+          "title": "Quality checks",
+          "body": "Range, saturation,\nself-heating\nOrientation + time\nalignment",
+          "row": 1,
+          "column": 3,
+          "status": "proposed_function"
+        },
+        {
+          "id": "bmp",
+          "title": "BMP180 channel",
+          "body": "Pressure + temperature\nNo relative humidity",
+          "row": 2,
+          "column": 1,
+          "status": "reported_sensor"
+        },
+        {
+          "id": "pressure",
+          "title": "Pressure processing",
+          "body": "Device compensation\nWeather-sensitive altitude",
+          "row": 2,
+          "column": 2,
+          "status": "proposed_function"
+        },
+        {
+          "id": "log",
+          "title": "Dashboard and log",
+          "body": "Units + time + calibration\nstate\nUV index needs valid\nconversion",
+          "row": 2,
+          "column": 3,
+          "status": "proposed_function"
+        }
+      ],
+      "edges": [
+        {
+          "from": "guva",
+          "to": "uv",
+          "type": "data",
+          "label": "Analog UV response"
+        },
+        {
+          "from": "uv",
+          "to": "quality",
+          "type": "data",
+          "label": "Conditioned UV estimate"
+        },
+        {
+          "from": "bmp",
+          "to": "pressure",
+          "type": "data",
+          "label": "Pressure + temperature"
+        },
+        {
+          "from": "pressure",
+          "to": "quality",
+          "type": "data",
+          "label": "Compensated observations"
+        },
+        {
+          "from": "quality",
+          "to": "log",
+          "type": "data",
+          "label": "Values + validity flags"
+        }
+      ],
+      "legend": [
+        {
+          "type": "data",
+          "meaning": "Measurement or data record"
+        }
+      ],
+      "caption_semantics": "Parallel ultraviolet and pressure/temperature measurement paths converge at quality checks and logging. UV conversion depends on board identification and optical calibration; the BMP180 has no humidity channel.",
+      "limitations": [
+        "UV conditioning and BMP180 are separate measurement paths.",
+        "GUVA identity alone does not establish irradiance or ultraviolet-index calibration.",
+        "BMP180 temperature can be affected by board heating.",
+        "Pressure-derived altitude depends on atmospheric conditions and is not an independent terrain-height measurement."
+      ],
+      "routing_notes": [
+        "Keep GUVA-to-UV-conditioning across the top-left pair and BMP180-to-pressure-processing across the bottom-left pair.",
+        "Merge both paths at quality checks, then connect quality checks to logging.",
+        "Route pressure-processing-to-quality-checks through the inter-row gap.",
+        "Do not connect UV conditioning to BMP180 as if one drives the other."
+      ]
+    }
+  ]
+}

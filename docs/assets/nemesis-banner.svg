@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">A3P5 NEMESIS — a reproducible rover design study</title>
+  <desc id="desc">Dark blue project banner with cyan lettering and an abstract four-wheel rover schematic.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101e2b"/><stop offset="1" stop-color="#060e18"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 L 0 0 0 28" fill="none" stroke="#203340" stroke-width="0.6"/></pattern>
+  </defs>
+  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#grid)" opacity="0.55"/>
+  <path d="M0 278H1200" stroke="#48d6d2" stroke-width="4"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="52" y="55" fill="#64ded9" font-size="20" font-weight="700" letter-spacing="8">A3P5</text>
+    <text x="48" y="139" fill="#f2f6fa" font-size="78" font-weight="800" letter-spacing="5">NEMESIS</text>
+    <text x="52" y="180" fill="#b8cbd7" font-size="20">Environmental reconnaissance &amp; robotic sampling</text>
+    <path d="M52 207H690" stroke="#344d60"/>
+    <text x="52" y="239" fill="#64ded9" font-size="13" font-weight="600" letter-spacing="2">DESIGN</text>
+    <text x="165" y="239" fill="#708a9b" font-size="13">/</text>
+    <text x="198" y="239" fill="#64ded9" font-size="13" font-weight="600" letter-spacing="2">ANALYSIS</text>
+    <text x="338" y="239" fill="#708a9b" font-size="13">/</text>
+    <text x="373" y="239" fill="#64ded9" font-size="13" font-weight="600" letter-spacing="2">REPRODUCIBILITY</text>
+    <text x="1138" y="249" text-anchor="end" fill="#a0b6c5" font-size="12" letter-spacing="2">arXiv:2609.18245</text>
+  </g>
+  <g transform="translate(956 130)" fill="none">
+    <circle r="100" stroke="#27485b" stroke-dasharray="4 7"/>
+    <circle r="79" stroke="#244757"/>
+    <path d="M-102 -26 A105 105 0 0 1 49 -93" stroke="#48d6d2" stroke-width="3"/>
+    <path d="M-56 76 A94 94 0 0 0 88 33" stroke="#f3bc6b" stroke-width="3"/>
+    <path d="M0 -112V-82 M0 82V112 M-112 0H-82 M82 0H112" stroke="#466172"/>
+    <rect x="-34" y="-53" width="68" height="105" rx="8" fill="#152d3c" stroke="#64ded9" stroke-width="2"/>
+    <path d="M-22 -39H22V38H-22Z M-34 -32H-52 M34 -32H52 M-34 32H-52 M34 32H52" stroke="#6ab2be"/>
+    <g fill="#1f3948" stroke="#7a9fb0" stroke-width="2">
+      <rect x="-61" y="-47" width="17" height="31" rx="5"/>
+      <rect x="44" y="-47" width="17" height="31" rx="5"/>
+      <rect x="-61" y="17" width="17" height="31" rx="5"/>
+      <rect x="44" y="17" width="17" height="31" rx="5"/>
+    </g>
+    <path d="M0 26L15 5L-4 -15L10 -30" stroke="#f3bc6b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle r="4" cx="15" cy="5" fill="#f3bc6b"/>
+    <circle r="4" cx="-4" cy="-15" fill="#f3bc6b"/>
+  </g>
+</svg>

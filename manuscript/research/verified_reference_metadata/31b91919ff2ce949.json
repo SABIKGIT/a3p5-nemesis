@@ -1,0 +1,136 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T10:13:57Z",
+    "timestamp": 1789467237301,
+    "version": "build-2803163510"
+  },
+  "reference-count": 21,
+  "publisher": "Informa UK Limited",
+  "issue": "1",
+  "short-container-title": [
+    "Technometrics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1970,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1080/00401706.1970.10488634",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2012,
+        4,
+        9
+      ]
+    ],
+    "date-time": "2012-04-09T12:21:19Z",
+    "timestamp": 1333974079000
+  },
+  "page": "55-67",
+  "is-referenced-by-count": 13100,
+  "title": [
+    "Ridge Regression: Biased Estimation for Nonorthogonal Problems"
+  ],
+  "volume": "12",
+  "author": [
+    {
+      "given": "Arthur E.",
+      "family": "Hoerl",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Robert W.",
+      "family": "Kennard",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2012,
+        4,
+        9
+      ]
+    ]
+  },
+  "container-title": [
+    "Technometrics"
+  ],
+  "link": [
+    {
+      "URL": "https://www.tandfonline.com/doi/pdf/10.1080/00401706.1970.10488634",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        5
+      ]
+    ],
+    "date-time": "2026-03-05T12:21:56Z",
+    "timestamp": 1772713316000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        1970,
+        2
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1080/00401706.1970.10488634",
+  "ISSN": [
+    "0040-1706",
+    "1537-2723"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        1970,
+        2
+      ]
+    ]
+  },
+  "original_response_sha256": "1b6cc5fa1369076bcee3545527559fcf4df3d089ac0b7050c5183ce6cddd7bbc"
+}

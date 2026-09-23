@@ -1,0 +1,195 @@
+{
+  "body_word_count_including_headings_and_citations": 1793,
+  "cited_unique_sources": 37,
+  "unresolved_citation_placeholders": 0,
+  "attribution_method": "Conservative: each entire cited paragraph, including Nemesis-specific interpretation, is counted against every distinct source cited in that paragraph. Bibliographic citation text is included.",
+  "maximum_conservative_words_per_source": 100,
+  "source_limit": 200,
+  "cited_sources": [
+    {
+      "key": "alexander1989_c3c6fd",
+      "citation": "Alexander and Maddocks, 1989",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "barkjohn2021_7ba5aa",
+      "citation": "Barkjohn et al., 2021",
+      "conservative_paragraph_word_count": 99
+    },
+    {
+      "key": "boschsensortec2013_0d84c1",
+      "citation": "Bosch Sensortec, 2013",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "breiman2001_75dc04",
+      "citation": "Breiman, 2001",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "bthory2022_c26801",
+      "citation": "Báthory et al., 2022",
+      "conservative_paragraph_word_count": 99
+    },
+    {
+      "key": "campos2021_973bd6",
+      "citation": "Campos et al., 2021",
+      "conservative_paragraph_word_count": 91
+    },
+    {
+      "key": "concas2021_57ba0a",
+      "citation": "Concas et al., 2021",
+      "conservative_paragraph_word_count": 95
+    },
+    {
+      "key": "devito2008_1548b8",
+      "citation": "De Vito et al., 2008",
+      "conservative_paragraph_word_count": 90
+    },
+    {
+      "key": "francis2022_99d7b7",
+      "citation": "Francis et al., 2022",
+      "conservative_paragraph_word_count": 95
+    },
+    {
+      "key": "gongora2023_ca6a1d",
+      "citation": "Gongora et al., 2023",
+      "conservative_paragraph_word_count": 84
+    },
+    {
+      "key": "habibian2021_bdac2f",
+      "citation": "Habibian et al., 2021",
+      "conservative_paragraph_word_count": 92
+    },
+    {
+      "key": "hoerl1970_31b919",
+      "citation": "Hoerl and Kennard, 1970",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "iagnemma2004_9f7418",
+      "citation": "Iagnemma and Dubowsky, 2004",
+      "conservative_paragraph_word_count": 90
+    },
+    {
+      "key": "jayaratne2018_d2f9d3",
+      "citation": "Jayaratne et al., 2018",
+      "conservative_paragraph_word_count": 89
+    },
+    {
+      "key": "kapoor2023_8dd715",
+      "citation": "Kapoor and Narayanan, 2023",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "labb2019_d34c3f",
+      "citation": "Labbé and Michaud, 2019",
+      "conservative_paragraph_word_count": 91
+    },
+    {
+      "key": "lee2015_5bfa55",
+      "citation": "Lee and Li, 2015",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "liu2012_0ef0af",
+      "citation": "Liu et al., 2012",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "melo2019_023727",
+      "citation": "Melo et al., 2019",
+      "conservative_paragraph_word_count": 86
+    },
+    {
+      "key": "mohamed2025_7d0710",
+      "citation": "Mohamed et al., 2025",
+      "conservative_paragraph_word_count": 84
+    },
+    {
+      "key": "monroy2017_e93884",
+      "citation": "Monroy et al., 2017",
+      "conservative_paragraph_word_count": 94
+    },
+    {
+      "key": "nist2026_a8b13c",
+      "citation": "NIST, 2026",
+      "conservative_paragraph_word_count": 99
+    },
+    {
+      "key": "ojeda2023_b7b9b6",
+      "citation": "Ojeda et al., 2023",
+      "conservative_paragraph_word_count": 94
+    },
+    {
+      "key": "papadopoulos1996_3a8aa9",
+      "citation": "Papadopoulos and Rey, 1996",
+      "conservative_paragraph_word_count": 90
+    },
+    {
+      "key": "patel2024_4264a8",
+      "citation": "Patel et al., 2024",
+      "conservative_paragraph_word_count": 99
+    },
+    {
+      "key": "rasmussen2006_5c445c",
+      "citation": "Rasmussen and Williams, 2006",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "reina2010_3d6119",
+      "citation": "Reina and Foglia, 2010",
+      "conservative_paragraph_word_count": 89
+    },
+    {
+      "key": "roberts2017_8ac43f",
+      "citation": "Roberts et al., 2017",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "saputra2021_e81c43",
+      "citation": "Saputra et al., 2021",
+      "conservative_paragraph_word_count": 92
+    },
+    {
+      "key": "trevathan2020_3d3a03",
+      "citation": "Trevathan et al., 2020",
+      "conservative_paragraph_word_count": 100
+    },
+    {
+      "key": "usgs2021_e859f3",
+      "citation": "U. S. Geological Survey, 2021",
+      "conservative_paragraph_word_count": 100
+    },
+    {
+      "key": "vito2008_026a72",
+      "citation": "Vito, 2008",
+      "conservative_paragraph_word_count": 90
+    },
+    {
+      "key": "wang2024_112661",
+      "citation": "Wang et al., 2024",
+      "conservative_paragraph_word_count": 100
+    },
+    {
+      "key": "winsen2021_174511",
+      "citation": "Winsen, 2021b",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "winsen2021_36e9d6",
+      "citation": "Winsen, 2021a",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "winsen2021_dd85bc",
+      "citation": "Winsen, 2021c",
+      "conservative_paragraph_word_count": 96
+    },
+    {
+      "key": "zheng2019_9520c4",
+      "citation": "Zheng et al., 2019",
+      "conservative_paragraph_word_count": 89
+    }
+  ]
+}

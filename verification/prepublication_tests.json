@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tests_run": 23,
+  "tests_passed": 23,
+  "tests_skipped": [],
+  "failures": [],
+  "errors": [],
+  "elapsed_seconds": 27.633,
+  "python": "3.12.14",
+  "modes": {
+    "models": true,
+    "refit": true,
+    "regenerate_engineering": true
+  },
+  "scope": "Analytical scenario and historical external-data reproducibility; no physical rover experiments."
+}

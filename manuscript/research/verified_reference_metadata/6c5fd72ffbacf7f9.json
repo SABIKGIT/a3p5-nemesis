@@ -1,0 +1,291 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        6
+      ]
+    ],
+    "date-time": "2026-09-06T13:05:16Z",
+    "timestamp": 1788699916322,
+    "version": "build-2803163510"
+  },
+  "reference-count": 173,
+  "publisher": "MDPI AG",
+  "issue": "23",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            11,
+            29
+          ]
+        ],
+        "date-time": "2020-11-29T00:00:00Z",
+        "timestamp": 1606608000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Sensors"
+  ],
+  "DOI": "10.3390/s20236819",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2020,
+        11,
+        29
+      ]
+    ],
+    "date-time": "2020-11-29T21:00:57Z",
+    "timestamp": 1606683657000
+  },
+  "page": "6819",
+  "is-referenced-by-count": 181,
+  "title": [
+    "A Review of Low-Cost Particulate Matter Sensors from the Developers’ Perspectives"
+  ],
+  "volume": "20",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-1091-4522",
+      "authenticated-orcid": false,
+      "given": "Brigida",
+      "family": "Alfano",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "ENEA CR-Portici, TERIN-FSD Department, P.le E. Fermi 1, 80055 Portici, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-7628-524X",
+      "authenticated-orcid": false,
+      "given": "Luigi",
+      "family": "Barretta",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Physics, University of Naples Federico II, via Cinthia, 80100 Napoli, Italy"
+        },
+        {
+          "name": "STmicroelectronics, via R. De Feo, Arzano, 80022 Napoli, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Antonio",
+      "family": "Del Giudice",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ENEA CR-Portici, TERIN-FSD Department, P.le E. Fermi 1, 80055 Portici, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0745-924X",
+      "authenticated-orcid": false,
+      "given": "Saverio",
+      "family": "De Vito",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ENEA CR-Portici, TERIN-FSD Department, P.le E. Fermi 1, 80055 Portici, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Girolamo",
+      "family": "Di Francia",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ENEA CR-Portici, TERIN-FSD Department, P.le E. Fermi 1, 80055 Portici, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Elena",
+      "family": "Esposito",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ENEA CR-Portici, TERIN-FSD Department, P.le E. Fermi 1, 80055 Portici, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Fabrizio",
+      "family": "Formisano",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ENEA CR-Portici, TERIN-FSD Department, P.le E. Fermi 1, 80055 Portici, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0613-9455",
+      "authenticated-orcid": false,
+      "given": "Ettore",
+      "family": "Massera",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ENEA CR-Portici, TERIN-FSD Department, P.le E. Fermi 1, 80055 Portici, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1951-7977",
+      "authenticated-orcid": false,
+      "given": "Maria Lucia",
+      "family": "Miglietta",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ENEA CR-Portici, TERIN-FSD Department, P.le E. Fermi 1, 80055 Portici, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-7482-2398",
+      "authenticated-orcid": false,
+      "given": "Tiziana",
+      "family": "Polichetti",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ENEA CR-Portici, TERIN-FSD Department, P.le E. Fermi 1, 80055 Portici, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2020,
+        11,
+        29
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/1424-8220/20/23/6819/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        8,
+        3
+      ]
+    ],
+    "date-time": "2025-08-03T13:40:11Z",
+    "timestamp": 1754228411000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        11,
+        29
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.3390/s20236819",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2020,
+        11,
+        29
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "f253fe5e0dcb7d6c92a24139dd72e4f2a01986e250ce525ae23d35aa31aa9c2d"
+}

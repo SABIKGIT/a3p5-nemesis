@@ -1,0 +1,36 @@
+{
+  "source_ids": [
+    "ADC01"
+  ],
+  "source_audits": [
+    {
+      "source_id": "ADC01",
+      "read_depth": "Official online application-note section read in full.",
+      "supports": "The 10-bit conversion scale is 1024; maximum code represents reference voltage minus one LSB.",
+      "limitations": "Supports the ideal conversion principle, not the accuracy of the unidentified rover front end."
+    }
+  ],
+  "source_files": [
+    "microchip_adc_source.json"
+  ],
+  "doi": null,
+  "title": "AN2537, Section 1.7: Conversion Result",
+  "authors": [
+    "Microchip Technology Inc."
+  ],
+  "year": null,
+  "venue": "Microchip online documentation",
+  "url": "https://onlinedocs.microchip.com/oxy/GUID-6178B82B-1DE0-484B-ACA5-153F78A78E41-en-US-1/GUID-0BF4C5AD-4ECB-479B-A0A9-E33CD8200A60.html",
+  "source_type": "official application note",
+  "author_label": "Microchip Technology",
+  "citation_year": "n.d.",
+  "key": "microchip_adc_an2537",
+  "citation_label": "Microchip Technology, n.d.",
+  "narrative_citation": "Microchip Technology (n.d.)",
+  "citation_text": "Microchip Technology. (n.d.). AN2537: Section 1.7 Conversion Result. https://onlinedocs.microchip.com/oxy/GUID-6178B82B-1DE0-484B-ACA5-153F78A78E41-en-US-1/GUID-0BF4C5AD-4ECB-479B-A0A9-E33CD8200A60.html",
+  "checked_date": "2026-09-15",
+  "metadata_verification": {
+    "status": "Official primary-source section verified",
+    "provider": "Microchip"
+  }
+}

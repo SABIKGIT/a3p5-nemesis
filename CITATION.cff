@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "Please cite these research materials and separately credit the external dataset and reused figures."
+type: software
+title: "A3P5 NEMESIS research materials and numerical verification"
+url: "https://github.com/SABIKGIT/a3p5-nemesis"
+repository-code: "https://github.com/SABIKGIT/a3p5-nemesis"
+authors:
+  - family-names: Sultan
+    given-names: Shafi Bin
+    affiliation: St. Joseph Higher Secondary School
+  - family-names: Sultan
+    given-names: Sabik Bin
+    affiliation: BAF Shaheen College Kurmitola
+  - family-names: Sadad
+    given-names: Safwan
+    affiliation: Greenland Residential School
+keywords:
+  - environmental robotics
+  - four wheel steering
+  - robotic sampling
+  - sensor calibration
+  - reproducible research
+preferred-citation:
+  type: unpublished
+  title: "A3P5 NEMESIS Integrated Rover Design for Environmental Reconnaissance and Robotic Sampling with Reproducible Mobility Analysis and an External Data Machine Learning Calibration Benchmark"
+  authors:
+    - family-names: Sultan
+      given-names: Shafi Bin
+    - family-names: Sultan
+      given-names: Sabik Bin
+    - family-names: Sadad
+      given-names: Safwan
+  year: 2026
+  month: 9
+  date-published: "2026-09-16"
+  url: "https://arxiv.org/abs/2609.18245"
+  identifiers:
+    - type: other
+      value: "arXiv:2609.18245"
+      description: "arXiv preprint identifier"
+  notes: "arXiv preprint, submitted 16 September 2026. This citation does not assert journal publication."

@@ -1,0 +1,216 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        12
+      ]
+    ],
+    "date-time": "2026-05-12T00:07:42Z",
+    "timestamp": 1778544462658,
+    "version": "3.51.4"
+  },
+  "reference-count": 43,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2022-02-01T00:00:00Z",
+        "timestamp": 1643673600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2022-02-01T00:00:00Z",
+        "timestamp": 1643673600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            4
+          ]
+        ],
+        "date-time": "2021-12-04T00:00:00Z",
+        "timestamp": 1638576000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Journal of Environmental Management"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2022,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.jenvman.2021.114158",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        16
+      ]
+    ],
+    "date-time": "2021-12-16T00:43:40Z",
+    "timestamp": 1639615420000
+  },
+  "page": "114158",
+  "is-referenced-by-count": 19,
+  "title": [
+    "Low-cost monitoring of atmospheric PM—development and testing"
+  ],
+  "volume": "304",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-2914-8573",
+      "authenticated-orcid": false,
+      "given": "Csongor",
+      "family": "Báthory",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-4799-3850",
+      "authenticated-orcid": false,
+      "given": "Zsolt",
+      "family": "Dobó",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Attila",
+      "family": "Garami",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6905-1530",
+      "authenticated-orcid": false,
+      "given": "Árpád",
+      "family": "Palotás",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Pál",
+      "family": "Tóth",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Journal of Environmental Management"
+  ],
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0301479721022209?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0301479721022209?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        11
+      ]
+    ],
+    "date-time": "2026-05-11T23:07:30Z",
+    "timestamp": 1778540850000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        2
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1016/j.jenvman.2021.114158",
+  "ISSN": [
+    "0301-4797"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2022,
+        2
+      ]
+    ]
+  },
+  "article-number": "114158",
+  "original_response_sha256": "67f7867215436135dbb4e9eb087338e2a856901d0cd18ce573411a3854c97c65"
+}

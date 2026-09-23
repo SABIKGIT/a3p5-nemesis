@@ -1,0 +1,43 @@
+{
+  "doi": "10.24432/c5rp6w",
+  "creators": [
+    {
+      "name": "Vergara, Alexander",
+      "nameType": "Personal",
+      "givenName": "Alexander",
+      "familyName": "Vergara",
+      "affiliation": [],
+      "nameIdentifiers": []
+    }
+  ],
+  "titles": [
+    {
+      "title": "Gas Sensor Array Drift Dataset"
+    }
+  ],
+  "publisher": "UCI Machine Learning Repository",
+  "container": {},
+  "publicationYear": 2012,
+  "subjects": [],
+  "contributors": [],
+  "dates": [
+    {
+      "date": "2012",
+      "dateType": "Issued"
+    }
+  ],
+  "types": {
+    "ris": "DATA",
+    "bibtex": "misc",
+    "citeproc": "dataset",
+    "schemaOrg": "Dataset",
+    "resourceTypeGeneral": "Dataset"
+  },
+  "rightsList": [],
+  "url": "https://archive.ics.uci.edu/dataset/224",
+  "created": "2023-03-16T13:06:45.000Z",
+  "published": "2012",
+  "DOI": "10.24432/c5rp6w",
+  "has_abstract": false,
+  "original_response_sha256": "6da3d394ff35940317bf089093425cdce9fc1f95479c14f776fdad0d2737db68"
+}

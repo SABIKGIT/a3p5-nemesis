@@ -1,0 +1,161 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        21
+      ]
+    ],
+    "date-time": "2026-08-21T02:57:42Z",
+    "timestamp": 1787281062515,
+    "version": "build-2736575974"
+  },
+  "reference-count": 38,
+  "publisher": "SAGE Publications",
+  "issue": "5",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            1989,
+            10,
+            1
+          ]
+        ],
+        "date-time": "1989-10-01T00:00:00Z",
+        "timestamp": 623203200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+    }
+  ],
+  "short-container-title": [
+    "The International Journal of Robotics Research"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1989,
+        10
+      ]
+    ]
+  },
+  "DOI": "10.1177/027836498900800502",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2007-03-04T20:24:06Z",
+    "timestamp": 1173039846000
+  },
+  "page": "15-27",
+  "is-referenced-by-count": 185,
+  "title": [
+    "On the Kinematics of Wheeled Mobile Robots"
+  ],
+  "volume": "8",
+  "author": [
+    {
+      "given": "J.C.",
+      "family": "Alexander",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Mathematics University of Maryland College Park, Maryland 20742"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "J.H.",
+      "family": "Maddocks",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mathematics University of Maryland College Park, Maryland 20742"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        1989,
+        10,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "The International Journal of Robotics Research"
+  ],
+  "link": [
+    {
+      "URL": "https://journals.sagepub.com/doi/pdf/10.1177/027836498900800502",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://journals.sagepub.com/doi/pdf/10.1177/027836498900800502",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        29
+      ]
+    ],
+    "date-time": "2026-04-29T10:18:18Z",
+    "timestamp": 1777457898000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        1989,
+        10
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1177/027836498900800502",
+  "ISSN": [
+    "0278-3649",
+    "1741-3176"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        1989,
+        10
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "278195d5c14112d809e4b1dfe30d151e224257814b14695c8f2b216bca6f3967"
+}

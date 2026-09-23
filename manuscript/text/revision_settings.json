@@ -1,0 +1,11 @@
+{
+  "title": "A3P5 NEMESIS Integrated Rover Design for Environmental Reconnaissance and Robotic Sampling with Reproducible Mobility Analysis and an External Data Machine Learning Calibration Benchmark",
+  "conclusion": [
+    "This study establishes a reproducible engineering framework for A3P5 NEMESIS by connecting the photographed rover to a detailed geometric reconstruction, subsystem interfaces, mission arrangements and traceable analytical results. The design retains the four independently steered wheel assemblies, carbon-pattern enclosure, folded manipulator, inclined camera mast and side-mounted sampling equipment. Managed wiring and explicit control, sensing and protection interfaces make the proposed integration inspectable. The prototype photographs support the physical arrangement; the rendered missions and analytical models define candidate operating conditions that require experimental confirmation.",
+    "The declared 24 kg scenario requires 3.28 N·m of output torque per wheel on a 20° grade under equal load sharing. A 2 kg forward payload reduces the modelled front-tipping bound from 38.1° to 32.7°, while the stated battery and load assumptions yield 1.72 h of endurance on that grade. These results identify measurements that most directly constrain mobility, manipulation and observation. Separately, chronological evaluation on the external sensor dataset selected ridge regression by validation error and produced a test RMSE of 0.502 mg/m³, with a 95% daily-block bootstrap interval of 0.435–0.569 mg/m³. The associated code preserves training-only preprocessing and a frozen test partition. This benchmark demonstrates a reproducible calibration procedure rather than rover-specific measurement accuracy. As-built parameter identification, reference co-location, fault-response tests and integrated field trials are therefore the next steps needed to convert the proposed inspection architecture into quantified operating performance."
+  ],
+  "title_bold": true,
+  "running_headers": false,
+  "title_font_pt": 20.5,
+  "title_line_spacing_pt": 25.3
+}

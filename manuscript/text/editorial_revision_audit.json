@@ -1,0 +1,310 @@
+{
+  "status": "Complete scientific and editorial audit; recommendations only; shared source not edited",
+  "source": "manuscript/final/A3P5_NEMESIS_Research_Manuscript.md",
+  "source_sha256": "6ba84fc5b2754551036f2bfe83f4a533ffdae676bff854deff697381f61c5888",
+  "scope": [
+    "Read the entire final manuscript including all 45 figure captions and bibliography",
+    "Checked all 14 subsystem specifications, node functions and directed edge semantics",
+    "Checked all 18 equations and the engineering numerical source",
+    "Reinspected native analytical stability, pH and sensitivity graphs",
+    "Checked ML model-selection, bootstrap, plotting and permutation implementation against reported values"
+  ],
+  "summary": "No numerical-result inconsistency or fabricated rover experiment was found. Revisions clarify symbol definitions, battery-side power, figure ordering, sampling coverage, model-specific permutation results and a few statements that overgeneralize design implications.",
+  "proposed_title": {
+    "text": "A3P5 NEMESIS: A Reproducible Engineering Framework for a Four-Wheel-Steering Prototype with Robotic Sampling, Environmental Inspection and an External-Data Machine-Learning Calibration Benchmark",
+    "reason": "Identifies the existing prototype, steering architecture, intended missions and separate external benchmark. External-data wording prevents implying that the rover sensors or autonomy have been experimentally validated."
+  },
+  "prose_and_caption_replacements": [
+    {
+      "id": "E01",
+      "section": "4.1",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "The sampling rack remains in its photographed side position, and the blue atmospheric enclosure remains behind the arm.",
+      "new": "The sampling rack remains in its photographed side position, and the blue enclosure remains behind the arm.",
+      "rationale": "The photographs establish the blue enclosure and its position, but do not independently establish an atmospheric-sensing function. The reported sensor inventory is already specified in Section 7.1.",
+      "source_matches": [
+        "text\\root_01.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E02",
+      "section": "6.1",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "Link gravity, acceleration and friction must be added.",
+      "new": "For n joints, q denotes the joint-coordinate vector and T_j the successive link transforms from base frame B to tool frame E. In the torque expression, the gravity term accounts for link weight, while the remaining dynamic term represents inertial and frictional contributions.",
+      "rationale": "Defines the transform and joint symbols and reconciles the prose reference to friction with Eq. 6, which has no separate friction term. This is an interpretation of the symbolic model, not a measured dynamics claim.",
+      "source_matches": [
+        "text\\root_02.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E03",
+      "section": "6.2",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "The simplified calculation holds the unladen base centre of mass fixed and adds a payload at a declared forward location. This isolates one sensitivity but omits the movement of the arm links themselves.",
+      "new": "The simplified calculation combines base mass m_b at position p_b with payload mass m_p at position p_p. It holds the unladen base centre of mass fixed and adds the payload at a declared forward location, isolating one sensitivity while omitting movement of the arm links themselves.",
+      "rationale": "Defines the symbols used in Eq. 7 without changing the assumed mass distribution; render p_b and p_p as vectors consistently with the equation.",
+      "source_matches": [
+        "text\\root_02.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E04",
+      "section": "6.2",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "Force-angle and edge-moment approaches, such as Papadopoulos and Rey (1996), become necessary when external forces, inertial loads or noncoplanar contacts matter.",
+      "new": "Force-angle and edge-moment methods, including the stability measure of Papadopoulos and Rey (1996), provide ways to extend the assessment to loading and contact geometry beyond this simplified coplanar model.",
+      "rationale": "Avoids implying that one particular family of stability methods is mandatory for every more general problem.",
+      "source_matches": [
+        "text\\root_02.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E05",
+      "section": "7.5",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "Figures 25–27 summarize the ultraviolet and atmospheric interfaces, the water-assessment workflow and the calculated pH-conditioning response.",
+      "new": "Figure 25 presents the calculated pH-conditioning response, Figure 26 the water-assessment workflow, and Figure 27 the ultraviolet, pressure and temperature interfaces.",
+      "rationale": "Matches the actual figure order exactly, making the prose-to-figure mapping unambiguous.",
+      "source_matches": [],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E06",
+      "section": "8.1",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "Mechanical traction power is divided by a separate drivetrain conversion efficiency of 0.80 and added to an assumed 20 W auxiliary load. The two factors serve different roles and are not repeated corrections to the same quantity.",
+      "new": "Mechanical traction power is divided by a separate battery-to-ground efficiency of 0.80 and added to an assumed battery-side auxiliary demand of 20 W. The energy derating and conversion efficiency act on different quantities. With battery capacity expressed in ampere-hours, usable energy is in watt-hours; dividing by battery power in watts gives endurance in hours.",
+      "rationale": "The code uses battery-to-ground efficiency, not a motor-only factor. Defining auxiliary power on the battery side prevents omission or double application of branch-converter losses. Makes Eq. 14–15 units explicit.",
+      "source_matches": [
+        "text\\root_03.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E07",
+      "section": "9.2",
+      "priority": "P3",
+      "kind": "prose",
+      "old": "Environmental patrol combines travel and observation. The rover approaches a station, reduces speed, confirms readiness, dwells as required, records the observation and resumes travel.",
+      "new": "The proposed environmental-patrol sequence combines travel and observation: approach a station, reduce speed, confirm readiness, dwell as required, record the observation and resume travel.",
+      "rationale": "Avoids presenting the proposed mission sequence in language that can be read as an observed rover operation.",
+      "source_matches": [
+        "text\\root_03.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E08",
+      "section": "10.3",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "Two thousand bootstrap replicates sampled these complete observed-day blocks with replacement, keeping the same sampled indices across model families.",
+      "new": "Two thousand bootstrap replicates sampled calendar-day blocks with replacement, retaining every eligible observation within each selected day and using the same sampled indices across model families.",
+      "rationale": "Clarifies that blocks contain all available observations for a day, not necessarily 24 complete hourly measurements. The algorithm and intervals remain unchanged.",
+      "source_matches": [
+        "text\\sensing_ml.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E09",
+      "section": "10.4",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "The chronological trace and hourly agreement plot retain the full test period rather than selecting a favourable episode.",
+      "new": "The plots cover the full test date range; the daily trace includes days with at least 12 eligible observations, while the hourly agreement plot and reported scores use all 1,102 eligible test observations.",
+      "rationale": "The trace omits under-covered days by design, so full test period should not be read as plotting every observation. Matches Fig. 42 and the implementation.",
+      "source_matches": [
+        "text\\sensing_ml.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E10",
+      "section": "10.5",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "Validation-only permutation sensitivity, evaluated over ten repeats after selection, was largest for PT08.S2(NMHC):",
+      "new": "For the validation-selected Ridge model, permutation sensitivity evaluated on validation data over ten repeats was largest for PT08.S2(NMHC):",
+      "rationale": "Explicitly names the fitted model whose feature sensitivity was computed. The implementation uses selected[winner], not every model family.",
+      "source_matches": [
+        "text\\sensing_ml.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E11",
+      "section": "Figure 44 caption",
+      "priority": "P2",
+      "kind": "caption",
+      "old": "(c) validation RMSE increase after predictor permutation, with mean and standard deviation over ten repeats.",
+      "new": "(c) validation-selected Ridge RMSE increase after predictor permutation on validation data, with mean and standard deviation over ten repeats.",
+      "rationale": "Makes the standalone caption specify the model and partition underlying panel (c).",
+      "source_matches": [
+        "text\\caption_overrides.json"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E12",
+      "section": "11.1",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "A heavier arm can increase reach or handling capacity while narrowing the support margin.",
+      "new": "An arm redesign that increases reach or allowable payload may also increase moving mass and narrow the support margin.",
+      "rationale": "Mass alone does not cause improved reach or payload capacity; the revision states the actual design tradeoff conditionally.",
+      "source_matches": [
+        "text\\root_04.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E13",
+      "section": "Figure 45 caption",
+      "priority": "P2",
+      "kind": "caption",
+      "old": "Deterministic sensitivity analysis of assumed energy and stability inputs. One-at-a-time ±20% changes isolate model dependence and are not confidence intervals. The centre-of-mass sweep demonstrates why a photo-based stability claim is underdetermined.",
+      "new": "Deterministic sensitivity analysis of assumed energy and stability inputs. Panel (a) changes one energy-model input at a time by ±20%; panel (b) varies unloaded centre-of-mass height from 0.35 to 0.85 m for three payload scenarios. These sweeps show model dependence and are not confidence intervals.",
+      "rationale": "The ±20% perturbation applies only to the energy panel. The stability panel uses a wider independent height sweep; the new caption accurately distinguishes them.",
+      "source_matches": [
+        "text\\root_04.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E14",
+      "section": "11.5",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "Measuring torque on a known slope tests the rolling-resistance assumptions.",
+      "new": "Controlled wheel-torque measurements on documented grades and surfaces can assess the combined force-demand model; isolating rolling resistance also requires control of acceleration, loading and drivetrain losses.",
+      "rationale": "A single torque result on a known slope does not uniquely identify rolling resistance. The revision states the identification requirements without inventing measurements.",
+      "source_matches": [
+        "text\\root_04.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E15",
+      "section": "12",
+      "priority": "P2",
+      "kind": "prose",
+      "old": "A3P5 NEMESIS was developed here as a traceable design study connecting a photographed rover to an industrially detailed reconstruction, subsystem diagrams, mission concepts and reproducible analyses.",
+      "new": "This study connects the photographed A3P5 NEMESIS prototype to an industrially detailed geometric reconstruction, subsystem architectures, proposed mission sequences and reproducible analyses.",
+      "rationale": "Separates the pre-existing physical prototype from the design-study work reported in this manuscript.",
+      "source_matches": [
+        "text\\root_04.md"
+      ],
+      "approved_md_occurrences": 1
+    },
+    {
+      "id": "E16",
+      "section": "12",
+      "priority": "P3",
+      "kind": "prose",
+      "old": "Together, the results define a sequence of identification, calibration, fault testing and integrated trials. Subsequent work should quantify integrated performance through the identified calibration, fault-response and field experiments.",
+      "new": "Together, the results define a sequence of physical identification, sensor calibration, fault testing and integrated trials through which the proposed inspection functions can be evaluated.",
+      "rationale": "Removes two adjacent sentences that repeat the same future-work sequence while retaining its substance.",
+      "source_matches": [
+        "text\\root_04.md"
+      ],
+      "approved_md_occurrences": 1
+    }
+  ],
+  "graph_label_recommendations": [
+    {
+      "priority": "P2",
+      "figure": 12,
+      "source": "analysis/engineering_analysis.py",
+      "old": "Continuous wheel-output torque",
+      "new": "Steady-speed wheel torque demand",
+      "reason": "The plot computes demanded output torque; it does not identify a verified continuous motor torque rating. Caption already states required torque."
+    },
+    {
+      "priority": "P2",
+      "figure": 36,
+      "source": "analysis/engineering_analysis.py",
+      "old": "Fail-safe clearance depends on measured braking",
+      "new": "Stopping clearance depends on braking and delay",
+      "reason": "Fail-safe implies a stronger protective property than the assumed stopping model establishes. No plotted values change."
+    },
+    {
+      "priority": "P3",
+      "figure": 25,
+      "source": "analysis/engineering_analysis.py",
+      "old": "pH measurement requires explicit analog gain",
+      "new": "pH conditioning and ideal ADC resolution",
+      "reason": "Makes the graph title descriptive; pH measurement requires a suitable high-impedance interface but not necessarily gain greater than unity."
+    }
+  ],
+  "diagram_findings": [
+    {
+      "figures": [
+        8,
+        9,
+        11,
+        13,
+        19,
+        20,
+        26,
+        27,
+        28,
+        30,
+        31,
+        33,
+        37,
+        39
+      ],
+      "status": "No mandatory connection change found",
+      "detail": "Command sources route through arbitration; protected loads are parallel; feedback directions are consistent; sensor variants and proposed additions are identified; the ML training/validation/test inputs are isolated."
+    },
+    {
+      "figure": 37,
+      "priority": "P3",
+      "old": "Controlled safe stop",
+      "new": "Controlled stop",
+      "reason": "Optional terminology tightening: avoid implying an independently demonstrated safe state. Existing proposed-state footer already limits the claim. Do not alter arrows or guards."
+    },
+    {
+      "figure": 39,
+      "status": "Keep external-data separation",
+      "detail": "Retain the future-rover-validation endpoint and do not rename the pipeline as onboard sensor calibration."
+    }
+  ],
+  "ending_recommendation": {
+    "placement": "Move the current Data, software and figure availability and Author information and declarations text into Section 11.6, Reproducibility and project support, before Section 12 Conclusion. Keep References after the last main-text section.",
+    "preserve": [
+      "All three author contribution statements as supplied",
+      "US$5,000 total support: US$3,000 Prime Now and US$2,000 Mercedes-Benz Bangladesh",
+      "Acknowledged collaborations with Mercedes-Benz Bangladesh and Prime Bank",
+      "Data, software, image provenance and corresponding author details"
+    ],
+    "do_not_add": [
+      "Unconfirmed conflict-of-interest declarations",
+      "Unconfirmed funder-role statements",
+      "Publication or Q1 acceptance guarantees"
+    ],
+    "reason": "Conclusion then becomes the final narrative section while required research provenance and legitimate project support remain available."
+  },
+  "checks_passed": [
+    "Right-handed analytical-to-Blender mapping (X,Y,Z)=(y,-x,z); intended v_y notation; no solar panel",
+    "Four-wheel velocity, equal-force torque, static support margin, energy, first-order response, ADC and stopping calculations match implementation",
+    "MQ7 versus MQ-7B distinction retained; BMP180 not treated as humidity sensor; PMS1003/PMS5003 published evidence not transferred as PMS7003 coefficients",
+    "7,344 eligible UCI rows and 5,140/1,102/1,102 chronological partitions; eight predictors; no target imputation or other reference-gas predictors",
+    "21 candidates, alpha=10 Ridge selection before testing, no train-plus-validation refit; all reported model scores retained",
+    "2,000 paired observed-day resamples; scores conditional on frozen models; no prediction-interval or causal-RH interpretation",
+    "All figure callouts resolve to existing figures; E05 makes the only potentially confusing in-sentence order explicit",
+    "Published figures and Blender concepts remain attributed separately from calculated and externally observed data"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "doi": "10.24432/c59k5f",
+  "creators": [
+    {
+      "name": "Vito, Saverio",
+      "nameType": "Personal",
+      "givenName": "Saverio",
+      "familyName": "Vito",
+      "affiliation": [],
+      "nameIdentifiers": []
+    }
+  ],
+  "titles": [
+    {
+      "title": "Air Quality"
+    }
+  ],
+  "publisher": "UCI Machine Learning Repository",
+  "container": {},
+  "publicationYear": 2008,
+  "subjects": [],
+  "contributors": [],
+  "dates": [
+    {
+      "date": "2008",
+      "dateType": "Issued"
+    }
+  ],
+  "types": {
+    "ris": "DATA",
+    "bibtex": "misc",
+    "citeproc": "dataset",
+    "schemaOrg": "Dataset",
+    "resourceTypeGeneral": "Dataset"
+  },
+  "rightsList": [],
+  "url": "https://archive.ics.uci.edu/dataset/360",
+  "created": "2023-03-16T13:01:22.000Z",
+  "published": "2008",
+  "DOI": "10.24432/c59k5f",
+  "has_abstract": false,
+  "original_response_sha256": "13c13de846eeb8ad13275aafa546711365c6830e5f543c6dbbc7da65ed305b84"
+}

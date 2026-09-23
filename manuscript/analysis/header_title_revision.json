@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "title": "A3P5 NEMESIS Integrated Rover Design for Environmental Reconnaissance and Robotic Sampling with Reproducible Mobility Analysis and an External Data Machine Learning Calibration Benchmark",
+  "title_bold": true,
+  "title_font_pt": 20.5,
+  "header_parts_checked": [
+    "word/header1.xml",
+    "word/header2.xml",
+    "word/header3.xml"
+  ],
+  "all_running_headers_empty": true,
+  "footer": "centered page numbers only",
+  "word_pages": 40,
+  "word_changed_pages": [
+    1
+  ],
+  "word_pages_2_to_40_pixel_identical_to_approved": true,
+  "latex_pages": 41,
+  "latex_changed_pages": [
+    1
+  ],
+  "manuscript_body_beyond_title_unchanged": true,
+  "source_citations": 79,
+  "references": 45,
+  "delivery_files": [
+    {
+      "file": "manuscript\\final\\A3P5_NEMESIS_No_Header_Bold_Title.docx",
+      "sha256": "393e76468af4a004b9f278fc27ca622ff0bd3bdd60cd717cb690dcb4f5fbf889"
+    },
+    {
+      "file": "manuscript\\final\\A3P5_NEMESIS_No_Header_Bold_Title_Overleaf.zip",
+      "sha256": "997be4ef82a4d3afca5a4c0305c9e03e665756cc40d3ad242c8c302f425bcbcc"
+    }
+  ]
+}

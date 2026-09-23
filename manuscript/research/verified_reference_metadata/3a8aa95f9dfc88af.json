@@ -1,0 +1,95 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T20:02:03Z",
+    "timestamp": 1789416123742,
+    "version": "build-2803163510"
+  },
+  "reference-count": 15,
+  "publisher": "IEEE",
+  "short-container-title": [],
+  "DOI": "10.1109/robot.1996.509185",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2002,
+        12,
+        23
+      ]
+    ],
+    "date-time": "2002-12-23T23:08:12Z",
+    "timestamp": 1040684892000
+  },
+  "page": "3111-3116",
+  "is-referenced-by-count": 168,
+  "title": [
+    "A new measure of tipover stability margin for mobile manipulators"
+  ],
+  "volume": "4",
+  "author": [
+    {
+      "given": "E.G.",
+      "family": "Papadopoulos",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "D.A.",
+      "family": "Rey",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Proceedings of IEEE International Conference on Robotics and Automation"
+  ],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx3/3678/10818/00509185.pdf?arnumber=509185",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2020,
+        3,
+        11
+      ]
+    ],
+    "date-time": "2020-03-11T22:25:37Z",
+    "timestamp": 1583965537000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        null
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1109/robot.1996.509185",
+  "subject": [],
+  "original_response_sha256": "542cf756f90853a3515de51c66db92ad7251cbff905150f8de8b7d45d20df42c"
+}

@@ -1,0 +1,157 @@
+{
+  "figure_heights_in": {
+    "canva_03_print.png": 4.1,
+    "canva_04_print.png": 4.38,
+    "A01_steering_kinematics.png": 3.25,
+    "A03_static_stability.png": 2.62,
+    "zheng2019_fig4.png": 4.75,
+    "canva_07_print.png": 4.0,
+    "canva_08_print.png": 4.0,
+    "M03_mission.png": 2.85,
+    "M02_mission.png": 4.45,
+    "M02_probe_detail.png": 3.3,
+    "canva_06_print.png": 3.9,
+    "jayaratne2018_fig2.png": 2.7,
+    "patel2024_fig4.png": 2.1,
+    "canva_02_print.png": 3.9,
+    "canva_11_print.png": 4.1,
+    "canva_10_print.png": 3.8,
+    "canva_12_print.png": 4.18,
+    "M04_mission.png": 4.73,
+    "03_selected_model_predictions.png": 4.32,
+    "A07_pH_conditioning.png": 2.55,
+    "M01_mission.png": 4.34
+  },
+  "placements": [
+    {
+      "asset": "canva_03_print.png",
+      "after_paragraph": "Here δ"
+    },
+    {
+      "asset": "A01_steering_kinematics",
+      "after_paragraph": "At 0.25 m/s"
+    },
+    {
+      "asset": "canva_04_print.png",
+      "before_paragraph": "A useful kinematic diagnostic"
+    },
+    {
+      "asset": "A02_grade_traction_torque",
+      "before_paragraph": "The torque expression"
+    },
+    {
+      "asset": "canva_09_print.png",
+      "before_paragraph": "For a measured mechanism"
+    },
+    {
+      "asset": "canva_05_print.png",
+      "before_paragraph": "Heater operation"
+    },
+    {
+      "asset": "canva_07_print.png",
+      "before_paragraph": "Turbidity measurements require"
+    },
+    {
+      "asset": "canva_13_print.png",
+      "after_paragraph": "Environmental patrol combines"
+    },
+    {
+      "asset": "05_desktop_cost_and_sensitivity",
+      "after_heading": true
+    },
+    {
+      "asset": "A08_parameter_sensitivity",
+      "before_paragraph": "These tradeoffs favour"
+    },
+    {
+      "asset": "M03_mission.png",
+      "before_paragraph": "For a measured mechanism"
+    },
+    {
+      "asset": "canva_06_print.png",
+      "before_paragraph": "A useful family of humidity corrections"
+    },
+    {
+      "asset": "A05_sensor_response_lag",
+      "after_heading": true
+    },
+    {
+      "asset": "canva_10_print.png",
+      "after_heading": true
+    },
+    {
+      "asset": "canva_12_print.png",
+      "after_paragraph": "At 0.4 m/s"
+    },
+    {
+      "asset": "canva_05_print.png",
+      "after_paragraph": "Heater operation"
+    },
+    {
+      "asset": "canva_06_print.png",
+      "after_paragraph": "Here, H is relative humidity"
+    },
+    {
+      "asset": "M05_mission.png",
+      "before_paragraph": "ORB-SLAM3 and LIO-SAM"
+    },
+    {
+      "asset": "02_test_metrics",
+      "before_paragraph": "Ridge with"
+    },
+    {
+      "asset": "03_selected_model_predictions",
+      "before_paragraph": "Ridge with"
+    },
+    {
+      "asset": "05_desktop_cost_and_sensitivity",
+      "after_paragraph": "Desktop measurements included"
+    },
+    {
+      "asset": "zheng2019_fig4.png",
+      "after_asset": "A05_sensor_response_lag"
+    },
+    {
+      "asset": "canva_13_print.png",
+      "before_paragraph": "Environmental patrol combines"
+    },
+    {
+      "asset": "M01_mission.png",
+      "before_paragraph": "Environmental patrol combines"
+    },
+    {
+      "asset": "A07_pH_conditioning",
+      "before_asset": "canva_08_print"
+    },
+    {
+      "asset": "A06_stopping_clearance",
+      "after_paragraph": "At 0.4 m/s"
+    },
+    {
+      "asset": "A08_parameter_sensitivity",
+      "after_table": "Assessment|Scenario or evidence"
+    },
+    {
+      "asset": "canva_10_print",
+      "after_paragraph": "Obstacles should be inflated"
+    },
+    {
+      "asset": "M05_mission",
+      "after_asset": "canva_10_print"
+    },
+    {
+      "asset": "canva_13_print",
+      "after_paragraph": "Environmental patrol combines"
+    },
+    {
+      "asset": "M01_mission",
+      "after_asset": "canva_13_print"
+    }
+  ],
+  "paragraph_placements": [
+    {
+      "paragraph": "Ridge with",
+      "before_table": "Model|Validation RMSE"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "tests_run": 23,
+  "tests_passed": 23,
+  "tests_skipped": [],
+  "failures": [],
+  "errors": [],
+  "elapsed_seconds": 23.493,
+  "python": "3.12.14",
+  "modes": {
+    "models": true,
+    "refit": true,
+    "regenerate_engineering": true
+  },
+  "scope": "Analytical scenario and historical external-data reproducibility; no physical rover experiments.",
+  "verified_at_utc": "2026-09-23T03:14:52.767537+00:00",
+  "platform": "Windows",
+  "command": "python scripts/verify.py --refit --regenerate-engineering --json verification/publication-checks.json"
+}

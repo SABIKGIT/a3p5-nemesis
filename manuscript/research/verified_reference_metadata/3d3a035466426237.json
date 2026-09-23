@@ -1,0 +1,166 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        8
+      ]
+    ],
+    "date-time": "2026-04-08T16:38:13Z",
+    "timestamp": 1775666293084,
+    "version": "3.50.1"
+  },
+  "reference-count": 42,
+  "publisher": "MDPI AG",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            4,
+            2
+          ]
+        ],
+        "date-time": "2020-04-02T00:00:00Z",
+        "timestamp": 1585785600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Sensors"
+  ],
+  "DOI": "10.3390/s20071993",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2020,
+        4,
+        2
+      ]
+    ],
+    "date-time": "2020-04-02T11:57:14Z",
+    "timestamp": 1585828634000
+  },
+  "page": "1993",
+  "is-referenced-by-count": 40,
+  "title": [
+    "Towards the Development of an Affordable and Practical Light Attenuation Turbidity Sensor for Remote Near Real-Time Aquatic Monitoring"
+  ],
+  "volume": "20",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-7328-8741",
+      "authenticated-orcid": false,
+      "given": "Jarrod",
+      "family": "Trevathan",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Institute of Integrated and Intelligent Systems, Griffith University, Nathan, Brisbane, QLD 4111, Australia"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Wayne",
+      "family": "Read",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Institute of Integrated and Intelligent Systems, Griffith University, Nathan, Brisbane, QLD 4111, Australia"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Simon",
+      "family": "Schmidtke",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Substation33, Kingston, Logan, QLD 4114, Australia"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2020,
+        4,
+        2
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/1424-8220/20/7/1993/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        11
+      ]
+    ],
+    "date-time": "2025-10-11T09:14:50Z",
+    "timestamp": 1760174090000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        4,
+        2
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.3390/s20071993",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2020,
+        4,
+        2
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "be8049eea7865a74744f0eab93330c577ff27aebe3ec0bba4687d7f18743bd78"
+}

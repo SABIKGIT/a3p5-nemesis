@@ -1,0 +1,90 @@
+[
+  {
+    "file": "A3P5_Nemesis_Industrial.blend",
+    "geometry_sha256": "3a15bf5f83df2b5342e4aaa965204f53bdfb7dafc2affd5276ef46c3939c78b8",
+    "objects": 1848,
+    "scenes": 2,
+    "images": [
+      {
+        "name": "REFERENCE 01 | Original rover",
+        "packed": true,
+        "filepath": "//manuscript/research/prototype_photos/prototype_01.jpg"
+      },
+      {
+        "name": "REFERENCE 02 | Original rover",
+        "packed": true,
+        "filepath": "//manuscript/research/prototype_photos/prototype_02.jpg"
+      },
+      {
+        "name": "REFERENCE 03 | Original rover",
+        "packed": true,
+        "filepath": "//manuscript/research/prototype_photos/prototype_03.jpg"
+      },
+      {
+        "name": "REFERENCE 04 | Original rover",
+        "packed": true,
+        "filepath": "//manuscript/research/prototype_photos/prototype_04.jpg"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "filepath": ""
+      },
+      {
+        "name": "Woven carbon | embedded 512",
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "geometry_unchanged_after_save_reload": true,
+    "changes": [
+      "repository-relative reference-image and render paths; packed image bytes preserved; saved file-browser location cleared",
+      "public design brief replaces superseded embedded mission brief"
+    ],
+    "sha256": "02354a05638a469f3634a9a540c58dc1fe2611f148e0dd257447cf6c9ef0ea51"
+  },
+  {
+    "file": "manuscript/blender/A3P5_Nemesis_Mission_Studies.blend",
+    "geometry_sha256": "726331364583603003d675be1421494510158c23fc82c99f6815918067270af6",
+    "objects": 1995,
+    "scenes": 8,
+    "images": [
+      {
+        "name": "REFERENCE 01 | Original rover",
+        "packed": true,
+        "filepath": "//../research/prototype_photos/prototype_01.jpg"
+      },
+      {
+        "name": "REFERENCE 02 | Original rover",
+        "packed": true,
+        "filepath": "//../research/prototype_photos/prototype_02.jpg"
+      },
+      {
+        "name": "REFERENCE 03 | Original rover",
+        "packed": true,
+        "filepath": "//../research/prototype_photos/prototype_03.jpg"
+      },
+      {
+        "name": "REFERENCE 04 | Original rover",
+        "packed": true,
+        "filepath": "//../research/prototype_photos/prototype_04.jpg"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "filepath": ""
+      },
+      {
+        "name": "Woven carbon | embedded 512",
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "geometry_unchanged_after_save_reload": true,
+    "changes": [
+      "repository-relative reference-image and render paths; packed image bytes preserved; saved file-browser location cleared",
+      "public design brief replaces superseded embedded mission brief"
+    ],
+    "sha256": "69a536d6da07939ab4d45ffb3d8980d8e8c13c13f477bf6e0f60a727d555400d"
+  }
+]

@@ -1,0 +1,283 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        15
+      ]
+    ],
+    "date-time": "2026-05-15T06:39:01Z",
+    "timestamp": 1778827141644,
+    "version": "3.51.4"
+  },
+  "reference-count": 64,
+  "publisher": "MDPI AG",
+  "issue": "12",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            10
+          ]
+        ],
+        "date-time": "2021-06-10T00:00:00Z",
+        "timestamp": 1623283200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Applied Sciences"
+  ],
+  "DOI": "10.3390/app11125414",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        6,
+        10
+      ]
+    ],
+    "date-time": "2021-06-10T13:31:39Z",
+    "timestamp": 1623331899000
+  },
+  "page": "5414",
+  "is-referenced-by-count": 19,
+  "title": [
+    "ResQbot 2.0: An Improved Design of a Mobile Rescue Robot with an Inflatable Neck Securing Device for Safe Casualty Extraction"
+  ],
+  "volume": "11",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-6989-8830",
+      "authenticated-orcid": false,
+      "given": "Roni Permana",
+      "family": "Saputra",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Robot Intelligence Lab, Dyson School of Design Engineering, Imperial College London, London SW7 2AZ, UK"
+        },
+        {
+          "name": "Research Center for Electrical Power and Mechatronics, Indonesian Institute of Sciences—LIPI, Bandung 40135, Indonesia"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Nemanja",
+      "family": "Rakicevic",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Robot Intelligence Lab, Dyson School of Design Engineering, Imperial College London, London SW7 2AZ, UK"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Isabelle",
+      "family": "Kuder",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Imperial College London, London SW7 2AZ, UK"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Joel",
+      "family": "Bilsdorfer",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Imperial College London, London SW7 2AZ, UK"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Alexander",
+      "family": "Gough",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Imperial College London, London SW7 2AZ, UK"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Alexandra",
+      "family": "Dakin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Imperial College London, London SW7 2AZ, UK"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Emma",
+      "family": "de Cocker",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Imperial College London, London SW7 2AZ, UK"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Shaun",
+      "family": "Rock",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "London Ambulance Service NHS Trust, London SE1 8SD, UK"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Richard",
+      "family": "Harpin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "London Ambulance Service NHS Trust, London SE1 8SD, UK"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6677-3044",
+      "authenticated-orcid": false,
+      "given": "Petar",
+      "family": "Kormushev",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Robot Intelligence Lab, Dyson School of Design Engineering, Imperial College London, London SW7 2AZ, UK"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        6,
+        10
+      ]
+    ]
+  },
+  "container-title": [
+    "Applied Sciences"
+  ],
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2076-3417/11/12/5414/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        11
+      ]
+    ],
+    "date-time": "2025-10-11T06:13:01Z",
+    "timestamp": 1760163181000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        6,
+        10
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.3390/app11125414",
+  "ISSN": [
+    "2076-3417"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        6,
+        10
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "84a03721aca17b12b897f29eed3f104458d121c86903f4c312ff26bec6e0f3f9"
+}

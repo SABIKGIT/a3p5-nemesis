@@ -1,0 +1,240 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        19
+      ]
+    ],
+    "date-time": "2026-06-19T16:29:44Z",
+    "timestamp": 1781886584459,
+    "version": "3.54.5"
+  },
+  "reference-count": 54,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            7
+          ]
+        ],
+        "date-time": "2021-01-07T00:00:00Z",
+        "timestamp": 1609977600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            7
+          ]
+        ],
+        "date-time": "2021-01-07T00:00:00Z",
+        "timestamp": 1609977600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "short-container-title": [
+    "Robomech J"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1186/s40648-020-00188-9",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        7
+      ]
+    ],
+    "date-time": "2021-01-07T12:03:47Z",
+    "timestamp": 1610021027000
+  },
+  "is-referenced-by-count": 60,
+  "title": [
+    "Design and implementation of a maxi-sized mobile robot (Karo) for rescue missions"
+  ],
+  "volume": "8",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-4103-4664",
+      "authenticated-orcid": false,
+      "given": "Soheil",
+      "family": "Habibian",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-9588-4213",
+      "authenticated-orcid": false,
+      "given": "Mehdi",
+      "family": "Dadvar",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Behzad",
+      "family": "Peykari",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Alireza",
+      "family": "Hosseini",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M. Hossein",
+      "family": "Salehzadeh",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Alireza H. M.",
+      "family": "Hosseini",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Farshid",
+      "family": "Najafi",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        7
+      ]
+    ]
+  },
+  "container-title": [
+    "ROBOMECH Journal"
+  ],
+  "link": [
+    {
+      "URL": "http://link.springer.com/content/pdf/10.1186/s40648-020-00188-9.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://link.springer.com/article/10.1186/s40648-020-00188-9/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://link.springer.com/content/pdf/10.1186/s40648-020-00188-9.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        23
+      ]
+    ],
+    "date-time": "2021-02-23T07:04:42Z",
+    "timestamp": 1614063882000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        7
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1186/s40648-020-00188-9",
+  "ISSN": [
+    "2197-4225"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        7
+      ]
+    ]
+  },
+  "article-number": "1",
+  "has_abstract": true,
+  "original_response_sha256": "591594b2679723bada4a4da6b320b42cee1fa6439579029b675545f122986456"
+}

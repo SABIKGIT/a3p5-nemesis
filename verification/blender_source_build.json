@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "scope": "Isolated same-process Blender source build with no rendering. Rebuilt scene/object counts describe the source reconstruction, not a byte-identical copy of manually refined prebuilt models.",
+  "exit_code": 0,
+  "blender_version": "4.3.2",
+  "total_objects": 1994,
+  "total_scenes": 8,
+  "scenes": [
+    {
+      "name": "A3P5 NEMESIS | Industrial study",
+      "objects": 1845,
+      "camera": "01 | HERO - front starboard"
+    },
+    {
+      "name": "M01 | Industrial air monitoring",
+      "objects": 1713,
+      "camera": "M01 | Industrial air monitoring | camera"
+    },
+    {
+      "name": "M02 | Water sample assessment",
+      "objects": 1706,
+      "camera": "M02 | Water sample assessment | camera"
+    },
+    {
+      "name": "M03 | Lightweight sample handling",
+      "objects": 1702,
+      "camera": "M03 | Lightweight sample handling | camera"
+    },
+    {
+      "name": "M04 | Disaster reconnaissance",
+      "objects": 1730,
+      "camera": "M04 | Disaster reconnaissance | camera"
+    },
+    {
+      "name": "M05 | Proposed autonomous patrol",
+      "objects": 1715,
+      "camera": "M05 | Proposed autonomous patrol | camera"
+    },
+    {
+      "name": "M06 | Engineering overview",
+      "objects": 1690,
+      "camera": "M06 | Engineering overview | camera"
+    },
+    {
+      "name": "Scene",
+      "objects": 3,
+      "camera": "Camera"
+    }
+  ],
+  "packed_references": [
+    {
+      "name": "REFERENCE 01 | Original rover",
+      "packed": true
+    },
+    {
+      "name": "REFERENCE 02 | Original rover",
+      "packed": true
+    },
+    {
+      "name": "REFERENCE 03 | Original rover",
+      "packed": true
+    },
+    {
+      "name": "REFERENCE 04 | Original rover",
+      "packed": true
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3P5_Nemesis_Industrial.blend",
+      "bytes": 22347268
+    },
+    {
+      "path": "manuscript/blender/A3P5_Nemesis_Mission_Studies.blend",
+      "bytes": 24434236
+    }
+  ],
+  "rendered_image_count": 0
+}

@@ -1,0 +1,4 @@
+{
+  "Fig_L1_metadata_census": "Exploratory literature-metadata census. (a) Ten relevance-ranked Crossref queries returned 5,000 occurrences; DOI deduplication retained 4,897 records. The documented title/available-abstract rule identified 1,212 metadata candidates and a 150-record reading shortlist. (b) Each candidate is assigned one primary topic; counts therefore sum to 1,212. The census is not a full-text systematic review, and its query caps and ranking limit interpretation to the retrieved sample.",
+  "has_abstract": true
+}

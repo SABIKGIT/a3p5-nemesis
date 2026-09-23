@@ -1,0 +1,215 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T20:23:06Z",
+    "timestamp": 1789417386785,
+    "version": "build-2803163510"
+  },
+  "reference-count": 83,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2021-12-01T00:00:00Z",
+        "timestamp": 1638316800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2021-12-01T00:00:00Z",
+        "timestamp": 1638316800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-009"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2021-12-01T00:00:00Z",
+        "timestamp": 1638316800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-001"
+    }
+  ],
+  "short-container-title": [
+    "IEEE Trans. Robot."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1109/tro.2021.3075644",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        5,
+        25
+      ]
+    ],
+    "date-time": "2021-05-25T16:01:47Z",
+    "timestamp": 1621958507000
+  },
+  "page": "1874-1890",
+  "is-referenced-by-count": 4261,
+  "title": [
+    "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM"
+  ],
+  "volume": "37",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-7470-2935",
+      "authenticated-orcid": false,
+      "given": "Carlos",
+      "family": "Campos",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0458-6788",
+      "authenticated-orcid": false,
+      "given": "Richard",
+      "family": "Elvira",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1201-8692",
+      "authenticated-orcid": false,
+      "given": "Juan J. Gomez",
+      "family": "Rodriguez",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-3627-7306",
+      "authenticated-orcid": false,
+      "given": "Jose M.",
+      "family": "M. Montiel",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-4518-5876",
+      "authenticated-orcid": false,
+      "given": "Juan",
+      "family": "D. Tardos",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Robotics"
+  ],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/8860/9634176/09440682.pdf?arnumber=9440682",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        4,
+        13
+      ]
+    ],
+    "date-time": "2022-04-13T11:04:16Z",
+    "timestamp": 1649847856000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        12
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1109/tro.2021.3075644",
+  "ISSN": [
+    "1552-3098",
+    "1941-0468"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        12
+      ]
+    ]
+  },
+  "original_response_sha256": "84bd11fd4ac9aece770f931ca6b0165d1ff20234db93c0465745fce0e68e3868"
+}

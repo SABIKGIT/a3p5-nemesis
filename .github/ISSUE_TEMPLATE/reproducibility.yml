@@ -1,0 +1,57 @@
+name: Reproducibility or correction report
+description: Report a failed check, numerical discrepancy, or correction to the research materials.
+title: "[Reproducibility] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the research materials. Please include enough detail to repeat the problem. See the [reproduction guide](https://github.com/SABIKGIT/a3p5-nemesis/blob/main/docs/reproduce.md) for the supported verification modes.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected material
+      options:
+        - Numerical verification or engineering calculations
+        - External-data calibration benchmark
+        - Data provenance or distribution manifest
+        - Manuscript or documentation
+        - Blender models or diagrams
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Repository version
+      description: Commit hash or download date; mention any local modifications.
+      placeholder: "Commit hash, or ZIP downloaded on YYYY-MM-DD"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Python version and relevant package or application versions. For a paper-only correction, write "not applicable".
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps or source location
+      description: Include the exact command and minimal steps, or the file, equation, table or paper section involved.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result or proposed correction
+      description: Explain what you expected and include a supporting calculation or source where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and evidence
+      description: Paste the relevant error or discrepancy. For verification failures, include failed/skipped checks from the report. Remove private information from logs.
+    validations:
+      required: true

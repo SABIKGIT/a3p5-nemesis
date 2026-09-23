@@ -1,0 +1,324 @@
+{
+  "accessed": "2026-09-15",
+  "scope": "Targeted primary-source selection; not an exhaustive or thousand-paper full-text review.",
+  "sources": [
+    {
+      "id": "M01",
+      "title": "On the Kinematics of Wheeled Mobile Robots",
+      "authors": [
+        "J. C. Alexander",
+        "J. H. Maddocks"
+      ],
+      "year": 1989,
+      "venue": "The International Journal of Robotics Research 8(5), 15–27",
+      "doi": "10.1177/027836498900800502",
+      "url": "https://journals.sagepub.com/doi/10.1177/027836498900800502",
+      "supports": "Planar wheel compatibility and coordinated steering/drive rates; wheel misalignment can cause slip.",
+      "read_depth": "Publisher abstract and institutional manuscript introduction.",
+      "caution": "Ideal rolling assumptions do not certify rough-terrain traction or independently steerable hardware."
+    },
+    {
+      "id": "M02",
+      "title": "Kinematics, dynamics and control design of 4WIS4WID mobile robots",
+      "authors": [
+        "Ming-Han Lee",
+        "Tzuu-Hseng S. Li"
+      ],
+      "year": 2015,
+      "venue": "The Journal of Engineering 2015(1), 6–16",
+      "doi": "10.1049/joe.2014.0241",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/joe.2014.0241",
+      "supports": "Four steering and four drive actuators require coordinated control; kinematic and dynamic tracking architecture.",
+      "read_depth": "Publisher abstract, introduction and section listing.",
+      "caution": "Reported verification is simulation; neither controller performance nor steering range transfers to Nemesis.",
+      "license": "CC BY 3.0 stated on publisher page."
+    },
+    {
+      "id": "M03",
+      "title": "Kinematic control design for wheeled mobile robots with longitudinal and lateral slip",
+      "authors": [
+        "Thiago B. Burghi",
+        "Juliano G. Iossaqui",
+        "Juan F. Camino"
+      ],
+      "year": 2024,
+      "preprint_year": 2021,
+      "venue": "International Journal of Adaptive Control and Signal Processing",
+      "doi": "10.1002/acs.3747",
+      "url": "https://arxiv.org/abs/2105.06501",
+      "supports": "Slip requires explicit modeling/adaptation; longitudinal and lateral disturbances have different control consequences.",
+      "read_depth": "Author arXiv abstract, metadata and linked journal reference.",
+      "caution": "Nonholonomic model and numerical simulations; cannot claim observed Nemesis slip compensation."
+    },
+    {
+      "id": "M04",
+      "title": "A New Measure of Tipover Stability Margin for Mobile Manipulators",
+      "authors": [
+        "E. G. Papadopoulos",
+        "D. A. Rey"
+      ],
+      "year": 1996,
+      "venue": "Proceedings IEEE International Conference on Robotics and Automation, 3111–3116",
+      "doi": "10.1109/ROBOT.1996.509185",
+      "url": "https://nereus.mech.ntua.gr/Documents/pdf_ps/ICRA96.pdf",
+      "supports": "Force-angle stability metric accounts for top-heaviness, external/inertial loads and uneven contact geometry.",
+      "read_depth": "Author-hosted PDF abstract/introduction indexed text.",
+      "caution": "Do not reduce dynamic tipover certification to COM projection alone; requires masses, contact points and loads."
+    },
+    {
+      "id": "M05",
+      "title": "Unified motion control of 4WIS-4WID WMR with unlimited steering and load transfer consideration",
+      "authors": [
+        "Dongwoo Seo",
+        "Seokki Moon",
+        "Jaeyoung Kang"
+      ],
+      "year": 2026,
+      "venue": "Robotics and Autonomous Systems 198, 105341",
+      "doi": "10.1016/j.robot.2026.105341",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S092188902600014X",
+      "supports": "Recent example of force allocation including slip, friction constraints and load transfer.",
+      "read_depth": "Publisher abstract only.",
+      "caution": "Unlimited steering is an explicit hardware assumption; Nemesis cable routing and servo limits preclude assuming it."
+    },
+    {
+      "id": "M06",
+      "title": "Traction Control of Wheeled Robotic Vehicles in Rough Terrain with Application to Planetary Rovers",
+      "authors": [
+        "Karl Iagnemma",
+        "Steven Dubowsky"
+      ],
+      "year": 2004,
+      "venue": "The International Journal of Robotics Research 23(10–11), 1029–1040",
+      "doi": "10.1177/0278364904047392",
+      "url": "https://journals.sagepub.com/doi/10.1177/0278364904047392",
+      "supports": "Terrain/contact-aware wheel torque allocation, redundant actuation and traction/power objectives.",
+      "read_depth": "Publisher abstract and author laboratory publication record.",
+      "caution": "Needs terrain/contact estimates and suitable feedback; simple friction-cap calculations are only screening bounds."
+    },
+    {
+      "id": "M07",
+      "title": "On-Line Terrain Parameter Estimation for Planetary Rovers",
+      "authors": [
+        "Karl Iagnemma",
+        "Hassan Shibly",
+        "Steven Dubowsky"
+      ],
+      "year": 2002,
+      "venue": "Proceedings IEEE International Conference on Robotics and Automation 3, 3142–3147",
+      "doi": "10.1109/ROBOT.2002.1013710",
+      "url": "https://hh.diva-portal.org/smash/record.jsf?pid=diva2%3A586704",
+      "supports": "Onboard terrain identification links rover measurements to traversability and traction prediction.",
+      "read_depth": "University repository abstract and bibliography.",
+      "caution": "Loose-sand results depend on sensors and soil models; do not borrow parameters for the photographed tires."
+    },
+    {
+      "id": "M08",
+      "title": "Optimal Rough Terrain Trajectory Generation for Wheeled Mobile Robots",
+      "authors": [
+        "Thomas M. Howard",
+        "Alonzo Kelly"
+      ],
+      "year": 2007,
+      "venue": "The International Journal of Robotics Research 26(2), 141–166",
+      "doi": "10.1177/0278364906075328",
+      "url": "https://publications.ri.cmu.edu/optimal-rough-terrain-trajectory-generation-for-wheeled-mobile-robots",
+      "supports": "Forward-model trajectory optimization can include propulsion, suspension, wheel-terrain interaction and constraints.",
+      "read_depth": "Author institutional abstract and manuscript abstract.",
+      "caution": "A rendered route is not an optimization result; calibrated forward models are required."
+    },
+    {
+      "id": "M09",
+      "title": "The Dynamic Window Approach to Collision Avoidance",
+      "authors": [
+        "Dieter Fox",
+        "Wolfram Burgard",
+        "Sebastian Thrun"
+      ],
+      "year": 1997,
+      "venue": "IEEE Robotics & Automation Magazine 4(1), 23–33",
+      "doi": "10.1109/100.580977",
+      "url": "https://publications.ri.cmu.edu/the-dynamic-window-approach-to-collision-avoidance",
+      "supports": "Local collision avoidance should respect feasible velocity/acceleration and braking constraints.",
+      "read_depth": "Author institutional publication record and indexed abstract.",
+      "caution": "Original synchro-drive setting; 4WIS steering rate and footprint constraints need a custom feasible-command layer."
+    },
+    {
+      "id": "M10",
+      "title": "Real-Time Obstacle Avoidance for Manipulators and Mobile Robots",
+      "authors": [
+        "Oussama Khatib"
+      ],
+      "year": 1986,
+      "venue": "The International Journal of Robotics Research 5(1), 90–98",
+      "doi": "10.1177/027836498600500106",
+      "url": "https://khatib.stanford.edu/publications/pdfs/Khatib_1986_IJRR.pdf",
+      "supports": "Artificial potential fields and operational-space obstacle avoidance provide a classical baseline.",
+      "read_depth": "Publisher abstract and author-hosted PDF indexed introduction.",
+      "caution": "A local reactive field does not by itself establish globally complete or deadlock-free navigation."
+    },
+    {
+      "id": "M11",
+      "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM",
+      "authors": [
+        "Carlos Campos",
+        "Richard Elvira",
+        "Juan J. Gómez Rodríguez",
+        "José M. M. Montiel",
+        "Juan D. Tardós"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Robotics 37(6), 1874–1890",
+      "doi": "10.1109/TRO.2021.3075644",
+      "url": "https://doi.org/10.1109/TRO.2021.3075644",
+      "open_version": "https://arxiv.org/abs/2007.11898",
+      "supports": "Candidate high-level visual-inertial localization stack with calibrated cameras, IMU and map reuse.",
+      "read_depth": "Publisher abstract/introduction and author preprint abstract.",
+      "caution": "Compute, calibration and sensor requirements are additional to Mega/ESP32; benchmark errors are not Nemesis accuracy."
+    },
+    {
+      "id": "M12",
+      "title": "RTAB-Map as an open-source lidar and visual simultaneous localization and mapping library for large-scale and long-term online operation",
+      "authors": [
+        "Mathieu Labbé",
+        "François Michaud"
+      ],
+      "year": 2019,
+      "venue": "Journal of Field Robotics 36(2), 416–446",
+      "doi": "10.1002/rob.21831",
+      "url": "https://introlab.github.io/rtabmap/",
+      "open_version": "https://arxiv.org/abs/2403.06341",
+      "supports": "Practical lidar/visual SLAM alternatives and resource-aware long-term map management.",
+      "read_depth": "Official project bibliography and author-uploaded abstract.",
+      "caution": "ArXiv upload 2024 is not journal publication year; choose one stack experimentally rather than claim both implemented."
+    },
+    {
+      "id": "M13",
+      "title": "Sampling-based Algorithms for Optimal Motion Planning",
+      "authors": [
+        "Sertac Karaman",
+        "Emilio Frazzoli"
+      ],
+      "year": 2011,
+      "venue": "The International Journal of Robotics Research 30(7), 846–894",
+      "doi": "10.1177/0278364911406761",
+      "url": "https://arxiv.org/abs/1105.1186",
+      "supports": "RRT*/PRM* establish an asymptotically optimal planning baseline under stated assumptions.",
+      "read_depth": "Author abstract and metadata.",
+      "caution": "Asymptotic optimality does not guarantee a finite-time optimal, executable rover route."
+    },
+    {
+      "id": "M14",
+      "title": "The Open Motion Planning Library",
+      "authors": [
+        "Ioan A. Şucan",
+        "Mark Moll",
+        "Lydia E. Kavraki"
+      ],
+      "year": 2012,
+      "venue": "IEEE Robotics & Automation Magazine 19(4), 72–82",
+      "doi": "10.1109/MRA.2012.2205651",
+      "url": "https://www.kavrakilab.org/publications/sucan-moll2012open-motion-planning.html",
+      "supports": "Reusable sampling-based planning library for future arm/base planning and reproducible baselines.",
+      "read_depth": "Author laboratory publication page and abstract.",
+      "caution": "Collision geometry, limits and validity checking remain application responsibilities."
+    },
+    {
+      "id": "M15",
+      "title": "Comprehensive Standard Test Suites for the Performance Evaluation of Mobile Robots",
+      "authors": [
+        "Adam S. Jacoff",
+        "Hui-Min Huang",
+        "Elena R. Messina",
+        "Ann M. Virts",
+        "Anthony J. Downs"
+      ],
+      "year": 2011,
+      "venue": "Proceedings of the 2010 Performance Metrics for Intelligent Systems Workshop",
+      "url": "https://www.nist.gov/publications/comprehensive-standard-test-suites-performance-evaluation-mobile-robots",
+      "supports": "Repeatable mobility, sensing, communication, manipulation, energy and interface evaluation.",
+      "read_depth": "NIST publication abstract.",
+      "caution": "Proposed use of test methods is not certification or proof of standards compliance."
+    },
+    {
+      "id": "M16",
+      "title": "Performance of Emergency Response Robots",
+      "authors": [
+        "National Institute of Standards and Technology"
+      ],
+      "year": 2026,
+      "venue": "NIST program page; updated 24 April 2026; accessed 15 September 2026",
+      "url": "https://www.nist.gov/programs-projects/performance-emergency-response-robots",
+      "supports": "Current task-based test framework and distinction between test methods and mission-specific pass thresholds.",
+      "read_depth": "Official page objectives, test categories and standard listing.",
+      "caution": "Use as validation-plan source; don't label a visual concept mission-capable without repeatable tests."
+    },
+    {
+      "id": "M17",
+      "title": "Design and implementation of a maxi-sized mobile robot (Karo) for rescue missions",
+      "authors": [
+        "Soheil Habibian",
+        "Mehdi Dadvar",
+        "Behzad Peykari",
+        "Alireza Hosseini",
+        "M. Hossein Salehzadeh",
+        "Alireza H. M. Hosseini",
+        "Farshid Najafi"
+      ],
+      "year": 2021,
+      "venue": "ROBOMECH Journal 8, 1",
+      "doi": "10.1186/s40648-020-00188-9",
+      "url": "https://link.springer.com/article/10.1186/s40648-020-00188-9",
+      "supports": "Integrated rescue platform comparison; modular mechanical design, manipulator workspace, actuator sizing and structured evaluation.",
+      "read_depth": "Publisher full-text sections: conceptual/mechanical design, torque, manipulation, figure captions and rights. Correction also checked.",
+      "caution": "Tracked four-flipper platform differs fundamentally from Nemesis; don't transplant dimensional results. Arm torque paragraph has apparent numerical/notation inconsistencies, so independently recompute.",
+      "license": "CC BY 4.0; third-party exclusions apply; Figures 6 and 9 have no separate excluded credit in inspected captions.",
+      "correction": "10.1186/s40648-021-00191-8 (affiliation/footnote production correction)"
+    },
+    {
+      "id": "M18",
+      "title": "ResQbot 2.0: An Improved Design of a Mobile Rescue Robot with an Inflatable Neck Securing Device for Safe Casualty Extraction",
+      "authors": [
+        "Roni Permana Saputra",
+        "Nemanja Rakicevic",
+        "Isabelle Kuder",
+        "Joel Bilsdorfer",
+        "Alexander Gough",
+        "Alexandra Dakin",
+        "Emma de Cocker",
+        "Shaun Rock",
+        "Richard Harpin",
+        "Petar Kormushev"
+      ],
+      "year": 2021,
+      "venue": "Applied Sciences 11(12), 5414",
+      "doi": "10.3390/app11125414",
+      "url": "https://www.mdpi.com/2076-3417/11/12/5414",
+      "supports": "Comparison showing physical rescue intervention requires dedicated mechanisms and a separate safety validation program.",
+      "read_depth": "Publisher sections/abstract; original PDF license, figure 10 photo, abstract and conclusion context.",
+      "caution": "Reported casualty-extraction validation is simulation. Nemesis has no supplied patient transport capability; use comparison, not feature transfer.",
+      "license": "CC BY 4.0, copyright authors 2021.",
+      "local_pdf": "research/ResQbot_2021.pdf"
+    },
+    {
+      "id": "M19",
+      "title": "Development of a Four Omni-Wheeled Mobile Robot Using Telescopic Legs",
+      "authors": [
+        "Shuaiby Mohamed",
+        "Venkatesan Vellaiyan",
+        "Kangmin Kim",
+        "Youngshik Kim",
+        "Buhyun Shin"
+      ],
+      "year": 2025,
+      "venue": "Machines 13(4), 292",
+      "doi": "10.3390/machines13040292",
+      "url": "https://www.mdpi.com/2075-1702/13/4/292",
+      "supports": "Comparable low-cost controller integration and explicit 3D-to-prototype documentation; active leg design versus fixed rover architecture.",
+      "read_depth": "Publisher full-text/PDF system-design, kinematic sections, Figure 1 and license.",
+      "caution": "Omni-wheel and telescopic-leg kinematics do not apply to Nemesis conventional tires; no inferred stair-climbing claim.",
+      "license": "CC BY 4.0, copyright authors 2025.",
+      "local_pdf": "research/machines_telescopic_2025.pdf"
+    }
+  ]
+}

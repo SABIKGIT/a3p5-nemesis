@@ -1,0 +1,198 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        10
+      ]
+    ],
+    "date-time": "2026-09-10T14:45:11Z",
+    "timestamp": 1789051511839,
+    "version": "build-2803163510"
+  },
+  "reference-count": 70,
+  "publisher": "MDPI AG",
+  "issue": "12",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2024-06-17T00:00:00Z",
+        "timestamp": 1718582400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Sensors"
+  ],
+  "DOI": "10.3390/s24123926",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        17
+      ]
+    ],
+    "date-time": "2024-06-17T11:14:16Z",
+    "timestamp": 1718622856000
+  },
+  "page": "3926",
+  "is-referenced-by-count": 11,
+  "title": [
+    "A Compact, Low-Cost, and Low-Power Turbidity Sensor for Continuous In Situ Stormwater Monitoring"
+  ],
+  "volume": "24",
+  "author": [
+    {
+      "given": "Miao",
+      "family": "Wang",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Civil Engineering, Monash University, Wellington Road, Melbourne 3800, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Baiqian",
+      "family": "Shi",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Civil Engineering, Monash University, Wellington Road, Melbourne 3800, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8967-5853",
+      "authenticated-orcid": false,
+      "given": "Stephen",
+      "family": "Catsamas",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Civil Engineering, Monash University, Wellington Road, Melbourne 3800, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter",
+      "family": "Kolotelo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Civil Engineering, Monash University, Wellington Road, Melbourne 3800, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "David",
+      "family": "McCarthy",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Civil and Environmental Engineering, Queensland University of Technology, S Block, Level 7, S727, Brisbane 4000, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        17
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/1424-8220/24/12/3926/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        10
+      ]
+    ],
+    "date-time": "2025-10-10T15:00:12Z",
+    "timestamp": 1760108412000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        17
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.3390/s24123926",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        17
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "e382e48044ed7f8ca0b57d9e320390e463aed0607545f197baf670edc341a384"
+}

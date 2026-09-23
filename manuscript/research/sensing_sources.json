@@ -1,0 +1,579 @@
+{
+  "scope": "Targeted curated primary-source research; not a systematic review of thousands of papers.",
+  "count": 25,
+  "sources": [
+    {
+      "id": "SEN01",
+      "title": "Air Quality Gas Sensor (Model: MQ135) Manual, version 1.6",
+      "authors": [
+        "Zhengzhou Winsen Electronics Technology Co., Ltd."
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "https://www.winsen-sensor.com/d/files/manual/mq135.pdf",
+      "source_type": "manufacturer documentation",
+      "claim_supported": "SnO2 response is broad and temperature/humidity dependent; Rs=(Vc/VRL-1)RL. Requires regulated 5 V heater, up to 950 mW, and over 48 h initial preheat.",
+      "read_depth": "Manufacturer PDF: specifications, circuit, response and cautions read.",
+      "limitations": "Does not establish selective CO2 measurement or rover accuracy. No manual figures reused; copyrighted.",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": "SEN02",
+      "title": "Carbon Monoxide Gas Sensor (Model: MQ-7B) Manual, version 1.6",
+      "authors": [
+        "Zhengzhou Winsen Electronics Technology Co., Ltd."
+      ],
+      "year": 2021,
+      "doi": null,
+      "url": "https://www.winsen-sensor.com/d/files/manual/mq-7b.pdf",
+      "source_type": "manufacturer documentation",
+      "claim_supported": "MQ-7B uses 60 s at 5 V heating followed by 90 s at 1.5 V; CO sensing occurs in low-temperature phase. Initial preheat is at least 48 h.",
+      "read_depth": "Manufacturer PDF: operating sequence, specifications, circuit and cautions read.",
+      "limitations": "The rover description says MQ7, not MQ-7B. Verify exact sensor and module before transferring these timing/voltage/range specifications.",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": "SEN03",
+      "title": "Flammable Gas Sensor (Model: MQ-4) Manual, version 1.6",
+      "authors": [
+        "Zhengzhou Winsen Electronics Technology Co., Ltd."
+      ],
+      "year": 2021,
+      "doi": null,
+      "url": "https://www.winsen-sensor.com/d/files/mq-4-(ver1_6)---manual.pdf",
+      "source_type": "manufacturer documentation",
+      "claim_supported": "MQ-4 is a heated SnO2 methane-sensitive sensor; manufacturer lists CH4 range 300–10000 ppm and a regulated 5 V heater.",
+      "read_depth": "Manufacturer PDF introductory/specification sections and official product listing read.",
+      "limitations": "Range is not an accuracy statement; ppm estimation needs unit-specific calibration and interference evaluation.",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": "SEN04",
+      "title": "BMP180 Digital Pressure Sensor Data Sheet, revision 2.5, BST-BMP180-DS000-09",
+      "authors": [
+        "Bosch Sensortec"
+      ],
+      "year": 2013,
+      "doi": null,
+      "url": "https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf",
+      "source_type": "manufacturer documentation",
+      "claim_supported": "Pressure/temperature outputs require sensor-specific EEPROM compensation; housing must be vented and protected from liquids/light/rapid heat changes. It does not measure humidity.",
+      "read_depth": "Manufacturer PDF sections 3.1–3.6 and 6.5 read. Distributor-hosted original manufacturer document.",
+      "limitations": "Do not infer air humidity from BMP180. Barometric altitude depends on reference pressure and weather.",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": "SEN05",
+      "title": "GUVA-S12SD UV Detection Sensor (TOY0044)",
+      "authors": [
+        "DFRobot"
+      ],
+      "year": null,
+      "doi": null,
+      "url": "https://wiki.dfrobot.com/toy0044/",
+      "source_type": "manufacturer documentation",
+      "claim_supported": "GUVA-S12SD reference module detects 200–370 nm; module output conversion depends on analogue gain and calibration.",
+      "read_depth": "Official product specification page read.",
+      "limitations": "TOY0044 is one GUVA-S12SD module, not a verified identification of the rover board. Spectral/angle calibration is needed before reporting defensible UV index.",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": "SEN06",
+      "title": "Gravity: Analog pH Sensor V2 (SEN0161-V2)",
+      "authors": [
+        "DFRobot"
+      ],
+      "year": null,
+      "doi": null,
+      "url": "https://wiki.dfrobot.com/sen0161-v2",
+      "source_type": "manufacturer documentation",
+      "claim_supported": "Official reference implementation recommends two-point buffer calibration to identify both offset and slope; fresh standards and repeated calibration are required.",
+      "read_depth": "Official specifications and calibration FAQ read.",
+      "limitations": "Reference design only: supplied rover description does not identify the actual pH module model.",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": "SEN07",
+      "title": "Gravity: Analog Turbidity Sensor (SEN0189)",
+      "authors": [
+        "DFRobot"
+      ],
+      "year": null,
+      "doi": null,
+      "url": "https://wiki.dfrobot.com/sen0189",
+      "source_type": "manufacturer documentation",
+      "claim_supported": "Reference optical turbidity module provides analogue voltage or threshold output; voltage must be independently calibrated for quantitative interpretation.",
+      "read_depth": "Official specifications, reference description and pinout read.",
+      "limitations": "Reference design only; rover turbidity sensor model unverified. Do not equate generic voltage conversion with validated NTU or drinking-water safety.",
+      "accessed": "2026-09-15"
+    },
+    {
+      "id": "SEN08",
+      "title": "The influence of humidity on the performance of a low-cost air particle mass sensor and the effect of atmospheric fog",
+      "authors": [
+        "Rohan Jayaratne",
+        "Xiaoting Liu",
+        "Phong Thai",
+        "Matthew Dunbabin",
+        "Lidia Morawska"
+      ],
+      "year": 2018,
+      "doi": "10.5194/amt-11-4883-2018",
+      "url": "https://doi.org/10.5194/amt-11-4883-2018",
+      "source_type": "research article",
+      "claim_supported": "Humidity and fog increase apparent optical PM readings; PMS1003 laboratory deviations began around 75–80% RH.",
+      "read_depth": "Full publisher HTML: methods, laboratory results, field results, Figure 2 and license.",
+      "limitations": "PMS1003 evidence is mechanistically relevant but not a PMS7003 calibration.",
+      "accessed": "2026-09-15",
+      "journal": "Atmospheric Measurement Techniques",
+      "volume": "11",
+      "issue": "8",
+      "pages": "4883–4890"
+    },
+    {
+      "id": "SEN09",
+      "title": "Field evaluation of low-cost particulate matter sensors in high- and low-concentration environments",
+      "authors": [
+        "Tongshu Zheng",
+        "Michael H. Bergin",
+        "Karoline K. Johnson",
+        "Sachchida N. Tripathi",
+        "Shilpa Shirodkar",
+        "Matthew S. Landis",
+        "Ronak Sutaria",
+        "David E. Carlson"
+      ],
+      "year": 2018,
+      "doi": "10.5194/amt-11-4823-2018",
+      "url": "https://doi.org/10.5194/amt-11-4823-2018",
+      "source_type": "research article",
+      "claim_supported": "PMS3003 performance was evaluated across low/high concentration and seasonal environments; calibration and averaging affect usefulness.",
+      "read_depth": "Publisher abstract and methods excerpts; Crossref metadata.",
+      "limitations": "Different Plantower model and field sites; performance is not transferable to A3P5.",
+      "accessed": "2026-09-15",
+      "journal": "Atmospheric Measurement Techniques",
+      "volume": "11",
+      "issue": "8",
+      "pages": "4823-4846"
+    },
+    {
+      "id": "SEN10",
+      "title": "Gaussian process regression model for dynamically calibrating and surveilling a wireless low-cost particulate matter sensor network in Delhi",
+      "authors": [
+        "Tongshu Zheng",
+        "Michael H. Bergin",
+        "Ronak Sutaria",
+        "Sachchida N. Tripathi",
+        "Robert Caldow",
+        "David E. Carlson"
+      ],
+      "year": 2019,
+      "doi": "10.5194/amt-12-5161-2019",
+      "url": "https://doi.org/10.5194/amt-12-5161-2019",
+      "source_type": "research article",
+      "claim_supported": "A PMS7003-based Delhi network used Gaussian-process and linear calibration with reference stations; sensor siting preserves free airflow and environmental covariates.",
+      "read_depth": "Publisher HTML: hardware, calibration equations, validation and Figure 4; metadata and license.",
+      "limitations": "Network-scale 2018 study, not evidence of rover mapping precision or a ready-to-use local calibration.",
+      "accessed": "2026-09-15",
+      "journal": "Atmospheric Measurement Techniques",
+      "volume": "12",
+      "issue": "9",
+      "pages": "5161-5181"
+    },
+    {
+      "id": "SEN11",
+      "title": "Towards a hygroscopic growth calibration for low-cost PM 2.5 sensors",
+      "authors": [
+        "Milan Y. Patel",
+        "Pietro F. Vannucci",
+        "Jinsol Kim",
+        "William M. Berelson",
+        "Ronald C. Cohen"
+      ],
+      "year": 2024,
+      "doi": "10.5194/amt-17-1051-2024",
+      "url": "https://doi.org/10.5194/amt-17-1051-2024",
+      "source_type": "research article",
+      "claim_supported": "Seasonally varying humidity correction addresses hygroscopic-growth bias in PMS5003 measurements; residual uncertainty remains.",
+      "read_depth": "Publisher HTML: Eq.1, methods, evaluation, Figures 3–4 and license.",
+      "limitations": "Sensor model, aerosol mixture and geography differ. Fit local correction coefficients rather than copying study coefficients.",
+      "accessed": "2026-09-15",
+      "journal": "Atmospheric Measurement Techniques",
+      "volume": "17",
+      "issue": "3",
+      "pages": "1051-1060"
+    },
+    {
+      "id": "SEN12",
+      "title": "Development and application of a United States-wide correction for PM 2.5 data collected with the PurpleAir sensor",
+      "authors": [
+        "Karoline K. Barkjohn",
+        "Brett Gantt",
+        "Andrea L. Clements"
+      ],
+      "year": 2021,
+      "doi": "10.5194/amt-14-4617-2021",
+      "url": "https://doi.org/10.5194/amt-14-4617-2021",
+      "source_type": "research article",
+      "claim_supported": "A relative-humidity term improved PurpleAir calibration; evaluation held out dates and states, and transferability remained geographically limited.",
+      "read_depth": "Publisher abstract, model-development/validation/limitations sections, Figure 4 and license.",
+      "limitations": "US PMS5003/PurpleAir correction is not automatically applicable to a single PMS7003 on a moving rover.",
+      "accessed": "2026-09-15",
+      "journal": "Atmospheric Measurement Techniques",
+      "volume": "14",
+      "issue": "6",
+      "pages": "4617-4637"
+    },
+    {
+      "id": "SEN13",
+      "title": "GADEN: A 3D Gas Dispersion Simulator for Mobile Robot Olfaction in Realistic Environments",
+      "authors": [
+        "Javier Monroy",
+        "Victor Hernandez-Bennetts",
+        "Han Fan",
+        "Achim Lilienthal",
+        "Javier Gonzalez-Jimenez"
+      ],
+      "year": 2017,
+      "doi": "10.3390/s17071479",
+      "url": "https://doi.org/10.3390/s17071479",
+      "source_type": "research article",
+      "claim_supported": "GADEN combines 3D wind/filament dispersion and simulated gas sensors to test robotic olfaction in realistic geometry.",
+      "read_depth": "Original author project documentation, citation metadata; article abstract level.",
+      "limitations": "Blender staging is not GADEN/CFD simulation and cannot supply validated concentration fields.",
+      "accessed": "2026-09-15",
+      "journal": "Sensors",
+      "volume": "17",
+      "issue": "7",
+      "pages": "1479"
+    },
+    {
+      "id": "SEN14",
+      "title": "Information-Driven Gas Distribution Mapping for Autonomous Mobile Robots",
+      "authors": [
+        "Andres Gongora",
+        "Javier Monroy",
+        "Faezeh Rahbar",
+        "Chiara Ercolani",
+        "Javier Gonzalez-Jimenez",
+        "Alcherio Martinoli"
+      ],
+      "year": 2023,
+      "doi": "10.3390/s23125387",
+      "url": "https://doi.org/10.3390/s23125387",
+      "source_type": "research article",
+      "claim_supported": "Information-driven mapping combines gas/wind probabilistic maps with action selection by expected information; wind-tunnel and simulation evaluation support the method.",
+      "read_depth": "Primary paper indexed full-text sections 1,3,4,5 and conclusions; Crossref metadata.",
+      "limitations": "Requires localization, wind data and computation not established on current A3P5 electronics; proposed future architecture.",
+      "accessed": "2026-09-15",
+      "journal": "Sensors",
+      "volume": "23",
+      "issue": "12",
+      "pages": "5387"
+    },
+    {
+      "id": "SEN15",
+      "title": "Scalable Gas Sensing, Mapping, and Path Planning via Decentralized Hilbert Maps",
+      "authors": [
+        "Pingping Zhu",
+        "Silvia Ferrari",
+        "Julian Morelli",
+        "Richard Linares",
+        "Bryce Doerr"
+      ],
+      "year": 2019,
+      "doi": "10.3390/s19071524",
+      "url": "https://doi.org/10.3390/s19071524",
+      "source_type": "research article",
+      "claim_supported": "Decentralized Hilbert maps provide scalable gas mapping and information-driven path planning for distributed sensors.",
+      "read_depth": "Publisher/PubMed abstracts and Crossref metadata.",
+      "limitations": "Background method only; no decentralized map implemented or validated here.",
+      "accessed": "2026-09-15",
+      "journal": "Sensors",
+      "volume": "19",
+      "issue": "7",
+      "pages": "1524"
+    },
+    {
+      "id": "SEN16",
+      "title": "Towards the Development of an Affordable and Practical Light Attenuation Turbidity Sensor for Remote Near Real-Time Aquatic Monitoring",
+      "authors": [
+        "Jarrod Trevathan",
+        "Wayne Read",
+        "Simon Schmidtke"
+      ],
+      "year": 2020,
+      "doi": "10.3390/s20071993",
+      "url": "https://doi.org/10.3390/s20071993",
+      "source_type": "research article",
+      "claim_supported": "Independent turbidity calibration, waterproofing and fouling management are essential; the study re-engineered Gravity-type sensing and validated against Formazin/turbidimeter standards.",
+      "read_depth": "Publisher full HTML: sections 3–5, experimental figures and license.",
+      "limitations": "Study-specific electronics and usable range differ. Generic vendor calibration is not rover validation.",
+      "accessed": "2026-09-15",
+      "journal": "Sensors",
+      "volume": "20",
+      "issue": "7",
+      "pages": "1993"
+    },
+    {
+      "id": "SEN17",
+      "title": "A Compact, Low-Cost, and Low-Power Turbidity Sensor for Continuous In Situ Stormwater Monitoring",
+      "authors": [
+        "Miao Wang",
+        "Baiqian Shi",
+        "Stephen Catsamas",
+        "Peter Kolotelo",
+        "David McCarthy"
+      ],
+      "year": 2024,
+      "doi": "10.3390/s24123926",
+      "url": "https://doi.org/10.3390/s24123926",
+      "source_type": "research article",
+      "claim_supported": "A low-cost stormwater turbidity system was tested in laboratory/field; pre-/post-cleaning calibration exposed fouling and drift effects.",
+      "read_depth": "Publisher indexed full methods/results/limitations excerpts and Crossref metadata.",
+      "limitations": "Different sensor geometry. Its quoted cost, range and accuracy must not be assigned to A3P5.",
+      "accessed": "2026-09-15",
+      "journal": "Sensors",
+      "volume": "24",
+      "issue": "12",
+      "pages": "3926"
+    },
+    {
+      "id": "SEN18",
+      "title": "Development of a Robotic Airboat for Online Water Quality Monitoring in Lakes",
+      "authors": [
+        "Marcelo Melo",
+        "Francisco Mota",
+        "Victor Albuquerque",
+        "Auzuir Alexandria"
+      ],
+      "year": 2019,
+      "doi": "10.3390/robotics8010019",
+      "url": "https://doi.org/10.3390/robotics8010019",
+      "source_type": "research article",
+      "claim_supported": "An autonomous surface vehicle provides a precedent for geolocated online water-quality sampling.",
+      "read_depth": "Publisher abstract and Crossref metadata.",
+      "limitations": "Aquatic airboat, not ground rover. Do not imply A3P5 is amphibious.",
+      "accessed": "2026-09-15",
+      "journal": "Robotics",
+      "volume": "8",
+      "issue": "1",
+      "pages": "19"
+    },
+    {
+      "id": "SEN19",
+      "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+      "authors": [
+        "Sayash Kapoor",
+        "Arvind Narayanan"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.patter.2023.100804",
+      "url": "https://doi.org/10.1016/j.patter.2023.100804",
+      "source_type": "research article",
+      "claim_supported": "Training/test leakage can produce optimistic scientific ML results; explicit model-information reporting exposes leakage pathways.",
+      "read_depth": "Primary article abstract, framework and resource-availability excerpts; author repository; Crossref metadata.",
+      "limitations": "Supports validation design rather than any model score.",
+      "accessed": "2026-09-15",
+      "journal": "Patterns",
+      "volume": "4",
+      "issue": "9",
+      "pages": "100804"
+    },
+    {
+      "id": "SEN20",
+      "title": "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+      "authors": [
+        "David R. Roberts",
+        "Volker Bahn",
+        "Simone Ciuti",
+        "Mark S. Boyce",
+        "Jane Elith",
+        "Gurutzeta Guillera‐Arroita",
+        "Severin Hauenstein",
+        "José J. Lahoz‐Monfort",
+        "Boris Schröder",
+        "Wilfried Thuiller",
+        "David I. Warton",
+        "Brendan A. Wintle",
+        "Florian Hartig",
+        "Carsten F. Dormann"
+      ],
+      "year": 2017,
+      "doi": "10.1111/ecog.02881",
+      "url": "https://doi.org/10.1111/ecog.02881",
+      "source_type": "methodological synthesis/review",
+      "claim_supported": "Validation should respect temporal, spatial and group dependencies; blocking must match the intended prediction task.",
+      "read_depth": "Primary author paper abstract and methodological recommendations; publisher metadata.",
+      "limitations": "Methodological synthesis, classified as a review by the publisher; not an A3P5 experiment.",
+      "accessed": "2026-09-15",
+      "journal": "Ecography",
+      "volume": "40",
+      "issue": "8",
+      "pages": "913-929"
+    },
+    {
+      "id": "SEN21",
+      "title": "Random Forests",
+      "authors": [
+        "Leo Breiman"
+      ],
+      "year": 2001,
+      "doi": "10.1023/A:1010933404324",
+      "url": "https://doi.org/10.1023/a:1010933404324",
+      "source_type": "research article",
+      "claim_supported": "Random forests aggregate randomized decision trees; suitable as a proposed nonlinear baseline after data collection.",
+      "read_depth": "Original publisher abstract and Crossref metadata.",
+      "limitations": "No random forest has been trained on rover logs.",
+      "accessed": "2026-09-15",
+      "journal": "Machine Learning",
+      "volume": "45",
+      "issue": "1",
+      "pages": "5-32"
+    },
+    {
+      "id": "SEN22",
+      "title": "Isolation-Based Anomaly Detection",
+      "authors": [
+        "Fei Tony Liu",
+        "Kai Ming Ting",
+        "Zhi-Hua Zhou"
+      ],
+      "year": 2012,
+      "doi": "10.1145/2133360.2133363",
+      "url": "https://doi.org/10.1145/2133360.2133363",
+      "source_type": "research article",
+      "claim_supported": "Isolation Forest detects unusual observations through their ease of isolation in random trees.",
+      "read_depth": "Original publisher abstract, author manuscript overview and Crossref metadata.",
+      "limitations": "An anomaly score identifies unusualness, not a confirmed pollutant or environmental hazard.",
+      "accessed": "2026-09-15",
+      "journal": "ACM Transactions on Knowledge Discovery from Data",
+      "volume": "6",
+      "issue": "1",
+      "pages": "1-39"
+    },
+    {
+      "id": "SEN23",
+      "title": "Gaussian Processes for Machine Learning",
+      "authors": [
+        "Carl Edward Rasmussen",
+        "Christopher K. I. Williams"
+      ],
+      "year": 2006,
+      "doi": "10.7551/mitpress/3206.001.0001",
+      "url": "https://doi.org/10.7551/mitpress/3206.001.0001",
+      "source_type": "methods book",
+      "claim_supported": "Gaussian-process regression represents a latent function with a covariance kernel and yields conditional predictions and uncertainty.",
+      "read_depth": "Authors official book contents and regression chapter synopsis; publisher metadata.",
+      "limitations": "Book cited as 2006 per title-page convention; online publisher release metadata is November 2005. No fitted rover GP exists.",
+      "accessed": "2026-09-15",
+      "journal": "",
+      "volume": null,
+      "issue": null,
+      "pages": null
+    },
+    {
+      "id": "SEN24",
+      "title": "Laboratory and field evaluation of a low-cost methane sensor and key environmental factors for sensor calibration",
+      "authors": [
+        "Joyce J. Y. Lin",
+        "Colby Buehler",
+        "Abhirup Datta",
+        "Drew R. Gentner",
+        "Kirsten Koehler",
+        "Misti Levy Zamora"
+      ],
+      "year": 2023,
+      "doi": "10.1039/D2EA00100D",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2023/ea/d2ea00100d",
+      "source_type": "research article",
+      "claim_supported": "Unit-specific calibration and CO, temperature and humidity covariates affected low-cost methane performance; seasonal validation changed results.",
+      "read_depth": "Primary publisher abstract and license read.",
+      "limitations": "Study sensor was Figaro TGS2600, not MQ4. Evidence supports calibration/interference testing, not transferred accuracy.",
+      "accessed": "2026-09-15",
+      "journal": "Environmental Science: Atmospheres",
+      "volume": "3",
+      "pages": "683–694"
+    },
+    {
+      "id": "SEN25",
+      "title": "Chapter A6.4. Measurement of pH",
+      "authors": [
+        "U.S. Geological Survey"
+      ],
+      "year": 2021,
+      "doi": "10.3133/tm9A6.4",
+      "url": "https://pubs.usgs.gov/publication/tm9A6.4",
+      "source_type": "official measurement protocol",
+      "claim_supported": "Field pH measurement requires instrument calibration, maintenance, stabilization, quality assurance and documented reporting.",
+      "read_depth": "Official report abstract, scope and table of contents; measurement-method summary.",
+      "limitations": "Use its procedures as the validation basis; a pH reading alone does not establish potability.",
+      "accessed": "2026-09-15",
+      "journal": "Techniques and Methods",
+      "volume": "9-A6.4",
+      "pages": "21"
+    }
+  ],
+  "licensed_figures": [
+    {
+      "key": "jayaratne2018",
+      "article_url": "https://amt.copernicus.org/articles/11/4883/2018/",
+      "figure": 2,
+      "asset_url": "https://amt.copernicus.org/articles/11/4883/2018/amt-11-4883-2018-f02-web.png",
+      "local_path": "manuscript/research/licensed_figures/jayaratne2018_fig2.png",
+      "license": "CC BY 4.0",
+      "source_id": "SEN08",
+      "suggested_manuscript_caption": "Laboratory evidence of humidity-dependent optical PM response. Reproduced from Jayaratne et al. (2018), Fig. 2, CC BY 4.0. These PMS1003 measurements belong to the cited study; they are not A3P5 observations.",
+      "figure_content_description": "The PM2.5 concentration reported by the PMS1003 and the DustTrak as the relative humidity was increased in the laboratory chamber.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "copyright": "Copyright the authors, year of publication",
+      "changes": "None; unmodified publisher image",
+      "visual_verification": "Four-figure montage inspected; all files decoded successfully. Labels and source-study axes present."
+    },
+    {
+      "key": "patel2024",
+      "article_url": "https://amt.copernicus.org/articles/17/1051/2024/",
+      "figure": 4,
+      "asset_url": "https://amt.copernicus.org/articles/17/1051/2024/amt-17-1051-2024-f04-web.png",
+      "local_path": "manuscript/research/licensed_figures/patel2024_fig4.png",
+      "license": "CC BY 4.0",
+      "source_id": "SEN11",
+      "suggested_manuscript_caption": "Published comparison of uncorrected and calibrated PM2.5 observations against reference measurements. Reproduced from Patel et al. (2024), Fig. 4, CC BY 4.0. Laney-site data, 2021–2022; not A3P5 data.",
+      "figure_content_description": "Sensor-predicted PM2.5 values versus EPA reference values for the Laney site from 2021–2022 with different correction algorithms.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "copyright": "Copyright the authors, year of publication",
+      "changes": "None; unmodified publisher image",
+      "visual_verification": "Four-figure montage inspected; all files decoded successfully. Labels and source-study axes present."
+    },
+    {
+      "key": "zheng2019",
+      "article_url": "https://amt.copernicus.org/articles/12/5161/2019/",
+      "figure": 4,
+      "asset_url": "https://amt.copernicus.org/articles/12/5161/2019/amt-12-5161-2019-f04-web.png",
+      "local_path": "manuscript/research/licensed_figures/zheng2019_fig4.png",
+      "license": "CC BY 4.0",
+      "source_id": "SEN10",
+      "suggested_manuscript_caption": "Published Delhi network PM2.5 distributions: reference monitors and calibrated low-cost nodes. Reproduced from Zheng et al. (2019), Fig. 4, CC BY 4.0. This network included PMS7003 sensors; the figure is external evidence, not rover validation.",
+      "figure_content_description": "Box plots of 24-hour reference PM2.5 concentrations and low-cost node concentrations calibrated by the optimized GPR model, with site means and standard deviations.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "copyright": "Copyright the authors, year of publication",
+      "changes": "None; unmodified publisher image",
+      "visual_verification": "Four-figure montage inspected; all files decoded successfully. Labels and source-study axes present."
+    },
+    {
+      "key": "barkjohn2021",
+      "article_url": "https://amt.copernicus.org/articles/14/4617/2021/",
+      "figure": 4,
+      "asset_url": "https://amt.copernicus.org/articles/14/4617/2021/amt-14-4617-2021-f04-web.png",
+      "local_path": "manuscript/research/licensed_figures/barkjohn2021_fig4.png",
+      "license": "CC BY 4.0",
+      "source_id": "SEN12",
+      "suggested_manuscript_caption": "Published calibration-model errors under date- and state-withholding evaluation. Reproduced from Barkjohn et al. (2021), Fig. 4, CC BY 4.0. The external study illustrates why A3P5 requires independent validation.",
+      "figure_content_description": "Mean absolute and mean bias errors of raw and corrected PurpleAir PM2.5 across withheld dates (LOBD) and states (LOSO).",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "copyright": "Copyright the authors, year of publication",
+      "changes": "None; unmodified publisher image",
+      "visual_verification": "Four-figure montage inspected; all files decoded successfully. Labels and source-study axes present."
+    }
+  ]
+}

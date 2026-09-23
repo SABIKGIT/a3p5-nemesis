@@ -1,0 +1,254 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        20
+      ]
+    ],
+    "date-time": "2026-07-20T16:50:55Z",
+    "timestamp": 1784566255633,
+    "version": "3.55.0"
+  },
+  "reference-count": 34,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T00:00:00Z",
+        "timestamp": 1775001600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T00:00:00Z",
+        "timestamp": 1775001600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T00:00:00Z",
+        "timestamp": 1775001600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-017"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T00:00:00Z",
+        "timestamp": 1775001600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T00:00:00Z",
+        "timestamp": 1775001600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-012"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T00:00:00Z",
+        "timestamp": 1775001600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T00:00:00Z",
+        "timestamp": 1775001600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-004"
+    }
+  ],
+  "short-container-title": [
+    "Robotics and Autonomous Systems"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        4
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.robot.2026.105341",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        1,
+        7
+      ]
+    ],
+    "date-time": "2026-01-07T08:09:56Z",
+    "timestamp": 1767773396000
+  },
+  "page": "105341",
+  "is-referenced-by-count": 1,
+  "title": [
+    "Unified motion control of 4WIS-4WID WMR with unlimited steering and load transfer consideration"
+  ],
+  "volume": "198",
+  "author": [
+    {
+      "given": "Dongwoo",
+      "family": "Seo",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0009-9784-2733",
+      "authenticated-orcid": false,
+      "given": "Seokki",
+      "family": "Moon",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1483-0278",
+      "authenticated-orcid": false,
+      "given": "Jaeyoung",
+      "family": "Kang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Robotics and Autonomous Systems"
+  ],
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S092188902600014X?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S092188902600014X?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        20
+      ]
+    ],
+    "date-time": "2026-03-20T00:50:54Z",
+    "timestamp": 1773967854000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        4
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1016/j.robot.2026.105341",
+  "ISSN": [
+    "0921-8890"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        4
+      ]
+    ]
+  },
+  "article-number": "105341",
+  "original_response_sha256": "70a756d143a8ec82c56904193ae2f3432de948c403e1e5a1aad172401362a515"
+}

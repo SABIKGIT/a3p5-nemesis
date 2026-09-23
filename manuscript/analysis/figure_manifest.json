@@ -1,0 +1,58 @@
+[
+  {
+    "id": "A01_steering_kinematics",
+    "title": "Four-wheel steering: coordinated geometry",
+    "png": "figures\\A01_steering_kinematics.png",
+    "svg": "figures\\A01_steering_kinematics.svg",
+    "evidence": "Analytical scenario; not measured data."
+  },
+  {
+    "id": "A02_grade_traction_torque",
+    "title": "Grade demand and traction feasibility",
+    "png": "figures\\A02_grade_traction_torque.png",
+    "svg": "figures\\A02_grade_traction_torque.svg",
+    "evidence": "Analytical scenario; not measured data."
+  },
+  {
+    "id": "A03_static_stability",
+    "title": "Payload position shifts the support margin",
+    "png": "figures\\A03_static_stability.png",
+    "svg": "figures\\A03_static_stability.svg",
+    "evidence": "Analytical scenario; not measured data."
+  },
+  {
+    "id": "A04_energy_endurance",
+    "title": "Energy budgeting under declared load scenarios",
+    "png": "figures\\A04_energy_endurance.png",
+    "svg": "figures\\A04_energy_endurance.svg",
+    "evidence": "Analytical scenario; not measured data."
+  },
+  {
+    "id": "A05_sensor_response_lag",
+    "title": "Moving measurements: response lag and dwell time",
+    "png": "figures\\A05_sensor_response_lag.png",
+    "svg": "figures\\A05_sensor_response_lag.svg",
+    "evidence": "Analytical scenario; not measured data."
+  },
+  {
+    "id": "A06_stopping_clearance",
+    "title": "Stopping clearance depends on braking and delay",
+    "png": "figures\\A06_stopping_clearance.png",
+    "svg": "figures\\A06_stopping_clearance.svg",
+    "evidence": "Analytical scenario; not measured data."
+  },
+  {
+    "id": "A07_pH_conditioning",
+    "title": "pH conditioning and ideal ADC resolution",
+    "png": "figures\\A07_pH_conditioning.png",
+    "svg": "figures\\A07_pH_conditioning.svg",
+    "evidence": "Analytical scenario; not measured data."
+  },
+  {
+    "id": "A08_parameter_sensitivity",
+    "title": "Which missing measurements change the conclusions?",
+    "png": "figures\\A08_parameter_sensitivity.png",
+    "svg": "figures\\A08_parameter_sensitivity.svg",
+    "evidence": "Analytical scenario; not measured data."
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "doi": "10.24432/c5wp4c",
+  "creators": [
+    {
+      "name": "Fonollosa, Jordi",
+      "nameType": "Personal",
+      "givenName": "Jordi",
+      "familyName": "Fonollosa",
+      "affiliation": [],
+      "nameIdentifiers": []
+    }
+  ],
+  "titles": [
+    {
+      "title": "Gas sensor array under dynamic gas mixtures"
+    }
+  ],
+  "publisher": "UCI Machine Learning Repository",
+  "container": {},
+  "publicationYear": 2015,
+  "subjects": [],
+  "contributors": [],
+  "dates": [
+    {
+      "date": "2015",
+      "dateType": "Issued"
+    }
+  ],
+  "types": {
+    "ris": "DATA",
+    "bibtex": "misc",
+    "citeproc": "dataset",
+    "schemaOrg": "Dataset",
+    "resourceTypeGeneral": "Dataset"
+  },
+  "rightsList": [],
+  "url": "https://archive.ics.uci.edu/dataset/322",
+  "created": "2023-03-16T13:04:57.000Z",
+  "published": "2015",
+  "DOI": "10.24432/c5wp4c",
+  "has_abstract": false,
+  "original_response_sha256": "b8581565536760cfd10c83282eed80d0d268b1a1c384d6a940951e6c462e3597"
+}

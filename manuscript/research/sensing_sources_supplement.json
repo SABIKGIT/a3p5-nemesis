@@ -1,0 +1,70 @@
+[
+  {
+    "id": "SEN26",
+    "title": "CN0326: Isolated Low Power pH Monitor with Temperature Compensation",
+    "authors": [
+      "Analog Devices"
+    ],
+    "year": 2013,
+    "doi": null,
+    "url": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/CN0326.html",
+    "source_type": "Manufacturer reference circuit and circuit note",
+    "read_depth": "Full technical sections, buffer design, Nernst discussion, calibration, system noise and evaluation read",
+    "claim_supported": "High-impedance pH electrode buffering; input bias and guarding; ideal temperature-dependent electrode slope",
+    "limitations": "Example circuit; its parts and performance must not be described as installed on A3P5",
+    "accessed": "2026-09-15"
+  },
+  {
+    "id": "SEN27",
+    "title": "Evaluation of measurement data — Guide to the expression of uncertainty in measurement",
+    "authors": [
+      "Joint Committee for Guides in Metrology"
+    ],
+    "year": 2008,
+    "doi": "10.59161/JCGM100-2008E",
+    "url": "https://doi.org/10.59161/JCGM100-2008E",
+    "source_type": "Metrology guide, JCGM 100:2008",
+    "read_depth": "Official BIPM publication identity, version, DOI and citation verified; generic first-order uncertainty framework only",
+    "claim_supported": "Measurement model and propagation of input uncertainty",
+    "limitations": "No numerical A3P5 uncertainty evaluated. BIPM lists a 2026 nonlinearity amendment; manuscript uses the explicitly first-order 2008 framework.",
+    "accessed": "2026-09-15"
+  },
+  {
+    "id": "SEN28",
+    "title": "Air Quality [Dataset]",
+    "authors": [
+      "Saverio Vito"
+    ],
+    "year": 2008,
+    "doi": "10.24432/C59K5F",
+    "url": "https://archive.ics.uci.edu/dataset/360/air+quality",
+    "source_type": "Public dataset",
+    "read_depth": "Repository and variable metadata read; raw archived CSV parsed and audited; independent CO benchmark computed",
+    "claim_supported": "Five sensor responses plus environmental variables and reference CO; sentinel -200; dataset provenance",
+    "limitations": "UCI current citation export is Vito, S. (2008), while associated original paper is De Vito et al. (2008). Actual CSV count and dates differ from repository prose. Current page states CC BY 4.0 alongside legacy research-only wording; present use is research.",
+    "accessed": "2026-09-15"
+  },
+  {
+    "id": "SEN29",
+    "title": "On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario",
+    "authors": [
+      "S. De Vito",
+      "E. Massera",
+      "M. Piga",
+      "L. Martinotto",
+      "G. Di Francia"
+    ],
+    "year": 2008,
+    "doi": "10.1016/j.snb.2007.09.060",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0925400507007691",
+    "source_type": "Primary research article",
+    "journal": "Sensors and Actuators B: Chemical",
+    "volume": "129",
+    "issue": "2",
+    "pages": "750–757",
+    "read_depth": "Publisher bibliographic identity and abstract verified",
+    "claim_supported": "Original study associated with the UCI sensor archive; original task is benzene calibration",
+    "limitations": "The present CO benchmark is a new reanalysis, not a replication of the original benzene model",
+    "accessed": "2026-09-15"
+  }
+]

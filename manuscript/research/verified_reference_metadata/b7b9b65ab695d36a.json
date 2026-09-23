@@ -1,0 +1,191 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ],
+    "date-time": "2026-09-02T15:18:41Z",
+    "timestamp": 1788362321773,
+    "version": "build-2803163510"
+  },
+  "reference-count": 20,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            16
+          ]
+        ],
+        "date-time": "2023-11-16T00:00:00Z",
+        "timestamp": 1700092800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            16
+          ]
+        ],
+        "date-time": "2023-11-16T00:00:00Z",
+        "timestamp": 1700092800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "short-container-title": [
+    "J Intell Robot Syst"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1007/s10846-023-02012-z",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        16
+      ]
+    ],
+    "date-time": "2023-11-16T08:02:30Z",
+    "timestamp": 1700121750000
+  },
+  "is-referenced-by-count": 7,
+  "title": [
+    "VGR Dataset: A CFD-based Gas Dispersion Dataset for Mobile Robotic Olfaction"
+  ],
+  "volume": "109",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-2326-5269",
+      "authenticated-orcid": false,
+      "given": "Pepe",
+      "family": "Ojeda",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Javier",
+      "family": "Monroy",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Javier",
+      "family": "Gonzalez-Jimenez",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        16
+      ]
+    ]
+  },
+  "container-title": [
+    "Journal of Intelligent &amp; Robotic Systems"
+  ],
+  "link": [
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s10846-023-02012-z.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/article/10.1007/s10846-023-02012-z/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s10846-023-02012-z.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        3,
+        18
+      ]
+    ],
+    "date-time": "2024-03-18T08:15:24Z",
+    "timestamp": 1710749724000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        16
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1007/s10846-023-02012-z",
+  "ISSN": [
+    "0921-0296",
+    "1573-0409"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        16
+      ]
+    ]
+  },
+  "article-number": "75",
+  "has_abstract": true,
+  "original_response_sha256": "a3db820acd6d9be375e9e0a4dd6522ea107b0bb14ac20ba7230d839177ef4364"
+}

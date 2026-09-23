@@ -1,0 +1,22 @@
+{
+  "retrieval_method": "Crossref public REST API, relevance-ranked top 500 per each of ten bibliographic queries",
+  "date_filter": "1990-01-01 through 2026-09-15 inclusive",
+  "query_count": 10,
+  "raw_record_occurrences": 5000,
+  "unique_records_after_doi_deduplication": 4897,
+  "duplicate_occurrences_removed": 103,
+  "records_without_doi": 0,
+  "records_with_abstract": 1291,
+  "records_without_abstract": 3606,
+  "metadata_candidates": 1212,
+  "not_prioritized": 3685,
+  "heuristic_shortlist": 150,
+  "shortlist_with_abstract": 71,
+  "verified_sha256_raw_files": 10,
+  "screened_at_utc": "2026-09-15T14:14:41.712851+00:00",
+  "full_texts_reviewed_in_census": 0,
+  "review_type": "reproducible exploratory metadata census; not a systematic review or PRISMA study selection",
+  "scoring_version": "1.2, fully specified in screen_metadata.py",
+  "candidate_peer_review_reports": 0,
+  "shortlist_exact_normalized_title_duplicates": 0
+}

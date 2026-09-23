@@ -1,0 +1,178 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        23
+      ]
+    ],
+    "date-time": "2026-08-23T18:36:59Z",
+    "timestamp": 1787510219744,
+    "version": "build-2736575974"
+  },
+  "reference-count": 33,
+  "publisher": "Copernicus GmbH",
+  "issue": "3",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            13
+          ]
+        ],
+        "date-time": "2024-02-13T00:00:00Z",
+        "timestamp": 1707782400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Atmos. Meas. Tech."
+  ],
+  "DOI": "10.5194/amt-17-1051-2024",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        13
+      ]
+    ],
+    "date-time": "2024-02-13T09:28:41Z",
+    "timestamp": 1707816521000
+  },
+  "page": "1051-1060",
+  "is-referenced-by-count": 29,
+  "title": [
+    "Towards a hygroscopic growth calibration for low-cost PM\n                    <sub>2.5</sub>\n                    sensors"
+  ],
+  "volume": "17",
+  "author": [
+    {
+      "given": "Milan Y.",
+      "family": "Patel",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Pietro F.",
+      "family": "Vannucci",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jinsol",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "William M.",
+      "family": "Berelson",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-6617-7691",
+      "authenticated-orcid": false,
+      "given": "Ronald C.",
+      "family": "Cohen",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        13
+      ]
+    ]
+  },
+  "container-title": [
+    "Atmospheric Measurement Techniques"
+  ],
+  "link": [
+    {
+      "URL": "https://amt.copernicus.org/articles/17/1051/2024/amt-17-1051-2024.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        13
+      ]
+    ],
+    "date-time": "2024-02-13T09:28:53Z",
+    "timestamp": 1707816533000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        13
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.5194/amt-17-1051-2024",
+  "ISSN": [
+    "1867-8548"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        13
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "0e95679149459f6f35ff05283316678af20647ea98d3cb55345d98d54801a75c"
+}

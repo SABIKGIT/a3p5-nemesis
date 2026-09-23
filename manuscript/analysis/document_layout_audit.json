@@ -1,0 +1,939 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "no_running_header_text": true,
+    "only_page_numbers_in_footer": true,
+    "IEEE_first_citation_order_1_to_45": true,
+    "IEEE_79_source_mentions": true,
+    "conclusion_last_main_section": true,
+    "verified_ML_code_listing_present": true,
+    "figures_sequential_1_to_45": true,
+    "tables_sequential_1_to_6": true,
+    "equations_sequential_1_to_18": true,
+    "all_63_images_have_alt_text": true,
+    "all_45_figures_under_expected_docx_subsection": true,
+    "all_45_figures_in_body_callouts": true,
+    "no_unresolved_authoring_markers": true,
+    "known_inline_variables_typeset": true,
+    "six_repeatable_table_headers": true,
+    "no_title_paragraph_border": true,
+    "all_14_canva_print_assets_used": true,
+    "no_horizontal_margin_overflow": true,
+    "rendered_pages_match_pdf": true
+  },
+  "page_count": 40,
+  "counts": {
+    "figures": 45,
+    "tables": 6,
+    "equations": 18
+  },
+  "body_callouts": {
+    "all_figures_covered": true,
+    "figure_count": 45,
+    "callout_count": 27,
+    "callouts": [
+      {
+        "subsection": "1",
+        "figure_numbers": [
+          1
+        ],
+        "figure_files": [
+          "../A3P5_Nemesis_Hero.png"
+        ],
+        "sentence": "The reconstructed configuration is illustrated in Figure 1."
+      },
+      {
+        "subsection": "2.2",
+        "figure_numbers": [
+          2,
+          3
+        ],
+        "figure_files": [
+          "figures/Fig_L1_metadata_census.png",
+          "figures/Fig_L2_metadata_abstract_coverage.png"
+        ],
+        "sentence": "Figures 2 and 3 summarize retrieval and screening counts, publication-year coverage and the availability of abstracts in this sample."
+      },
+      {
+        "subsection": "3.3",
+        "figure_numbers": [
+          4,
+          5
+        ],
+        "figure_files": [
+          "research/comparison_ResQbot_Saputra2021_Fig10a_CC-BY-4.jpg",
+          "research/comparison_telescopic_rover_Mohamed2025_Fig1c_CC-BY-4.jpg"
+        ],
+        "sentence": "The contrasting rescue and telescopic-leg platforms in Figures 4 and 5 show how different mission requirements produce different mechanical arrangements."
+      },
+      {
+        "subsection": "4.1",
+        "figure_numbers": [
+          6
+        ],
+        "figure_files": [
+          "figures/prototype_views.png"
+        ],
+        "sentence": "Figure 6 collects the four photographic views used to constrain the reconstruction."
+      },
+      {
+        "subsection": "4.2",
+        "figure_numbers": [
+          7
+        ],
+        "figure_files": [
+          "../A3P5_Nemesis_Wiring_Detail.png"
+        ],
+        "sentence": "The secured sleeves, cable supports and connection details are visible in Figure 7."
+      },
+      {
+        "subsection": "4.3",
+        "figure_numbers": [
+          8
+        ],
+        "figure_files": [
+          "diagrams/canva_01_print.png"
+        ],
+        "sentence": "Figure 8 summarizes the proposed functional interfaces between measurement, control, communications and operator supervision."
+      },
+      {
+        "subsection": "5.1",
+        "figure_numbers": [
+          9,
+          10
+        ],
+        "figure_files": [
+          "diagrams/canva_03_print.png",
+          "analysis/figures/A01_steering_kinematics.png"
+        ],
+        "sentence": "Figures 9 and 10 connect the proposed wheel-command allocation with the calculated steering geometry."
+      },
+      {
+        "subsection": "5.2",
+        "figure_numbers": [
+          11
+        ],
+        "figure_files": [
+          "diagrams/canva_04_print.png"
+        ],
+        "sentence": "The proposed feedback and traction-monitoring chain is summarized in Figure 11."
+      },
+      {
+        "subsection": "5.3",
+        "figure_numbers": [
+          12
+        ],
+        "figure_files": [
+          "analysis/figures/A02_grade_traction_torque.png"
+        ],
+        "sentence": "Figure 12 plots the resulting grade-dependent wheel torque and minimum friction requirements."
+      },
+      {
+        "subsection": "6.1",
+        "figure_numbers": [
+          13,
+          14,
+          15
+        ],
+        "figure_files": [
+          "diagrams/canva_09_print.png",
+          "blender/M03_mission.png",
+          "blender/M03_gripper_detail.png"
+        ],
+        "sentence": "Figures 13–15 connect the manipulation workflow with the full-rover handling arrangement and the gripper contact detail."
+      },
+      {
+        "subsection": "6.2",
+        "figure_numbers": [
+          16
+        ],
+        "figure_files": [
+          "analysis/figures/A03_static_stability.png"
+        ],
+        "sentence": "Figure 16 shows how payload and centre-of-mass assumptions affect the geometric support margin."
+      },
+      {
+        "subsection": "6.3",
+        "figure_numbers": [
+          17,
+          18
+        ],
+        "figure_files": [
+          "blender/M02_mission.png",
+          "blender/M02_probe_detail.png"
+        ],
+        "sentence": "The complete sampling arrangement and the electrode-immersion detail are shown in Figures 17 and 18."
+      },
+      {
+        "subsection": "7.2",
+        "figure_numbers": [
+          19
+        ],
+        "figure_files": [
+          "diagrams/canva_05_print.png"
+        ],
+        "sentence": "Figure 19 summarizes the proposed gas-sensing sequence from sensor identification and heater control to quality-checked interpretation."
+      },
+      {
+        "subsection": "7.3",
+        "figure_numbers": [
+          20,
+          21,
+          22
+        ],
+        "figure_files": [
+          "diagrams/canva_06_print.png",
+          "research/licensed_figures/jayaratne2018_fig2.png",
+          "research/licensed_figures/patel2024_fig4.png"
+        ],
+        "sentence": "Figures 20–22 place the proposed particulate-acquisition chain alongside published humidity-response and calibration evidence."
+      },
+      {
+        "subsection": "7.4",
+        "figure_numbers": [
+          23,
+          24
+        ],
+        "figure_files": [
+          "analysis/figures/A05_sensor_response_lag.png",
+          "research/licensed_figures/zheng2019_fig4.png"
+        ],
+        "sentence": "The analytical response-lag scenarios and an external spatial monitoring example are presented in Figures 23 and 24."
+      },
+      {
+        "subsection": "7.5",
+        "figure_numbers": [
+          25,
+          26,
+          27
+        ],
+        "figure_files": [
+          "diagrams/canva_07_print.png",
+          "diagrams/canva_08_print.png",
+          "analysis/figures/A07_pH_conditioning.png"
+        ],
+        "sentence": "Figure 25 presents the calculated pH-conditioning response, Figure 26 the water-assessment workflow, and Figure 27 the ultraviolet, pressure and temperature interfaces."
+      },
+      {
+        "subsection": "8.1",
+        "figure_numbers": [
+          28,
+          29
+        ],
+        "figure_files": [
+          "diagrams/canva_02_print.png",
+          "analysis/figures/A04_energy_endurance.png"
+        ],
+        "sentence": "Figures 28 and 29 connect the proposed power-distribution architecture with the assumed energy-budget scenarios."
+      },
+      {
+        "subsection": "8.3",
+        "figure_numbers": [
+          30
+        ],
+        "figure_files": [
+          "diagrams/canva_11_print.png"
+        ],
+        "sentence": "The communications, dashboard and command-authority interfaces are summarized in Figure 30."
+      },
+      {
+        "subsection": "9.1",
+        "figure_numbers": [
+          31,
+          32
+        ],
+        "figure_files": [
+          "diagrams/canva_10_print.png",
+          "blender/M05_mission.png"
+        ],
+        "sentence": "Figures 31 and 32 relate the proposed navigation pipeline to the Blender patrol configuration."
+      },
+      {
+        "subsection": "9.2",
+        "figure_numbers": [
+          33,
+          34,
+          35
+        ],
+        "figure_files": [
+          "diagrams/canva_13_print.png",
+          "blender/M01_mission.png",
+          "blender/M04_mission.png"
+        ],
+        "sentence": "Figures 33–35 combine the mission-data workflow with industrial-observation and visual-reconnaissance illustrations."
+      },
+      {
+        "subsection": "9.3",
+        "figure_numbers": [
+          36,
+          37
+        ],
+        "figure_files": [
+          "analysis/figures/A06_stopping_clearance.png",
+          "diagrams/canva_12_print.png"
+        ],
+        "sentence": "Figures 36 and 37 connect the stopping-distance scenarios with the proposed operating and protective states."
+      },
+      {
+        "subsection": "10.1",
+        "figure_numbers": [
+          38
+        ],
+        "figure_files": [
+          "analysis/ml_outputs/figures/01_dataset_audit.png"
+        ],
+        "sentence": "Figure 38 documents the time coverage, observation eligibility and distribution shifts of the external dataset."
+      },
+      {
+        "subsection": "10.2",
+        "figure_numbers": [
+          39
+        ],
+        "figure_files": [
+          "diagrams/canva_14_print.png"
+        ],
+        "sentence": "The ordered calibration-analysis stages are summarized in Figure 39."
+      },
+      {
+        "subsection": "10.3",
+        "figure_numbers": [
+          40
+        ],
+        "figure_files": [
+          "research/licensed_figures/barkjohn2021_fig4.png"
+        ],
+        "sentence": "The published withheld-date and withheld-state comparison in Figure 40 illustrates why evaluation partitions must match the intended deployment claim."
+      },
+      {
+        "subsection": "10.4",
+        "figure_numbers": [
+          41,
+          42,
+          43
+        ],
+        "figure_files": [
+          "analysis/ml_outputs/figures/02_test_metrics.png",
+          "analysis/ml_outputs/figures/03_selected_model_predictions.png",
+          "analysis/ml_outputs/figures/04_residual_humidity.png"
+        ],
+        "sentence": "Figures 41–43 report the frozen-model scores, selected-model prediction agreement and humidity-dependent residual patterns."
+      },
+      {
+        "subsection": "10.5",
+        "figure_numbers": [
+          44
+        ],
+        "figure_files": [
+          "analysis/ml_outputs/figures/05_desktop_cost_and_sensitivity.png"
+        ],
+        "sentence": "Figure 44 compares serialized model size, desktop prediction cost and validation-only predictor sensitivity."
+      },
+      {
+        "subsection": "11.1",
+        "figure_numbers": [
+          45
+        ],
+        "figure_files": [
+          "analysis/figures/A08_parameter_sensitivity.png"
+        ],
+        "sentence": "Figure 45 quantifies the sensitivity of the energy and stability calculations to their assumed inputs."
+      }
+    ]
+  },
+  "references_in_manuscript": 45,
+  "full_reference_registry": 61,
+  "docx_sha256": "393e76468af4a004b9f278fc27ca622ff0bd3bdd60cd717cb690dcb4f5fbf889",
+  "source_sha256": "4d7e3f3c22b77a22fbb1558bde24101a80b36f47489e9158574275ac7c64dd50",
+  "figure_placement": [
+    {
+      "number": 1,
+      "subsection": "1"
+    },
+    {
+      "number": 2,
+      "subsection": "2.2"
+    },
+    {
+      "number": 3,
+      "subsection": "2.2"
+    },
+    {
+      "number": 4,
+      "subsection": "3.3"
+    },
+    {
+      "number": 5,
+      "subsection": "3.3"
+    },
+    {
+      "number": 6,
+      "subsection": "4.1"
+    },
+    {
+      "number": 7,
+      "subsection": "4.2"
+    },
+    {
+      "number": 8,
+      "subsection": "4.3"
+    },
+    {
+      "number": 9,
+      "subsection": "5.1"
+    },
+    {
+      "number": 10,
+      "subsection": "5.1"
+    },
+    {
+      "number": 11,
+      "subsection": "5.2"
+    },
+    {
+      "number": 12,
+      "subsection": "5.3"
+    },
+    {
+      "number": 13,
+      "subsection": "6.1"
+    },
+    {
+      "number": 14,
+      "subsection": "6.1"
+    },
+    {
+      "number": 15,
+      "subsection": "6.1"
+    },
+    {
+      "number": 16,
+      "subsection": "6.2"
+    },
+    {
+      "number": 17,
+      "subsection": "6.3"
+    },
+    {
+      "number": 18,
+      "subsection": "6.3"
+    },
+    {
+      "number": 19,
+      "subsection": "7.2"
+    },
+    {
+      "number": 20,
+      "subsection": "7.3"
+    },
+    {
+      "number": 21,
+      "subsection": "7.3"
+    },
+    {
+      "number": 22,
+      "subsection": "7.3"
+    },
+    {
+      "number": 23,
+      "subsection": "7.4"
+    },
+    {
+      "number": 24,
+      "subsection": "7.4"
+    },
+    {
+      "number": 25,
+      "subsection": "7.5"
+    },
+    {
+      "number": 26,
+      "subsection": "7.5"
+    },
+    {
+      "number": 27,
+      "subsection": "7.5"
+    },
+    {
+      "number": 28,
+      "subsection": "8.1"
+    },
+    {
+      "number": 29,
+      "subsection": "8.1"
+    },
+    {
+      "number": 30,
+      "subsection": "8.3"
+    },
+    {
+      "number": 31,
+      "subsection": "9.1"
+    },
+    {
+      "number": 32,
+      "subsection": "9.1"
+    },
+    {
+      "number": 33,
+      "subsection": "9.2"
+    },
+    {
+      "number": 34,
+      "subsection": "9.2"
+    },
+    {
+      "number": 35,
+      "subsection": "9.2"
+    },
+    {
+      "number": 36,
+      "subsection": "9.3"
+    },
+    {
+      "number": 37,
+      "subsection": "9.3"
+    },
+    {
+      "number": 38,
+      "subsection": "10.1"
+    },
+    {
+      "number": 39,
+      "subsection": "10.2"
+    },
+    {
+      "number": 40,
+      "subsection": "10.3"
+    },
+    {
+      "number": 41,
+      "subsection": "10.4"
+    },
+    {
+      "number": 42,
+      "subsection": "10.4"
+    },
+    {
+      "number": 43,
+      "subsection": "10.4"
+    },
+    {
+      "number": 44,
+      "subsection": "10.5"
+    },
+    {
+      "number": 45,
+      "subsection": "11.1"
+    }
+  ],
+  "figure_resolution": [
+    {
+      "figure": 1,
+      "width_in": 3.874,
+      "height_in": 4.6,
+      "pixel_width": 1600,
+      "pixel_height": 1900,
+      "effective_dpi": 413.0,
+      "file": "A3P5_Nemesis_Hero.png"
+    },
+    {
+      "figure": 2,
+      "width_in": 6.522,
+      "height_in": 3.0,
+      "pixel_width": 4433,
+      "pixel_height": 2039,
+      "effective_dpi": 679.7,
+      "file": "figures\\Fig_L1_metadata_census.png"
+    },
+    {
+      "figure": 3,
+      "width_in": 6.8,
+      "height_in": 2.41,
+      "pixel_width": 4433,
+      "pixel_height": 1571,
+      "effective_dpi": 651.9,
+      "file": "figures\\Fig_L2_metadata_abstract_coverage.png"
+    },
+    {
+      "figure": 4,
+      "width_in": 2.598,
+      "height_in": 2.0,
+      "pixel_width": 934,
+      "pixel_height": 719,
+      "effective_dpi": 359.5,
+      "file": "research\\comparison_ResQbot_Saputra2021_Fig10a_CC-BY-4.jpg"
+    },
+    {
+      "figure": 5,
+      "width_in": 3.204,
+      "height_in": 2.45,
+      "pixel_width": 3182,
+      "pixel_height": 2433,
+      "effective_dpi": 993.1,
+      "file": "research\\comparison_telescopic_rover_Mohamed2025_Fig1c_CC-BY-4.jpg"
+    },
+    {
+      "figure": 6,
+      "width_in": 2.925,
+      "height_in": 4.55,
+      "pixel_width": 1800,
+      "pixel_height": 2800,
+      "effective_dpi": 615.4,
+      "file": "figures\\prototype_views.png"
+    },
+    {
+      "figure": 7,
+      "width_in": 3.49,
+      "height_in": 3.12,
+      "pixel_width": 1320,
+      "pixel_height": 1180,
+      "effective_dpi": 378.2,
+      "file": "A3P5_Nemesis_Wiring_Detail.png"
+    },
+    {
+      "figure": 8,
+      "width_in": 6.8,
+      "height_in": 4.387,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 273.5,
+      "file": "diagrams\\canva_01_print.png"
+    },
+    {
+      "figure": 9,
+      "width_in": 6.355,
+      "height_in": 4.1,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 292.7,
+      "file": "diagrams\\canva_03_print.png"
+    },
+    {
+      "figure": 10,
+      "width_in": 6.662,
+      "height_in": 3.25,
+      "pixel_width": 2550,
+      "pixel_height": 1244,
+      "effective_dpi": 382.8,
+      "file": "analysis\\figures\\A01_steering_kinematics.png"
+    },
+    {
+      "figure": 11,
+      "width_in": 6.045,
+      "height_in": 3.9,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 307.7,
+      "file": "diagrams\\canva_04_print.png"
+    },
+    {
+      "figure": 12,
+      "width_in": 6.239,
+      "height_in": 3.0,
+      "pixel_width": 2587,
+      "pixel_height": 1244,
+      "effective_dpi": 414.6,
+      "file": "analysis\\figures\\A02_grade_traction_torque.png"
+    },
+    {
+      "figure": 13,
+      "width_in": 6.045,
+      "height_in": 3.9,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 307.7,
+      "file": "diagrams\\canva_09_print.png"
+    },
+    {
+      "figure": 14,
+      "width_in": 3.744,
+      "height_in": 2.6,
+      "pixel_width": 1800,
+      "pixel_height": 1250,
+      "effective_dpi": 480.8,
+      "file": "blender\\M03_mission.png"
+    },
+    {
+      "figure": 15,
+      "width_in": 3.182,
+      "height_in": 2.5,
+      "pixel_width": 1400,
+      "pixel_height": 1100,
+      "effective_dpi": 440.0,
+      "file": "blender\\M03_gripper_detail.png"
+    },
+    {
+      "figure": 16,
+      "width_in": 5.449,
+      "height_in": 2.62,
+      "pixel_width": 2587,
+      "pixel_height": 1244,
+      "effective_dpi": 474.8,
+      "file": "analysis\\figures\\A03_static_stability.png"
+    },
+    {
+      "figure": 17,
+      "width_in": 4.954,
+      "height_in": 3.44,
+      "pixel_width": 1800,
+      "pixel_height": 1250,
+      "effective_dpi": 363.3,
+      "file": "blender\\M02_mission.png"
+    },
+    {
+      "figure": 18,
+      "width_in": 4.2,
+      "height_in": 3.3,
+      "pixel_width": 1400,
+      "pixel_height": 1100,
+      "effective_dpi": 333.3,
+      "file": "blender\\M02_probe_detail.png"
+    },
+    {
+      "figure": 19,
+      "width_in": 6.8,
+      "height_in": 4.387,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 273.5,
+      "file": "diagrams\\canva_05_print.png"
+    },
+    {
+      "figure": 20,
+      "width_in": 5.89,
+      "height_in": 3.8,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 315.8,
+      "file": "diagrams\\canva_06_print.png"
+    },
+    {
+      "figure": 21,
+      "width_in": 3.094,
+      "height_in": 2.36,
+      "pixel_width": 645,
+      "pixel_height": 492,
+      "effective_dpi": 208.5,
+      "file": "research\\licensed_figures\\jayaratne2018_fig2.png"
+    },
+    {
+      "figure": 22,
+      "width_in": 6.004,
+      "height_in": 2.1,
+      "pixel_width": 2067,
+      "pixel_height": 723,
+      "effective_dpi": 344.3,
+      "file": "research\\licensed_figures\\patel2024_fig4.png"
+    },
+    {
+      "figure": 23,
+      "width_in": 5.407,
+      "height_in": 2.6,
+      "pixel_width": 2587,
+      "pixel_height": 1244,
+      "effective_dpi": 478.5,
+      "file": "analysis\\figures\\A05_sensor_response_lag.png"
+    },
+    {
+      "figure": 24,
+      "width_in": 4.919,
+      "height_in": 4.75,
+      "pixel_width": 2067,
+      "pixel_height": 1996,
+      "effective_dpi": 420.2,
+      "file": "research\\licensed_figures\\zheng2019_fig4.png"
+    },
+    {
+      "figure": 25,
+      "width_in": 5.344,
+      "height_in": 2.35,
+      "pixel_width": 2829,
+      "pixel_height": 1244,
+      "effective_dpi": 529.4,
+      "file": "analysis\\figures\\A07_pH_conditioning.png"
+    },
+    {
+      "figure": 26,
+      "width_in": 5.89,
+      "height_in": 3.8,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 315.8,
+      "file": "diagrams\\canva_08_print.png"
+    },
+    {
+      "figure": 27,
+      "width_in": 6.2,
+      "height_in": 4.0,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 300.0,
+      "file": "diagrams\\canva_07_print.png"
+    },
+    {
+      "figure": 28,
+      "width_in": 6.045,
+      "height_in": 3.9,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 307.7,
+      "file": "diagrams\\canva_02_print.png"
+    },
+    {
+      "figure": 29,
+      "width_in": 6.239,
+      "height_in": 3.0,
+      "pixel_width": 2587,
+      "pixel_height": 1244,
+      "effective_dpi": 414.6,
+      "file": "analysis\\figures\\A04_energy_endurance.png"
+    },
+    {
+      "figure": 30,
+      "width_in": 6.355,
+      "height_in": 4.1,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 292.7,
+      "file": "diagrams\\canva_11_print.png"
+    },
+    {
+      "figure": 31,
+      "width_in": 5.89,
+      "height_in": 3.8,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 315.8,
+      "file": "diagrams\\canva_10_print.png"
+    },
+    {
+      "figure": 32,
+      "width_in": 4.608,
+      "height_in": 3.2,
+      "pixel_width": 1800,
+      "pixel_height": 1250,
+      "effective_dpi": 390.6,
+      "file": "blender\\M05_mission.png"
+    },
+    {
+      "figure": 33,
+      "width_in": 6.8,
+      "height_in": 4.387,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 273.5,
+      "file": "diagrams\\canva_13_print.png"
+    },
+    {
+      "figure": 34,
+      "width_in": 4.968,
+      "height_in": 3.45,
+      "pixel_width": 1800,
+      "pixel_height": 1250,
+      "effective_dpi": 362.3,
+      "file": "blender\\M01_mission.png"
+    },
+    {
+      "figure": 35,
+      "width_in": 5.832,
+      "height_in": 4.05,
+      "pixel_width": 1800,
+      "pixel_height": 1250,
+      "effective_dpi": 308.6,
+      "file": "blender\\M04_mission.png"
+    },
+    {
+      "figure": 36,
+      "width_in": 5.407,
+      "height_in": 2.6,
+      "pixel_width": 2587,
+      "pixel_height": 1244,
+      "effective_dpi": 478.5,
+      "file": "analysis\\figures\\A06_stopping_clearance.png"
+    },
+    {
+      "figure": 37,
+      "width_in": 6.045,
+      "height_in": 3.9,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 307.7,
+      "file": "diagrams\\canva_12_print.png"
+    },
+    {
+      "figure": 38,
+      "width_in": 6.8,
+      "height_in": 4.795,
+      "pixel_width": 3154,
+      "pixel_height": 2224,
+      "effective_dpi": 463.8,
+      "file": "analysis\\ml_outputs\\figures\\01_dataset_audit.png"
+    },
+    {
+      "figure": 39,
+      "width_in": 6.045,
+      "height_in": 3.9,
+      "pixel_width": 1860,
+      "pixel_height": 1200,
+      "effective_dpi": 307.7,
+      "file": "diagrams\\canva_14_print.png"
+    },
+    {
+      "figure": 40,
+      "width_in": 4.017,
+      "height_in": 4.0,
+      "pixel_width": 1378,
+      "pixel_height": 1372,
+      "effective_dpi": 343.0,
+      "file": "research\\licensed_figures\\barkjohn2021_fig4.png"
+    },
+    {
+      "figure": 41,
+      "width_in": 6.8,
+      "height_in": 2.211,
+      "pixel_width": 3334,
+      "pixel_height": 1084,
+      "effective_dpi": 490.3,
+      "file": "analysis\\ml_outputs\\figures\\02_test_metrics.png"
+    },
+    {
+      "figure": 42,
+      "width_in": 6.21,
+      "height_in": 4.32,
+      "pixel_width": 3154,
+      "pixel_height": 2194,
+      "effective_dpi": 507.9,
+      "file": "analysis\\ml_outputs\\figures\\03_selected_model_predictions.png"
+    },
+    {
+      "figure": 43,
+      "width_in": 6.8,
+      "height_in": 4.472,
+      "pixel_width": 3154,
+      "pixel_height": 2074,
+      "effective_dpi": 463.8,
+      "file": "analysis\\ml_outputs\\figures\\04_residual_humidity.png"
+    },
+    {
+      "figure": 44,
+      "width_in": 6.8,
+      "height_in": 2.815,
+      "pixel_width": 3198,
+      "pixel_height": 1324,
+      "effective_dpi": 470.3,
+      "file": "analysis\\ml_outputs\\figures\\05_desktop_cost_and_sensitivity.png"
+    },
+    {
+      "figure": 45,
+      "width_in": 6.307,
+      "height_in": 2.8,
+      "pixel_width": 2802,
+      "pixel_height": 1244,
+      "effective_dpi": 444.3,
+      "file": "analysis\\figures\\A08_parameter_sensitivity.png"
+    }
+  ],
+  "bottom_gaps_over_1_5in": [],
+  "equation_representation": "High-resolution equation images with source LaTeX and alt text; body text, headings and tables are editable.",
+  "visual_review_status": "Completed native-size review of the final rendered document; see local review records."
+}

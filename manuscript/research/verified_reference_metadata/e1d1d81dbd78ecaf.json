@@ -1,0 +1,188 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        12
+      ]
+    ],
+    "date-time": "2026-03-12T17:37:01Z",
+    "timestamp": 1773337021286,
+    "version": "3.50.1"
+  },
+  "reference-count": 48,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2025-12-01T00:00:00Z",
+        "timestamp": 1764547200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2025-12-01T00:00:00Z",
+        "timestamp": 1764547200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2025-09-29T00:00:00Z",
+        "timestamp": 1759104000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "SoftwareX"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.softx.2025.102388",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        15
+      ]
+    ],
+    "date-time": "2025-10-15T18:03:40Z",
+    "timestamp": 1760551420000
+  },
+  "page": "102388",
+  "is-referenced-by-count": 0,
+  "title": [
+    "Gaden-RT: A real time and interactive gas dispersion simulator for mobile robotics"
+  ],
+  "volume": "32",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-2326-5269",
+      "authenticated-orcid": false,
+      "given": "Pepe",
+      "family": "Ojeda",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Javier",
+      "family": "Monroy",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Javier",
+      "family": "Gonzalez-Jimenez",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "SoftwareX"
+  ],
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S2352711025003541?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S2352711025003541?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        12
+      ]
+    ],
+    "date-time": "2026-03-12T06:40:46Z",
+    "timestamp": 1773297646000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        12
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1016/j.softx.2025.102388",
+  "ISSN": [
+    "2352-7110"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        12
+      ]
+    ]
+  },
+  "article-number": "102388",
+  "original_response_sha256": "00bba601047696befa88e81b405e13534ba8f82c9a8c4f714f32376bd384128d"
+}

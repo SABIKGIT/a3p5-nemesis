@@ -1,0 +1,161 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T08:12:16Z",
+    "timestamp": 1789459936196,
+    "version": "build-2803163510"
+  },
+  "reference-count": 107,
+  "publisher": "SAGE Publications",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2011,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2011-06-01T00:00:00Z",
+        "timestamp": 1306886400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+    }
+  ],
+  "short-container-title": [
+    "The International Journal of Robotics Research"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2011,
+        6
+      ]
+    ]
+  },
+  "DOI": "10.1177/0278364911406761",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2011,
+        6,
+        22
+      ]
+    ],
+    "date-time": "2011-06-22T13:59:55Z",
+    "timestamp": 1308751195000
+  },
+  "page": "846-894",
+  "is-referenced-by-count": 4662,
+  "title": [
+    "Sampling-based algorithms for optimal motion planning"
+  ],
+  "volume": "30",
+  "author": [
+    {
+      "given": "Sertac",
+      "family": "Karaman",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, Cambridge, MA, USA,"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Emilio",
+      "family": "Frazzoli",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, Cambridge, MA, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2011,
+        6,
+        22
+      ]
+    ]
+  },
+  "container-title": [
+    "The International Journal of Robotics Research"
+  ],
+  "link": [
+    {
+      "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364911406761",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364911406761",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        29
+      ]
+    ],
+    "date-time": "2026-04-29T10:17:25Z",
+    "timestamp": 1777457845000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2011,
+        6
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1177/0278364911406761",
+  "ISSN": [
+    "0278-3649",
+    "1741-3176"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2011,
+        6
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "c1f066dfabefb22865e7bfef54a29743f06a90df62f90270cc7b46859c331137"
+}

@@ -1,0 +1,182 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T16:05:49Z",
+    "timestamp": 1789401949050,
+    "version": "build-2803163510"
+  },
+  "reference-count": 23,
+  "publisher": "Copernicus GmbH",
+  "issue": "8",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            27
+          ]
+        ],
+        "date-time": "2018-08-27T00:00:00Z",
+        "timestamp": 1535328000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Atmos. Meas. Tech."
+  ],
+  "DOI": "10.5194/amt-11-4883-2018",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        8,
+        27
+      ]
+    ],
+    "date-time": "2018-08-27T05:32:17Z",
+    "timestamp": 1535347937000
+  },
+  "page": "4883-4890",
+  "is-referenced-by-count": 294,
+  "title": [
+    "The influence of humidity on the performance of a low-cost air particle mass sensor and the effect of atmospheric fog"
+  ],
+  "volume": "11",
+  "author": [
+    {
+      "given": "Rohan",
+      "family": "Jayaratne",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xiaoting",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Phong",
+      "family": "Thai",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Matthew",
+      "family": "Dunbabin",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0594-9683",
+      "authenticated-orcid": false,
+      "given": "Lidia",
+      "family": "Morawska",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "corresponding-author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        8,
+        27
+      ]
+    ]
+  },
+  "container-title": [
+    "Atmospheric Measurement Techniques"
+  ],
+  "link": [
+    {
+      "URL": "https://amt.copernicus.org/articles/11/4883/2018/amt-11-4883-2018.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T15:34:50Z",
+    "timestamp": 1789400090000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        8,
+        27
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.5194/amt-11-4883-2018",
+  "ISSN": [
+    "1867-8548"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        8,
+        27
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "772f7bdd378c2d71a6c9403d2234049423e8af11a51399067947f7e86e4316b7"
+}

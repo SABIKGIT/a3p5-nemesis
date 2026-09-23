@@ -1,0 +1,358 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T09:29:08Z",
+    "timestamp": 1789464548419,
+    "version": "build-2803163510"
+  },
+  "reference-count": 101,
+  "publisher": "Wiley",
+  "issue": "8",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            3
+          ]
+        ],
+        "date-time": "2017-03-03T00:00:00Z",
+        "timestamp": 1488499200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "short-container-title": [
+    "Ecography"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2017,
+        8
+      ]
+    ]
+  },
+  "DOI": "10.1111/ecog.02881",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        12,
+        8
+      ]
+    ],
+    "date-time": "2016-12-08T23:52:39Z",
+    "timestamp": 1481241159000
+  },
+  "page": "913-929",
+  "is-referenced-by-count": 2896,
+  "title": [
+    "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+  ],
+  "volume": "40",
+  "author": [
+    {
+      "given": "David R.",
+      "family": "Roberts",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Volker",
+      "family": "Bahn",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biological Sciences Wright State Univ. Dayton OH USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Simone",
+      "family": "Ciuti",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mark S.",
+      "family": "Boyce",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biological Sciences Univ. of Alberta Edmonton AB Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jane",
+      "family": "Elith",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Gurutzeta",
+      "family": "Guillera‐Arroita",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Severin",
+      "family": "Hauenstein",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "José J.",
+      "family": "Lahoz‐Monfort",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Boris",
+      "family": "Schröder",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Inst. of Geoecology, Div. of Landscape Ecology and Environmental Systems Analysis, Technische Univ. Braunschweig, Braunschweig, Germany, and: Berlin‐Brandenburg Inst. of Advanced Biodiversity Research (BBIB) Berlin Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wilfried",
+      "family": "Thuiller",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lab. d’Écologie Alpine, Univ. Joseph Fourier Grenoble France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "David I.",
+      "family": "Warton",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Mathematics and Statistics and Evolution and Ecology Research Centre, The Univ. of New South Wales Sydney Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Brendan A.",
+      "family": "Wintle",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Florian",
+      "family": "Hartig",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        },
+        {
+          "name": "Theoretical Ecology, Univ. of Regensburg Regensburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Carsten F.",
+      "family": "Dormann",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2017,
+        3,
+        3
+      ]
+    ]
+  },
+  "container-title": [
+    "Ecography"
+  ],
+  "link": [
+    {
+      "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fecog.02881",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://nsojournals.onlinelibrary.wiley.com/doi/pdf/10.1111/ecog.02881",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        31
+      ]
+    ],
+    "date-time": "2025-10-31T00:37:36Z",
+    "timestamp": 1761871056000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        3,
+        3
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1111/ecog.02881",
+  "ISSN": [
+    "0906-7590",
+    "1600-0587"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2017,
+        3,
+        3
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "ee79c975f7b772da67fcaec2d3d1420ec6287424b3947b184d48b43155c2b0a3"
+}

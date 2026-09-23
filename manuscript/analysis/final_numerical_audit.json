@@ -1,0 +1,436 @@
+{
+  "status": "PASS",
+  "method": "Independent standard-library recomputation from declared inputs and saved hourly predictions; no model refitting or retuning.",
+  "numeric_checks": 65,
+  "all_numeric_checks_pass": true,
+  "selection_rule": "Validation minimum remains Ridge, irrespective of test ranking.",
+  "input_archive_sha256_verified": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+  "checks": [
+    {
+      "check": "usable energy Wh",
+      "recomputed": 84.91499999999999,
+      "recorded": 84.91499999999999,
+      "passed": true
+    },
+    {
+      "check": "wheel rpm",
+      "recomputed": 17.0523153312745,
+      "recorded": 17.0523153312745,
+      "passed": true
+    },
+    {
+      "check": "grade 0 force_N",
+      "recomputed": 14.121576,
+      "recorded": 14.121575999999997,
+      "passed": true
+    },
+    {
+      "check": "grade 0 each_wheel_torque_Nm",
+      "recomputed": 0.49425516,
+      "recorded": 0.49425515999999997,
+      "passed": true
+    },
+    {
+      "check": "grade 0 minimum_mu",
+      "recomputed": 0.06,
+      "recorded": 0.06,
+      "passed": true
+    },
+    {
+      "check": "grade 0 power_W_at_0p25mps_aux20W",
+      "recomputed": 24.4129925,
+      "recorded": 24.412992499999998,
+      "passed": true
+    },
+    {
+      "check": "grade 0 endurance_h_at_0p25mps_aux20W",
+      "recomputed": 3.478270842871885,
+      "recorded": 3.4782708428718845,
+      "passed": true
+    },
+    {
+      "check": "grade 10 force_N",
+      "recomputed": 54.776803165968786,
+      "recorded": 54.776803165968786,
+      "passed": true
+    },
+    {
+      "check": "grade 10 each_wheel_torque_Nm",
+      "recomputed": 1.9171881108089077,
+      "recorded": 1.9171881108089077,
+      "passed": true
+    },
+    {
+      "check": "grade 10 minimum_mu",
+      "recomputed": 0.23632698070846497,
+      "recorded": 0.23632698070846497,
+      "passed": true
+    },
+    {
+      "check": "grade 10 power_W_at_0p25mps_aux20W",
+      "recomputed": 37.11775098936525,
+      "recorded": 37.11775098936525,
+      "passed": true
+    },
+    {
+      "check": "grade 10 endurance_h_at_0p25mps_aux20W",
+      "recomputed": 2.287719426328641,
+      "recorded": 2.2877194263286404,
+      "passed": true
+    },
+    {
+      "check": "grade 20 force_N",
+      "recomputed": 93.76766488613944,
+      "recorded": 93.76766488613944,
+      "passed": true
+    },
+    {
+      "check": "grade 20 each_wheel_torque_Nm",
+      "recomputed": 3.281868271014881,
+      "recorded": 3.281868271014881,
+      "passed": true
+    },
+    {
+      "check": "grade 20 minimum_mu",
+      "recomputed": 0.42397023426620234,
+      "recorded": 0.42397023426620234,
+      "passed": true
+    },
+    {
+      "check": "grade 20 power_W_at_0p25mps_aux20W",
+      "recomputed": 49.302395276918574,
+      "recorded": 49.302395276918574,
+      "passed": true
+    },
+    {
+      "check": "grade 20 endurance_h_at_0p25mps_aux20W",
+      "recomputed": 1.7223301124226278,
+      "recorded": 1.7223301124226276,
+      "passed": true
+    },
+    {
+      "check": "grade 30 force_N",
+      "recomputed": 129.90944355747263,
+      "recorded": 129.90944355747263,
+      "passed": true
+    },
+    {
+      "check": "grade 30 each_wheel_torque_Nm",
+      "recomputed": 4.546830524511543,
+      "recorded": 4.546830524511543,
+      "passed": true
+    },
+    {
+      "check": "grade 30 minimum_mu",
+      "recomputed": 0.6373502691896258,
+      "recorded": 0.6373502691896258,
+      "passed": true
+    },
+    {
+      "check": "grade 30 power_W_at_0p25mps_aux20W",
+      "recomputed": 60.596701111710196,
+      "recorded": 60.596701111710196,
+      "passed": true
+    },
+    {
+      "check": "grade 30 endurance_h_at_0p25mps_aux20W",
+      "recomputed": 1.4013139072283647,
+      "recorded": 1.4013139072283645,
+      "passed": true
+    },
+    {
+      "check": "payload 0 tipping",
+      "recomputed": 38.05236939863048,
+      "recorded": 38.05236939863048,
+      "passed": true
+    },
+    {
+      "check": "payload 0 margin",
+      "recomputed": 0.24289726412560267,
+      "recorded": 0.24289726412560267,
+      "passed": true
+    },
+    {
+      "check": "payload 1 tipping",
+      "recomputed": 35.264304749472494,
+      "recorded": 35.264304749472494,
+      "passed": true
+    },
+    {
+      "check": "payload 1 margin",
+      "recomputed": 0.20478256418993052,
+      "recorded": 0.20478256418993052,
+      "passed": true
+    },
+    {
+      "check": "payload 2 tipping",
+      "recomputed": 32.65803478576608,
+      "recorded": 32.65803478576608,
+      "passed": true
+    },
+    {
+      "check": "payload 2 margin",
+      "recomputed": 0.16959976424931,
+      "recorded": 0.16959976424931,
+      "passed": true
+    },
+    {
+      "check": "lag 5 t90",
+      "recomputed": 11.512925464970227,
+      "recorded": 11.51292546497023,
+      "passed": true
+    },
+    {
+      "check": "lag 5 t95",
+      "recomputed": 14.978661367769954,
+      "recorded": 14.978661367769954,
+      "passed": true
+    },
+    {
+      "check": "lag 15 t90",
+      "recomputed": 34.538776394910684,
+      "recorded": 34.53877639491069,
+      "passed": true
+    },
+    {
+      "check": "lag 15 t95",
+      "recomputed": 44.93598410330986,
+      "recorded": 44.93598410330986,
+      "passed": true
+    },
+    {
+      "check": "lag 30 t90",
+      "recomputed": 69.07755278982137,
+      "recorded": 69.07755278982138,
+      "passed": true
+    },
+    {
+      "check": "lag 30 t95",
+      "recomputed": 89.87196820661973,
+      "recorded": 89.87196820661973,
+      "passed": true
+    },
+    {
+      "check": "stopping 0.25",
+      "recomputed": 0.2875,
+      "recorded": 0.2875,
+      "passed": true
+    },
+    {
+      "check": "stopping 0.4",
+      "recomputed": 0.43000000000000005,
+      "recorded": 0.43000000000000005,
+      "passed": true
+    },
+    {
+      "check": "stopping 0.6",
+      "recomputed": 0.6900000000000001,
+      "recorded": 0.6900000000000001,
+      "passed": true
+    },
+    {
+      "check": "stopping 1.0",
+      "recomputed": 1.45,
+      "recorded": 1.45,
+      "passed": true
+    },
+    {
+      "check": "Nernst slope mV/pH",
+      "recomputed": 59.1593496857215,
+      "recorded": 59.159349686811844,
+      "passed": true
+    },
+    {
+      "check": "valid timestamps",
+      "recomputed": 9357,
+      "recorded": 9357,
+      "passed": true
+    },
+    {
+      "check": "eligible rows",
+      "recomputed": 7344,
+      "recorded": 7344,
+      "passed": true
+    },
+    {
+      "check": "split total",
+      "recomputed": 7344,
+      "recorded": 7344,
+      "passed": true
+    },
+    {
+      "check": "DummyMean test_MAE",
+      "recomputed": 1.0463402232940462,
+      "recorded": 1.0463402232940462,
+      "passed": true
+    },
+    {
+      "check": "DummyMean test_RMSE",
+      "recomputed": 1.3058673328147845,
+      "recorded": 1.3058673328147845,
+      "passed": true
+    },
+    {
+      "check": "DummyMean test_Bias",
+      "recomputed": 0.2166707860487122,
+      "recorded": 0.21667078604871223,
+      "passed": true
+    },
+    {
+      "check": "DummyMean test_R2",
+      "recomputed": -0.028309114656838386,
+      "recorded": -0.028309114656838386,
+      "passed": true
+    },
+    {
+      "check": "Ridge test_MAE",
+      "recomputed": 0.3573959850840505,
+      "recorded": 0.3573959850840505,
+      "passed": true
+    },
+    {
+      "check": "Ridge test_RMSE",
+      "recomputed": 0.5019846410883569,
+      "recorded": 0.5019846410883569,
+      "passed": true
+    },
+    {
+      "check": "Ridge test_Bias",
+      "recomputed": -0.1570716664953727,
+      "recorded": -0.1570716664953727,
+      "passed": true
+    },
+    {
+      "check": "Ridge test_R2",
+      "recomputed": 0.8480479972053394,
+      "recorded": 0.8480479972053394,
+      "passed": true
+    },
+    {
+      "check": "RandomForest test_MAE",
+      "recomputed": 0.3194493892225542,
+      "recorded": 0.3194493892225542,
+      "passed": true
+    },
+    {
+      "check": "RandomForest test_RMSE",
+      "recomputed": 0.487059598329227,
+      "recorded": 0.4870595983292271,
+      "passed": true
+    },
+    {
+      "check": "RandomForest test_Bias",
+      "recomputed": -0.04404347327187646,
+      "recorded": -0.04404347327187646,
+      "passed": true
+    },
+    {
+      "check": "RandomForest test_R2",
+      "recomputed": 0.8569493675715945,
+      "recorded": 0.8569493675715945,
+      "passed": true
+    },
+    {
+      "check": "HistGradientBoosting test_MAE",
+      "recomputed": 0.3910102767374506,
+      "recorded": 0.39101027673745054,
+      "passed": true
+    },
+    {
+      "check": "HistGradientBoosting test_RMSE",
+      "recomputed": 0.5650783183661721,
+      "recorded": 0.5650783183661721,
+      "passed": true
+    },
+    {
+      "check": "HistGradientBoosting test_Bias",
+      "recomputed": 0.0015146662190283515,
+      "recorded": 0.0015146662190283781,
+      "passed": true
+    },
+    {
+      "check": "HistGradientBoosting test_R2",
+      "recomputed": 0.8074502949282651,
+      "recorded": 0.8074502949282651,
+      "passed": true
+    },
+    {
+      "check": "test count",
+      "recomputed": 1102,
+      "recorded": 1102,
+      "passed": true
+    },
+    {
+      "check": "Ridge RMSE interval lower",
+      "recomputed": 0.43531311808144524,
+      "recorded": 0.43531311808144524,
+      "passed": true
+    },
+    {
+      "check": "Ridge RMSE interval upper",
+      "recomputed": 0.5688238189193107,
+      "recorded": 0.5688238189193107,
+      "passed": true
+    },
+    {
+      "check": "pH true ADC LSB increment",
+      "recomputed": 0.027512205176073834,
+      "recorded": 0.027512205176073834,
+      "passed": true
+    },
+    {
+      "check": "Mega ADC LSB mV",
+      "recomputed": 4.8828125,
+      "recorded": 4.8828125,
+      "passed": true
+    },
+    {
+      "check": "Proposed 12-bit pH true ADC LSB increment",
+      "recomputed": 0.0045395138540521825,
+      "recorded": 0.0045395138540521825,
+      "passed": true
+    },
+    {
+      "check": "pH grid rows using true ADC LSB",
+      "recomputed": 846,
+      "recorded": 846,
+      "passed": true
+    }
+  ],
+  "adc_convention_revision": {
+    "reason": "Physical ideal ADC resolution uses Vref / 2**N. The former Vref / (2**N - 1) values were endpoint rescaling, not the LSB interval.",
+    "previous_check": [
+      {
+        "check": "pH endpoint code increment",
+        "recomputed": 0.027539098827779905,
+        "recorded": 0.027539098827272342,
+        "passed": true
+      }
+    ],
+    "old_pH_summary": {
+      "slope_mV_per_pH_at25C": 59.159349686811844,
+      "ADC_LSB_mV": 4.887585532746823,
+      "gain": 3,
+      "ADC_step_pH_at25C": 0.027539098827272342,
+      "conditioned_voltage_at_pH0_V": 3.7423463434230486,
+      "conditioned_voltage_at_pH14_V": 1.2576536565769514,
+      "maximum_gain_for_full_pH0to14_ADC_span_at25C": 6.03696387863563,
+      "proposed_3p3V_12bit_ADC_step_pH_at25C": 0.004540622404443892
+    },
+    "new_pH_summary": {
+      "slope_mV_per_pH_at25C": 59.159349686811844,
+      "ADC_LSB_mV": 4.8828125,
+      "gain": 3,
+      "ADC_step_pH_at25C": 0.027512205176073834,
+      "conditioned_voltage_at_pH0_V": 3.7423463434230486,
+      "conditioned_voltage_at_pH14_V": 1.2576536565769514,
+      "maximum_gain_for_full_pH0to14_ADC_span_at25C": 6.03696387863563,
+      "proposed_3p3V_12bit_ADC_step_pH_at25C": 0.0045395138540521825
+    },
+    "independent_verification": "Standard-library physical constants and all 846 table rows; unrelated numeric summaries and 8 tables unchanged; unrelated rendered assets preserved byte-for-byte; all ML output hashes unchanged.",
+    "primary_sources": [
+      "https://onlinedocs.microchip.com/oxy/GUID-6178B82B-1DE0-484B-ACA5-153F78A78E41-en-US-1/GUID-0BF4C5AD-4ECB-479B-A0A9-E33CD8200A60.html",
+      "https://www.analog.com/en/resources/technical-articles/types-of-adcs-and-dacs.html"
+    ]
+  }
+}

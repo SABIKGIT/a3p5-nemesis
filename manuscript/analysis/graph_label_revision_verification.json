@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "label_changes": [
+    {
+      "priority": "P2",
+      "figure": 12,
+      "source": "analysis/engineering_analysis.py",
+      "old": "Continuous wheel-output torque",
+      "new": "Steady-speed wheel torque demand",
+      "reason": "The plot computes demanded output torque; it does not identify a verified continuous motor torque rating. Caption already states required torque."
+    },
+    {
+      "priority": "P2",
+      "figure": 36,
+      "source": "analysis/engineering_analysis.py",
+      "old": "Fail-safe clearance depends on measured braking",
+      "new": "Stopping clearance depends on braking and delay",
+      "reason": "Fail-safe implies a stronger protective property than the assumed stopping model establishes. No plotted values change."
+    },
+    {
+      "priority": "P3",
+      "figure": 25,
+      "source": "analysis/engineering_analysis.py",
+      "old": "pH measurement requires explicit analog gain",
+      "new": "pH conditioning and ideal ADC resolution",
+      "reason": "Makes the graph title descriptive; pH measurement requires a suitable high-impedance interface but not necessarily gain greater than unity."
+    }
+  ],
+  "numeric_outputs_byte_identical": true,
+  "numeric_file_count": 10,
+  "unrelated_figures_restored_byte_identical": 10,
+  "changed_figure_files": [
+    "figures\\A02_grade_traction_torque.png",
+    "figures\\A02_grade_traction_torque.svg",
+    "figures\\A06_stopping_clearance.png",
+    "figures\\A06_stopping_clearance.svg",
+    "figures\\A07_pH_conditioning.png",
+    "figures\\A07_pH_conditioning.svg"
+  ],
+  "numeric_sha256": {
+    "analysis_results.json": "bd92f51d187fb34ba3c06669889f673d87bf8cdfbb74154851d9d123f8aa663e",
+    "tables\\energy_endurance.csv": "06aa33c3652bf177259c9d454ed40c63e5e0eab7fb340b2017d37c143790007c",
+    "tables\\grade_torque_traction.csv": "ed5fc813b3284b6e931256bd4e611e728c6bf89ff9c7f279d3f6576dd1df9ce7",
+    "tables\\kinematics_sweep.csv": "34f95d862f049183d64c1a1e2c7449abdfeada6d4f5941d69ce4ba1f7561d2fa",
+    "tables\\local_sensitivity.csv": "d44e957508dc1dff0b6e0dcf1b46527c0031599240ce6966ae3dd995403f3f73",
+    "tables\\pH_Nernst_ADC.csv": "56ff5de4fc5481cf8f0892856de0345a350bf735b16aa848da589d040b9fa311",
+    "tables\\sensor_spatial_lag.csv": "3ac52b0c70826f13068904f575a6eb6addb9e4183db2e1fd2ea3f6536600ee7c",
+    "tables\\sensor_step_response.csv": "68e3fcd2a603d9295b42d5367de789a3134dbe2525a696207740f76ea5c2dcab",
+    "tables\\static_stability.csv": "1f60bcf3a0a26e30d58416dbecd7b68e49139a32d9df71c6dfa62e17d25b656d",
+    "tables\\stopping_clearance.csv": "2a3ceccc7e35f8267715b727e8190fbdedf892053a8d5f834f497537531b2a7f"
+  }
+}

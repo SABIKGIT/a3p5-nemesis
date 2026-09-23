@@ -1,0 +1,211 @@
+{
+  "parameters": {
+    "evidence_status": "Analytical scenarios only; no rover measurements or trials supplied.",
+    "estimated_geometry_m": {
+      "wheelbase_L": 0.908,
+      "track_W": 0.93,
+      "wheel_radius_r": 0.14
+    },
+    "assumptions": {
+      "base_mass_kg": 24.0,
+      "mass_sweep_kg": [
+        15.0,
+        24.0,
+        35.0
+      ],
+      "base_COM_m": [
+        0.0,
+        0.0,
+        0.58
+      ],
+      "payload_position_m": [
+        0.8,
+        0.0,
+        1.0
+      ],
+      "payload_sweep_kg": [
+        0.0,
+        2.0
+      ],
+      "gravity_m_s2": 9.80665,
+      "rolling_resistance_coefficient": 0.06,
+      "battery_to_ground_efficiency": 0.8,
+      "speed_reference_m_s": 0.25,
+      "battery_nominal_V": 11.1,
+      "battery_capacity_Ah": 10.0,
+      "depth_of_discharge": 0.85,
+      "usable_energy_derating": 0.9,
+      "electronics_power_reference_W": 20.0,
+      "electronics_power_sweep_W": [
+        10.0,
+        20.0,
+        40.0
+      ],
+      "gas_first_order_tau_s": [
+        5.0,
+        15.0,
+        30.0
+      ],
+      "stop_latency_reference_s": 0.3,
+      "stop_deceleration_reference_m_s2": 0.5,
+      "stop_margin_m": 0.15,
+      "pH_conditioner_gain": 3.0,
+      "pH_midpoint_V": 2.5,
+      "ADC_reference_V": 5.0,
+      "ADC_bits": 10,
+      "ADC_max_code": 1023,
+      "ADC_code_count": 1024,
+      "proposed_ADC_reference_V": 3.3,
+      "proposed_ADC_bits": 12,
+      "proposed_ADC_code_count": 4096,
+      "proposed_midpoint_V": 1.65,
+      "pH_reference_temperature_C": 25.0,
+      "ADC_resolution_convention": "Ideal converter LSB = Vref / 2**N; maximum output code is 2**N - 1."
+    },
+    "coordinate_convention": "Body x forward, y left, z upward. Positive slope in stability analysis tilts the support plane downhill toward +x.",
+    "torque_convention": "tau_w is total required longitudinal tire force times wheel radius / four driven wheels; it is gearbox-output wheel torque. Motor-shaft gearing is not specified.",
+    "energy_convention": "Battery usable energy E=V*Ah*DoD*derating; separate battery-to-ground efficiency acts only on the traction power term, so it is not applied again to electronics."
+  },
+  "summary": {
+    "usable_energy_Wh": 84.91499999999999,
+    "straight_wheel_rpm_at_0p25mps": 17.0523153312745,
+    "coordinated_turn_R1m_at_0p25mps": {
+      "FL": {
+        "steer_deg": 40.31787371596411,
+        "speed_m_s": 0.17541753760670567
+      },
+      "FR": {
+        "steer_deg": 17.21808391311512,
+        "speed_m_s": 0.3834335829058274
+      },
+      "RL": {
+        "steer_deg": -40.31787371596411,
+        "speed_m_s": 0.17541753760670567
+      },
+      "RR": {
+        "steer_deg": -17.21808391311512,
+        "speed_m_s": 0.3834335829058274
+      }
+    },
+    "grade_summary": [
+      {
+        "grade_deg": 0,
+        "force_N": 14.121575999999997,
+        "each_wheel_torque_Nm": 0.49425515999999997,
+        "minimum_mu": 0.06,
+        "power_W_at_0p25mps_aux20W": 24.412992499999998,
+        "endurance_h_at_0p25mps_aux20W": 3.4782708428718845
+      },
+      {
+        "grade_deg": 10,
+        "force_N": 54.776803165968786,
+        "each_wheel_torque_Nm": 1.9171881108089077,
+        "minimum_mu": 0.23632698070846497,
+        "power_W_at_0p25mps_aux20W": 37.11775098936525,
+        "endurance_h_at_0p25mps_aux20W": 2.2877194263286404
+      },
+      {
+        "grade_deg": 20,
+        "force_N": 93.76766488613944,
+        "each_wheel_torque_Nm": 3.281868271014881,
+        "minimum_mu": 0.42397023426620234,
+        "power_W_at_0p25mps_aux20W": 49.302395276918574,
+        "endurance_h_at_0p25mps_aux20W": 1.7223301124226276
+      },
+      {
+        "grade_deg": 30,
+        "force_N": 129.90944355747263,
+        "each_wheel_torque_Nm": 4.546830524511543,
+        "minimum_mu": 0.6373502691896258,
+        "power_W_at_0p25mps_aux20W": 60.596701111710196,
+        "endurance_h_at_0p25mps_aux20W": 1.4013139072283645
+      }
+    ],
+    "stability_summary": [
+      {
+        "payload_kg": 0,
+        "COM_x_m": 0.0,
+        "COM_z_m": 0.58,
+        "front_tip_deg": 38.05236939863048,
+        "lateral_tip_deg": 38.719992874300225,
+        "front_margin_m_at_20deg": 0.24289726412560267
+      },
+      {
+        "payload_kg": 1,
+        "COM_x_m": 0.032,
+        "COM_z_m": 0.5967999999999999,
+        "front_tip_deg": 35.264304749472494,
+        "lateral_tip_deg": 37.92413491867734,
+        "front_margin_m_at_20deg": 0.20478256418993052
+      },
+      {
+        "payload_kg": 2,
+        "COM_x_m": 0.06153846153846154,
+        "COM_z_m": 0.6123076923076922,
+        "front_tip_deg": 32.65803478576608,
+        "lateral_tip_deg": 37.213840164846786,
+        "front_margin_m_at_20deg": 0.16959976424931
+      }
+    ],
+    "gas_summary": [
+      {
+        "tau_s": 5,
+        "t90_s": 11.51292546497023,
+        "t95_s": 14.978661367769954,
+        "distance90_m_at_0p25mps": 2.8782313662425576
+      },
+      {
+        "tau_s": 15,
+        "t90_s": 34.53877639491069,
+        "t95_s": 44.93598410330986,
+        "distance90_m_at_0p25mps": 8.634694098727673
+      },
+      {
+        "tau_s": 30,
+        "t90_s": 69.07755278982138,
+        "t95_s": 89.87196820661973,
+        "distance90_m_at_0p25mps": 17.269388197455346
+      }
+    ],
+    "stopping_summary": [
+      {
+        "speed_m_s": 0.25,
+        "clearance_m_latency0p3_decel0p5_margin0p15": 0.2875
+      },
+      {
+        "speed_m_s": 0.4,
+        "clearance_m_latency0p3_decel0p5_margin0p15": 0.43000000000000005
+      },
+      {
+        "speed_m_s": 0.6,
+        "clearance_m_latency0p3_decel0p5_margin0p15": 0.6900000000000001
+      },
+      {
+        "speed_m_s": 1.0,
+        "clearance_m_latency0p3_decel0p5_margin0p15": 1.45
+      }
+    ],
+    "pH_summary": {
+      "slope_mV_per_pH_at25C": 59.159349686811844,
+      "ADC_LSB_mV": 4.8828125,
+      "gain": 3,
+      "ADC_step_pH_at25C": 0.027512205176073834,
+      "conditioned_voltage_at_pH0_V": 3.7423463434230486,
+      "conditioned_voltage_at_pH14_V": 1.2576536565769514,
+      "maximum_gain_for_full_pH0to14_ADC_span_at25C": 6.03696387863563,
+      "proposed_3p3V_12bit_ADC_step_pH_at25C": 0.0045395138540521825
+    },
+    "endurance_sensitivity_reference_h": 2.2877194263286404
+  },
+  "tables": {
+    "kinematics": "tables\\kinematics_sweep.csv",
+    "drive": "tables\\grade_torque_traction.csv",
+    "stability": "tables\\static_stability.csv",
+    "energy": "tables\\energy_endurance.csv",
+    "gas": "tables\\sensor_step_response.csv",
+    "gas_spatial": "tables\\sensor_spatial_lag.csv",
+    "stopping": "tables\\stopping_clearance.csv",
+    "pH": "tables\\pH_Nernst_ADC.csv",
+    "sensitivity": "tables\\local_sensitivity.csv"
+  }
+}

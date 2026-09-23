@@ -1,0 +1,59 @@
+{
+  "selection_basis": "Validation only, before any test metric calculation.",
+  "selected_family": "Ridge",
+  "models": {
+    "DummyMean": {
+      "parameters": {},
+      "validation": {
+        "MAE": 1.1825213442838278,
+        "RMSE": 1.513606442451372,
+        "R2": -0.0030934584799189313,
+        "Bias": -0.08405516676435502
+      },
+      "fit_seconds": 0.08758430000307271,
+      "candidate": 0
+    },
+    "Ridge": {
+      "parameters": {
+        "alpha": 10.0
+      },
+      "validation": {
+        "MAE": 0.4523680238641371,
+        "RMSE": 0.6853160430474554,
+        "R2": 0.7943648935174721,
+        "Bias": -0.09862161663693941
+      },
+      "fit_seconds": 0.0029231000007712282,
+      "candidate": 3
+    },
+    "RandomForest": {
+      "parameters": {
+        "max_depth": null,
+        "min_samples_leaf": 15
+      },
+      "validation": {
+        "MAE": 0.4416929099731312,
+        "RMSE": 0.690039614084093,
+        "R2": 0.791520426304387,
+        "Bias": -0.03188135419616769
+      },
+      "fit_seconds": 1.5723560000042198,
+      "candidate": 5
+    },
+    "HistGradientBoosting": {
+      "parameters": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 31,
+        "l2_regularization": 0.0
+      },
+      "validation": {
+        "MAE": 0.5564935840711834,
+        "RMSE": 0.8201791205558504,
+        "R2": 0.7054677321189096,
+        "Bias": -0.13750075568398776
+      },
+      "fit_seconds": 0.22810559999925317,
+      "candidate": 2
+    }
+  }
+}

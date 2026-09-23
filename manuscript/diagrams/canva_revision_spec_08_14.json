@@ -1,0 +1,906 @@
+{
+  "schema_version": "1.0",
+  "source_files": [
+    "diagrams/A3P5_Canva_Subsystem_Diagrams.html",
+    "diagrams/canva_print_tile_mapping.json",
+    "diagrams/assemble_canva_print_components.py",
+    "qa/build_manifest.json"
+  ],
+  "layout": {
+    "rows": 2,
+    "columns": 3,
+    "body_word_limit": 20,
+    "arrow_legend_placement": "Below the full diagram, above the limitations note",
+    "production_requirement": "Complete titles, blocks, connections, arrowheads and legends must be authored and exported together in Canva.",
+    "canvas_width_px": 1860,
+    "canvas_height_px": 1200,
+    "body_font_px": 40,
+    "legend_font_px": 40,
+    "body_character_limit": 90,
+    "node_title_character_limit": 38,
+    "text_fit_check": {
+      "font": "Arial",
+      "font_px": 40,
+      "usable_node_width_px": 465,
+      "max_wrapped_lines": 4,
+      "limit": 4,
+      "over_limit": []
+    }
+  },
+  "diagrams": [
+    {
+      "diagram_id": "08",
+      "manuscript_figure_number": 26,
+      "figure_title": "Water assessment workflow",
+      "page_header": "Figure 26. Water assessment workflow",
+      "nodes": [
+        {
+          "id": "access",
+          "title": "Sample access",
+          "body": "Verify reachable water or\nvessel, stable dry support,\nand probe clearance.",
+          "row": 1,
+          "column": 1
+        },
+        {
+          "id": "interlock",
+          "title": "Sampling interlock",
+          "body": "Drive inhibited; calibration\nready. Check support and\nclearance before\nimmersion.",
+          "row": 1,
+          "column": 2
+        },
+        {
+          "id": "prepare",
+          "title": "Prepare sample",
+          "body": "Rinse probes; avoid\nbubbles; set immersion.\nRecord sample identity\nand temperature.",
+          "row": 1,
+          "column": 3
+        },
+        {
+          "id": "record",
+          "title": "Record and stow",
+          "body": "Retain raw values, units\nand validity. Clean and\nstow probes before\nmotion resumes.",
+          "row": 2,
+          "column": 1
+        },
+        {
+          "id": "quality",
+          "title": "Calibration and checks",
+          "body": "Use buffer or standard\ncalibration. Check settling,\ndrift, cleanliness and\nrange.",
+          "row": 2,
+          "column": 2
+        },
+        {
+          "id": "acquire",
+          "title": "Probe acquisition",
+          "body": "High-impedance pH\ninterface and clean\nturbidity optics yield\ntimestamped raw data.",
+          "row": 2,
+          "column": 3
+        }
+      ],
+      "edges": [
+        {
+          "from": "access",
+          "to": "interlock",
+          "type": "control",
+          "label": "Operator clearance"
+        },
+        {
+          "from": "interlock",
+          "to": "prepare",
+          "type": "control",
+          "label": "Immersion permit"
+        },
+        {
+          "from": "prepare",
+          "to": "acquire",
+          "type": "physical",
+          "label": "Prepared water"
+        },
+        {
+          "from": "acquire",
+          "to": "quality",
+          "type": "data",
+          "label": "Raw responses"
+        },
+        {
+          "from": "quality",
+          "to": "record",
+          "type": "data",
+          "label": "Accepted or flagged record"
+        },
+        {
+          "from": "quality",
+          "to": "interlock",
+          "type": "feedback",
+          "label": "Invalid reading: hold"
+        },
+        {
+          "from": "record",
+          "to": "interlock",
+          "type": "feedback",
+          "label": "Stow confirmed"
+        }
+      ],
+      "legend": [
+        {
+          "type": "control",
+          "meaning": "Permission / action"
+        },
+        {
+          "type": "physical",
+          "meaning": "Sample transfer"
+        },
+        {
+          "type": "data",
+          "meaning": "Measurements"
+        },
+        {
+          "type": "feedback",
+          "meaning": "Status return"
+        }
+      ],
+      "limitations": "Proposed workflow. Module-specific calibration, controlled immersion and full-travel cable clearance require physical verification.",
+      "caption_semantics": "Water assessment couples sample preparation and probe acquisition with calibration readiness, quality checks, traceable records and safe stowing.",
+      "routing_notes": [
+        "Place the six nodes in the specified two-row layout.",
+        "Route quality-to-interlock vertically through the centre gutter.",
+        "Route stow confirmation along the left outer gutter; do not imply that a recorded value automatically permits driving."
+      ],
+      "status_footer": "Proposed workflow; calibration, immersion and cable clearance require physical verification."
+    },
+    {
+      "diagram_id": "09",
+      "manuscript_figure_number": 13,
+      "figure_title": "Proposed manipulation workflow",
+      "page_header": "Figure 13. Proposed manipulation workflow",
+      "nodes": [
+        {
+          "id": "request",
+          "title": "Handling request",
+          "body": "Authorized operator or\nmission specifies object,\napproach, grasp and\nrelease location.",
+          "row": 1,
+          "column": 1
+        },
+        {
+          "id": "constraints",
+          "title": "Reach and stability",
+          "body": "Check payload, support\nmargin, joint limits,\ncollision clearance and\ncable bend limits.",
+          "row": 1,
+          "column": 2
+        },
+        {
+          "id": "controller",
+          "title": "Arm controller",
+          "body": "Generate bounded,\nlow-speed joint and\ngripper commands; halt\non detected faults.",
+          "row": 1,
+          "column": 3
+        },
+        {
+          "id": "outcome",
+          "title": "Handling outcome",
+          "body": "Verify placement; retain\nfailed grasps, protective\nstops and recovery\nactions.",
+          "row": 2,
+          "column": 1
+        },
+        {
+          "id": "feedback",
+          "title": "Feedback [proposed]",
+          "body": "Position, current and grip\nfeedback: tracking error,\njams and unexpected\ncontact.",
+          "row": 2,
+          "column": 2
+        },
+        {
+          "id": "actuators",
+          "title": "Joints and gripper",
+          "body": "Geared actuators use the\npreserved arm mounting,\nsecured sleeves and\nservice loops.",
+          "row": 2,
+          "column": 3
+        }
+      ],
+      "edges": [
+        {
+          "from": "request",
+          "to": "constraints",
+          "type": "control",
+          "label": "Target and task"
+        },
+        {
+          "from": "constraints",
+          "to": "controller",
+          "type": "control",
+          "label": "Permit and bounds"
+        },
+        {
+          "from": "controller",
+          "to": "actuators",
+          "type": "control",
+          "label": "Joint and grip commands"
+        },
+        {
+          "from": "actuators",
+          "to": "feedback",
+          "type": "feedback",
+          "label": "Measured response"
+        },
+        {
+          "from": "feedback",
+          "to": "controller",
+          "type": "feedback",
+          "label": "State and fault status"
+        },
+        {
+          "from": "feedback",
+          "to": "outcome",
+          "type": "data",
+          "label": "Grasp and placement evidence"
+        },
+        {
+          "from": "outcome",
+          "to": "request",
+          "type": "feedback",
+          "label": "Complete or recover"
+        }
+      ],
+      "legend": [
+        {
+          "type": "control",
+          "meaning": "Task / command"
+        },
+        {
+          "type": "feedback",
+          "meaning": "Measured response"
+        },
+        {
+          "type": "data",
+          "meaning": "Recorded evidence"
+        }
+      ],
+      "limitations": "Proposed feedback architecture. Joint models, payload capacity and reliable grasp confirmation require measurement.",
+      "caption_semantics": "Reach and stability checks gate arm commands; proposed feedback closes the control loop and supports verified handling outcomes.",
+      "routing_notes": [
+        "Use top-row forward commands and bottom-row returned evidence.",
+        "Route feedback-to-controller through the centre-right gutter, without crossing the actuator command arrow.",
+        "Route outcome-to-request vertically along the left gutter."
+      ],
+      "status_footer": "Proposed feedback; joint models, payload capacity and grasp confirmation require measurement."
+    },
+    {
+      "diagram_id": "10",
+      "manuscript_figure_number": 31,
+      "figure_title": "Proposed navigation architecture",
+      "page_header": "Figure 31. Proposed navigation architecture",
+      "nodes": [
+        {
+          "id": "sensors",
+          "title": "Sensing [proposed]",
+          "body": "Range or depth sensing,\nIMU and encoders; GNSS\nonly where available.",
+          "row": 1,
+          "column": 1
+        },
+        {
+          "id": "localization",
+          "title": "Localization",
+          "body": "Calibrate and synchronize\nobservations. Estimate\npose, covariance and\nvalidity.",
+          "row": 1,
+          "column": 2
+        },
+        {
+          "id": "mapping",
+          "title": "Map and obstacles",
+          "body": "Combine pose with range\nobservations. Update\noccupancy, clearance and\ndynamic obstacles.",
+          "row": 1,
+          "column": 3
+        },
+        {
+          "id": "supervision",
+          "title": "Recovery and supervision",
+          "body": "Check pose and link\nhealth. Request replan,\ntakeover or controlled\nstop.",
+          "row": 2,
+          "column": 1
+        },
+        {
+          "id": "execution",
+          "title": "Drive execution",
+          "body": "Bound motion and\nallocate wheel targets.\nMonitor timeouts and\nactuator state.",
+          "row": 2,
+          "column": 2
+        },
+        {
+          "id": "planning",
+          "title": "Feasible planning",
+          "body": "Plan routes and local\nmotion within steering,\nfootprint, speed and\nstopping limits.",
+          "row": 2,
+          "column": 3
+        }
+      ],
+      "edges": [
+        {
+          "from": "sensors",
+          "to": "localization",
+          "type": "data",
+          "label": "Synchronized observations"
+        },
+        {
+          "from": "sensors",
+          "to": "mapping",
+          "type": "data",
+          "label": "Range or depth",
+          "route": "outer_top"
+        },
+        {
+          "from": "localization",
+          "to": "mapping",
+          "type": "data",
+          "label": "Pose and covariance"
+        },
+        {
+          "from": "mapping",
+          "to": "planning",
+          "type": "data",
+          "label": "Map and obstacles"
+        },
+        {
+          "from": "planning",
+          "to": "execution",
+          "type": "control",
+          "label": "Feasible motion request"
+        },
+        {
+          "from": "execution",
+          "to": "supervision",
+          "type": "feedback",
+          "label": "Motion and health"
+        },
+        {
+          "from": "localization",
+          "to": "supervision",
+          "type": "feedback",
+          "label": "Pose validity"
+        },
+        {
+          "from": "supervision",
+          "to": "execution",
+          "type": "control",
+          "label": "Permit or stop"
+        },
+        {
+          "from": "supervision",
+          "to": "planning",
+          "type": "control",
+          "label": "Replan or takeover",
+          "route": "outer_bottom"
+        }
+      ],
+      "legend": [
+        {
+          "type": "data",
+          "meaning": "Observations / estimates"
+        },
+        {
+          "type": "control",
+          "meaning": "Motion / permission"
+        },
+        {
+          "type": "feedback",
+          "meaning": "State / validity"
+        }
+      ],
+      "limitations": "Development architecture. Sensor compatibility, localization robustness and closed-loop navigation remain to be demonstrated on the rover.",
+      "caption_semantics": "Sensing feeds both localization and mapping; planning proposes feasible motion while supervision can stop or replan execution.",
+      "routing_notes": [
+        "Route direct sensor-to-map observations above the localization block.",
+        "Use distinct parallel lanes between supervision and execution for control and feedback.",
+        "Route supervisor-to-planner commands below the bottom row; never draw a serial execution-to-recovery-only chain."
+      ],
+      "status_footer": "Proposed autonomy; compatible sensors, calibration and rover navigation trials are required."
+    },
+    {
+      "diagram_id": "11",
+      "manuscript_figure_number": 30,
+      "figure_title": "Communications and command authority",
+      "page_header": "Figure 30. Communications and command authority",
+      "nodes": [
+        {
+          "id": "operator",
+          "title": "Operator dashboard",
+          "body": "Show requested and\nactive modes, stale-data\nwarnings and a proposed\nauthenticated session.",
+          "row": 1,
+          "column": 1
+        },
+        {
+          "id": "wifi",
+          "title": "ESP access point",
+          "body": "Local Wi-Fi exchanges\ncommands and telemetry\nwithout external Internet\ninfrastructure.",
+          "row": 1,
+          "column": 2
+        },
+        {
+          "id": "arbiter",
+          "title": "Protocol and arbiter",
+          "body": "Validate sequence, age,\nlimits and mode. Accept\none command authority at\na time.",
+          "row": 1,
+          "column": 3
+        },
+        {
+          "id": "telemetry",
+          "title": "Telemetry and video",
+          "body": "State and sensor packets\nplus camera video; use\nseparate bandwidth\nbudgets.",
+          "row": 2,
+          "column": 1
+        },
+        {
+          "id": "controller",
+          "title": "Mega controller",
+          "body": "Bound commands; read\nsensors. Report watchdog\nand actuator state.",
+          "row": 2,
+          "column": 2
+        },
+        {
+          "id": "radio",
+          "title": "Radio operator input",
+          "body": "Alternate radio requests;\ndeliberate handover and\nneutral commands\nrequired.",
+          "row": 2,
+          "column": 3
+        }
+      ],
+      "edges": [
+        {
+          "from": "operator",
+          "to": "wifi",
+          "type": "control",
+          "label": "Operator request"
+        },
+        {
+          "from": "wifi",
+          "to": "arbiter",
+          "type": "control",
+          "label": "Command packet"
+        },
+        {
+          "from": "radio",
+          "to": "arbiter",
+          "type": "control",
+          "label": "Radio request"
+        },
+        {
+          "from": "arbiter",
+          "to": "controller",
+          "type": "control",
+          "label": "Accepted authority"
+        },
+        {
+          "from": "controller",
+          "to": "arbiter",
+          "type": "feedback",
+          "label": "State and heartbeat"
+        },
+        {
+          "from": "controller",
+          "to": "telemetry",
+          "type": "data",
+          "label": "State and sensor records"
+        },
+        {
+          "from": "telemetry",
+          "to": "wifi",
+          "type": "data",
+          "label": "Budgeted streams"
+        },
+        {
+          "from": "wifi",
+          "to": "operator",
+          "type": "data",
+          "label": "Display and acknowledgement"
+        }
+      ],
+      "legend": [
+        {
+          "type": "control",
+          "meaning": "Command authority"
+        },
+        {
+          "type": "data",
+          "meaning": "Telemetry / video"
+        },
+        {
+          "type": "feedback",
+          "meaning": "Health / state"
+        }
+      ],
+      "limitations": "Proposed integration. Authentication, timeout policy, handover and communication range require implementation and testing.",
+      "caption_semantics": "Wi-Fi and radio are parallel command sources entering one arbiter; telemetry returns to the dashboard through a separately budgeted path.",
+      "routing_notes": [
+        "Keep radio-to-arbiter independent of the telemetry path.",
+        "Use separate parallel lanes for operator requests and display data.",
+        "Route arbiter-controller control and controller-arbiter feedback as two directed paths through the right-centre gutter.",
+        "Camera input is included within the telemetry block; do not imply that Mega generates or processes the video stream."
+      ],
+      "status_footer": "Proposed integration; authentication, handover, timeouts and communication range require tests."
+    },
+    {
+      "diagram_id": "12",
+      "manuscript_figure_number": 37,
+      "figure_title": "Operating and protective states",
+      "page_header": "Figure 37. Operating and protective states",
+      "nodes": [
+        {
+          "id": "disarmed",
+          "title": "Disarmed",
+          "body": "Actuator outputs inhibited.\nHealth checks and\ndeliberate enable precede\nmotion.",
+          "row": 1,
+          "column": 1
+        },
+        {
+          "id": "manual",
+          "title": "Ready / manual",
+          "body": "One operator holds\ncommand authority.\nNeutral inputs and valid\nhealth are required.",
+          "row": 1,
+          "column": 2
+        },
+        {
+          "id": "autonomous",
+          "title": "Autonomous [proposed]",
+          "body": "Valid mission and pose\npermit motion. Monitor\nobstacles and health.",
+          "row": 1,
+          "column": 3
+        },
+        {
+          "id": "emergency",
+          "title": "Emergency stop",
+          "body": "Latched motor-energy\ninterruption. Independent\ncircuit; release and reset\nrequired.",
+          "row": 2,
+          "column": 1
+        },
+        {
+          "id": "safe_stop",
+          "title": "Controlled safe stop",
+          "body": "Stop drive; hold or park\nthe arm. Restart requires\nfault clearance and\ndeliberate reset.",
+          "row": 2,
+          "column": 2
+        },
+        {
+          "id": "degraded",
+          "title": "Degraded",
+          "body": "Recoverable sensor or\nlink fault. Reduced\noperation requires\nexplicitly authorized limits.",
+          "row": 2,
+          "column": 3
+        }
+      ],
+      "edges": [
+        {
+          "from": "disarmed",
+          "to": "manual",
+          "type": "control",
+          "label": "Healthy and enabled"
+        },
+        {
+          "from": "manual",
+          "to": "autonomous",
+          "type": "control",
+          "label": "Mission and pose valid"
+        },
+        {
+          "from": "manual",
+          "to": "safe_stop",
+          "type": "control",
+          "label": "Fault or timeout"
+        },
+        {
+          "from": "autonomous",
+          "to": "degraded",
+          "type": "control",
+          "label": "Recoverable fault"
+        },
+        {
+          "from": "autonomous",
+          "to": "safe_stop",
+          "type": "control",
+          "label": "Critical fault or takeover"
+        },
+        {
+          "from": "degraded",
+          "to": "safe_stop",
+          "type": "control",
+          "label": "Limits unmet"
+        },
+        {
+          "from": "safe_stop",
+          "to": "disarmed",
+          "type": "control",
+          "label": "Clear fault and reset"
+        },
+        {
+          "from": "manual",
+          "to": "emergency",
+          "type": "control",
+          "label": "Emergency input",
+          "routing_group": "independent_emergency_input"
+        },
+        {
+          "from": "autonomous",
+          "to": "emergency",
+          "type": "control",
+          "label": "Emergency input",
+          "routing_group": "independent_emergency_input"
+        },
+        {
+          "from": "degraded",
+          "to": "emergency",
+          "type": "control",
+          "label": "Emergency input",
+          "routing_group": "independent_emergency_input"
+        },
+        {
+          "from": "safe_stop",
+          "to": "emergency",
+          "type": "control",
+          "label": "Emergency input",
+          "routing_group": "independent_emergency_input"
+        },
+        {
+          "from": "emergency",
+          "to": "disarmed",
+          "type": "control",
+          "label": "Physical release and reset"
+        }
+      ],
+      "legend": [
+        {
+          "type": "control",
+          "meaning": "Guarded transition"
+        }
+      ],
+      "limitations": "Selected proposed transitions, not verified safety logic. Emergency interruption is independent of software; arm holding and reset hardware require verification.",
+      "caption_semantics": "Normal, degraded and stopped states have explicit entry conditions; emergency input reaches the latched emergency state from every active state.",
+      "routing_notes": [
+        "Do not chain emergency stop only after controlled stop: direct emergency transitions apply from all four active states.",
+        "Route emergency-input branches through a shared outer perimeter corridor, with a single repeated-condition label and visible source branches.",
+        "Use separate arrowheads into the emergency block; merge only branches with the identical emergency-input condition.",
+        "Keep reset routes separate from the emergency-input corridor.",
+        "These are state-transition arrows, not electrical-power or physical-wire arrows; therefore the legend uses control only.",
+        "The diagram intentionally omits secondary transitions; never infer automatic restart from fault clearance alone."
+      ],
+      "status_footer": "Selected proposed transitions. Emergency interruption is independent; no automatic restart."
+    },
+    {
+      "diagram_id": "13",
+      "manuscript_figure_number": 33,
+      "figure_title": "Mission and data workflow",
+      "page_header": "Figure 33. Mission and data workflow",
+      "nodes": [
+        {
+          "id": "definition",
+          "title": "Define mission",
+          "body": "Air patrol, inspection,\nwater sampling,\nlightweight handling or\nreconnaissance.",
+          "row": 1,
+          "column": 1
+        },
+        {
+          "id": "preflight",
+          "title": "Pre-mission checks",
+          "body": "Check power, links and\nsensor readiness. Log\ncalibration IDs and\noperator authority.",
+          "row": 1,
+          "column": 2
+        },
+        {
+          "id": "approach",
+          "title": "Approach and observe",
+          "body": "Use controlled travel and\ncamera observation.\nRetain pose, timestamps\nand health status.",
+          "row": 1,
+          "column": 3
+        },
+        {
+          "id": "report",
+          "title": "Mission record",
+          "body": "Link data to pose and\ntime. Retain raw/derived\nvalues, failures and\ninterventions.",
+          "row": 2,
+          "column": 1
+        },
+        {
+          "id": "quality",
+          "title": "Quality and recovery",
+          "body": "Check validity and task\ncompletion. Flag\nuncertainty; hold, retry or\nabort if needed.",
+          "row": 2,
+          "column": 2
+        },
+        {
+          "id": "task",
+          "title": "Execute task",
+          "body": "Dwell for air observation,\nimmerse probes, handle\nlightweight samples or\ninspect visually.",
+          "row": 2,
+          "column": 3
+        }
+      ],
+      "edges": [
+        {
+          "from": "definition",
+          "to": "preflight",
+          "type": "control",
+          "label": "Mission and criteria"
+        },
+        {
+          "from": "preflight",
+          "to": "approach",
+          "type": "control",
+          "label": "Readiness permit"
+        },
+        {
+          "from": "approach",
+          "to": "task",
+          "type": "control",
+          "label": "Task location reached"
+        },
+        {
+          "from": "task",
+          "to": "quality",
+          "type": "data",
+          "label": "Observations and events"
+        },
+        {
+          "from": "approach",
+          "to": "quality",
+          "type": "data",
+          "label": "Pose, time and health"
+        },
+        {
+          "from": "quality",
+          "to": "report",
+          "type": "data",
+          "label": "Validated or flagged records"
+        },
+        {
+          "from": "quality",
+          "to": "task",
+          "type": "control",
+          "label": "Dwell or retry"
+        },
+        {
+          "from": "quality",
+          "to": "approach",
+          "type": "control",
+          "label": "Hold or abort"
+        }
+      ],
+      "legend": [
+        {
+          "type": "control",
+          "meaning": "Task / recovery"
+        },
+        {
+          "type": "data",
+          "meaning": "Observations / records"
+        }
+      ],
+      "limitations": "Proposed task workflow. Completion requires valid observations or confirmed handling; reaching a waypoint alone is insufficient.",
+      "caption_semantics": "Readiness gates travel and task execution; quality checks receive both task evidence and navigation context and can request recovery.",
+      "routing_notes": [
+        "Use distinct opposing lanes between task and quality: observations leftward, retry requests rightward.",
+        "Route approach-to-quality context through the row gutter and quality-to-approach recovery through an outer right corridor.",
+        "Keep record output independent of the recovery loop; failed or aborted attempts remain reportable."
+      ],
+      "status_footer": "Proposed workflow. Completion needs valid observations or verified handling, not arrival alone."
+    },
+    {
+      "diagram_id": "14",
+      "manuscript_figure_number": 39,
+      "figure_title": "External calibration analysis pipeline",
+      "page_header": "Figure 39. External calibration analysis pipeline",
+      "nodes": [
+        {
+          "id": "archive",
+          "title": "External UCI data",
+          "body": "Eight predictors and CO\ntarget. Exclude missing\ntargets and complete\npredictor outages.",
+          "row": 1,
+          "column": 1
+        },
+        {
+          "id": "partition",
+          "title": "Chronological partition",
+          "body": "Sort eligible rows: 5,140\ntraining, 1,102 validation\nand 1,102 test\nobservations.",
+          "row": 1,
+          "column": 2
+        },
+        {
+          "id": "training",
+          "title": "Training only",
+          "body": "Fit preprocessing and\nmodels on training only.\nNo validation or test\nrefitting.",
+          "row": 1,
+          "column": 3
+        },
+        {
+          "id": "transfer",
+          "title": "Future rover validation",
+          "body": "Require reference\nco-location, later\ndeployments and onboard\nresource measurements.",
+          "row": 2,
+          "column": 1
+        },
+        {
+          "id": "test",
+          "title": "Frozen test evaluation",
+          "body": "Score 1,102 later hours\nwith frozen models.\nReport errors and paired\nday intervals.",
+          "row": 2,
+          "column": 2
+        },
+        {
+          "id": "validation",
+          "title": "Validation selection",
+          "body": "Rank 21 candidates by\nvalidation RMSE. Lock\nselections before testing.",
+          "row": 2,
+          "column": 3
+        }
+      ],
+      "edges": [
+        {
+          "from": "archive",
+          "to": "partition",
+          "type": "data",
+          "label": "Eligible timestamped rows"
+        },
+        {
+          "from": "partition",
+          "to": "training",
+          "type": "data",
+          "label": "Training rows only"
+        },
+        {
+          "from": "training",
+          "to": "validation",
+          "type": "data",
+          "label": "Fitted candidates"
+        },
+        {
+          "from": "partition",
+          "to": "validation",
+          "type": "data",
+          "label": "Validation rows only",
+          "route": "outer_right"
+        },
+        {
+          "from": "validation",
+          "to": "test",
+          "type": "control",
+          "label": "Lock selection; permit test"
+        },
+        {
+          "from": "partition",
+          "to": "test",
+          "type": "data",
+          "label": "Test rows only"
+        },
+        {
+          "from": "training",
+          "to": "test",
+          "type": "data",
+          "label": "Unrefitted pipelines",
+          "route": "row_gutter"
+        },
+        {
+          "from": "test",
+          "to": "transfer",
+          "type": "data",
+          "label": "Methods and external results"
+        }
+      ],
+      "legend": [
+        {
+          "type": "data",
+          "meaning": "Data / models / results"
+        },
+        {
+          "type": "control",
+          "meaning": "Selection lock"
+        }
+      ],
+      "limitations": "External fixed-station benchmark. No test-to-training feedback; transferring the method does not calibrate or validate the rover's MQ sensors.",
+      "caption_semantics": "Training, validation and test inputs remain separate; selection is locked before frozen-pipeline evaluation, followed by independent rover-specific validation.",
+      "routing_notes": [
+        "Draw separate outgoing branches from partition to training, validation and test.",
+        "Route validation-only rows around the right outside edge so they never pass through training.",
+        "Use one data arrow from training to test for retained fitted pipelines and one control arrow from validation to test for the selection lock.",
+        "Never draw a return arrow from the held-out test to model fitting or hyperparameter selection.",
+        "The last node is a future validation requirement, not permission to deploy the external model."
+      ],
+      "status_footer": "External fixed-station benchmark; independent rover calibration and validation remain required."
+    }
+  ]
+}

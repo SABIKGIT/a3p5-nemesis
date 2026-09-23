@@ -1,0 +1,155 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        26
+      ]
+    ],
+    "date-time": "2025-10-26T12:03:37Z",
+    "timestamp": 1761480217899,
+    "version": "build-2065373602"
+  },
+  "reference-count": 16,
+  "publisher": "Elsevier BV",
+  "issue": "16",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2010-01-01T00:00:00Z",
+        "timestamp": 1262304000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2010-01-01T00:00:00Z",
+        "timestamp": 1262304000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    }
+  ],
+  "short-container-title": [
+    "IFAC Proceedings Volumes"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2010
+      ]
+    ]
+  },
+  "DOI": "10.3182/20100906-3-it-2019.00036",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2011,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2011-03-04T11:42:11Z",
+    "timestamp": 1299238931000
+  },
+  "page": "199-204",
+  "is-referenced-by-count": 4,
+  "title": [
+    "An Adaptive Suspension System for Planetary Rovers"
+  ],
+  "volume": "43",
+  "author": [
+    {
+      "given": "G.",
+      "family": "Reina",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "M.",
+      "family": "Foglia",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "IFAC Proceedings Volumes"
+  ],
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S147466701635056X?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S147466701635056X?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        26
+      ]
+    ],
+    "date-time": "2025-10-26T11:55:07Z",
+    "timestamp": 1761479707000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2010
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.3182/20100906-3-it-2019.00036",
+  "ISSN": [
+    "1474-6670"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2010
+      ]
+    ]
+  },
+  "original_response_sha256": "fb4fd508ab5fbeeb57c8a913b7894725ad00afbfe800f36c008353b06c7e343a"
+}

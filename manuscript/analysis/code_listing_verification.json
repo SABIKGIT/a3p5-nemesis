@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "candidate_validation_RMSE_checks": 21,
+  "test_metric_checks": 16,
+  "selected_family": "Ridge",
+  "tolerance_absolute": 1e-12,
+  "eligible_rows": 7344,
+  "split_rows": [
+    5140,
+    1102,
+    1102
+  ],
+  "displayed_lines": 24,
+  "maximum_line_width": 73,
+  "existing_output_files_modified": false
+}

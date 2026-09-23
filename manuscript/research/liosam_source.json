@@ -1,0 +1,18 @@
+{
+  "id": "M20",
+  "title": "LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping",
+  "authors": [
+    "Tixiao Shan",
+    "Brendan Englot",
+    "Drew Meyers",
+    "Wei Wang",
+    "Carlo Ratti",
+    "Daniela Rus"
+  ],
+  "year": 2020,
+  "venue": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 5135-5142",
+  "doi": "10.1109/iros45743.2020.9341176",
+  "url": "https://doi.org/10.1109/iros45743.2020.9341176",
+  "read_depth": "Publisher abstract and introduction; exact DOI metadata checked.",
+  "supports": "Factor-graph lidar-inertial odometry with relative and absolute measurements; proposed high-level localization context only."
+}

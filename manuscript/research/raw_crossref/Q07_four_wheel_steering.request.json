@@ -1,0 +1,44 @@
+{
+  "query_id": "Q07",
+  "topic": "four_wheel_steering",
+  "query": "four wheel independent steering mobile robot kinematics",
+  "url": "https://api.crossref.org/v1/works?query.bibliographic=four+wheel+independent+steering+mobile+robot+kinematics&rows=500&offset=0&sort=relevance&order=desc&filter=from-pub-date%3A1990-01-01%2Cuntil-pub-date%3A2026-09-15",
+  "params": {
+    "query.bibliographic": "four wheel independent steering mobile robot kinematics",
+    "rows": 500,
+    "offset": 0,
+    "sort": "relevance",
+    "order": "desc",
+    "filter": "from-pub-date:1990-01-01,until-pub-date:2026-09-15"
+  },
+  "started_utc": "2026-09-15T14:10:17.612704+00:00",
+  "attempts": [
+    {
+      "attempt": 1,
+      "seconds": 4.515,
+      "status": 200
+    }
+  ],
+  "finished_utc": "2026-09-15T14:10:22.125940+00:00",
+  "http_status": 200,
+  "response_headers": {
+    "Date": "Tue, 15 Sep 2026 14:10:27 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "access-control-expose-headers": "Link",
+    "access-control-allow-headers": "X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language, Accept-Ranges, Cache-Control",
+    "access-control-allow-origin": "*",
+    "server": "Jetty(9.4.40.v20210413)",
+    "x-rate-limit-limit": "1",
+    "x-rate-limit-interval": "1s",
+    "x-concurrency-limit": "1",
+    "x-api-pool": "public-array",
+    "permissions-policy": "interest-cohort=()"
+  },
+  "returned_count": 500,
+  "api_total_results": 1269560,
+  "sha256": "1d0bd4128b2f4c8d0199bfe3bd84ebe037eede3215033c3637410fa9bdddd8fa",
+  "byte_count": 3135690,
+  "raw_file": "raw_crossref\\Q07_four_wheel_steering.json"
+}

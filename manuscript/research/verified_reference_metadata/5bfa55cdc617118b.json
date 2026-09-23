@@ -1,0 +1,167 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2026-09-12T18:06:38Z",
+    "timestamp": 1789236398035,
+    "version": "build-2803163510"
+  },
+  "reference-count": 30,
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            1,
+            14
+          ]
+        ],
+        "date-time": "2015-01-14T00:00:00Z",
+        "timestamp": 1421193600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 13,
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "short-container-title": [
+    "The Journal of Engineering"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2015,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1049/joe.2014.0241",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2015,
+        1,
+        15
+      ]
+    ],
+    "date-time": "2015-01-15T06:08:35Z",
+    "timestamp": 1421302115000
+  },
+  "page": "6-16",
+  "is-referenced-by-count": 45,
+  "title": [
+    "Kinematics, dynamics and control design of 4WIS4WID mobile robots"
+  ],
+  "volume": "2015",
+  "author": [
+    {
+      "given": "Ming‐Han",
+      "family": "Lee",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "aiRobots Laboratory Department of Electrical Engineering National Cheng Kung University 1 University Road Tainan Taiwan 70101"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Tzuu‐Hseng S.",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "aiRobots Laboratory Department of Electrical Engineering National Cheng Kung University 1 University Road Tainan Taiwan 70101"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2015,
+        1,
+        14
+      ]
+    ]
+  },
+  "container-title": [
+    "The Journal of Engineering"
+  ],
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/joe.2014.0241",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/joe.2014.0241",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/joe.2014.0241",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        28
+      ]
+    ],
+    "date-time": "2025-10-28T21:31:01Z",
+    "timestamp": 1761687061000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2015,
+        1
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1049/joe.2014.0241",
+  "ISSN": [
+    "2051-3305",
+    "2051-3305"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2015,
+        1
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "f7ad769796a3d77492474709f591935a498d51213578d4bb5a1c58c7feff43e2"
+}

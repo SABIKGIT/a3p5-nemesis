@@ -1,0 +1,191 @@
+{
+  "design_id": "DAHVSsDGAjY",
+  "edit_url": "https://www.canva.com/d/tCSQwYfshs9lo2F",
+  "title": "A3P5 NEMESIS — Final Figures, Titles and Arrow Legends",
+  "page_count": 14,
+  "canvas": [
+    1860,
+    1200
+  ],
+  "native_text_boxes": 408,
+  "native_arrowhead_glyphs": 133,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 2,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 3,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 4,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 5,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 6,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 7,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 8,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 9,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 10,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 11,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 12,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 13,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    },
+    {
+      "page_number": 14,
+      "dimension": {
+        "width": 1860,
+        "height": 1200
+      },
+      "is_editable": true
+    }
+  ],
+  "figure_titles": [
+    {
+      "page": 1,
+      "title": "Figure 8. System control architecture"
+    },
+    {
+      "page": 2,
+      "title": "Figure 28. Protected power distribution"
+    },
+    {
+      "page": 3,
+      "title": "Figure 9. Four-wheel command allocation"
+    },
+    {
+      "page": 4,
+      "title": "Figure 11. Drive control and traction monitoring"
+    },
+    {
+      "page": 5,
+      "title": "Figure 19. Gas acquisition and calibration"
+    },
+    {
+      "page": 6,
+      "title": "Figure 20. Particulate acquisition and calibration"
+    },
+    {
+      "page": 7,
+      "title": "Figure 27. UV and atmospheric measurements"
+    },
+    {
+      "page": 8,
+      "title": "Figure 26. Water assessment workflow"
+    },
+    {
+      "page": 9,
+      "title": "Figure 13. Proposed manipulation workflow"
+    },
+    {
+      "page": 10,
+      "title": "Figure 31. Proposed navigation architecture"
+    },
+    {
+      "page": 11,
+      "title": "Figure 30. Communications and command authority"
+    },
+    {
+      "page": 12,
+      "title": "Figure 37. Operating and protective states"
+    },
+    {
+      "page": 13,
+      "title": "Figure 33. Mission and data workflow"
+    },
+    {
+      "page": 14,
+      "title": "Figure 39. External calibration analysis pipeline"
+    }
+  ],
+  "legends_verified": 14,
+  "source_html": "A3P5_Canva_Figures_With_Legends.html",
+  "export_status": "Complete: user-supplied Canva PDF Print pages rendered at1860x1200, all14 source pages and all14 changed manuscript pages visually reviewed, and inserted into the verified39-page manuscript.",
+  "superseded_draft_design_id": "DAHVSpdKU0k",
+  "source_pdf": "canva_complete_native/A3P5_Canva_Final_Figures_Print.pdf",
+  "source_pdf_sha256": "f5fa603ee5e7fae0eff937e0d89edd1b56e28014affe25bee9cfeee2c4e50d96",
+  "native_export_manifest": "canva_complete_native/native_export_manifest.json"
+}

@@ -1,0 +1,682 @@
+{
+  "pages": 14,
+  "canvas": [
+    1860,
+    1200
+  ],
+  "nodes": [
+    {
+      "diagram": "01",
+      "node": "sensors",
+      "body_lines": 2,
+      "body_max_px": 439.9,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "01",
+      "node": "mega",
+      "body_lines": 4,
+      "body_max_px": 392.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "01",
+      "node": "actuators",
+      "body_lines": 2,
+      "body_max_px": 451.0,
+      "used_height_px": 243.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "01",
+      "node": "companion",
+      "body_lines": 3,
+      "body_max_px": 405.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "01",
+      "node": "comms",
+      "body_lines": 3,
+      "body_max_px": 453.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "01",
+      "node": "operator",
+      "body_lines": 4,
+      "body_max_px": 442.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "02",
+      "node": "battery",
+      "body_lines": 2,
+      "body_max_px": 338.0,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "02",
+      "node": "protection",
+      "body_lines": 2,
+      "body_max_px": 446.0,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "02",
+      "node": "motors",
+      "body_lines": 4,
+      "body_max_px": 373.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "02",
+      "node": "sensors",
+      "body_lines": 4,
+      "body_max_px": 395.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "02",
+      "node": "logic",
+      "body_lines": 4,
+      "body_max_px": 433.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "02",
+      "node": "steering_arm",
+      "body_lines": 3,
+      "body_max_px": 410.0,
+      "used_height_px": 288.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "03",
+      "node": "request",
+      "body_lines": 3,
+      "body_max_px": 442.0,
+      "used_height_px": 288.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "03",
+      "node": "arbiter",
+      "body_lines": 4,
+      "body_max_px": 375.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "03",
+      "node": "kinematics",
+      "body_lines": 4,
+      "body_max_px": 374.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "03",
+      "node": "feedback",
+      "body_lines": 3,
+      "body_max_px": 458.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "03",
+      "node": "channels",
+      "body_lines": 3,
+      "body_max_px": 428.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "03",
+      "node": "limits",
+      "body_lines": 2,
+      "body_max_px": 457.0,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "04",
+      "node": "target",
+      "body_lines": 2,
+      "body_max_px": 457.0,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "04",
+      "node": "controller",
+      "body_lines": 2,
+      "body_max_px": 429.0,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "04",
+      "node": "drive",
+      "body_lines": 2,
+      "body_max_px": 357.0,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "04",
+      "node": "protection",
+      "body_lines": 2,
+      "body_max_px": 457.0,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "04",
+      "node": "checks",
+      "body_lines": 3,
+      "body_max_px": 462.0,
+      "used_height_px": 288.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "04",
+      "node": "contact",
+      "body_lines": 4,
+      "body_max_px": 378.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "05",
+      "node": "mq",
+      "body_lines": 3,
+      "body_max_px": 407.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "05",
+      "node": "conditioning",
+      "body_lines": 4,
+      "body_max_px": 395.0,
+      "used_height_px": 333.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "05",
+      "node": "acquisition",
+      "body_lines": 3,
+      "body_max_px": 447.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "05",
+      "node": "context",
+      "body_lines": 3,
+      "body_max_px": 415.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "05",
+      "node": "calibration",
+      "body_lines": 3,
+      "body_max_px": 426.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "05",
+      "node": "output",
+      "body_lines": 3,
+      "body_max_px": 438.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "06",
+      "node": "inlet",
+      "body_lines": 4,
+      "body_max_px": 439.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "06",
+      "node": "pms",
+      "body_lines": 3,
+      "body_max_px": 437.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "06",
+      "node": "validation",
+      "body_lines": 3,
+      "body_max_px": 457.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "06",
+      "node": "map",
+      "body_lines": 3,
+      "body_max_px": 450.0,
+      "used_height_px": 288.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "06",
+      "node": "calibration",
+      "body_lines": 3,
+      "body_max_px": 417.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "06",
+      "node": "context",
+      "body_lines": 4,
+      "body_max_px": 443.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "07",
+      "node": "guva",
+      "body_lines": 3,
+      "body_max_px": 396.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "07",
+      "node": "uv",
+      "body_lines": 3,
+      "body_max_px": 450.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "07",
+      "node": "quality",
+      "body_lines": 4,
+      "body_max_px": 324.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "07",
+      "node": "bmp",
+      "body_lines": 2,
+      "body_max_px": 417.0,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "07",
+      "node": "pressure",
+      "body_lines": 2,
+      "body_max_px": 457.0,
+      "used_height_px": 196.4,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "07",
+      "node": "log",
+      "body_lines": 4,
+      "body_max_px": 437.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "08",
+      "node": "access",
+      "body_lines": 3,
+      "body_max_px": 461.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "08",
+      "node": "interlock",
+      "body_lines": 4,
+      "body_max_px": 455.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "08",
+      "node": "prepare",
+      "body_lines": 4,
+      "body_max_px": 419.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "08",
+      "node": "record",
+      "body_lines": 4,
+      "body_max_px": 422.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "08",
+      "node": "quality",
+      "body_lines": 4,
+      "body_max_px": 464.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "08",
+      "node": "acquire",
+      "body_lines": 4,
+      "body_max_px": 401.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "09",
+      "node": "request",
+      "body_lines": 4,
+      "body_max_px": 429.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "09",
+      "node": "constraints",
+      "body_lines": 4,
+      "body_max_px": 417.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "09",
+      "node": "controller",
+      "body_lines": 4,
+      "body_max_px": 414.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "09",
+      "node": "outcome",
+      "body_lines": 4,
+      "body_max_px": 419.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "09",
+      "node": "feedback",
+      "body_lines": 4,
+      "body_max_px": 441.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "09",
+      "node": "actuators",
+      "body_lines": 4,
+      "body_max_px": 447.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "10",
+      "node": "sensors",
+      "body_lines": 3,
+      "body_max_px": 460.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "10",
+      "node": "localization",
+      "body_lines": 4,
+      "body_max_px": 459.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "10",
+      "node": "mapping",
+      "body_lines": 4,
+      "body_max_px": 461.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "10",
+      "node": "supervision",
+      "body_lines": 4,
+      "body_max_px": 410.0,
+      "used_height_px": 333.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "10",
+      "node": "execution",
+      "body_lines": 4,
+      "body_max_px": 395.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "10",
+      "node": "planning",
+      "body_lines": 4,
+      "body_max_px": 395.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "11",
+      "node": "operator",
+      "body_lines": 4,
+      "body_max_px": 445.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "11",
+      "node": "wifi",
+      "body_lines": 4,
+      "body_max_px": 445.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "11",
+      "node": "arbiter",
+      "body_lines": 4,
+      "body_max_px": 458.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "11",
+      "node": "telemetry",
+      "body_lines": 4,
+      "body_max_px": 448.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "11",
+      "node": "controller",
+      "body_lines": 3,
+      "body_max_px": 461.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "11",
+      "node": "radio",
+      "body_lines": 4,
+      "body_max_px": 432.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "12",
+      "node": "disarmed",
+      "body_lines": 4,
+      "body_max_px": 459.0,
+      "used_height_px": 286.8,
+      "available_height_px": 300
+    },
+    {
+      "diagram": "12",
+      "node": "manual",
+      "body_lines": 4,
+      "body_max_px": 415.0,
+      "used_height_px": 286.8,
+      "available_height_px": 300
+    },
+    {
+      "diagram": "12",
+      "node": "autonomous",
+      "body_lines": 3,
+      "body_max_px": 409.0,
+      "used_height_px": 288.6,
+      "available_height_px": 300
+    },
+    {
+      "diagram": "12",
+      "node": "emergency",
+      "body_lines": 4,
+      "body_max_px": 440.0,
+      "used_height_px": 286.8,
+      "available_height_px": 300
+    },
+    {
+      "diagram": "12",
+      "node": "safe_stop",
+      "body_lines": 4,
+      "body_max_px": 438.0,
+      "used_height_px": 286.8,
+      "available_height_px": 300
+    },
+    {
+      "diagram": "12",
+      "node": "degraded",
+      "body_lines": 4,
+      "body_max_px": 460.0,
+      "used_height_px": 286.8,
+      "available_height_px": 300
+    },
+    {
+      "diagram": "13",
+      "node": "definition",
+      "body_lines": 4,
+      "body_max_px": 395.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "13",
+      "node": "preflight",
+      "body_lines": 4,
+      "body_max_px": 411.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "13",
+      "node": "approach",
+      "body_lines": 4,
+      "body_max_px": 439.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "13",
+      "node": "report",
+      "body_lines": 4,
+      "body_max_px": 428.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "13",
+      "node": "quality",
+      "body_lines": 4,
+      "body_max_px": 438.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "13",
+      "node": "task",
+      "body_lines": 4,
+      "body_max_px": 437.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "14",
+      "node": "archive",
+      "body_lines": 4,
+      "body_max_px": 424.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "14",
+      "node": "partition",
+      "body_lines": 4,
+      "body_max_px": 430.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "14",
+      "node": "training",
+      "body_lines": 4,
+      "body_max_px": 419.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "14",
+      "node": "transfer",
+      "body_lines": 4,
+      "body_max_px": 458.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "14",
+      "node": "test",
+      "body_lines": 4,
+      "body_max_px": 431.0,
+      "used_height_px": 286.8,
+      "available_height_px": 340
+    },
+    {
+      "diagram": "14",
+      "node": "validation",
+      "body_lines": 3,
+      "body_max_px": 439.0,
+      "used_height_px": 241.6,
+      "available_height_px": 340
+    }
+  ],
+  "status": "Local source preflight; Canva import and native export verification pending"
+}

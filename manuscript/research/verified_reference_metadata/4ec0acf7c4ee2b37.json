@@ -1,0 +1,161 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2026-09-12T06:59:41Z",
+    "timestamp": 1789196381321,
+    "version": "build-2803163510"
+  },
+  "reference-count": 44,
+  "publisher": "SAGE Publications",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2007,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2007-02-01T00:00:00Z",
+        "timestamp": 1170288000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+    }
+  ],
+  "short-container-title": [
+    "The International Journal of Robotics Research"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2007,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1177/0278364906075328",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        1,
+        24
+      ]
+    ],
+    "date-time": "2007-01-24T08:13:08Z",
+    "timestamp": 1169626388000
+  },
+  "page": "141-166",
+  "is-referenced-by-count": 311,
+  "title": [
+    "Optimal Rough Terrain Trajectory Generation for Wheeled Mobile Robots"
+  ],
+  "volume": "26",
+  "author": [
+    {
+      "given": "Thomas M.",
+      "family": "Howard",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Robotics Institute Carnegie Mellon University Pittsburgh, PA 15213-3890,                         USA;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Alonzo",
+      "family": "Kelly",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Robotics Institute Carnegie Mellon University Pittsburgh, PA 15213-3890,                         USA;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2007,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "The International Journal of Robotics Research"
+  ],
+  "link": [
+    {
+      "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364906075328",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364906075328",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        29
+      ]
+    ],
+    "date-time": "2026-04-29T10:15:56Z",
+    "timestamp": 1777457756000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2007,
+        2
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1177/0278364906075328",
+  "ISSN": [
+    "0278-3649",
+    "1741-3176"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2007,
+        2
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "3095f1540493d0c596da69a3a4a5636222ff88798e02a5e1d626364cad936aaf"
+}

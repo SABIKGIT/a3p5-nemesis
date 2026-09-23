@@ -1,16 +1,18 @@
 <div align="center">
 
-# A3P5 NEMESIS
+<img src="docs/assets/nemesis-banner.svg" width="100%" alt="A3P5 NEMESIS — design, analysis and reproducibility">
 
 **Environmental reconnaissance · Robotic sampling · Reproducible engineering**
 
 [![Paper](https://img.shields.io/badge/arXiv-2609.18245-B31B1B)](https://arxiv.org/abs/2609.18245)
 [![Verification](https://github.com/SABIKGIT/a3p5-nemesis/actions/workflows/verify.yml/badge.svg)](https://github.com/SABIKGIT/a3p5-nemesis/actions/workflows/verify.yml)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](docs/reproduce.md)
+[![Blender](https://img.shields.io/badge/Blender-4.3.2-E87D0D?logo=blender&logoColor=white)](manuscript/blender/)
+[![Cite this work](https://img.shields.io/badge/Cite-this_work-55CFC8)](CITATION.cff)
 
 [Read the paper](https://arxiv.org/abs/2609.18245) · [Explore the calculations](docs/engineering-calculations.md) · [Reproduce the results](docs/reproduce.md) · [Cite this work](#citation)
 
-<img src="A3P5_Nemesis_Hero.png" width="420" alt="Blender reconstruction of the A3P5 NEMESIS rover, showing the four-wheel chassis, folded arm, camera mast and side sampling equipment">
+<img src="A3P5_Nemesis_Hero.png" width="390" alt="Blender reconstruction of the A3P5 NEMESIS rover, showing the four-wheel chassis, folded arm, camera mast and side sampling equipment">
 
 *Blender design reconstruction based on reference photographs; proposed equipment layout.*
 
@@ -51,6 +53,19 @@ The research companion to **[arXiv:2609.18245](https://arxiv.org/abs/2609.18245)
 | ![Grade, traction and torque calculations](manuscript/analysis/figures/A02_grade_traction_torque.png) | ![Predictions for the validation-selected calibration model](manuscript/analysis/ml_outputs/figures/03_selected_model_predictions.png) |
 | How grade and assumptions change drive requirements | How a frozen calibration model performs on later observations |
 
+<details>
+<summary><strong>Explore the proposed mission scenes</strong></summary>
+
+These Blender illustrations explore possible mission arrangements. They are design studies; no field-trial performance is implied.
+
+| Mission study 01 | Mission study 02 | Mission study 03 |
+|:---:|:---:|:---:|
+| ![Conceptual mission scene 01](manuscript/blender/M01_mission.png) | ![Conceptual mission scene 02](manuscript/blender/M02_mission.png) | ![Conceptual mission scene 03](manuscript/blender/M03_mission.png) |
+
+[Browse all scenes and editable model](manuscript/blender/) · [Inspect the wiring illustration](A3P5_Nemesis_Wiring_Detail.png)
+
+</details>
+
 ## Selected results
 
 | Question | Reported result | Scope |
@@ -90,7 +105,7 @@ python scripts/verify.py --refit --regenerate-engineering --json verification/lo
 
 See the [reproduction guide](docs/reproduce.md) for environment details and the [testing guide](docs/TESTING.md) for check coverage. Full replay uses the recorded library versions; checks of stored numerical tables do not require loading serialized models.
 
-**Verification record:** the supplied package records [23/23 successful checks](verification/prepublication_tests.json), including model refitting. A separate [publication check on 22 September 2026](verification/publication-checks.json) passed **17 checks**, including engineering regeneration; **six model-replay/refitting checks were skipped** because this review did not use the recorded scientific environment. These records describe software and numerical verification, not rover field tests. The workflow badge above shows the current GitHub Actions status.
+**Verified on 23 September 2026:** all **23 checks passed**, with no skips, using the recorded Python 3.12 scientific environment. This includes saved-model replay, all 21 candidate refits, seeded bootstrap replay and engineering-table regeneration. See the fresh [publication report](verification/publication-checks.json) and the original [prepublication report](verification/prepublication_tests.json). These checks cover software and numerical reproducibility; physical rover trials remain future work. The badge above shows the current GitHub Actions status.
 
 ## What the evidence supports
 
@@ -141,7 +156,7 @@ The manuscript acknowledges US$3,000 from Prime Now and US$2,000 from Mercedes-B
 }
 ```
 
-[CITATION.cff](CITATION.cff) also provides machine-readable citation information. Cite the external dataset and reused figures separately when using those materials.
+[CITATION.bib](CITATION.bib) is ready to import, and [CITATION.cff](CITATION.cff) provides machine-readable citation information. Cite the external dataset and reused figures separately when using those materials.
 
 ## Reuse and contributions
 

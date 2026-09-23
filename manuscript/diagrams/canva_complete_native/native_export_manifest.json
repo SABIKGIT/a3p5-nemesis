@@ -1,0 +1,219 @@
+{
+  "source_file": "A3P5_Canva_Final_Figures_Print.pdf",
+  "source_sha256": "f5fa603ee5e7fae0eff937e0d89edd1b56e28014affe25bee9cfeee2c4e50d96",
+  "design_id": "DAHVSsDGAjY",
+  "creator": "Canva",
+  "pages": [
+    {
+      "canva_page": 1,
+      "figure": 8,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "12fdd704551ae9e11c2e193db956f9a6dddde3fa10e5c61427f481de68707ec0",
+      "text": "Figure 8. System control architecture\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n◀\n▼\n▲\n▼\n▲\n▶\n◀\nLEGEND · Arrow direction indicates the direction of the link\n▶Measurement or data record\n▶Command or inhibit request\n▶Measured state returned to control\nFunctional links require verification. Crossings without a junction dot are not connected.\nEnvironmental sensors\nGas, particles, UV, water\nRaw signals + validity\nArduino Mega\nAcquisition + bounded\ncontrol\nWatchdog + hardware\nstate\nActuation and\nprotection\n4 drive + 4 steering + arm\nHardware inhibit priority\nComputer [proposed]\nLocalization + planning\nCalibration + bounded\nrequests\nESP32 / NodeMCU\nLocal network + telemetry\nVoltage-compatible\ninterface\nOperator dashboard\nMode requests + mission\nchoice\nHealth, map and sensor\ntrends\n",
+      "vector_drawing_count": 190
+    },
+    {
+      "canva_page": 2,
+      "figure": 28,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "4defd93e49e548d5aae324d9baee328248a74964071c19905c86a6e2122316b4",
+      "text": "Figure 28. Protected power distribution\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▼\n▼\n▼\nLEGEND · Arrow direction indicates the direction of the link\n▶Electrical power supply\nParallel load branches; dots mark common supply junctions. Returns and pinouts are omitted.\n3S LiPo battery\n11.1 V nominal\nCapacity unverified\nInput protection\nFuse + polarity protection\nService disconnect\nDrive-motor branch\nEmergency energy\ninterruption\nDrivers + four geared\nmotors\nSensor power branch\nFiltered rails + analog\nreturns\nVariant-specific heater\ndrive\nLogic power branch\nController +\ncommunications\nRegulated device supply\nrails\nSteering and arm\nsupply\nDedicated regulated\nsupply\nRate for transient loads\n",
+      "vector_drawing_count": 64
+    },
+    {
+      "canva_page": 3,
+      "figure": 9,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "7e29e75bf90edfbecad233ad6be2ea0fb0f1f33ca0515dc1be8a4e45395980ff",
+      "text": "Figure 9. Four-wheel command allocation\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▼\n◀\n▶\n▲\n▲\nLEGEND · Arrow direction indicates the direction of the link\n▶Command or inhibit request\n▶Measured state returned to control\nFunctional links require verification. Crossings without a junction dot are not connected.\nRequested body\nmotion\nForward + lateral velocity\nYaw rate + permitted\nmode\nCommand arbiter\nOne active command\nsource\nSpeed + acceleration\nlimits\nWheel kinematics\nBody twist to wheel\nvelocity\nAngle + rolling-speed\ntargets\nFeedback [proposed]\nAngle + encoder + current\nMeasured state and\nhealth\nFour actuator channels\nSteering and drive loops\nSynchronized target\nupdates\nSteering constraints\nAngle + rate + cable limits\nReverse rolling if feasible\n",
+      "vector_drawing_count": 426
+    },
+    {
+      "canva_page": 4,
+      "figure": 11,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "2a352bc31b9b557b404f4f4291344f36b796f9e440955da84a52a326d9e247a7",
+      "text": "Figure 11. Drive control and traction monitoring\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▼\n◀\n▼\n▲\n◀\n▲\nLEGEND · Arrow direction indicates the direction of the link\n▶Command or inhibit request\n▶Physical transfer or interaction\n▶Measured state returned to control\n▶Measurement or data record\nFunctional links require verification. Crossings without a junction dot are not connected.\nWheel-speed target\nKinematic allocator output\nRamp-limited reference\nPI speed control\nEncoder-speed tracking\nSaturation + anti-windup\nDriver and gearbox\nPWM + direction\nCurrent-limited drive\nProtective response\nDerate or request stop\nLog suspected stall or slip\nState checks\n[proposed]\nEncoder + current\nIndependent body velocity\nCheck motion consistency\nWheel-ground contact\nNormal load, slope,\nsurface\nSlip changes realized\nmotion\n",
+      "vector_drawing_count": 304
+    },
+    {
+      "canva_page": 5,
+      "figure": 19,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "13a4b52ad657fe67fac3ea519bb5c68565187e15ce46f36334ee018be39eae9c",
+      "text": "Figure 19. Gas acquisition and calibration\nA3P5 NEMESIS | Proposed functional architecture\n▶\n◀\n▶\n▼\n▶\n▶\nLEGEND · Arrow direction indicates the direction of the link\n▶Measurement or data record\n▶Electrical power supply\nFunctional links require verification. Crossings without a junction dot are not connected.\nMQ gas channels\nMQ-4 / MQ-7 / MQ-135\nVerify exact sensor\nvariants\nConditioning and\nheaters\nDivider + stable ADC\nreference\nVariant-specific heater\ndrive\nRaw acquisition\nADC + phase +\ntimestamp\nWarm-up and range flags\nEnvironmental context\nTemperature + RH\n[proposed]\nAirflow, age and motion\nCalibration [proposed]\nReference co-location\nDrift + domain checks\nRetain raw observations\nOperator output\nRaw indicator or valid\nestimate\nStatus + persistent alerts\n",
+      "vector_drawing_count": 62
+    },
+    {
+      "canva_page": 6,
+      "figure": 20,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "dd61dad29162a33b3cf4d57fcdbfa6b658d72000fbe30f48c8d7e8a41ea2ac9a",
+      "text": "Figure 20. Particulate acquisition and calibration\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▼\n◀\n◀\nLEGEND · Arrow direction indicates the direction of the link\n▶Physical transfer or interaction\n▶Measurement or data record\nFunctional links require verification. Crossings without a junction dot are not connected.\nRepresentative air inlet\nClear intake and exhaust\npaths\nSeparate wheel dust and\nheat\nPMS7003 channel\nOptical particle response\nPM1, PM2.5 and PM10\nchannels\nSerial-data validation\nFrame length + checksum\nWarm-up and range\nchecks\nMap and log\n[proposed]\nPose + time + uncertainty\nKeep raw measurements\nStationary comparison\nCalibration [proposed]\nReference co-location\nTime-blocked validation\nVersioned correction\nEnvironmental context\nTemperature + RH\n[proposed]\nMotion and condensation\nflags\n",
+      "vector_drawing_count": 62
+    },
+    {
+      "canva_page": 7,
+      "figure": 27,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "aa03d41674ec0474cb0874da98f8221e2a450a74dcf5ee6162c389abe5e6a2de",
+      "text": "Figure 27. UV and atmospheric measurements\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▶\n▲\n▼\nLEGEND · Arrow direction indicates the direction of the link\n▶Measurement or data record\nFunctional links require verification. Crossings without a junction dot are not connected.\nGUVA UV channel\nIdentify board and\norientation\nPhotodiode + amplifier\nUV conditioning\nMeasured ADC reference\nOptical/spectral\ncalibration\nQuality checks\nRange, saturation,\nself-heating\nOrientation + time\nalignment\nBMP180 channel\nPressure + temperature\nNo relative humidity\nPressure processing\nDevice compensation\nWeather-sensitive altitude\nDashboard and log\nUnits + time + calibration\nstate\nUV index needs valid\nconversion\n",
+      "vector_drawing_count": 54
+    },
+    {
+      "canva_page": 8,
+      "figure": 26,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "14f17380844ea8ce8793e96091ea6035bf77280a9eaf4386d8dba5ddc2850e22",
+      "text": "Figure 26. Water assessment workflow\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▼\n◀\n◀\n▲\n▲\nLEGEND · Arrow direction indicates the direction of the link\n▶Permission / action\n▶Sample transfer\n▶Measurements\n▶Status return\nFunctional links require verification. Crossings without a junction dot are not connected.\nSample access\nVerify reachable water or\nvessel, stable dry support,\nand probe clearance.\nSampling interlock\nDrive inhibited; calibration\nready. Check support and\nclearance before\nimmersion.\nPrepare sample\nRinse probes; avoid\nbubbles; set immersion.\nRecord sample identity\nand temperature.\nRecord and stow\nRetain raw values, units\nand validity. Clean and\nstow probes before\nmotion resumes.\nCalibration and checks\nUse buffer or standard\ncalibration. Check settling,\ndrift, cleanliness and\nrange.\nProbe acquisition\nHigh-impedance pH\ninterface and clean\nturbidity optics yield\ntimestamped raw data.\n",
+      "vector_drawing_count": 216
+    },
+    {
+      "canva_page": 9,
+      "figure": 13,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "d5cc67fd5cb470b44b70faacb2b780acfbe4c6f0b0fa9ab426041faa62318dd9",
+      "text": "Figure 13. Proposed manipulation workflow\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▼\n◀\n▲\n◀\n▲\nLEGEND · Arrow direction indicates the direction of the link\n▶Task / command\n▶Measured response\n▶Recorded evidence\nFunctional links require verification. Crossings without a junction dot are not connected.\nHandling request\nAuthorized operator or\nmission specifies object,\napproach, grasp and\nrelease location.\nReach and stability\nCheck payload, support\nmargin, joint limits,\ncollision clearance and\ncable bend limits.\nArm controller\nGenerate bounded,\nlow-speed joint and\ngripper commands; halt\non detected faults.\nHandling outcome\nVerify placement; retain\nfailed grasps, protective\nstops and recovery\nactions.\nFeedback [proposed]\nPosition, current and grip\nfeedback: tracking error,\njams and unexpected\ncontact.\nJoints and gripper\nGeared actuators use the\npreserved arm mounting,\nsecured sleeves and\nservice loops.\n",
+      "vector_drawing_count": 228
+    },
+    {
+      "canva_page": 10,
+      "figure": 31,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "73aa9e0f2509371d1e084406a52141457a1be40cea3a1d94b2bc3143821cfe60",
+      "text": "Figure 31. Proposed navigation architecture\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▼\n▶\n▼\n◀\n◀\n▼\n▶\n▲\nLEGEND · Arrow direction indicates the direction of the link\n▶Observations / estimates\n▶Motion / permission\n▶State / validity\nFunctional links require verification. Crossings without a junction dot are not connected.\nSensing [proposed]\nRange or depth sensing,\nIMU and encoders; GNSS\nonly where available.\nLocalization\nCalibrate and synchronize\nobservations. Estimate\npose, covariance and\nvalidity.\nMap and obstacles\nCombine pose with range\nobservations. Update\noccupancy, clearance and\ndynamic obstacles.\nRecovery and\nsupervision\nCheck pose and link\nhealth. Request replan,\ntakeover or controlled\nstop.\nDrive execution\nBound motion and\nallocate wheel targets.\nMonitor timeouts and\nactuator state.\nFeasible planning\nPlan routes and local\nmotion within steering,\nfootprint, speed and\nstopping limits.\n",
+      "vector_drawing_count": 354
+    },
+    {
+      "canva_page": 11,
+      "figure": 30,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "a3599b34e1e967b4afc3602aaaf9fd70cc43fc67ab6a2101af8039103632c82b",
+      "text": "Figure 30. Communications and command authority\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▲\n▼\n▲\n◀\n▲\n◀\nLEGEND · Arrow direction indicates the direction of the link\n▶Command authority\n▶Telemetry / video\n▶Health / state\nFunctional links require verification. Crossings without a junction dot are not connected.\nOperator dashboard\nShow requested and\nactive modes, stale-data\nwarnings and a proposed\nauthenticated session.\nESP access point\nLocal Wi-Fi exchanges\ncommands and telemetry\nwithout external Internet\ninfrastructure.\nProtocol and arbiter\nValidate sequence, age,\nlimits and mode. Accept\none command authority at\na time.\nTelemetry and video\nState and sensor packets\nplus camera video; use\nseparate bandwidth\nbudgets.\nMega controller\nBound commands; read\nsensors. Report watchdog\nand actuator state.\nRadio operator input\nAlternate radio requests;\ndeliberate handover and\nneutral commands\nrequired.\n",
+      "vector_drawing_count": 298
+    },
+    {
+      "canva_page": 12,
+      "figure": 37,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "6c5f7161d2032f2bb898071234caab06da29efd8072f940cf7d22e5a508f7684",
+      "text": "Figure 37. Operating and protective states\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▼\n▼\n▼\n◀\n▲\n▲\n▶\nLEGEND · Dashed arrows show guarded state transitions\nA Health + enable\nB Mission + pose valid\nC Fault / timeout\nD Recoverable fault\nE Fault / takeover\nF Limits unmet\nG Clear fault + reset\nH Emergency input\nI Release + reset\nDots join H emergency-input branches. Proposed transitions; emergency interruption is independent of software.\nA\nB\nC\nD\nE\nF\nG\nI\nH\nH\nDisarmed\nActuator outputs inhibited.\nHealth checks and\ndeliberate enable precede\nmotion.\nReady / manual\nOne operator holds\ncommand authority.\nNeutral inputs and valid\nhealth are required.\nAutonomous\n[proposed]\nValid mission and pose\npermit motion. Monitor\nobstacles and health.\nEmergency stop\nLatched motor-energy\ninterruption. Independent\ncircuit; release and reset\nrequired.\nControlled safe stop\nStop drive; hold or park\nthe arm. Restart requires\nfault clearance and\ndeliberate reset.\nDegraded\nRecoverable sensor or\nlink fault. Reduced\noperation requires\nexplicitly authorized limits.\n",
+      "vector_drawing_count": 556
+    },
+    {
+      "canva_page": 13,
+      "figure": 33,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "c14f18ae3fa87ffdeff912df5abf9243e373ae4ad08827a84d8ace181abc6728",
+      "text": "Figure 33. Mission and data workflow\nA3P5 NEMESIS | Proposed functional architecture\n▶\n▶\n▼\n◀\n▼\n◀\n▶\n▲\nLEGEND · Arrow direction indicates the direction of the link\n▶Task / recovery\n▶Observations / records\nFunctional links require verification. Crossings without a junction dot are not connected.\nDefine mission\nAir patrol, inspection,\nwater sampling,\nlightweight handling or\nreconnaissance.\nPre-mission checks\nCheck power, links and\nsensor readiness. Log\ncalibration IDs and\noperator authority.\nApproach and observe\nUse controlled travel and\ncamera observation.\nRetain pose, timestamps\nand health status.\nMission record\nLink data to pose and\ntime. Retain raw/derived\nvalues, failures and\ninterventions.\nQuality and recovery\nCheck validity and task\ncompletion. Flag\nuncertainty; hold, retry or\nabort if needed.\nExecute task\nDwell for air observation,\nimmerse probes, handle\nlightweight samples or\ninspect visually.\n",
+      "vector_drawing_count": 176
+    },
+    {
+      "canva_page": 14,
+      "figure": 39,
+      "dimensions_px": [
+        1860,
+        1200
+      ],
+      "pdf_dimensions_pt": [
+        1395.0,
+        900.0
+      ],
+      "sha256": "d1ffb6b9d75e7857d491da804cc12e30af6409e16167a249ee689b3915f8b5fa",
+      "text": "Figure 39. External calibration analysis pipeline\nA3P5 NEMESIS | External fixed-station benchmark and future rover validation\n▶\n▶\n▼\n◀\n◀\n▼\n▼\n◀\nLEGEND · Arrow direction indicates the direction of the link\n▶Data / models / results\n▶Selection lock\nExternal benchmark results do not calibrate the rover. No test-to-training feedback is permitted.\nExternal UCI data\nEight predictors and CO\ntarget. Exclude missing\ntargets and complete\npredictor outages.\nChronological partition\nSort eligible rows: 5,140\ntraining, 1,102 validation\nand 1,102 test\nobservations.\nTraining only\nFit preprocessing and\nmodels on training only.\nNo validation or test\nrefitting.\nFuture rover validation\nRequire reference\nco-location, later\ndeployments and onboard\nresource measurements.\nFrozen test evaluation\nScore 1,102 later hours\nwith frozen models.\nReport errors and paired\nday intervals.\nValidation selection\nRank 21 candidates by\nvalidation RMSE. Lock\nselections before testing.\n",
+      "vector_drawing_count": 94
+    }
+  ],
+  "status": "PASS: all14 native Canva PDF page renders visually verified and embedded unchanged in the final manuscript."
+}

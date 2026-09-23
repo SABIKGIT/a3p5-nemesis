@@ -1,0 +1,202 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        26
+      ]
+    ],
+    "date-time": "2026-03-26T04:33:11Z",
+    "timestamp": 1774499591960,
+    "version": "3.50.1"
+  },
+  "reference-count": 34,
+  "publisher": "MDPI AG",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            3,
+            28
+          ]
+        ],
+        "date-time": "2019-03-28T00:00:00Z",
+        "timestamp": 1553731200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Sensors"
+  ],
+  "DOI": "10.3390/s19071524",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2019,
+        3,
+        29
+      ]
+    ],
+    "date-time": "2019-03-29T03:50:21Z",
+    "timestamp": 1553831421000
+  },
+  "page": "1524",
+  "is-referenced-by-count": 15,
+  "title": [
+    "Scalable Gas Sensing, Mapping, and Path Planning via Decentralized Hilbert Maps"
+  ],
+  "volume": "19",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-9045-2398",
+      "authenticated-orcid": false,
+      "given": "Pingping",
+      "family": "Zhu",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Sibley School of Mechanical and Aerospace Engineering, Cornell University, Ithaca, NY 14853, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7652-6311",
+      "authenticated-orcid": false,
+      "given": "Silvia",
+      "family": "Ferrari",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Sibley School of Mechanical and Aerospace Engineering, Cornell University, Ithaca, NY 14853, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-8861-292X",
+      "authenticated-orcid": false,
+      "given": "Julian",
+      "family": "Morelli",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Sibley School of Mechanical and Aerospace Engineering, Cornell University, Ithaca, NY 14853, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Richard",
+      "family": "Linares",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Aeronautics and Astronautics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Bryce",
+      "family": "Doerr",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Aerospace Engineering and Mechanics, University of Minnesota, Minneapolis, MN 55455, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2019,
+        3,
+        28
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/1424-8220/19/7/1524/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        11
+      ]
+    ],
+    "date-time": "2025-10-11T12:41:22Z",
+    "timestamp": 1760186482000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2019,
+        3,
+        28
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.3390/s19071524",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2019,
+        3,
+        28
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "d82e62f0688867d6fd2f9456ea8136bab4f7bbfbc351f62b10c0dfa5acc66b50"
+}

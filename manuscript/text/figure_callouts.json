@@ -1,0 +1,212 @@
+{
+  "instructions": "Append each sentence to a suitable existing prose paragraph within its own subsection. Resolve {figures} to Figure N or Figures N–M / N and M from the FINAL asset-to-number map. All45figures must appear in body callouts. Do not treat numbers in source-attribution captions as internal callouts.",
+  "callouts": [
+    {
+      "subsection": "1",
+      "figure_files": [
+        "../A3P5_Nemesis_Hero.png"
+      ],
+      "template": "The reconstructed configuration is illustrated in {figures}."
+    },
+    {
+      "subsection": "2.2",
+      "figure_files": [
+        "figures/Fig_L1_metadata_census.png",
+        "figures/Fig_L2_metadata_abstract_coverage.png"
+      ],
+      "template": "{figures} summarize retrieval and screening counts, publication-year coverage and the availability of abstracts in this sample."
+    },
+    {
+      "subsection": "3.3",
+      "figure_files": [
+        "research/comparison_ResQbot_Saputra2021_Fig10a_CC-BY-4.jpg",
+        "research/comparison_telescopic_rover_Mohamed2025_Fig1c_CC-BY-4.jpg"
+      ],
+      "template": "The contrasting rescue and telescopic-leg platforms in {figures} show how different mission requirements produce different mechanical arrangements."
+    },
+    {
+      "subsection": "4.1",
+      "figure_files": [
+        "figures/prototype_views.png"
+      ],
+      "template": "{figures} collects the four photographic views used to constrain the reconstruction."
+    },
+    {
+      "subsection": "4.2",
+      "figure_files": [
+        "../A3P5_Nemesis_Wiring_Detail.png"
+      ],
+      "template": "The secured sleeves, cable supports and connection details are visible in {figures}."
+    },
+    {
+      "subsection": "4.3",
+      "figure_files": [
+        "diagrams/canva_01_print.png"
+      ],
+      "template": "{figures} summarizes the proposed functional interfaces between measurement, control, communications and operator supervision."
+    },
+    {
+      "subsection": "5.1",
+      "figure_files": [
+        "diagrams/canva_03_print.png",
+        "analysis/figures/A01_steering_kinematics.png"
+      ],
+      "template": "{figures} connect the proposed wheel-command allocation with the calculated steering geometry."
+    },
+    {
+      "subsection": "5.2",
+      "figure_files": [
+        "diagrams/canva_04_print.png"
+      ],
+      "template": "The proposed feedback and traction-monitoring chain is summarized in {figures}."
+    },
+    {
+      "subsection": "5.3",
+      "figure_files": [
+        "analysis/figures/A02_grade_traction_torque.png"
+      ],
+      "template": "{figures} plots the resulting grade-dependent wheel torque and minimum friction requirements."
+    },
+    {
+      "subsection": "6.1",
+      "figure_files": [
+        "diagrams/canva_09_print.png",
+        "blender/M03_mission.png",
+        "blender/M03_gripper_detail.png"
+      ],
+      "template": "{figures} connect the manipulation workflow with the full-rover handling arrangement and the gripper contact detail."
+    },
+    {
+      "subsection": "6.2",
+      "figure_files": [
+        "analysis/figures/A03_static_stability.png"
+      ],
+      "template": "{figures} shows how payload and centre-of-mass assumptions affect the geometric support margin."
+    },
+    {
+      "subsection": "6.3",
+      "figure_files": [
+        "blender/M02_mission.png",
+        "blender/M02_probe_detail.png"
+      ],
+      "template": "The complete sampling arrangement and the electrode-immersion detail are shown in {figures}."
+    },
+    {
+      "subsection": "7.2",
+      "figure_files": [
+        "diagrams/canva_05_print.png"
+      ],
+      "template": "{figures} summarizes the proposed gas-sensing sequence from sensor identification and heater control to quality-checked interpretation."
+    },
+    {
+      "subsection": "7.3",
+      "figure_files": [
+        "diagrams/canva_06_print.png",
+        "research/licensed_figures/jayaratne2018_fig2.png",
+        "research/licensed_figures/patel2024_fig4.png"
+      ],
+      "template": "{figures} place the proposed particulate-acquisition chain alongside published humidity-response and calibration evidence."
+    },
+    {
+      "subsection": "7.4",
+      "figure_files": [
+        "analysis/figures/A05_sensor_response_lag.png",
+        "research/licensed_figures/zheng2019_fig4.png"
+      ],
+      "template": "The analytical response-lag scenarios and an external spatial monitoring example are presented in {figures}."
+    },
+    {
+      "subsection": "7.5",
+      "figure_files": [
+        "diagrams/canva_07_print.png",
+        "diagrams/canva_08_print.png",
+        "analysis/figures/A07_pH_conditioning.png"
+      ],
+      "template": "{figures} summarize the ultraviolet and atmospheric interfaces, the water-assessment workflow and the calculated pH-conditioning response."
+    },
+    {
+      "subsection": "8.1",
+      "figure_files": [
+        "diagrams/canva_02_print.png",
+        "analysis/figures/A04_energy_endurance.png"
+      ],
+      "template": "{figures} connect the proposed power-distribution architecture with the assumed energy-budget scenarios."
+    },
+    {
+      "subsection": "8.3",
+      "figure_files": [
+        "diagrams/canva_11_print.png"
+      ],
+      "template": "The communications, dashboard and command-authority interfaces are summarized in {figures}."
+    },
+    {
+      "subsection": "9.1",
+      "figure_files": [
+        "diagrams/canva_10_print.png",
+        "blender/M05_mission.png"
+      ],
+      "template": "{figures} relate the proposed navigation pipeline to the Blender patrol configuration."
+    },
+    {
+      "subsection": "9.2",
+      "figure_files": [
+        "diagrams/canva_13_print.png",
+        "blender/M01_mission.png",
+        "blender/M04_mission.png"
+      ],
+      "template": "{figures} combine the mission-data workflow with industrial-observation and visual-reconnaissance illustrations."
+    },
+    {
+      "subsection": "9.3",
+      "figure_files": [
+        "analysis/figures/A06_stopping_clearance.png",
+        "diagrams/canva_12_print.png"
+      ],
+      "template": "{figures} connect the stopping-distance scenarios with the proposed operating and protective states."
+    },
+    {
+      "subsection": "10.1",
+      "figure_files": [
+        "analysis/ml_outputs/figures/01_dataset_audit.png"
+      ],
+      "template": "{figures} documents the time coverage, observation eligibility and distribution shifts of the external dataset."
+    },
+    {
+      "subsection": "10.2",
+      "figure_files": [
+        "diagrams/canva_14_print.png"
+      ],
+      "template": "The ordered calibration-analysis stages are summarized in {figures}."
+    },
+    {
+      "subsection": "10.3",
+      "figure_files": [
+        "research/licensed_figures/barkjohn2021_fig4.png"
+      ],
+      "template": "The published withheld-date and withheld-state comparison in {figures} illustrates why evaluation partitions must match the intended deployment claim."
+    },
+    {
+      "subsection": "10.4",
+      "figure_files": [
+        "analysis/ml_outputs/figures/02_test_metrics.png",
+        "analysis/ml_outputs/figures/03_selected_model_predictions.png",
+        "analysis/ml_outputs/figures/04_residual_humidity.png"
+      ],
+      "template": "{figures} report the frozen-model scores, selected-model prediction agreement and humidity-dependent residual patterns."
+    },
+    {
+      "subsection": "10.5",
+      "figure_files": [
+        "analysis/ml_outputs/figures/05_desktop_cost_and_sensitivity.png"
+      ],
+      "template": "{figures} compares serialized model size, desktop prediction cost and validation-only predictor sensitivity."
+    },
+    {
+      "subsection": "11.1",
+      "figure_files": [
+        "analysis/figures/A08_parameter_sensitivity.png"
+      ],
+      "template": "{figures} quantifies the sensitivity of the energy and stability calculations to their assumed inputs."
+    }
+  ]
+}

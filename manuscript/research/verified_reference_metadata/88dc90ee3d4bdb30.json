@@ -1,0 +1,208 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        10
+      ]
+    ],
+    "date-time": "2026-09-10T14:34:49Z",
+    "timestamp": 1789050889263,
+    "version": "build-2803163510"
+  },
+  "reference-count": 221,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "18",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            15
+          ]
+        ],
+        "date-time": "2021-09-15T00:00:00Z",
+        "timestamp": 1631664000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    }
+  ],
+  "short-container-title": [
+    "IEEE Internet Things J."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        15
+      ]
+    ]
+  },
+  "DOI": "10.1109/jiot.2021.3081772",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        5,
+        19
+      ]
+    ],
+    "date-time": "2021-05-19T17:48:17Z",
+    "timestamp": 1621446497000
+  },
+  "page": "13805-13824",
+  "is-referenced-by-count": 113,
+  "title": [
+    "Connected Sensors, Innovative Sensor Deployment, and Intelligent Data Analysis for Online Water Quality Monitoring"
+  ],
+  "volume": "8",
+  "author": [
+    {
+      "given": "Libu",
+      "family": "Manjakkal",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1505-2316",
+      "authenticated-orcid": false,
+      "given": "Srinjoy",
+      "family": "Mitra",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1596-289X",
+      "authenticated-orcid": false,
+      "given": "Yvan R.",
+      "family": "Petillot",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-8018-123X",
+      "authenticated-orcid": false,
+      "given": "Jamie",
+      "family": "Shutler",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "E. Marian",
+      "family": "Scott",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Magnus",
+      "family": "Willander",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-3858-3841",
+      "authenticated-orcid": false,
+      "given": "Ravinder",
+      "family": "Dahiya",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "IEEE Internet of Things Journal"
+  ],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/6488907/9530274/09435802.pdf?arnumber=9435802",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        17
+      ]
+    ],
+    "date-time": "2021-12-17T14:56:52Z",
+    "timestamp": 1639753012000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        15
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1109/jiot.2021.3081772",
+  "ISSN": [
+    "2327-4662",
+    "2372-2541"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        15
+      ]
+    ]
+  },
+  "original_response_sha256": "f94d4d04f226ffd9d34eb0c99eaf62b1ebb8c5361382fd01e536bec3b6320a62"
+}

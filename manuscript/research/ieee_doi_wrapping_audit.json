@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "doi_hyperlinks_updated": 37,
+  "json_latex_fields_updated": 74,
+  "plaintext_reference_entries_unchanged": 45,
+  "doi_targets_and_display_identifiers_unchanged": true,
+  "generator_updated": true,
+  "word_changes": false,
+  "method": "\\href{https://doi.org/identifier}{\\nolinkurl{identifier}}",
+  "reference_tex_sha256": "fd61ba44b7e1584d8a7dd35beb8e8cc9278f461cc47a25fc8313f2b9c6f87bcb"
+}

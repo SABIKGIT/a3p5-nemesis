@@ -1,0 +1,11 @@
+topic,count,cohort
+robotic_environmental_monitoring,54,metadata_candidates
+gas_olfaction_mapping,168,metadata_candidates
+particulate_air_quality,387,metadata_candidates
+gas_sensor_calibration,42,metadata_candidates
+water_quality_monitoring,298,metadata_candidates
+four_wheel_steering,113,metadata_candidates
+outdoor_navigation_fusion,97,metadata_candidates
+robotic_sampling,8,metadata_candidates
+embedded_environmental_sensing,45,metadata_candidates
+other,0,metadata_candidates

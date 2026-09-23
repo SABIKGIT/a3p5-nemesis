@@ -1,0 +1,44 @@
+{
+  "query_id": "Q06",
+  "topic": "robotic_water_quality",
+  "query": "robotic water quality monitoring pH turbidity",
+  "url": "https://api.crossref.org/v1/works?query.bibliographic=robotic+water+quality+monitoring+pH+turbidity&rows=500&offset=0&sort=relevance&order=desc&filter=from-pub-date%3A1990-01-01%2Cuntil-pub-date%3A2026-09-15",
+  "params": {
+    "query.bibliographic": "robotic water quality monitoring pH turbidity",
+    "rows": 500,
+    "offset": 0,
+    "sort": "relevance",
+    "order": "desc",
+    "filter": "from-pub-date:1990-01-01,until-pub-date:2026-09-15"
+  },
+  "started_utc": "2026-09-15T14:10:12.254031+00:00",
+  "attempts": [
+    {
+      "attempt": 1,
+      "seconds": 4.36,
+      "status": 200
+    }
+  ],
+  "finished_utc": "2026-09-15T14:10:16.610536+00:00",
+  "http_status": 200,
+  "response_headers": {
+    "Date": "Tue, 15 Sep 2026 14:10:21 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "access-control-expose-headers": "Link",
+    "access-control-allow-headers": "X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language, Accept-Ranges, Cache-Control",
+    "access-control-allow-origin": "*",
+    "server": "Jetty(9.4.40.v20210413)",
+    "x-rate-limit-limit": "1",
+    "x-rate-limit-interval": "1s",
+    "x-concurrency-limit": "1",
+    "x-api-pool": "public-array",
+    "permissions-policy": "interest-cohort=()"
+  },
+  "returned_count": 500,
+  "api_total_results": 3833657,
+  "sha256": "71fee41cd747152762cbd44bdd852a14ea6be551def67c72e01ff3aa2d6bb7bd",
+  "byte_count": 2911352,
+  "raw_file": "raw_crossref\\Q06_robotic_water_quality.json"
+}

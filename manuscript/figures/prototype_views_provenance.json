@@ -1,0 +1,148 @@
+{
+  "output": "manuscript\\figures\\prototype_views.png",
+  "dimensions": [
+    1800,
+    2800
+  ],
+  "layout": "2x2",
+  "label_font": "Arial Bold",
+  "label_pixels": 60,
+  "recommended_print_max_height_inches": 5.5,
+  "sources": [
+    {
+      "source": "manuscript\\research\\prototype_photos\\prototype_01.jpg",
+      "source_size": [
+        900,
+        1600
+      ],
+      "source_sha256": "a892539b63c5b1fe03aa5c22cfb32bbf65f2980e4ecf17317d89f9dcf5daa06d",
+      "placed_size": [
+        664,
+        1180
+      ],
+      "photo_box": [
+        128,
+        40,
+        792,
+        1220
+      ],
+      "labels": [
+        "(a) Front oblique"
+      ],
+      "label_bounds": [
+        [
+          222,
+          1250,
+          698,
+          1305
+        ]
+      ],
+      "source_unchanged": true,
+      "crop": "none",
+      "photo_edit": "proportional fit only; full image retained"
+    },
+    {
+      "source": "manuscript\\research\\prototype_photos\\prototype_02.jpg",
+      "source_size": [
+        960,
+        1280
+      ],
+      "source_sha256": "94c16e74d497de7e6f42b3e72cec48055d249b3f5655dc05216211f45171c25f",
+      "placed_size": [
+        840,
+        1120
+      ],
+      "photo_box": [
+        920,
+        70,
+        1760,
+        1190
+      ],
+      "labels": [
+        "(b) Alternate configuration"
+      ],
+      "label_bounds": [
+        [
+          962,
+          1249,
+          1717,
+          1306
+        ]
+      ],
+      "source_unchanged": true,
+      "crop": "none",
+      "photo_edit": "proportional fit only; full image retained"
+    },
+    {
+      "source": "manuscript\\research\\prototype_photos\\prototype_03.jpg",
+      "source_size": [
+        960,
+        1280
+      ],
+      "source_sha256": "4e71c0512f724f84ee7ebd63ebcd7dd7816a53b20f69b345c33e513588bdc427",
+      "placed_size": [
+        840,
+        1120
+      ],
+      "photo_box": [
+        40,
+        1450,
+        880,
+        2570
+      ],
+      "labels": [
+        "(c) Manipulator and",
+        "optional lift"
+      ],
+      "label_bounds": [
+        [
+          182,
+          2630,
+          737,
+          2685
+        ],
+        [
+          297,
+          2704,
+          623,
+          2760
+        ]
+      ],
+      "source_unchanged": true,
+      "crop": "none",
+      "photo_edit": "proportional fit only; full image retained"
+    },
+    {
+      "source": "manuscript\\research\\prototype_photos\\prototype_04.jpg",
+      "source_size": [
+        900,
+        1600
+      ],
+      "source_sha256": "23a29d1d1eefea42b6606e49b616aecd552ba0622bee33b6960b584da6413f53",
+      "placed_size": [
+        664,
+        1180
+      ],
+      "photo_box": [
+        1008,
+        1420,
+        1672,
+        2600
+      ],
+      "labels": [
+        "(d) Elevated deck view"
+      ],
+      "label_bounds": [
+        [
+          1020,
+          2630,
+          1660,
+          2685
+        ]
+      ],
+      "source_unchanged": true,
+      "crop": "none",
+      "photo_edit": "proportional fit only; full image retained"
+    }
+  ]
+}

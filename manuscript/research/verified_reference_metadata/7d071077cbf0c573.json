@@ -1,0 +1,201 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        6
+      ]
+    ],
+    "date-time": "2026-06-06T16:42:27Z",
+    "timestamp": 1780764147899,
+    "version": "3.54.1"
+  },
+  "reference-count": 29,
+  "publisher": "MDPI AG",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            31
+          ]
+        ],
+        "date-time": "2025-03-31T00:00:00Z",
+        "timestamp": 1743379200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Machines"
+  ],
+  "DOI": "10.3390/machines13040292",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        4,
+        1
+      ]
+    ],
+    "date-time": "2025-04-01T11:08:40Z",
+    "timestamp": 1743505720000
+  },
+  "page": "292",
+  "is-referenced-by-count": 4,
+  "title": [
+    "Development of a Four Omni-Wheeled Mobile Robot Using Telescopic Legs"
+  ],
+  "volume": "13",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-9767-1243",
+      "authenticated-orcid": false,
+      "given": "Shuaiby",
+      "family": "Mohamed",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Mechatronics Engineering, Faculty of Engineering, Assiut University, Assiut 71516, Egypt"
+        },
+        {
+          "name": "Department of Mechanical Engineering, Hanbat National University, Daejeon 34158, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Venkatesan",
+      "family": "Vellaiyan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Hanbat National University, Daejeon 34158, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kangmin",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Hanbat National University, Daejeon 34158, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Youngshik",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Hanbat National University, Daejeon 34158, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Buhyun",
+      "family": "Shin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Hanbat National University, Daejeon 34158, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        31
+      ]
+    ]
+  },
+  "container-title": [
+    "Machines"
+  ],
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2075-1702/13/4/292/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        9
+      ]
+    ],
+    "date-time": "2025-10-09T17:07:08Z",
+    "timestamp": 1760029628000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        31
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.3390/machines13040292",
+  "ISSN": [
+    "2075-1702"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        31
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "03d0a1f3ce3635a3aa0aee31d0c35a7864dc1f620bb9e11b80d5f4696e7cd7c8"
+}

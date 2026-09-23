@@ -1,0 +1,62 @@
+[
+  {
+    "key": "jayaratne2018",
+    "article_url": "https://amt.copernicus.org/articles/11/4883/2018/",
+    "figure": 2,
+    "asset_url": "https://amt.copernicus.org/articles/11/4883/2018/amt-11-4883-2018-f02-web.png",
+    "local_path": "manuscript/research/licensed_figures/jayaratne2018_fig2.png",
+    "license": "CC BY 4.0",
+    "source_id": "SEN08",
+    "suggested_manuscript_caption": "Laboratory evidence of humidity-dependent optical PM response. Reproduced from Jayaratne et al. (2018), Fig. 2, CC BY 4.0. These PMS1003 measurements belong to the cited study; they are not A3P5 observations.",
+    "figure_content_description": "The PM2.5 concentration reported by the PMS1003 and the DustTrak as the relative humidity was increased in the laboratory chamber.",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "copyright": "Copyright the authors, year of publication",
+    "changes": "None; unmodified publisher image",
+    "visual_verification": "Four-figure montage inspected; all files decoded successfully. Labels and source-study axes present."
+  },
+  {
+    "key": "patel2024",
+    "article_url": "https://amt.copernicus.org/articles/17/1051/2024/",
+    "figure": 4,
+    "asset_url": "https://amt.copernicus.org/articles/17/1051/2024/amt-17-1051-2024-f04-web.png",
+    "local_path": "manuscript/research/licensed_figures/patel2024_fig4.png",
+    "license": "CC BY 4.0",
+    "source_id": "SEN11",
+    "suggested_manuscript_caption": "Published comparison of uncorrected and calibrated PM2.5 observations against reference measurements. Reproduced from Patel et al. (2024), Fig. 4, CC BY 4.0. Laney-site data, 2021–2022; not A3P5 data.",
+    "figure_content_description": "Sensor-predicted PM2.5 values versus EPA reference values for the Laney site from 2021–2022 with different correction algorithms.",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "copyright": "Copyright the authors, year of publication",
+    "changes": "None; unmodified publisher image",
+    "visual_verification": "Four-figure montage inspected; all files decoded successfully. Labels and source-study axes present."
+  },
+  {
+    "key": "zheng2019",
+    "article_url": "https://amt.copernicus.org/articles/12/5161/2019/",
+    "figure": 4,
+    "asset_url": "https://amt.copernicus.org/articles/12/5161/2019/amt-12-5161-2019-f04-web.png",
+    "local_path": "manuscript/research/licensed_figures/zheng2019_fig4.png",
+    "license": "CC BY 4.0",
+    "source_id": "SEN10",
+    "suggested_manuscript_caption": "Published Delhi network PM2.5 distributions: reference monitors and calibrated low-cost nodes. Reproduced from Zheng et al. (2019), Fig. 4, CC BY 4.0. This network included PMS7003 sensors; the figure is external evidence, not rover validation.",
+    "figure_content_description": "Box plots of 24-hour reference PM2.5 concentrations and low-cost node concentrations calibrated by the optimized GPR model, with site means and standard deviations.",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "copyright": "Copyright the authors, year of publication",
+    "changes": "None; unmodified publisher image",
+    "visual_verification": "Four-figure montage inspected; all files decoded successfully. Labels and source-study axes present."
+  },
+  {
+    "key": "barkjohn2021",
+    "article_url": "https://amt.copernicus.org/articles/14/4617/2021/",
+    "figure": 4,
+    "asset_url": "https://amt.copernicus.org/articles/14/4617/2021/amt-14-4617-2021-f04-web.png",
+    "local_path": "manuscript/research/licensed_figures/barkjohn2021_fig4.png",
+    "license": "CC BY 4.0",
+    "source_id": "SEN12",
+    "suggested_manuscript_caption": "Published calibration-model errors under date- and state-withholding evaluation. Reproduced from Barkjohn et al. (2021), Fig. 4, CC BY 4.0. The external study illustrates why A3P5 requires independent validation.",
+    "figure_content_description": "Mean absolute and mean bias errors of raw and corrected PurpleAir PM2.5 across withheld dates (LOBD) and states (LOSO).",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "copyright": "Copyright the authors, year of publication",
+    "changes": "None; unmodified publisher image",
+    "visual_verification": "Four-figure montage inspected; all files decoded successfully. Labels and source-study axes present."
+  }
+]

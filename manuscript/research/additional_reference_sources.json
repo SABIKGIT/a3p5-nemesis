@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ADD01",
+    "title": "On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario",
+    "authors": [
+      "Saverio De Vito",
+      "Ettore Massera",
+      "Marco Piga",
+      "Luca Martinotto",
+      "Girolamo Di Francia"
+    ],
+    "year": 2008,
+    "venue": "Sensors and Actuators B: Chemical 129(2), 750–757",
+    "doi": "10.1016/j.snb.2007.09.060",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0925400507007691",
+    "source_type": "research article",
+    "read_depth": "Publisher indexed abstract, DOI/title/bibliographic record, and UCI dataset citation checked.",
+    "supports": "Neural calibration of a solid-state multisensor electronic nose for benzene estimation used conventional air-monitoring reference measurements and assessed prediction errors over an extended interval.",
+    "caution": "Original urban electronic-nose study, not Nemesis hardware or field data; this does not supply calibration coefficients for MQ sensors."
+  },
+  {
+    "id": "ADD02",
+    "title": "Ridge Regression: Biased Estimation for Nonorthogonal Problems",
+    "authors": [
+      "Arthur E. Hoerl",
+      "Robert W. Kennard"
+    ],
+    "year": 1970,
+    "venue": "Technometrics 12(1), 55–67",
+    "doi": "10.1080/00401706.1970.10488634",
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/00401706.1970.10488634",
+    "source_type": "research article",
+    "read_depth": "DOI bibliographic metadata checked; original abstract indexed by a scholarly index and authors’ later publisher abstract describe the 1970 method. Direct publisher page returned 403; full text not read.",
+    "supports": "Foundational ridge-regression estimator adds a positive regularization term to the normal-equation diagonal for correlated predictors.",
+    "caution": "Cite the original 1970 DOI, not the separately registered 2000 reprint. Predictive performance must be assessed on the chosen dataset."
+  },
+  {
+    "id": "ADD03",
+    "title": "CN0326: Isolated Low Power pH Monitor with Temperature Compensation",
+    "authors": [
+      "Analog Devices"
+    ],
+    "year": 2013,
+    "venue": "Circuits from the Lab, CN0326",
+    "doi": "",
+    "url": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/CN0326.html",
+    "source_type": "manufacturer technical circuit note",
+    "read_depth": "Official technical page read, including circuit description, high-impedance input, guarding, temperature compensation, calibration, and test methods; source dated October 29, 2013.",
+    "supports": "pH electrodes require suitable high-input-impedance buffering, leakage control and temperature-aware calibration.",
+    "caution": "This is a reference circuit, not evidence that the described circuit or its reported performance is implemented on Nemesis."
+  },
+  {
+    "id": "ADD04",
+    "title": "Evaluation of measurement data — Guide to the expression of uncertainty in measurement",
+    "authors": [
+      "Joint Committee for Guides in Metrology"
+    ],
+    "year": 2008,
+    "venue": "JCGM 100:2008(E)",
+    "doi": "10.59161/JCGM100-2008E",
+    "url": "https://www.bipm.org/en/doi/10.59161/jcgm100-2008e",
+    "source_type": "metrology guide",
+    "read_depth": "Official BIPM publication and DOI landing metadata verified; used for the general measurement-uncertainty framework, not a claim of full-document review.",
+    "supports": "General framework for evaluating and expressing measurement uncertainty.",
+    "caution": "A cited framework does not constitute a completed uncertainty budget; the 2008 guide is identified explicitly, and the publisher also lists a 2026 amendment on nonlinear models."
+  }
+]

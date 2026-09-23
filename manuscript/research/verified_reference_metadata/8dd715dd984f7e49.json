@@ -1,0 +1,177 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T07:15:33Z",
+    "timestamp": 1789456533714,
+    "version": "build-2803163510"
+  },
+  "reference-count": 104,
+  "publisher": "Elsevier BV",
+  "issue": "9",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2023-09-01T00:00:00Z",
+        "timestamp": 1693526400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2023-09-01T00:00:00Z",
+        "timestamp": 1693526400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            5
+          ]
+        ],
+        "date-time": "2023-07-05T00:00:00Z",
+        "timestamp": 1688515200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "short-container-title": [
+    "Patterns"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        9
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.patter.2023.100804",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        8,
+        4
+      ]
+    ],
+    "date-time": "2023-08-04T10:35:02Z",
+    "timestamp": 1691145302000
+  },
+  "page": "100804",
+  "is-referenced-by-count": 973,
+  "title": [
+    "Leakage and the reproducibility crisis in machine-learning-based science"
+  ],
+  "volume": "4",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-5695-280X",
+      "authenticated-orcid": false,
+      "given": "Sayash",
+      "family": "Kapoor",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Arvind",
+      "family": "Narayanan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Patterns"
+  ],
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S2666389923001599?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S2666389923001599?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        12
+      ]
+    ],
+    "date-time": "2025-11-12T23:50:33Z",
+    "timestamp": 1762991433000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        9
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1016/j.patter.2023.100804",
+  "ISSN": [
+    "2666-3899"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        9
+      ]
+    ]
+  },
+  "article-number": "100804",
+  "original_response_sha256": "f3e2986e9529f394eda76a09f1921522999e0dc57a998e1c58d96388ca69b60e"
+}

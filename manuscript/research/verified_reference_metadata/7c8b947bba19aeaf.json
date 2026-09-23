@@ -1,0 +1,148 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T12:23:24Z",
+    "timestamp": 1789475004806,
+    "version": "build-2803163510"
+  },
+  "reference-count": 16,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            1997,
+            3,
+            1
+          ]
+        ],
+        "date-time": "1997-03-01T00:00:00Z",
+        "timestamp": 857174400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    }
+  ],
+  "short-container-title": [
+    "IEEE Robot. Automat. Mag."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1997,
+        3
+      ]
+    ]
+  },
+  "DOI": "10.1109/100.580977",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2002,
+        8,
+        24
+      ]
+    ],
+    "date-time": "2002-08-24T15:45:59Z",
+    "timestamp": 1030203959000
+  },
+  "page": "23-33",
+  "is-referenced-by-count": 3136,
+  "title": [
+    "The dynamic window approach to collision avoidance"
+  ],
+  "volume": "4",
+  "author": [
+    {
+      "given": "D.",
+      "family": "Fox",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "W.",
+      "family": "Burgard",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "S.",
+      "family": "Thrun",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "IEEE Robotics &amp; Automation Magazine"
+  ],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx1/100/12589/00580977.pdf?arnumber=580977",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        1,
+        12
+      ]
+    ],
+    "date-time": "2022-01-12T11:22:32Z",
+    "timestamp": 1641986552000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        1997,
+        3
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1109/100.580977",
+  "ISSN": [
+    "1070-9932"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        1997,
+        3
+      ]
+    ]
+  },
+  "original_response_sha256": "483a91d4954a4eec7a891fc7836e4c48ac29e061013b0cad9a6ea598a7f094aa"
+}

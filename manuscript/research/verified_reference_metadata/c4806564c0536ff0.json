@@ -1,0 +1,212 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T00:32:38Z",
+    "timestamp": 1789345958661,
+    "version": "build-2803163510"
+  },
+  "reference-count": 25,
+  "publisher": "IEEE",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            24
+          ]
+        ],
+        "date-time": "2020-10-24T00:00:00Z",
+        "timestamp": 1603497600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            24
+          ]
+        ],
+        "date-time": "2020-10-24T00:00:00Z",
+        "timestamp": 1603497600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            24
+          ]
+        ],
+        "date-time": "2020-10-24T00:00:00Z",
+        "timestamp": 1603497600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2020,
+        10,
+        24
+      ]
+    ]
+  },
+  "DOI": "10.1109/iros45743.2020.9341176",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        3,
+        15
+      ]
+    ],
+    "date-time": "2021-03-15T10:49:56Z",
+    "timestamp": 1615805396000
+  },
+  "page": "5135-5142",
+  "is-referenced-by-count": 2008,
+  "title": [
+    "LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping"
+  ],
+  "author": [
+    {
+      "given": "Tixiao",
+      "family": "Shan",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Brendan",
+      "family": "Englot",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Drew",
+      "family": "Meyers",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wei",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Carlo",
+      "family": "Ratti",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Daniela",
+      "family": "Rus",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  ],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/9340668/9340635/09341176.pdf?arnumber=9341176",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        6,
+        28
+      ]
+    ],
+    "date-time": "2022-06-28T17:55:20Z",
+    "timestamp": 1656438920000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        10,
+        24
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1109/iros45743.2020.9341176",
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2020,
+        10,
+        24
+      ]
+    ]
+  },
+  "original_response_sha256": "9524499347f12ae38d42e7bc186356f5080af97fa9c61045601a9151b2cf938c"
+}

@@ -1,0 +1,178 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        3
+      ]
+    ],
+    "date-time": "2026-09-03T08:00:07Z",
+    "timestamp": 1788422407334,
+    "version": "build-2803163510"
+  },
+  "reference-count": 24,
+  "publisher": "Elsevier BV",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2008,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2008-02-01T00:00:00Z",
+        "timestamp": 1201824000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+  ],
+  "short-container-title": [
+    "Sensors and Actuators B: Chemical"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2008,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.snb.2007.09.060",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        9,
+        26
+      ]
+    ],
+    "date-time": "2007-09-26T16:50:54Z",
+    "timestamp": 1190825454000
+  },
+  "page": "750-757",
+  "is-referenced-by-count": 456,
+  "title": [
+    "On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario"
+  ],
+  "volume": "129",
+  "author": [
+    {
+      "given": "S.",
+      "family": "De Vito",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "E.",
+      "family": "Massera",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M.",
+      "family": "Piga",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "L.",
+      "family": "Martinotto",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "G.",
+      "family": "Di Francia",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Sensors and Actuators B: Chemical"
+  ],
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0925400507007691?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0925400507007691?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2019,
+        1,
+        3
+      ]
+    ],
+    "date-time": "2019-01-03T17:21:01Z",
+    "timestamp": 1546536061000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2008,
+        2
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1016/j.snb.2007.09.060",
+  "ISSN": [
+    "0925-4005"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2008,
+        2
+      ]
+    ]
+  },
+  "original_response_sha256": "c995f9e74ef8a55684f0d5a9c74d03f56e84e705e603da6c79947e1fb8fd3eb4"
+}

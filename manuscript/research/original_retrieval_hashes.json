@@ -1,0 +1,330 @@
+[
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q01_mobile_robot_environment.json",
+    "sha256": "d70ab7e01b6035f6df6480a6d86577f0a5a546fbbd5f8f6ab4423e06bdc758de",
+    "bytes": 2806393,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q02_ground_rover_air_quality.json",
+    "sha256": "f37923699f43cd1968100602943c3fd880dc44ddb76edf66c6ccfb733cf51799",
+    "bytes": 3042474,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q03_robotic_gas_mapping.json",
+    "sha256": "240cc9c7566c474de2c05aec6aaf06ee47c54ec8f34afcfe884cff88e1e64cd7",
+    "bytes": 3569746,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q04_low_cost_particle_calibration.json",
+    "sha256": "3567b2983468bfbde5a78458ede97045727e4d28f39aa346c8d1111dc120806f",
+    "bytes": 4774490,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q05_gas_sensor_calibration.json",
+    "sha256": "90adea72d22c5cf8e61440b993f40c822492aab79f036db051565ffb0703d822",
+    "bytes": 6080985,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q06_robotic_water_quality.json",
+    "sha256": "71fee41cd747152762cbd44bdd852a14ea6be551def67c72e01ff3aa2d6bb7bd",
+    "bytes": 2911352,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q07_four_wheel_steering.json",
+    "sha256": "1d0bd4128b2f4c8d0199bfe3bd84ebe037eede3215033c3637410fa9bdddd8fa",
+    "bytes": 3135690,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q08_outdoor_mapping_fusion.json",
+    "sha256": "7a46be4a8ed13a11ba4c804ddbf68a5caf7ecdb097e31d4087ba04a4e97b3e9e",
+    "bytes": 2790398,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q09_robotic_sampling.json",
+    "sha256": "6f1486d24842dd09d0ddca5d1dfe1a311dd9178a7c42fb4b1bce42915cff7672",
+    "bytes": 2798026,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/raw_crossref/Q10_environmental_robotics_datasets.json",
+    "sha256": "7f17ad20220fdf44915215fa3e7290409901cd7235abd21a26a660eaa18320d4",
+    "bytes": 3494630,
+    "distributed": false,
+    "reason": "Original retrieval response may contain publisher abstracts"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/026a722e4cc6016b.json",
+    "sha256": "13c13de846eeb8ad13275aafa546711365c6830e5f543c6dbbc7da65ed305b84",
+    "bytes": 3705,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/0a04d79c043d8886.json",
+    "sha256": "d82e62f0688867d6fd2f9456ea8136bab4f7bbfbc351f62b10c0dfa5acc66b50",
+    "bytes": 14051,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/0d3206fdc11fd2db.json",
+    "sha256": "4ec89af089c23c562b98fecc3f3364f26526c2c65a1a5d23b0e0e1e9f2d525fa",
+    "bytes": 1211,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/0ef0af53e5122fca.json",
+    "sha256": "fb24c3027101a0f02232e6469834faf4bb8a875ca79e4e028d76497386bd63f7",
+    "bytes": 16093,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/112661ded38ed946.json",
+    "sha256": "e382e48044ed7f8ca0b57d9e320390e463aed0607545f197baf670edc341a384",
+    "bytes": 24642,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/1548b81b3c1a655e.json",
+    "sha256": "c995f9e74ef8a55684f0d5a9c74d03f56e84e705e603da6c79947e1fb8fd3eb4",
+    "bytes": 9438,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/31b91919ff2ce949.json",
+    "sha256": "1b6cc5fa1369076bcee3545527559fcf4df3d089ac0b7050c5183ce6cddd7bbc",
+    "bytes": 6797,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/3a8aa95f9dfc88af.json",
+    "sha256": "542cf756f90853a3515de51c66db92ad7251cbff905150f8de8b7d45d20df42c",
+    "bytes": 3255,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/3d3a035466426237.json",
+    "sha256": "be8049eea7865a74744f0eab93330c577ff27aebe3ec0bba4687d7f18743bd78",
+    "bytes": 15153,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/3d6119e32b916e3c.json",
+    "sha256": "fb4fd508ab5fbeeb57c8a913b7894725ad00afbfe800f36c008353b06c7e343a",
+    "bytes": 6831,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/4247460938ccc16c.json",
+    "sha256": "70a756d143a8ec82c56904193ae2f3432de948c403e1e5a1aad172401362a515",
+    "bytes": 15593,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/4264a8efc91f3eae.json",
+    "sha256": "0e95679149459f6f35ff05283316678af20647ea98d3cb55345d98d54801a75c",
+    "bytes": 19561,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/4ec0acf7c4ee2b37.json",
+    "sha256": "3095f1540493d0c596da69a3a4a5636222ff88798e02a5e1d626364cad936aaf",
+    "bytes": 8912,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/533b0f615ce0ba6c.json",
+    "sha256": "6da3d394ff35940317bf089093425cdce9fc1f95479c14f776fdad0d2737db68",
+    "bytes": 2939,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/5bfa55cdc617118b.json",
+    "sha256": "f7ad769796a3d77492474709f591935a498d51213578d4bb5a1c58c7feff43e2",
+    "bytes": 8529,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/5c445c32b417085b.json",
+    "sha256": "8662ab84af91d812c3fcf7b18a71ca4cf437f9e9784970ad0c3e5001ec90d8b8",
+    "bytes": 1789,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/628fd9c64b235952.json",
+    "sha256": "c1f066dfabefb22865e7bfef54a29743f06a90df62f90270cc7b46859c331137",
+    "bytes": 15704,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/6c5fd72ffbacf7f9.json",
+    "sha256": "f253fe5e0dcb7d6c92a24139dd72e4f2a01986e250ce525ae23d35aa31aa9c2d",
+    "bytes": 50609,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/75dc04bd80c4a93a.json",
+    "sha256": "b23933d7c0adaec8351e6ad7b74cb7f20bd0c9f022a9f7d75b9941a6918556ce",
+    "bytes": 7082,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/7a3c674bbbeefb16.json",
+    "sha256": "1aceab2c0d820b0ee10dc44756bced37c117ff167ecb06ccda30705bf88e3eea",
+    "bytes": 6812,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/7ba5aa03320fc92b.json",
+    "sha256": "8c1530f08d9e89ac130d50dab48abb010251428f01c621a4b1440e21f85278b2",
+    "bytes": 36977,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/7c8b947bba19aeaf.json",
+    "sha256": "483a91d4954a4eec7a891fc7836e4c48ac29e061013b0cad9a6ea598a7f094aa",
+    "bytes": 4131,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/7d071077cbf0c573.json",
+    "sha256": "03d0a1f3ce3635a3aa0aee31d0c35a7864dc1f620bb9e11b80d5f4696e7cd7c8",
+    "bytes": 12310,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/88dc90ee3d4bdb30.json",
+    "sha256": "f94d4d04f226ffd9d34eb0c99eaf62b1ebb8c5361382fd01e536bec3b6320a62",
+    "bytes": 24039,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/8ac43feb0ac0398f.json",
+    "sha256": "ee79c975f7b772da67fcaec2d3d1420ec6287424b3947b184d48b43155c2b0a3",
+    "bytes": 18203,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/8dd715dd984f7e49.json",
+    "sha256": "f3e2986e9529f394eda76a09f1921522999e0dc57a998e1c58d96388ca69b60e",
+    "bytes": 32096,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/973bd622c6b9699b.json",
+    "sha256": "84bd11fd4ac9aece770f931ca6b0165d1ff20234db93c0465745fce0e68e3868",
+    "bytes": 10772,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/9f74183bdcfcc56c.json",
+    "sha256": "778b4e1c428b02df66f9ce3975fac94cc2d693a4802edc5f62c29ad7be7f5433",
+    "bytes": 9407,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/b7b9b65ab695d36a.json",
+    "sha256": "a3db820acd6d9be375e9e0a4dd6522ea107b0bb14ac20ba7230d839177ef4364",
+    "bytes": 13253,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/bdac2f05e74522d5.json",
+    "sha256": "591594b2679723bada4a4da6b320b42cee1fa6439579029b675545f122986456",
+    "bytes": 23113,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/c2680195d2ae0d7f.json",
+    "sha256": "67f7867215436135dbb4e9eb087338e2a856901d0cd18ce573411a3854c97c65",
+    "bytes": 17552,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/c3c6fd1d8242f0a0.json",
+    "sha256": "278195d5c14112d809e4b1dfe30d151e224257814b14695c8f2b216bca6f3967",
+    "bytes": 8174,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/c4806564c0536ff0.json",
+    "sha256": "9524499347f12ae38d42e7bc186356f5080af97fa9c61045601a9151b2cf938c",
+    "bytes": 5555,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/c4b951401a5836ee.json",
+    "sha256": "b8581565536760cfd10c83282eed80d0d268b1a1c384d6a940951e6c462e3597",
+    "bytes": 2722,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/cccce5864a26c361.json",
+    "sha256": "621320d29f91b7ae0bd7bdebe92cd19879774612a6f3ce0806d11a18f9d75c2a",
+    "bytes": 8990,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/d2f9d33c58e63429.json",
+    "sha256": "772f7bdd378c2d71a6c9403d2234049423e8af11a51399067947f7e86e4316b7",
+    "bytes": 12713,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/d34c3fdc4e5185bb.json",
+    "sha256": "66c145d11e03781fb67a3a7448e0156431af7f47d6113ffc30fe2506e3a2f7cd",
+    "bytes": 21614,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/d6104f235b43f692.json",
+    "sha256": "458cf42fcf968c331a394a141d8d77c83065fe7411def8791edb6f7a49cb262a",
+    "bytes": 4743,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/e1d1d81dbd78ecaf.json",
+    "sha256": "00bba601047696befa88e81b405e13534ba8f82c9a8c4f714f32376bd384128d",
+    "bytes": 18770,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/e81c43074cceee7b.json",
+    "sha256": "84a03721aca17b12b897f29eed3f104458d121c86903f4c312ff26bec6e0f3f9",
+    "bytes": 22953,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/e859f3f66d1a4ccd.json",
+    "sha256": "e9b0d4affd5727e6edb22a63fb4dd204604f8832f5f03c000056059abebdb2ac",
+    "bytes": 1348,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/e93884e0a21e4a3e.json",
+    "sha256": "90eee27244091456bf941d03ada86ed3bb8ec744e8433f6c854ee6084647c831",
+    "bytes": 16319,
+    "distributed": "bibliographic projection only"
+  },
+  {
+    "original_local_file": "manuscript/research/verified_reference_metadata/fe77c51cc09e18dc.json",
+    "sha256": "e0b4dfc4264cf914f50660cd9fcf2a0c7f62fdd1cdc3c55242081dd20e42a63c",
+    "bytes": 7056,
+    "distributed": "bibliographic projection only"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "styled_references": 45,
+  "italic_spans": 40,
+  "clickable_links": 45,
+  "reference_font_pt": 9,
+  "visible_text_preserved": true,
+  "paragraph_properties_preserved": true,
+  "all_document_paragraph_text_preserved": true,
+  "all_paragraph_properties_preserved": true,
+  "docx_memory_roundtrip_passed": true,
+  "idempotent": true,
+  "active_docx_not_saved_or_modified": true
+}

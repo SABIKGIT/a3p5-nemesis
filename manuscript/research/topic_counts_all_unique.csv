@@ -1,0 +1,11 @@
+topic,count,cohort
+robotic_environmental_monitoring,60,all_unique
+gas_olfaction_mapping,243,all_unique
+particulate_air_quality,407,all_unique
+gas_sensor_calibration,42,all_unique
+water_quality_monitoring,318,all_unique
+four_wheel_steering,412,all_unique
+outdoor_navigation_fusion,104,all_unique
+robotic_sampling,10,all_unique
+embedded_environmental_sensing,56,all_unique
+other,3245,all_unique

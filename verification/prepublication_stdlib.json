@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "tests_run": 23,
+  "tests_passed": 16,
+  "tests_skipped": [
+    {
+      "test": "test_model_replay.CandidateRefitTests.test_full_candidate_search_reproduces_locked_archive",
+      "reason": "opt in with --refit to retrain all 21 candidates"
+    },
+    {
+      "test": "test_model_replay.ModelReplayTests.test_all_seeded_calendar_day_bootstrap_replicates",
+      "reason": "opt in with --models (scientific dependencies required)"
+    },
+    {
+      "test": "test_model_replay.ModelReplayTests.test_exact_ties_retain_first_candidate",
+      "reason": "opt in with --models (scientific dependencies required)"
+    },
+    {
+      "test": "test_model_replay.ModelReplayTests.test_model_predictions_preprocessing_and_validation_scores",
+      "reason": "opt in with --models (scientific dependencies required)"
+    },
+    {
+      "test": "test_model_replay.ModelReplayTests.test_recorded_software_versions",
+      "reason": "opt in with --models (scientific dependencies required)"
+    },
+    {
+      "test": "test_model_replay.ModelReplayTests.test_test_targets_cannot_affect_fitting_or_selection",
+      "reason": "opt in with --models (scientific dependencies required)"
+    },
+    {
+      "test": "test_regeneration.EngineeringRegenerationTests.test_script_recreates_all_numerical_tables_in_scratch_space",
+      "reason": "opt in with --regenerate-engineering (plotting dependencies required)"
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "elapsed_seconds": 0.263,
+  "python": "3.12.14",
+  "modes": {
+    "models": false,
+    "refit": false,
+    "regenerate_engineering": false
+  },
+  "scope": "Analytical scenario and historical external-data reproducibility; no physical rover experiments."
+}

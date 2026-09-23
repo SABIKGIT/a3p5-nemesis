@@ -1,0 +1,176 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2026-09-12T21:40:27Z",
+    "timestamp": 1789249227958,
+    "version": "build-2803163510"
+  },
+  "reference-count": 44,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2012,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2012-03-01T00:00:00Z",
+        "timestamp": 1330560000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "short-container-title": [
+    "ACM Trans. Knowl. Discov. Data"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2012,
+        3
+      ]
+    ]
+  },
+  "DOI": "10.1145/2133360.2133363",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2012,
+        3,
+        27
+      ]
+    ],
+    "date-time": "2012-03-27T11:17:31Z",
+    "timestamp": 1332847051000
+  },
+  "page": "1-39",
+  "is-referenced-by-count": 1728,
+  "title": [
+    "Isolation-Based Anomaly Detection"
+  ],
+  "volume": "6",
+  "author": [
+    {
+      "given": "Fei Tony",
+      "family": "Liu",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Monash University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kai Ming",
+      "family": "Ting",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Monash University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Zhi-Hua",
+      "family": "Zhou",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Nanjing University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2012,
+        3
+      ]
+    ]
+  },
+  "container-title": [
+    "ACM Transactions on Knowledge Discovery from Data"
+  ],
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/2133360.2133363",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/2133360.2133363",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2025-06-18T06:06:05Z",
+    "timestamp": 1750226765000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2012,
+        3
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1145/2133360.2133363",
+  "ISSN": [
+    "1556-4681",
+    "1556-472X"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2012,
+        3
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "fb24c3027101a0f02232e6469834faf4bb8a875ca79e4e028d76497386bd63f7"
+}

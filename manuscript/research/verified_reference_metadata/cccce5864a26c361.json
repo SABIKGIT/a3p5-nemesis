@@ -1,0 +1,179 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        29
+      ]
+    ],
+    "date-time": "2026-05-29T11:25:14Z",
+    "timestamp": 1780053914183,
+    "version": "3.54.0"
+  },
+  "reference-count": 29,
+  "publisher": "Wiley",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            15
+          ]
+        ],
+        "date-time": "2024-02-15T00:00:00Z",
+        "timestamp": 1707955200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "short-container-title": [
+    "Adaptive Control &amp; Signal"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        4
+      ]
+    ]
+  },
+  "DOI": "10.1002/acs.3747",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        16
+      ]
+    ],
+    "date-time": "2024-02-16T02:01:05Z",
+    "timestamp": 1708048865000
+  },
+  "page": "1172-1198",
+  "is-referenced-by-count": 4,
+  "title": [
+    "A general update rule for Lyapunov‐based adaptive control of mobile robots with wheel slip"
+  ],
+  "volume": "38",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-7416-3433",
+      "authenticated-orcid": false,
+      "given": "T. B.",
+      "family": "Burghi",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Engineering University of Cambridge  Cambridge UK"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-4648-2207",
+      "authenticated-orcid": false,
+      "given": "J. G.",
+      "family": "Iossaqui",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering Federal University of Technology–Parana  Londrina Paraná Brazil"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9188-7166",
+      "authenticated-orcid": false,
+      "given": "J. F.",
+      "family": "Camino",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Mechanical Engineering University of Campinas  Campinas São Paulo Brazil"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        15
+      ]
+    ]
+  },
+  "container-title": [
+    "International Journal of Adaptive Control and Signal Processing"
+  ],
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/acs.3747",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        4,
+        2
+      ]
+    ],
+    "date-time": "2024-04-02T00:57:54Z",
+    "timestamp": 1712019474000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        15
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1002/acs.3747",
+  "ISSN": [
+    "0890-6327",
+    "1099-1115"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        15
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "621320d29f91b7ae0bd7bdebe92cd19879774612a6f3ce0806d11a18f9d75c2a"
+}

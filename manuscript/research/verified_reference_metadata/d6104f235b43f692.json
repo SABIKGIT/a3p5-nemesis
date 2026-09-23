@@ -1,0 +1,107 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        7
+      ]
+    ],
+    "date-time": "2026-04-07T13:22:27Z",
+    "timestamp": 1775568147683,
+    "version": "3.50.1"
+  },
+  "reference-count": 18,
+  "publisher": "IEEE",
+  "short-container-title": [],
+  "DOI": "10.1109/robot.2002.1013710",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2003,
+        6,
+        25
+      ]
+    ],
+    "date-time": "2003-06-25T17:52:33Z",
+    "timestamp": 1056563553000
+  },
+  "page": "3142-3147",
+  "is-referenced-by-count": 70,
+  "title": [
+    "On-line terrain parameter estimation for planetary rovers"
+  ],
+  "volume": "3",
+  "author": [
+    {
+      "given": "K.",
+      "family": "Iagnemma",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "H.",
+      "family": "Shibly",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "S.",
+      "family": "Dubowsky",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Proceedings 2002 IEEE International Conference on Robotics and Automation (Cat. No.02CH37292)"
+  ],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx5/7916/21827/01013710.pdf?arnumber=1013710",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2017,
+        6,
+        15
+      ]
+    ],
+    "date-time": "2017-06-15T18:41:32Z",
+    "timestamp": 1497552092000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        null
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1109/robot.2002.1013710",
+  "subject": [],
+  "original_response_sha256": "458cf42fcf968c331a394a141d8d77c83065fe7411def8791edb6f7a49cb262a"
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "Isolated source rebuild; distributed Word and LaTeX outputs were not overwritten. No TeX typesetting or page rendering is asserted by this check.",
+  "checks": [
+    {
+      "script": "manuscript/build_manuscript.py",
+      "exit_code": 0,
+      "elapsed_seconds": 3.23
+    },
+    {
+      "script": "manuscript/create_latex.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.2
+    }
+  ]
+}

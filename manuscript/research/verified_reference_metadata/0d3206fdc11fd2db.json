@@ -1,0 +1,64 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2026-09-12T07:12:23Z",
+    "timestamp": 1789197143229,
+    "version": "build-2803163510"
+  },
+  "reference-count": 0,
+  "publisher": "Bureau International des Poids et Mesures",
+  "short-container-title": [],
+  "DOI": "10.59161/jcgm100-2008e",
+  "type": "posted-content",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        24
+      ]
+    ],
+    "date-time": "2024-01-24T04:39:17Z",
+    "timestamp": 1706071157000
+  },
+  "is-referenced-by-count": 161,
+  "title": [
+    "Evaluation of measurement data — Guide to the expression of uncertainty in measurement"
+  ],
+  "container-title": [],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        24
+      ]
+    ],
+    "date-time": "2024-01-24T04:39:17Z",
+    "timestamp": 1706071157000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2008
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.59161/jcgm100-2008e",
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2008
+      ]
+    ]
+  },
+  "original_response_sha256": "4ec89af089c23c562b98fecc3f3364f26526c2c65a1a5d23b0e0e1e9f2d525fa"
+}

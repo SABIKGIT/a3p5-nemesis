@@ -1,0 +1,1141 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "kinematic headings",
+      "passed": true,
+      "elements": 540,
+      "maximum_absolute_difference": 1.4210854715202004e-14
+    },
+    {
+      "check": "kinematic signed speed",
+      "passed": true,
+      "elements": 540,
+      "maximum_absolute_difference": 8.326672684688674e-17
+    },
+    {
+      "check": "kinematic wheel rpm",
+      "passed": true,
+      "elements": 540,
+      "maximum_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "check": "grade force",
+      "passed": true,
+      "elements": 423,
+      "maximum_absolute_difference": 5.684341886080802e-14
+    },
+    {
+      "check": "wheel torque",
+      "passed": true,
+      "elements": 423,
+      "maximum_absolute_difference": 2.6645352591003757e-15
+    },
+    {
+      "check": "grade minimum mu",
+      "passed": true,
+      "elements": 423,
+      "maximum_absolute_difference": 8.326672684688674e-17
+    },
+    {
+      "check": "accelerating torque",
+      "passed": true,
+      "elements": 423,
+      "maximum_absolute_difference": 1.7763568394002505e-15
+    },
+    {
+      "check": "COM x",
+      "passed": true,
+      "elements": 3321,
+      "maximum_absolute_difference": 9.71445146547012e-17
+    },
+    {
+      "check": "COM z",
+      "passed": true,
+      "elements": 3321,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "front margin",
+      "passed": true,
+      "elements": 3321,
+      "maximum_absolute_difference": 9.8879238130678e-17
+    },
+    {
+      "check": "front tip",
+      "passed": true,
+      "elements": 3321,
+      "maximum_absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "check": "side tip",
+      "passed": true,
+      "elements": 3321,
+      "maximum_absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "check": "battery power",
+      "passed": true,
+      "elements": 1008,
+      "maximum_absolute_difference": 2.842170943040401e-14
+    },
+    {
+      "check": "usable energy",
+      "passed": true,
+      "elements": 1008,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "endurance",
+      "passed": true,
+      "elements": 1008,
+      "maximum_absolute_difference": 2.6645352591003757e-15
+    },
+    {
+      "check": "ideal distance",
+      "passed": true,
+      "elements": 1008,
+      "maximum_absolute_difference": 2.6645352591003757e-15
+    },
+    {
+      "check": "step response",
+      "passed": true,
+      "elements": 723,
+      "maximum_absolute_difference": 1.3877787807814457e-16
+    },
+    {
+      "check": "step travel distance",
+      "passed": true,
+      "elements": 723,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "90pct distance",
+      "passed": true,
+      "elements": 348,
+      "maximum_absolute_difference": 1.0658141036401503e-14
+    },
+    {
+      "check": "90pct dwell",
+      "passed": true,
+      "elements": 348,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "95pct dwell",
+      "passed": true,
+      "elements": 348,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "stopping clearance",
+      "passed": true,
+      "elements": 909,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "check": "Nernst slope",
+      "passed": true,
+      "elements": 846,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "conditioned voltage",
+      "passed": true,
+      "elements": 846,
+      "maximum_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "check": "ideal ADC coordinate",
+      "passed": true,
+      "elements": 846,
+      "maximum_absolute_difference": 6.821210263296962e-13
+    },
+    {
+      "check": "physical ADC LSB",
+      "passed": true,
+      "elements": 846,
+      "maximum_absolute_difference": 8.239936510889834e-17
+    },
+    {
+      "check": "sensitivity power",
+      "passed": true,
+      "elements": 15,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "sensitivity endurance",
+      "passed": true,
+      "elements": 15,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "check": "sensitivity percent",
+      "passed": true,
+      "elements": 15,
+      "maximum_absolute_difference": 1.7763568394002505e-15
+    },
+    {
+      "check": "prior65: usable energy Wh",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: wheel rpm",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 0 force_N",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 1.7763568394002505e-15
+    },
+    {
+      "check": "prior65: grade 0 each_wheel_torque_Nm",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "prior65: grade 0 minimum_mu",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 0 power_W_at_0p25mps_aux20W",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "check": "prior65: grade 0 endurance_h_at_0p25mps_aux20W",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "check": "prior65: grade 10 force_N",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 10 each_wheel_torque_Nm",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 10 minimum_mu",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 10 power_W_at_0p25mps_aux20W",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 10 endurance_h_at_0p25mps_aux20W",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "check": "prior65: grade 20 force_N",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 20 each_wheel_torque_Nm",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 20 minimum_mu",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 20 power_W_at_0p25mps_aux20W",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 20 endurance_h_at_0p25mps_aux20W",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "check": "prior65: grade 30 force_N",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 30 each_wheel_torque_Nm",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 30 minimum_mu",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 30 power_W_at_0p25mps_aux20W",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: grade 30 endurance_h_at_0p25mps_aux20W",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "check": "prior65: payload 0 tipping",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: payload 0 margin",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: payload 1 tipping",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: payload 1 margin",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: payload 2 tipping",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: payload 2 margin",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: lag 5 t90",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "check": "prior65: lag 5 t95",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: lag 15 t90",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "check": "prior65: lag 15 t95",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: lag 30 t90",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 1.4210854715202004e-14
+    },
+    {
+      "check": "prior65: lag 30 t95",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: stopping 0.25",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: stopping 0.4",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: stopping 0.6",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: stopping 1.0",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: Nernst slope mV/pH",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 1.090342038878589e-09
+    },
+    {
+      "check": "prior65: valid timestamps",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: eligible rows",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: split total",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: DummyMean test_MAE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: DummyMean test_RMSE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: DummyMean test_Bias",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "check": "prior65: DummyMean test_R2",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: Ridge test_MAE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: Ridge test_RMSE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: Ridge test_Bias",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: Ridge test_R2",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: RandomForest test_MAE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: RandomForest test_RMSE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "prior65: RandomForest test_Bias",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: RandomForest test_R2",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: HistGradientBoosting test_MAE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "prior65: HistGradientBoosting test_RMSE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: HistGradientBoosting test_Bias",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 2.667137344314341e-17
+    },
+    {
+      "check": "prior65: HistGradientBoosting test_R2",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: test count",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: Ridge RMSE interval lower",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: Ridge RMSE interval upper",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: pH true ADC LSB increment",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: Mega ADC LSB mV",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: Proposed 12-bit pH true ADC LSB increment",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "prior65: pH grid rows using true ADC LSB",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "chronological partition sizes",
+      "passed": true,
+      "elements": 3,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "held-out targets",
+      "passed": true,
+      "elements": 1102,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "DummyMean serialized predictions",
+      "passed": true,
+      "elements": 1102,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "DummyMean imputer fitted on training",
+      "passed": true,
+      "elements": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "DummyMean test MAE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "DummyMean test RMSE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "DummyMean test R2",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 8.673617379884035e-17
+    },
+    {
+      "check": "DummyMean test Bias",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "check": "DummyMean validation score",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "DummyMean actual serialized bytes",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge serialized predictions",
+      "passed": true,
+      "elements": 1102,
+      "maximum_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "check": "Ridge imputer fitted on training",
+      "passed": true,
+      "elements": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge train-only scaler mean",
+      "passed": true,
+      "elements": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge train-only scaler variance",
+      "passed": true,
+      "elements": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge test MAE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge test RMSE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge test R2",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge test Bias",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge validation score",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge actual serialized bytes",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "RandomForest serialized predictions",
+      "passed": true,
+      "elements": 1102,
+      "maximum_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "check": "RandomForest imputer fitted on training",
+      "passed": true,
+      "elements": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "RandomForest test MAE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "RandomForest test RMSE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "RandomForest test R2",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "RandomForest test Bias",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "RandomForest validation score",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "RandomForest actual serialized bytes",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "HistGradientBoosting serialized predictions",
+      "passed": true,
+      "elements": 1102,
+      "maximum_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "check": "HistGradientBoosting imputer fitted on training",
+      "passed": true,
+      "elements": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "HistGradientBoosting test MAE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "HistGradientBoosting test RMSE",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "HistGradientBoosting test R2",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "HistGradientBoosting test Bias",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 7.806255641895632e-17
+    },
+    {
+      "check": "HistGradientBoosting validation score",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "HistGradientBoosting actual serialized bytes",
+      "passed": true,
+      "elements": 1,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "observed-day block counts",
+      "passed": true,
+      "elements": 3,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "DummyMean all paired bootstrap scores",
+      "passed": true,
+      "elements": 8000,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "check": "DummyMean MAE interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "check": "DummyMean RMSE interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "check": "DummyMean R2 interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 7.134050294954619e-17
+    },
+    {
+      "check": "DummyMean Bias interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "Ridge all paired bootstrap scores",
+      "passed": true,
+      "elements": 8000,
+      "maximum_absolute_difference": 9.71445146547012e-17
+    },
+    {
+      "check": "Ridge MAE interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "Ridge RMSE interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "Ridge R2 interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "Ridge Bias interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "RandomForest all paired bootstrap scores",
+      "passed": true,
+      "elements": 8000,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "check": "RandomForest MAE interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "RandomForest RMSE interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "RandomForest R2 interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "RandomForest Bias interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 8.326672684688674e-17
+    },
+    {
+      "check": "HistGradientBoosting all paired bootstrap scores",
+      "passed": true,
+      "elements": 8000,
+      "maximum_absolute_difference": 9.915028867379938e-17
+    },
+    {
+      "check": "HistGradientBoosting MAE interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "HistGradientBoosting RMSE interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "HistGradientBoosting R2 interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "HistGradientBoosting Bias interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 6.938893903907228e-17
+    },
+    {
+      "check": "paired RMSE reduction interval",
+      "passed": true,
+      "elements": 2,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "daily trace values",
+      "passed": true,
+      "elements": 96,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "check": "daily trace counts",
+      "passed": true,
+      "elements": 48,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "DummyMean RH-bin 10",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "DummyMean RH-bin 20",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "DummyMean RH-bin 30",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "DummyMean RH-bin 40",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 8.673617379884035e-18
+    },
+    {
+      "check": "DummyMean RH-bin 50",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "check": "DummyMean RH-bin 60",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 2.0816681711721685e-17
+    },
+    {
+      "check": "DummyMean RH-bin 70",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "DummyMean RH-bin 80",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "Ridge RH-bin 10",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 1.3877787807814457e-16
+    },
+    {
+      "check": "Ridge RH-bin 20",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "Ridge RH-bin 30",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 6.938893903907228e-17
+    },
+    {
+      "check": "Ridge RH-bin 40",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 4.85722573273506e-17
+    },
+    {
+      "check": "Ridge RH-bin 50",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "check": "Ridge RH-bin 60",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "Ridge RH-bin 70",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 9.71445146547012e-17
+    },
+    {
+      "check": "Ridge RH-bin 80",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 7.632783294297951e-17
+    },
+    {
+      "check": "RandomForest RH-bin 10",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 8.586881206085195e-17
+    },
+    {
+      "check": "RandomForest RH-bin 20",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 6.938893903907228e-17
+    },
+    {
+      "check": "RandomForest RH-bin 30",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 6.938893903907228e-17
+    },
+    {
+      "check": "RandomForest RH-bin 40",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 6.938893903907228e-17
+    },
+    {
+      "check": "RandomForest RH-bin 50",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "check": "RandomForest RH-bin 60",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 1.6653345369377348e-16
+    },
+    {
+      "check": "RandomForest RH-bin 70",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "check": "RandomForest RH-bin 80",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "HistGradientBoosting RH-bin 10",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 1.249000902703301e-16
+    },
+    {
+      "check": "HistGradientBoosting RH-bin 20",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "HistGradientBoosting RH-bin 30",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "check": "HistGradientBoosting RH-bin 40",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "check": "HistGradientBoosting RH-bin 50",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "HistGradientBoosting RH-bin 60",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 6.938893903907228e-17
+    },
+    {
+      "check": "HistGradientBoosting RH-bin 70",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "HistGradientBoosting RH-bin 80",
+      "passed": true,
+      "elements": 4,
+      "maximum_absolute_difference": 6.938893903907228e-17
+    },
+    {
+      "check": "validation permutation means",
+      "passed": true,
+      "elements": 8,
+      "maximum_absolute_difference": 9.367506770274758e-17
+    },
+    {
+      "check": "validation permutation SDs",
+      "passed": true,
+      "elements": 8,
+      "maximum_absolute_difference": 9.584347204771859e-17
+    }
+  ],
+  "check_groups": 188,
+  "all_pass": true,
+  "scope": "Read-only independent recomputation of all 9 engineering tables; serialized ML pipelines, all test metrics, all 2000 paired bootstrap replicates, plotted daily/RH summaries and validation permutation sensitivity. Candidate refits are tested separately by code_listing_revision.py. Existing 65-check ledger preserved.",
+  "figure_scope": [
+    "8 engineering figures",
+    "5 ML figures"
+  ],
+  "not_retested": "Historical desktop timing measurements are retained as recorded; timing varies between runs. No new rover measurements or performance claims."
+}

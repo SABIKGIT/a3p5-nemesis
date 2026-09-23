@@ -1,0 +1,448 @@
+[
+  {
+    "doi": "10.5194/amt-11-4883-2018",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.5194/amt-11-4823-2018",
+    "title": [
+      "Field evaluation of low-cost particulate matter sensors in high- and low-concentration environments"
+    ],
+    "authors": [
+      "Tongshu Zheng",
+      "Michael H. Bergin",
+      "Karoline K. Johnson",
+      "Sachchida N. Tripathi",
+      "Shilpa Shirodkar",
+      "Matthew S. Landis",
+      "Ronak Sutaria",
+      "David E. Carlson"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          22
+        ]
+      ]
+    },
+    "journal": [
+      "Atmospheric Measurement Techniques"
+    ],
+    "volume": "11",
+    "issue": "8",
+    "page": "4823-4846",
+    "article-number": null,
+    "url": "https://doi.org/10.5194/amt-11-4823-2018"
+  },
+  {
+    "doi": "10.5194/amt-12-5161-2019",
+    "title": [
+      "Gaussian process regression model for dynamically calibrating and surveilling a wireless low-cost particulate matter sensor network in Delhi"
+    ],
+    "authors": [
+      "Tongshu Zheng",
+      "Michael H. Bergin",
+      "Ronak Sutaria",
+      "Sachchida N. Tripathi",
+      "Robert Caldow",
+      "David E. Carlson"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          26
+        ]
+      ]
+    },
+    "journal": [
+      "Atmospheric Measurement Techniques"
+    ],
+    "volume": "12",
+    "issue": "9",
+    "page": "5161-5181",
+    "article-number": null,
+    "url": "https://doi.org/10.5194/amt-12-5161-2019"
+  },
+  {
+    "doi": "10.5194/amt-17-1051-2024",
+    "title": [
+      "Towards a hygroscopic growth calibration for low-cost PM\n                    <sub>2.5</sub>\n                    sensors"
+    ],
+    "authors": [
+      "Milan Y. Patel",
+      "Pietro F. Vannucci",
+      "Jinsol Kim",
+      "William M. Berelson",
+      "Ronald C. Cohen"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          13
+        ]
+      ]
+    },
+    "journal": [
+      "Atmospheric Measurement Techniques"
+    ],
+    "volume": "17",
+    "issue": "3",
+    "page": "1051-1060",
+    "article-number": null,
+    "url": "https://doi.org/10.5194/amt-17-1051-2024"
+  },
+  {
+    "doi": "10.5194/amt-14-4617-2021",
+    "title": [
+      "Development and application of a United States-wide correction for PM\n                    <sub>2.5</sub>\n                    data collected with the PurpleAir sensor"
+    ],
+    "authors": [
+      "Karoline K. Barkjohn",
+      "Brett Gantt",
+      "Andrea L. Clements"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          22
+        ]
+      ]
+    },
+    "journal": [
+      "Atmospheric Measurement Techniques"
+    ],
+    "volume": "14",
+    "issue": "6",
+    "page": "4617-4637",
+    "article-number": null,
+    "url": "https://doi.org/10.5194/amt-14-4617-2021"
+  },
+  {
+    "doi": "10.3390/s17071479",
+    "title": [
+      "GADEN: A 3D Gas Dispersion Simulator for Mobile Robot Olfaction in Realistic Environments"
+    ],
+    "authors": [
+      "Javier Monroy",
+      "Victor Hernandez-Bennetts",
+      "Han Fan",
+      "Achim Lilienthal",
+      "Javier Gonzalez-Jimenez"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          23
+        ]
+      ]
+    },
+    "journal": [
+      "Sensors"
+    ],
+    "volume": "17",
+    "issue": "7",
+    "page": "1479",
+    "article-number": null,
+    "url": "https://doi.org/10.3390/s17071479"
+  },
+  {
+    "doi": "10.3390/s23125387",
+    "title": [
+      "Information-Driven Gas Distribution Mapping for Autonomous Mobile Robots"
+    ],
+    "authors": [
+      "Andres Gongora",
+      "Javier Monroy",
+      "Faezeh Rahbar",
+      "Chiara Ercolani",
+      "Javier Gonzalez-Jimenez",
+      "Alcherio Martinoli"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          7
+        ]
+      ]
+    },
+    "journal": [
+      "Sensors"
+    ],
+    "volume": "23",
+    "issue": "12",
+    "page": "5387",
+    "article-number": null,
+    "url": "https://doi.org/10.3390/s23125387"
+  },
+  {
+    "doi": "10.3390/s19071524",
+    "title": [
+      "Scalable Gas Sensing, Mapping, and Path Planning via Decentralized Hilbert Maps"
+    ],
+    "authors": [
+      "Pingping Zhu",
+      "Silvia Ferrari",
+      "Julian Morelli",
+      "Richard Linares",
+      "Bryce Doerr"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          28
+        ]
+      ]
+    },
+    "journal": [
+      "Sensors"
+    ],
+    "volume": "19",
+    "issue": "7",
+    "page": "1524",
+    "article-number": null,
+    "url": "https://doi.org/10.3390/s19071524"
+  },
+  {
+    "doi": "10.3390/s20071993",
+    "title": [
+      "Towards the Development of an Affordable and Practical Light Attenuation Turbidity Sensor for Remote Near Real-Time Aquatic Monitoring"
+    ],
+    "authors": [
+      "Jarrod Trevathan",
+      "Wayne Read",
+      "Simon Schmidtke"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          2
+        ]
+      ]
+    },
+    "journal": [
+      "Sensors"
+    ],
+    "volume": "20",
+    "issue": "7",
+    "page": "1993",
+    "article-number": null,
+    "url": "https://doi.org/10.3390/s20071993"
+  },
+  {
+    "doi": "10.3390/s24123926",
+    "title": [
+      "A Compact, Low-Cost, and Low-Power Turbidity Sensor for Continuous In Situ Stormwater Monitoring"
+    ],
+    "authors": [
+      "Miao Wang",
+      "Baiqian Shi",
+      "Stephen Catsamas",
+      "Peter Kolotelo",
+      "David McCarthy"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          17
+        ]
+      ]
+    },
+    "journal": [
+      "Sensors"
+    ],
+    "volume": "24",
+    "issue": "12",
+    "page": "3926",
+    "article-number": null,
+    "url": "https://doi.org/10.3390/s24123926"
+  },
+  {
+    "doi": "10.3390/robotics8010019",
+    "title": [
+      "Development of a Robotic Airboat for Online Water Quality Monitoring in Lakes"
+    ],
+    "authors": [
+      "Marcelo Melo",
+      "Francisco Mota",
+      "Victor Albuquerque",
+      "Auzuir Alexandria"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          7
+        ]
+      ]
+    },
+    "journal": [
+      "Robotics"
+    ],
+    "volume": "8",
+    "issue": "1",
+    "page": "19",
+    "article-number": null,
+    "url": "https://doi.org/10.3390/robotics8010019"
+  },
+  {
+    "doi": "10.1016/j.patter.2023.100804",
+    "title": [
+      "Leakage and the reproducibility crisis in machine-learning-based science"
+    ],
+    "authors": [
+      "Sayash Kapoor",
+      "Arvind Narayanan"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "journal": [
+      "Patterns"
+    ],
+    "volume": "4",
+    "issue": "9",
+    "page": "100804",
+    "article-number": "100804",
+    "url": "https://doi.org/10.1016/j.patter.2023.100804"
+  },
+  {
+    "doi": "10.1111/ecog.02881",
+    "title": [
+      "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+    ],
+    "authors": [
+      "David R. Roberts",
+      "Volker Bahn",
+      "Simone Ciuti",
+      "Mark S. Boyce",
+      "Jane Elith",
+      "Gurutzeta Guillera‐Arroita",
+      "Severin Hauenstein",
+      "José J. Lahoz‐Monfort",
+      "Boris Schröder",
+      "Wilfried Thuiller",
+      "David I. Warton",
+      "Brendan A. Wintle",
+      "Florian Hartig",
+      "Carsten F. Dormann"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ]
+    },
+    "journal": [
+      "Ecography"
+    ],
+    "volume": "40",
+    "issue": "8",
+    "page": "913-929",
+    "article-number": null,
+    "url": "https://doi.org/10.1111/ecog.02881"
+  },
+  {
+    "doi": "10.1023/A:1010933404324",
+    "title": [
+      "Random Forests"
+    ],
+    "authors": [
+      "Leo Breiman"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2001,
+          10
+        ]
+      ]
+    },
+    "journal": [
+      "Machine Learning"
+    ],
+    "volume": "45",
+    "issue": "1",
+    "page": "5-32",
+    "article-number": null,
+    "url": "https://doi.org/10.1023/a:1010933404324"
+  },
+  {
+    "doi": "10.1145/2133360.2133363",
+    "title": [
+      "Isolation-Based Anomaly Detection"
+    ],
+    "authors": [
+      "Fei Tony Liu",
+      "Kai Ming Ting",
+      "Zhi-Hua Zhou"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    },
+    "journal": [
+      "ACM Transactions on Knowledge Discovery from Data"
+    ],
+    "volume": "6",
+    "issue": "1",
+    "page": "1-39",
+    "article-number": null,
+    "url": "https://doi.org/10.1145/2133360.2133363"
+  },
+  {
+    "doi": "10.7551/mitpress/3206.001.0001",
+    "title": [
+      "Gaussian Processes for Machine Learning"
+    ],
+    "authors": [
+      "Carl Edward Rasmussen",
+      "Christopher K. I. Williams"
+    ],
+    "date": {
+      "date-parts": [
+        [
+          2005,
+          11,
+          23
+        ]
+      ]
+    },
+    "journal": [],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "url": "https://doi.org/10.7551/mitpress/3206.001.0001"
+  }
+]

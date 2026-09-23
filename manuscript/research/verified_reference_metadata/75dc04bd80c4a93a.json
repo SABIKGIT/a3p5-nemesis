@@ -1,0 +1,153 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T10:15:19Z",
+    "timestamp": 1789467319576,
+    "version": "build-2803163510"
+  },
+  "reference-count": 17,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2001,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2001-10-01T00:00:00Z",
+        "timestamp": 1001894400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2001,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2001-10-01T00:00:00Z",
+        "timestamp": 1001894400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    }
+  ],
+  "short-container-title": [
+    "Machine Learning"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2001,
+        10
+      ]
+    ]
+  },
+  "DOI": "10.1023/a:1010933404324",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2002,
+        12,
+        22
+      ]
+    ],
+    "date-time": "2002-12-22T23:10:54Z",
+    "timestamp": 1040598654000
+  },
+  "page": "5-32",
+  "is-referenced-by-count": 119193,
+  "title": [
+    "Random Forests"
+  ],
+  "volume": "45",
+  "author": [
+    {
+      "given": "Leo",
+      "family": "Breiman",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Machine Learning"
+  ],
+  "link": [
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1023/A:1010933404324.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/article/10.1023/A:1010933404324/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1023/A:1010933404324.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        7,
+        10
+      ]
+    ],
+    "date-time": "2025-07-10T11:46:28Z",
+    "timestamp": 1752147988000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2001,
+        10
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1023/a:1010933404324",
+  "ISSN": [
+    "0885-6125",
+    "1573-0565"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2001,
+        10
+      ]
+    ]
+  },
+  "original_response_sha256": "b23933d7c0adaec8351e6ad7b74cb7f20bd0c9f022a9f7d75b9941a6918556ce"
+}

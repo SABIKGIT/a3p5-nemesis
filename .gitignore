@@ -1,0 +1,43 @@
+# Local environments, secrets and platform files
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
+# Local runtimes, work directories and rendered QA
+manuscript/python_packages/
+manuscript/tools/
+manuscript/qa/
+manuscript/package_staging/
+*.blend1
+*.blend2
+*.tmp
+*.log
+~$*.docx
+verification/local-*.json
+verification/ci-*.json
+
+# LaTeX compilation outputs; the native Canva figure PDF is retained
+manuscript/latex/*.pdf
+manuscript/latex/*.aux
+manuscript/latex/*.out
+manuscript/latex/*.synctex.gz
+manuscript/latex/*.fls
+manuscript/latex/*.fdb_latexmk
+manuscript/latex/build*/
+
+# Re-fetched publisher metadata may contain copyrighted abstracts
+manuscript/research/raw_crossref/*.json
+!manuscript/research/raw_crossref/*.request.json
+
+# Transport bundles are not repository source files
+A3P5_NEMESIS_GitHub_Ready.zip
+manuscript/final/*.zip
+manuscript/final/*.pdf

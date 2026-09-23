@@ -1,0 +1,167 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T13:08:29Z",
+    "timestamp": 1789477709033,
+    "version": "build-2803163510"
+  },
+  "reference-count": 79,
+  "publisher": "Wiley",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2018-10-27T00:00:00Z",
+        "timestamp": 1540598400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "short-container-title": [
+    "Journal of Field Robotics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2019,
+        3
+      ]
+    ]
+  },
+  "DOI": "10.1002/rob.21831",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        27
+      ]
+    ],
+    "date-time": "2018-10-27T07:10:18Z",
+    "timestamp": 1540624218000
+  },
+  "page": "416-446",
+  "is-referenced-by-count": 869,
+  "title": [
+    "RTAB‐Map as an open‐source lidar and visual simultaneous localization and mapping library for large‐scale and long‐term online operation"
+  ],
+  "volume": "36",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-0778-5595",
+      "authenticated-orcid": false,
+      "given": "Mathieu",
+      "family": "Labbé",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Electrical Engineering and Computer Engineering Interdisciplinary Institute of Technological Innovation (3IT), Université de Sherbrooke Sherbrooke Québec Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-3639-7770",
+      "authenticated-orcid": false,
+      "given": "François",
+      "family": "Michaud",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Electrical Engineering and Computer Engineering Interdisciplinary Institute of Technological Innovation (3IT), Université de Sherbrooke Sherbrooke Québec Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        27
+      ]
+    ]
+  },
+  "container-title": [
+    "Journal of Field Robotics"
+  ],
+  "link": [
+    {
+      "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Frob.21831",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21831",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        3
+      ]
+    ],
+    "date-time": "2026-04-03T22:07:00Z",
+    "timestamp": 1775254020000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        27
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1002/rob.21831",
+  "ISSN": [
+    "1556-4959",
+    "1556-4967"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        27
+      ]
+    ]
+  },
+  "has_abstract": true,
+  "original_response_sha256": "66c145d11e03781fb67a3a7448e0156431af7f47d6113ffc30fe2506e3a2f7cd"
+}

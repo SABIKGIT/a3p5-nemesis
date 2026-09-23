@@ -1,0 +1,193 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        15
+      ]
+    ],
+    "date-time": "2026-09-15T13:08:29Z",
+    "timestamp": 1789477709014,
+    "version": "build-2803163510"
+  },
+  "reference-count": 42,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2012,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2012-12-01T00:00:00Z",
+        "timestamp": 1354320000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2012,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2012-12-01T00:00:00Z",
+        "timestamp": 1354320000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2012,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2012-12-01T00:00:00Z",
+        "timestamp": 1354320000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "short-container-title": [
+    "IEEE Robot. Automat. Mag."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2012,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1109/mra.2012.2205651",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2012,
+        12,
+        10
+      ]
+    ],
+    "date-time": "2012-12-10T14:36:20Z",
+    "timestamp": 1355150180000
+  },
+  "page": "72-82",
+  "is-referenced-by-count": 1298,
+  "title": [
+    "The Open Motion Planning Library"
+  ],
+  "volume": "19",
+  "author": [
+    {
+      "given": "Ioan A.",
+      "family": "Sucan",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Computer Science, Rice University, Houston, TX 77251 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mark",
+      "family": "Moll",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Science, Rice University, Houston, TX 77251 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lydia E.",
+      "family": "Kavraki",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Science, Rice University, Houston, TX 77005 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "IEEE Robotics &amp; Automation Magazine"
+  ],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx5/100/6377433/06377468.pdf?arnumber=6377468",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        10
+      ]
+    ],
+    "date-time": "2024-12-10T19:44:00Z",
+    "timestamp": 1733859840000
+  },
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2012,
+        12
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1109/mra.2012.2205651",
+  "ISSN": [
+    "1070-9932",
+    "1558-223X"
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2012,
+        12
+      ]
+    ]
+  },
+  "original_response_sha256": "e0b4dfc4264cf914f50660cd9fcf2a0c7f62fdd1cdc3c55242081dd20e42a63c"
+}
