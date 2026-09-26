@@ -5,7 +5,7 @@
 **Environmental reconnaissance · Robotic sampling · Reproducible engineering**
 
 [![Paper](https://img.shields.io/badge/arXiv-2609.18245-B31B1B)](https://arxiv.org/abs/2609.18245)
-[![Verification](https://github.com/SABIKGIT/a3p5-nemesis/actions/workflows/verify.yml/badge.svg)](https://github.com/SABIKGIT/a3p5-nemesis/actions/workflows/verify.yml)
+[![Verification](https://github.com/Geneeex/a3p5-nemesis/actions/workflows/verify.yml/badge.svg)](https://github.com/Geneeex/a3p5-nemesis/actions/workflows/verify.yml)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](docs/reproduce.md)
 [![Blender](https://img.shields.io/badge/Blender-4.3.2-E87D0D?logo=blender&logoColor=white)](manuscript/blender/)
 [![Cite this work](https://img.shields.io/badge/Cite-this_work-55CFC8)](CITATION.cff)
@@ -25,7 +25,7 @@
 
 A3P5 NEMESIS explores how a four-wheel rover can combine remote inspection, environmental observation and lightweight manipulation in one serviceable platform. This repository connects the prototype's visible configuration to an editable design study, engineering equations and a reproducible external-data calibration experiment.
 
-The research companion to **[arXiv:2609.18245](https://arxiv.org/abs/2609.18245)** includes the manuscript, calculation scripts, numerical tables, benchmark inputs and outputs, editable Blender scenes and subsystem diagrams. This repository is maintained by **[Sabik Bin Sultan](https://github.com/SABIKGIT)**, a paper co-author and robotic-platform co-developer.
+The research companion to **[arXiv:2609.18245](https://arxiv.org/abs/2609.18245)** includes the manuscript, calculation scripts, numerical tables, benchmark inputs and outputs, editable Blender scenes and subsystem diagrams. This repository is maintained by **[Sabik Bin Sultan](https://github.com/Geneeex)**, a paper co-author and robotic-platform co-developer.
 
 > **Research status:** the engineering results are predictions under declared assumptions. The machine-learning results use an external historical sensor dataset. Integrated rover field performance remains to be established.
 
@@ -86,7 +86,7 @@ Full precision, assumptions and numerical outputs are preserved in the [engineer
 Clone the repository and run the checks from its root. These first two verification commands use only the Python standard library:
 
 ```bash
-git clone https://github.com/SABIKGIT/a3p5-nemesis.git
+git clone https://github.com/Geneeex/a3p5-nemesis.git
 cd a3p5-nemesis
 python scripts/manifest.py --check
 python scripts/verify.py
