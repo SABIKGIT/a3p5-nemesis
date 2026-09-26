@@ -27,7 +27,7 @@ All options can be combined. No personal directories, bundled interpreter or Ble
 To save a report or run from elsewhere:
 
 ```sh
-python scripts/verify.py --refit --regenerate-engineering --json verification.json
+python scripts/verify.py --refit --regenerate-engineering --json verification/local-full-results.json
 python /path/to/repository/scripts/verify.py --root /path/to/repository
 ```
 
