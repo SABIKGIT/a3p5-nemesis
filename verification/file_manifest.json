@@ -106,8 +106,8 @@
     },
     {
       "path": "docs/TESTING.md",
-      "sha256": "cffc02b412cb3dfb163d73a559c6b2ba6b03132dcd782e629718d677f74e0deb",
-      "hashed_bytes": 3415,
+      "sha256": "731a36dc39cc9a88953c900821918181911b5d02c1ce31e8c10146b4b44cd36f",
+      "hashed_bytes": 3434,
       "normalization": "utf8-crlf-to-lf"
     },
     {
