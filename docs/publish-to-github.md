@@ -1,13 +1,13 @@
 # Maintaining the GitHub research archive
 
-The research materials are maintained at **[SABIKGIT/a3p5-nemesis](https://github.com/SABIKGIT/a3p5-nemesis)** and accompany **[arXiv:2609.18245](https://arxiv.org/abs/2609.18245)**.
+The research materials are maintained at **[Geneeex/a3p5-nemesis](https://github.com/Geneeex/a3p5-nemesis)** and accompany **[arXiv:2609.18245](https://arxiv.org/abs/2609.18245)**.
 
 ## Prepare an update
 
 Clone the existing repository and work from its root:
 
 ```bash
-git clone https://github.com/SABIKGIT/a3p5-nemesis.git
+git clone https://github.com/Geneeex/a3p5-nemesis.git
 cd a3p5-nemesis
 git switch -c research-update
 ```

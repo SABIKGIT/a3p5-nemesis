@@ -4,7 +4,7 @@ Corrections, clearer explanations and reproducibility reports are welcome. Start
 
 ## Report an issue
 
-Use the [reproducibility report form](https://github.com/SABIKGIT/a3p5-nemesis/issues/new?template=reproducibility.yml) for failed checks, numerical discrepancies or unclear reproduction steps. Include the commit you used, operating system, Python and package versions, exact command, expected result and relevant output. For a paper correction, identify the equation, table or section and explain the proposed correction with a source or calculation.
+Use the [reproducibility report form](https://github.com/Geneeex/a3p5-nemesis/issues/new?template=reproducibility.yml) for failed checks, numerical discrepancies or unclear reproduction steps. Include the commit you used, operating system, Python and package versions, exact command, expected result and relevant output. For a paper correction, identify the equation, table or section and explain the proposed correction with a source or calculation.
 
 For other suggestions, open a regular issue. Discuss substantial changes to the analysis protocol before implementing them so the intended comparison is clear.
 

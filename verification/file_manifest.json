@@ -16,8 +16,8 @@
     },
     {
       "path": ".github/ISSUE_TEMPLATE/reproducibility.yml",
-      "sha256": "cb19f591b3be55bbe6af4a2003405242289de85643af2ad7d17c8acebb027453",
-      "hashed_bytes": 2187,
+      "sha256": "1fbb766e40d2e32c0592ecb8c5e6fcc6bae9afed0b39f50c375d5a576d080636",
+      "hashed_bytes": 2186,
       "normalization": "utf8-crlf-to-lf"
     },
     {
@@ -58,14 +58,14 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "aedb67ea5cbca3ac46f9f1c88a8d3a8f24740dfb3bd3797c5dd74a40bfd3a629",
-      "hashed_bytes": 1487,
+      "sha256": "4a579e8fc4bf7f3df37e6b8d40f550e93517e88d4a6e2be2c90e6be826e2cf78",
+      "hashed_bytes": 1485,
       "normalization": "utf8-crlf-to-lf"
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "c85a1fdf97e78a3544365de2c5834cc422b82d4311d8629aff564935eb8673f3",
-      "hashed_bytes": 4485,
+      "sha256": "e8af22a676e0147f78b293193933b62c56e8a646f2e5366ca3d0ab97aa6f3af0",
+      "hashed_bytes": 4484,
       "normalization": "utf8-crlf-to-lf"
     },
     {
@@ -88,8 +88,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "d9f1bdf9bc5160ba4df3b1f70f3622b2697f9641b9fb916f2eb261c984114375",
-      "hashed_bytes": 11138,
+      "sha256": "77a41043c08141f020850c465b5361d6a9cda1a07bbfdd936a31c50107b9fbf6",
+      "hashed_bytes": 11134,
       "normalization": "utf8-crlf-to-lf"
     },
     {
@@ -130,8 +130,8 @@
     },
     {
       "path": "docs/publish-to-github.md",
-      "sha256": "9734631534e81fc37e20b0c8a7b9994543e283ae1c60a602d1da9a930ec57884",
-      "hashed_bytes": 2318,
+      "sha256": "201e91fe275f9352d99b39dde390f0e4277009120bdce237c55ed6f747c69d45",
+      "hashed_bytes": 2315,
       "normalization": "utf8-crlf-to-lf"
     },
     {

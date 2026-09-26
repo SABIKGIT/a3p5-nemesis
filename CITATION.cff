@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite these research materials and separately credit the external dataset and reused figures."
 type: software
 title: "A3P5 NEMESIS research materials and numerical verification"
-url: "https://github.com/SABIKGIT/a3p5-nemesis"
-repository-code: "https://github.com/SABIKGIT/a3p5-nemesis"
+url: "https://github.com/Geneeex/a3p5-nemesis"
+repository-code: "https://github.com/Geneeex/a3p5-nemesis"
 authors:
   - family-names: Sultan
     given-names: Shafi Bin
